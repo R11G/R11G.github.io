@@ -2,13 +2,31 @@
 <title>Allegedly Playable Game</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <style>
+.container {
+  height: 200px;
+  position: relative;
+  border: 3px solid green;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
 </style>
 </head>
 <body onload="startGame()">
 <p style="text-align:right;"><img src="28px-Sl_icon.png" width="28" height="28"><span style="text-align:right;" id = "sl"> 0 </span> </p>
-<button type="button"
+<div class="container">
+  <div class="center">
+    <button type="button"
 onclick="baseBombed(); document.getElementById('sl').innerHTML = x;">
 Bomb a base!</button>
+  </div>
+</div>
 <script>
 let x = 0;
 function baseBombed() {
