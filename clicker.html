@@ -2,10 +2,10 @@
 <title>Allegedly Playable Game</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <style>
-canvas {
+<!--canvas {
     border: 2px solid #ffffff;
     background-color: #00ff00;
-}
+}-->
 </style>
 </head>
 <body onload="startGame()">
@@ -13,16 +13,16 @@ canvas {
 <button type="button"
 onclick="baseBombed(); document.getElementById('sl').innerHTML = x;">
 Bomb a base!</button>
-<p id="sl"></p>
+<p id="sl"><img src="28px-Sl_icon.png" width="28" height="28"></p>
 <script>
 let x = 0;
-function startGame() {
+/*function startGame() {
     myGameArea.start();
-}
+}*/
 function baseBombed() {
     x += 1000;
 }
-var myGameArea = {
+/*var myGameArea = {
     canvas : document.createElement("canvas"),
     start : function() {
         this.canvas.width = 480;
@@ -30,7 +30,7 @@ var myGameArea = {
         this.context = this.canvas.getContext("2d");
         document.body.insertBefore(this.canvas, document.body.childNodes[0]);
     }
-}
+}*/
 
 
 </script>
