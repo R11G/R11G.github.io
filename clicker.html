@@ -9,17 +9,19 @@ canvas {
 </style>
 </head>
 <body onload="startGame()">
+<br>
 <button type="button"
-onclick="document.getElementById('demo').innerHTML = Date()">
-Click me to display Date and Time.</button>
-
-<p id="demo"></p>
+onclick="baseBombed(); document.getElementById('sl').innerHTML = x;">
+Bomb a base!</button>
+<p id="sl"></p>
 <script>
-
+let x = 0;
 function startGame() {
     myGameArea.start();
 }
-
+function baseBombed() {
+    x += 1000;
+}
 var myGameArea = {
     canvas : document.createElement("canvas"),
     start : function() {
@@ -29,6 +31,7 @@ var myGameArea = {
         document.body.insertBefore(this.canvas, document.body.childNodes[0]);
     }
 }
+
 
 </script>
 
