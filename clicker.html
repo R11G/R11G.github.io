@@ -3,12 +3,17 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <style>
 canvas {
-    border: 1px solid #d3d3d3;
+    border: 2px solid #ffffff;
     background-color: #00ff00;
 }
 </style>
 </head>
 <body onload="startGame()">
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+
+<p id="demo"></p>
 <script>
 
 function startGame() {
@@ -26,7 +31,5 @@ var myGameArea = {
 }
 
 </script>
-
-<p>We have created a game area! (or at least an empty canvas)</p>
 
 </body>
