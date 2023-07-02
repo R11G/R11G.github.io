@@ -3,7 +3,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <link rel="stylesheet" href="clicker/style.css">
 </head>
-<body onload="loadUnits()">
+<body>
   <div class="stats">
     <p style="text-align:right;"><img src="clicker/28px-Sl_icon.png" width="28" height="28">
       <span style="text-align:right;" id = "sl"> 0 </span>
@@ -21,8 +21,12 @@
   </div>
   <div class="containerTwo">
     <div class="center">
-      
+      <p>temp</p>
     </div>
   </div>
+  <button style="border-radius:8px;height:100px;width:150px;font-size:32px;color:#00ff00;font-weight:bold" onclick="generateTable()">
+    TableTime</button>
+  <button style="border-radius:8px;height:100px;width:150px;font-size:32px;color:#00ff00;font-weight:bold" onclick="loadUnits()">
+      Load</button>
   <script src="clicker/script.js"></script>
 </body>

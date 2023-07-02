@@ -2,6 +2,8 @@ let sl = 0;
 let ge = 0;
 let debt = 0;
 let units = [];
+let input = document.querySelector('input');
+let textarea = document.querySelector('textarea');
 function baseBombed() {
   sl += 1000;
 }
@@ -9,30 +11,42 @@ function creditCard() {
   ge += 100;
   debt++;
 }
-function readFile(file) {
-  var reader = new FileReader();
-  reader.onload = function() {
-    var file = reader.result;
-    const lines = file.split(/\r?\n/);
-    for (var i = 0; i < lines.length; i++) {
-      units[i] = lines[i].split(";");
-    }
+async function loadUnits() {
+  const response = await fetch('https://raw.githubusercontent.com/R11G/R11G.github.io/main/clicker/units.csv');
+  const text = await response.text();
+  const lines = text.split(/\r?\n/);
+  for (var i = 0; i < lines.length; i++) {
+    units[i] = lines[i].split(";");
   }
-  reader.readAsText(file);
 }
-function displayTable() {
-  let table = document.createElement('table');
-  for (let row of units) {
-    table.insertRow();
-    for (let cell of row) {
-      let newCell = table.rows[table.rows.length - 1].insertCell();
-      newCell.textContent = cell;
+function generateTable() {
+  // creates a <table> element and a <tbody> element
+  const tbl = document.createElement("table");
+  const tblBody = document.createElement("tbody");
+
+  // creating all cells
+  for (let i = 0; i < units.length; i++) {
+    // creates a table row
+    const row = document.createElement("tr");
+
+    for (let j = 0; j < units[0].length; j++) {
+      // Create a <td> element and a text node, make the text
+      // node the contents of the <td>, and put the <td> at
+      // the end of the table row
+      const cell = document.createElement("td");
+      const cellText = document.createTextNode(units[i][j]);
+      cell.appendChild(cellText);
+      row.appendChild(cell);
     }
+
+    // add the row to the end of the table body
+    tblBody.appendChild(row);
   }
-  document.body.appendChild(table);
-}
-function loadUnits() {
-  const unitFile = new File([], "units.csv");
-  readFile(unitFile);
-  displayTable();
+
+  // put the <tbody> in the <table>
+  tbl.appendChild(tblBody);
+  // appends <table> into <body>
+  document.body.appendChild(tbl);
+  // sets the border attribute of tbl to '2'
+  tbl.setAttribute("border", "2");
 }
