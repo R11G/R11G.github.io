@@ -10,9 +10,9 @@ function creditCard() {
   debt++;
 }
 function readFile(file) {
-  let reader = new FileReader();
-  reader.onload = (e) => {
-    const file = e.target.result;
+  var reader = new FileReader();
+  reader.onload = function() {
+    var file = reader.result;
     const lines = file.split(/\r?\n/);
     for (var i = 0; i < lines.length; i++) {
       units[i] = lines[i].split(";");
