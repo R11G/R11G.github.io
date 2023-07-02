@@ -32,7 +32,7 @@ function displayTable() {
   document.body.appendChild(table);
 }
 function loadUnits() {
-  const unitFile = new File([], "clicker/units.csv");
+  const unitFile = new File([], "units.csv");
   readFile(unitFile);
   displayTable();
 }
