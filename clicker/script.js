@@ -11,14 +11,6 @@ function creditCard() {
   ge += 100;
   debt++;
 }
-async function loadUnits() {
-  const response = await fetch('https://raw.githubusercontent.com/R11G/R11G.github.io/main/clicker/units.csv');
-  const text = await response.text();
-  const lines = text.split(/\r?\n/);
-  for (var i = 0; i < lines.length; i++) {
-    units[i] = lines[i].split(";");
-  }
-}
 function generateTable() {
   // creates a <table> element and a <tbody> element
   const tbl = document.createElement("table");
@@ -49,4 +41,13 @@ function generateTable() {
   document.body.appendChild(tbl);
   // sets the border attribute of tbl to '2'
   tbl.setAttribute("border", "2");
+}
+async function readFile(callback) {
+  const response = await fetch('https://raw.githubusercontent.com/R11G/R11G.github.io/main/clicker/units.csv');
+  const text = await response.text();
+  const lines = text.split(/\r?\n/);
+  for (var i = 0; i < lines.length; i++) {
+    units[i] = lines[i].split(";");
+  }
+  callback();
 }
