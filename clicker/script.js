@@ -29,11 +29,13 @@ function generateTable() {
           cell.appendChild(cellInfo);
           const cellInfo2 = document.createElement("img");
           cellInfo2.src = "clicker/28px-Ge_icon.png";
+          cell.appendChild(cellInfo);
         } else {
           const cellInfo = document.createTextNode(units[i][j].substring(0,units[i][j].length - 2));
           cell.appendChild(cellInfo);
           const cellInfo2 = document.createElement("img");
           cellInfo2.src = "clicker/28px-Sl_icon.png";
+          cell.appendChild(cellInfo2);
         }
       } else {
         const cellInfo = document.createTextNode(units[i][j]);
