@@ -2,8 +2,6 @@ let sl = 0;
 let ge = 0;
 let debt = 0;
 let units = [];
-let input = document.querySelector('input');
-let textarea = document.querySelector('textarea');
 function baseBombed() {
   sl += 1000;
 }
@@ -47,6 +45,13 @@ function generateTable() {
           br += .7;
         }
         const cellInfo = document.createTextNode(br);
+        cell.appendChild(cellInfo);
+      } else if (j==10) {
+        const cellInfo = document.createElement("img");
+        cellInfo.src = "CountryIcons/" + units[i][j] + ".svg";
+        cell.appendChild(cellInfo);
+      } else if (j==11) {
+        const cellInfo = document.createTextNode(units[i][j].substring(4));
         cell.appendChild(cellInfo);
       } else {
         const cellInfo = document.createTextNode(units[i][j]);
