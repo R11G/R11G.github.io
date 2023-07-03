@@ -26,8 +26,14 @@ function generateTable() {
       // node the contents of the <td>, and put the <td> at
       // the end of the table row
       const cell = document.createElement("td");
-      const cellText = document.createTextNode(units[i][j]);
-      cell.appendChild(cellText);
+      if (j == 0) {
+        const cellInfo = document.createElement("img");
+        cellInfo.src = "StatcardImages/" + units[i][j] + ".png";
+        cell.appendChild(cellInfo);
+      } else {
+        const cellInfo = document.createTextNode(units[i][j]);
+        cell.appendChild(cellInfo);
+      }
       row.appendChild(cell);
     }
 
