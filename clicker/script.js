@@ -15,33 +15,34 @@ function generateTable() {
   // creates a <table> element and a <tbody> element
   const tbl = document.createElement("table");
   const tblBody = document.createElement("tbody");
-
-  // creating all cells
   for (let i = 0; i < units.length; i++) {
-    // creates a table row
     const row = document.createElement("tr");
-
     for (let j = 0; j < units[0].length; j++) {
-      // Create a <td> element and a text node, make the text
-      // node the contents of the <td>, and put the <td> at
-      // the end of the table row
       const cell = document.createElement("td");
       if (j == 0) {
         const cellInfo = document.createElement("img");
         cellInfo.src = "StatcardImages/" + units[i][j] + ".png";
         cell.appendChild(cellInfo);
+      } else if (j == 2) {
+        if (units[i][j].substring(units[i][j].length - 2) === "GE") {
+          const cellInfo = document.createTextNode(units[i][j].substring(0,units[i][j].length - 2));
+          cell.appendChild(cellInfo);
+          const cellInfo2 = document.createElement("img");
+          cellInfo2.src = "clicker/28px-Ge_icon.png";
+        } else {
+          const cellInfo = document.createTextNode(units[i][j].substring(0,units[i][j].length - 2));
+          cell.appendChild(cellInfo);
+          const cellInfo2 = document.createElement("img");
+          cellInfo2.src = "clicker/28px-Sl_icon.png";
+        }
       } else {
         const cellInfo = document.createTextNode(units[i][j]);
         cell.appendChild(cellInfo);
       }
       row.appendChild(cell);
     }
-
-    // add the row to the end of the table body
     tblBody.appendChild(row);
   }
-
-  // put the <tbody> in the <table>
   tbl.appendChild(tblBody);
   // appends <table> into <body>
   document.body.appendChild(tbl);
