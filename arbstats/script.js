@@ -208,25 +208,22 @@ function sortTable(n) {
       break;
     }
   }
-  for (let i = 0; i < units.length - 1; i++) {
-    let minmax = clean(units[i][n], n);
-    let minmaxp = i;
-    for (let j = i + 1; j < units.length; j++) {
+  for (let i = units.length - 1; i > 0; i--) {
+    for (let j = 0; j < i; j++) {
       if (dir === "des") {
-        if (minmax < clean(units[j][n], n)) {
-          minmax = clean(units[j][n], n);
-          minmaxp = j;
+        if (clean(units[j][n], n) < clean(units[j+1][n], n)) {
+          const temp = units[j];
+          units[j] = units[j+1];
+          units[j+1] = temp;
         }
       } else {
-        if (minmax > clean(units[j][n], n)) {
-          minmax = clean(units[j][n], n);
-          minmaxp = j;
+        if (clean(units[j][n], n) > clean(units[j+1][n], n)) {
+          const temp = units[j];
+          units[j] = units[j+1];
+          units[j+1] = temp;
         }
       }
-    }
-    const temp = units[i];
-    units[i] = units[minmaxp];
-    units[minmaxp] = temp;
+    } 
   }
   console.log("sorted with " + n);
   generateTable();
