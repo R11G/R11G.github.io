@@ -1,18 +1,22 @@
-let sl = 0;
-let ge = 0;
-let debt = 0;
 let units = [];
-function baseBombed() {
-  sl += 1000;
-}
-function creditCard() {
-  ge += 100;
-  debt++;
-}
 function generateTable() {
   const tbl = document.createElement("table");
   tbl.setAttribute("id", "UnitsTable")
   const tblBody = document.createElement("tbody");
+  const head = document.createElement("tr");
+  headerCell(head, "Image");
+  headerCell(head, "Name");
+  headerCell(head, "Cost");
+  headerCell(head, "RP needed");
+  headerCell(head, "Min repair time");
+  headerCell(head, "Repair cost");
+  headerCell(head, "SL multi");
+  headerCell(head, "RP multi");
+  headerCell(head, "Rank");
+  headerCell(head, "BR");
+  headerCell(head, "Country");
+  headerCell(head, "Class");
+  tblBody.appendChild(head);
   for (let i = 0; i < units.length; i++) {
     const row = document.createElement("tr");
     for (let j = 0; j < units[0].length; j++) {
@@ -31,12 +35,29 @@ function generateTable() {
         } else {
           const cellInfo = document.createTextNode(units[i][j].substring(0,units[i][j].length - 2));
           cell.appendChild(cellInfo);
-
           const cellInfo2 = document.createElement("img");
           cellInfo2.src = "clicker/28px-Sl_icon.png";
           cell.appendChild(cellInfo2);
         }
-      } else if (j==6) {
+      } else if (j==4) {
+        let hr = parseFloat(units[i][j])/3;
+        const day = Math.floor(hr/24);
+        hr = hr%24;
+        const min = Math.floor(hr%1*60);
+        hr = Math.floor(hr);
+        let str = "";
+        if (day > 0) {
+          str += day + "d ";
+        }
+        if (hr > 0) {
+          str += hr + "hr ";
+        }
+        if (min > 0) {
+          str += min + "m";
+        }
+        const cellInfo = document.createTextNode(str);
+        cell.appendChild(cellInfo);
+      } else if (j==6 || j == 7) {
         let br = parseFloat(units[i][j]);
         br = Math.round(br*100);
         const cellInfo = document.createTextNode(br + "%");
@@ -79,4 +100,10 @@ async function readFile(callback) {
     units[i] = lines[i].split(";");
   }
   callback();
+}
+function headerCell(row, name) {
+  const c = document.createElement("th");
+  const ci = document.createTextNode(name);
+  c.appendChild(ci);
+  row.appendChild(c);
 }
