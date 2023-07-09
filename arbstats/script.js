@@ -191,9 +191,9 @@ function headerCell(row, name, click, num) {
   row.appendChild(c);
 }
 function sortTable(n) {
+  console.log("sorting with " + n);
   const rm = document.getElementById("UnitsTable");
   rm.remove();
-  console.log("sorting with " + n);
   let dir = "des";
   for (let i = 0; i < units.length - 1; i++) {
     if (clean(units[i][n], n) > clean(units[i + 1][n], n)) {
@@ -221,6 +221,7 @@ function sortTable(n) {
     units[i] = units[minmaxp];
     units[minmaxp] = temp;
   }
+  console.log("sorted with " + n);
   generateTable();
 }
 function clean(val, n) {
