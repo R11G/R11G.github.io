@@ -18,6 +18,9 @@ function generateTable() {
   headerCell(head, "Class");
   tblBody.appendChild(head);
   for (let i = 0; i < units.length; i++) {
+    if (units[i][j] === "") {
+      break;
+    }
     const row = document.createElement("tr");
     for (let j = 0; j < units[0].length; j++) {
       const cell = document.createElement("td");
