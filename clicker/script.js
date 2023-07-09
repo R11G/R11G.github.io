@@ -14,7 +14,7 @@ function generateTable() {
   tbl.setAttribute("id", "UnitsTable")
   const tblBody = document.createElement("tbody");
   for (let i = 0; i < units.length; i++) {
-    if (units[i][j] === "") {
+    if (units[i][0] === "") {
       break;
     }
     const row = document.createElement("tr");
