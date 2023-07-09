@@ -179,6 +179,13 @@ async function readFile(callback) {
   if (units[units.length - 1][0] === "") {
     units = deleteRow(units, units.length);
   }
+  for (let i = 0; i < units.length; i++) {
+    for (let j = 3; j < 6; j++) {
+      if (units[i][j] === "null") {
+        units[i][j] = 0;
+      }
+    }
+  }
   callback();
 }
 function headerCell(row, name, click, num) {
