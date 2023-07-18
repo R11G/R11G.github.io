@@ -25,6 +25,8 @@
       var circlePosAdj = 50;
       var floating = true;
       var angle = Math.PI / 4;
+      var currentX = circle.offsetLeft;
+      var currentY = circle.offsetHeight;
       var interval = setInterval(function() {
       if (floating) {
         console.log("Moving");
@@ -35,22 +37,25 @@
         if (maxCircleY > 550) {
           maxCircleY = 550;
         }
-        const distance = 5;
-        var newX = circle.offsetLeft + Math.cos(angle) * distance;
-        var newY = circle.offsetTop + Math.sin(angle) * distance;
+        const distance = 3;
+        var newX = currentX + Math.cos(angle) * distance;
+        var newY = currentY + Math.sin(angle) * distance;
         if (newX < 0 || newX > maxCircleX || newY < 0 || newY > maxCircleY) {
           angle = Math.random() * 2 * Math.PI;
         } else {
           circle.style.left = newX + 'px';
           circle.style.top = newY + 'px';
+          currentX = newX;
+          currentY = newY;
           document.getElementById("pos").innerHTML = "Position: " + newX + "," + (newY - 50);
         }
-      } }, 100);
+      } }, 50);
       circle.addEventListener('mousedown', handleStart);
       document.addEventListener('keypress', pause);
       function handleStart(event) {
         event.preventDefault();
         if (event.type === 'mousedown') {
+          floating = false;
           initialMouseX = event.clientX;
           initialMouseY = event.clientY;
         }
@@ -88,12 +93,15 @@
         newCircleY = Math.max(50, Math.min(newCircleY, maxCircleY)); 
         circle.style.left = newCircleX + 'px';
         circle.style.top = newCircleY + 'px';
+        currentX = newCircleX;
+        currentY = newCircleY;
         document.getElementById("pos").innerHTML = "Position: " + newCircleX + "," + (newCircleY - 50);
       }
 
       function handleEnd() {
         document.removeEventListener('mousemove', handleMove);
         document.removeEventListener('mouseup', handleEnd);
+        floating = true;
       }
       function pause(e) {
         if (e.code === 'KeyP') {
