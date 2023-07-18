@@ -1,23 +1,106 @@
-<head>
-<title>Allegedly Playable Game</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<link rel="stylesheet" href="clicker/style.css">
-</head>
-<body onload="readFile(generateTable)">
-  <div class="stats">
-    <p style="text-align:right;"><img src="clicker/28px-Sl_icon.png" width="28" height="28">
-      <span style="text-align:right;" id = "sl"> 0 </span>
-      <span style="text-align:right;"><img src="clicker/28px-Ge_icon.png" width="28" height="28"> </span>
-      <span style="text-align:right;" id = "ge"> 0 </span>
-    </p>
-  </div>
-  <div class="container">
-    <div class="center">
-      <button style="border-radius:8px;height:100px;width:150px;font-size:32px;color:#ff0000;font-weight:bold" onclick="baseBombed(); document.getElementById('sl').innerHTML = sl;" >
-  Bomb a base!</button>
-      <button style="border-radius:8px;height:100px;width:150px;font-size:32px;color:#00ff00;font-weight:bold" onclick="creditCard(); document.getElementById('ge').innerHTML = ge;" >
-  Feed the snail</button>
-    </div>
-  </div>
-  <script src="clicker/script.js"></script>
-</body>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Test Circle Mover</title>
+    <style>
+      #circle {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: red;
+        position: absolute;
+      }
+    </style>
+  </head>
+  <body>
+    <p id="pos">Position: 0,0</p>
+    <div id="circle"></div>
+
+    <script>
+      var circle = document.getElementById('circle');
+      var initialMouseX = 0;
+      var initialMouseY = 0;
+      var initialCircleX = 0;
+      var initialCircleY = 0;
+      var circlePosAdj = 50;
+      var floating = true;
+      var angle = Math.PI / 4;
+      var interval = setInterval(function() {
+      if (floating) {
+        console.log("Moving");
+        var viewportWidth = window.innerWidth; //Gets site's height and width.
+        var viewportHeight = window.innerHeight;
+        var maxCircleX = viewportWidth - circle.offsetWidth;
+        var maxCircleY = viewportHeight - circle.offsetHeight;
+        if (maxCircleY > 550) {
+          maxCircleY = 550;
+        }
+        const distance = 5;
+        var newX = circle.offsetLeft + Math.cos(angle) * distance;
+        var newY = circle.offsetTop + Math.sin(angle) * distance;
+        if (newX < 0 || newX > maxCircleX || newY < 0 || newY > maxCircleY) {
+          angle = Math.random() * 2 * Math.PI;
+        } else {
+          circle.style.left = newX + 'px';
+          circle.style.top = newY + 'px';
+          document.getElementById("pos").innerHTML = "Position: " + newX + "," + (newY - 50);
+        }
+      } }, 100);
+      circle.addEventListener('mousedown', handleStart);
+      document.addEventListener('keypress', pause);
+      function handleStart(event) {
+        event.preventDefault();
+        if (event.type === 'mousedown') {
+          initialMouseX = event.clientX;
+          initialMouseY = event.clientY;
+        }
+        initialCircleX = circle.offsetLeft;
+        initialCircleY = circle.offsetTop;
+        document.addEventListener('mousemove', handleMove);
+        document.addEventListener('mouseup', handleEnd);
+      }
+
+      function handleMove(event) {
+        event.preventDefault();
+
+        var currentMouseX;
+        var currentMouseY;
+
+        if (event.type === 'mousemove') {
+          currentMouseX = event.clientX;
+          currentMouseY = event.clientY;
+        }
+
+        var deltaX = currentMouseX - initialMouseX;
+        var deltaY = currentMouseY - initialMouseY;
+
+        var newCircleX = initialCircleX + deltaX;
+        var newCircleY = initialCircleY + deltaY;
+
+        var viewportWidth = window.innerWidth; //Gets site's height and width.
+        var viewportHeight = window.innerHeight;
+        var maxCircleX = viewportWidth - circle.offsetWidth;
+        var maxCircleY = viewportHeight - circle.offsetHeight;
+        if (maxCircleY > 550) {
+          maxCircleY = 550;
+        } //y cap
+        newCircleX = Math.max(0, Math.min(newCircleX, maxCircleX));
+        newCircleY = Math.max(50, Math.min(newCircleY, maxCircleY)); 
+        circle.style.left = newCircleX + 'px';
+        circle.style.top = newCircleY + 'px';
+        document.getElementById("pos").innerHTML = "Position: " + newCircleX + "," + (newCircleY - 50);
+      }
+
+      function handleEnd() {
+        document.removeEventListener('mousemove', handleMove);
+        document.removeEventListener('mouseup', handleEnd);
+      }
+      function pause(e) {
+        if (e.code === 'KeyP') {
+          floating = !floating;
+        }
+      }
+    </script>
+    <br>
+  </body>
+</html>
