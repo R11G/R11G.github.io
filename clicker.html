@@ -27,9 +27,10 @@
       var angle = Math.PI / 4;
       var currentX = circle.offsetLeft;
       var currentY = circle.offsetHeight;
+      const fps = 60;
+      const distance = 3; //distance traveled per frame
       var interval = setInterval(function() {
       if (floating) {
-        console.log("Moving");
         var viewportWidth = window.innerWidth; //Gets site's height and width.
         var viewportHeight = window.innerHeight;
         var maxCircleX = viewportWidth - circle.offsetWidth;
@@ -37,19 +38,29 @@
         if (maxCircleY > 550) {
           maxCircleY = 550;
         }
-        const distance = 3;
+        if (currentX < 0 || currentX > maxCircleX || currentY < 0 || currentY > maxCircleY) {
+          angle = Math.random() * 2 * Math.PI;
+          if (currentX < 0) {
+            currentX = 0;
+          }
+          if (currentX > maxCircleX) {
+            currentX = maxCircleX;
+          }
+          if (currentY < 0) {
+            currentY = 0;
+          }
+          if (currentY > maxCircleY) {
+            currentY = maxCircleY;
+          }
+        }
         var newX = currentX + Math.cos(angle) * distance;
         var newY = currentY + Math.sin(angle) * distance;
-        if (newX < 0 || newX > maxCircleX || newY < 0 || newY > maxCircleY) {
-          angle = Math.random() * 2 * Math.PI;
-        } else {
-          circle.style.left = newX + 'px';
-          circle.style.top = newY + 'px';
-          currentX = newX;
-          currentY = newY;
-          document.getElementById("pos").innerHTML = "Position: " + newX + "," + (newY - 50);
-        }
-      } }, 50);
+        circle.style.left = newX + 'px';
+        circle.style.top = newY + 'px';
+        currentX = newX;
+        currentY = newY;
+        document.getElementById("pos").innerHTML = "Position: " + Math.round(newX) + "," + Math.round(newY);
+      } }, 1000/fps);
       circle.addEventListener('mousedown', handleStart);
       document.addEventListener('keypress', pause);
       function handleStart(event) {
@@ -95,7 +106,7 @@
         circle.style.top = newCircleY + 'px';
         currentX = newCircleX;
         currentY = newCircleY;
-        document.getElementById("pos").innerHTML = "Position: " + newCircleX + "," + (newCircleY - 50);
+        document.getElementById("pos").innerHTML = "Position: " + Math.round(newCircleX) + "," + Math.round(newCircleY);
       }
 
       function handleEnd() {
