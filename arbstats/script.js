@@ -1,3 +1,8 @@
+//Filter:
+//Country (10)
+//Type (3)
+//Rank (8)
+//BR?
 let units = [];
 function generateTable() {
   const tbl = document.createElement("table");
@@ -180,6 +185,9 @@ async function readFile(callback) {
     units = deleteRow(units, units.length);
   }
   for (let i = 0; i < units.length; i++) {
+    if (units[i][2].substring(units[i][2].length - 2) === "GE") {
+      units[i][3] = 0;
+    }
     for (let j = 3; j < 6; j++) {
       if (units[i][j] === "null") {
         units[i][j] = 0;
@@ -198,9 +206,7 @@ function headerCell(row, name, click, num) {
   row.appendChild(c);
 }
 function sortTable(n) {
-  console.log("sorting with " + n);
-  const rm = document.getElementById("UnitsTable");
-  rm.remove();
+  document.getElementById("UnitsTable").remove();
   let dir = "des";
   for (let i = 0; i < units.length - 1; i++) {
     if (clean(units[i][n], n) > clean(units[i + 1][n], n)) {
@@ -225,7 +231,6 @@ function sortTable(n) {
       }
     } 
   }
-  console.log("sorted with " + n);
   generateTable();
 }
 function clean(val, n) {
