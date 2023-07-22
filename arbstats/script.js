@@ -90,12 +90,9 @@ function generateTable() {
         cellInfo.src = "StatcardImages/" + units[i][j] + ".png";
         cell.appendChild(cellInfo);
       } else if (j == 2) {
-        if (units[i][j].substring(units[i][j].length - 2) === "GE") {
-          const cellInfo = document.createTextNode(units[i][j].substring(0,units[i][j].length - 2));
+        if (units[i][j].substring(units[i][j].length - 2) === "LT") {
+          const cellInfo = document.createTextNode("Event: " + units[i][j].substring(0,units[i][j].length - 2));
           cell.appendChild(cellInfo);
-          const cellInfo2 = document.createElement("img");
-          cellInfo2.src = "clicker/28px-Ge_icon.png";
-          cell.appendChild(cellInfo2);
         } else if (units[i][j].substring(units[i][j].length - 2) === "SL") {
           const cellInfo = document.createTextNode(units[i][j].substring(0,units[i][j].length - 2));
           cell.appendChild(cellInfo);
@@ -103,8 +100,16 @@ function generateTable() {
           cellInfo2.src = "clicker/28px-Sl_icon.png";
           cell.appendChild(cellInfo2);
         } else {
-          const cellInfo = document.createTextNode("Event: " + units[i][j].substring(0,units[i][j].length - 2));
-          cell.appendChild(cellInfo);
+          if (units[i][j].substring(units[i][j].length - 2) === "GL") {
+            const cellInfo = document.createTextNode("Limited/Pack:" + units[i][j].substring(0,units[i][j].length - 2));
+            cell.appendChild(cellInfo);
+          } else {
+            const cellInfo = document.createTextNode(units[i][j].substring(0,units[i][j].length - 2));
+            cell.appendChild(cellInfo);
+          }
+          const cellInfo2 = document.createElement("img");
+          cellInfo2.src = "clicker/28px-Ge_icon.png";
+          cell.appendChild(cellInfo2);
         }
       } else if (j==4) {
         let hr = parseFloat(units[i][j])/3;
@@ -238,12 +243,12 @@ function sortTable(n) {
 }
 function clean(val, n) {
   if (n == 2) {
-    if (val.substring(val.length-2)==="GE") {
-      return parseInt(val.substring(0,val.length-2)) * 10000;
+    if (val.substring(val.length-2)==="SL") {
+      return parseInt(val.substring(0,val.length-2));
     } else if (val.substring(val.length-2)==="LT") {
       return 10000*10000;
     } else {
-      return parseInt(val.substring(0,val.length-2));
+      return parseInt(val.substring(0,val.length-2)) * 10000;
     }
   } else if (n == 3 || n == 5 || n == 8 || n == 9) {
     return parseInt(val);
