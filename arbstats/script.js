@@ -1,9 +1,7 @@
-//Filter:
-//Country (10)
-//Type (3)
-//Rank (8)
-//BR?
 let units = [];
+let country = "";
+let rank = "";
+let type = "";
 function generateTable() {
   const tbl = document.createElement("table");
   tbl.setAttribute("id", "UnitsTable")
@@ -82,6 +80,15 @@ function generateTable() {
   headerCell(head, "Class", "y", 11);*/
   tblBody.appendChild(head);
   for (let i = 0; i < units.length; i++) {
+    if (!rank.includes(units[i][8])) {
+      continue;
+    }
+    if (!country.includes(units[i][10])) {
+      continue;
+    }
+    if (!type.includes(units[i][11])) {
+      continue;
+    }
     const row = document.createElement("tr");
     for (let j = 0; j < units[0].length; j++) {
       const cell = document.createElement("td");
@@ -276,4 +283,144 @@ function deleteRow(arr, row) {
   arr = arr.slice(0);
   arr.splice(row - 1, 1);
   return arr;
+}
+function chooseCountry() {
+  var c = document.getElementById("countryList");
+  var t = document.getElementById("typeList");
+  var r = document.getElementById("rankList");
+  if (c.style.display === "none") {
+    c.style.display = "grid";
+    t.style.display = "none";
+    r.style.display = "none";
+ } else {
+       c.style.display = "none";
+   }
+}
+function chooseType() {
+  var c = document.getElementById("countryList");
+  var t = document.getElementById("typeList");
+  var r = document.getElementById("rankList");
+  if (t.style.display === "none") {
+    c.style.display = "none";
+    t.style.display = "grid";
+    r.style.display = "none";
+ } else {
+       t.style.display = "none";
+   }
+}
+function chooseRank() {
+  var c = document.getElementById("countryList");
+  var t = document.getElementById("typeList");
+  var r = document.getElementById("rankList");
+  if (r.style.display === "none") {
+    c.style.display = "none";
+    t.style.display = "none";
+    r.style.display = "grid";
+ } else {
+       r.style.display = "none";
+   }
+}
+function filterCountry() {
+  let countries = document.getElementById("countryList").getElementsByTagName("input");
+  country = "";
+  for (var i = 0; i < countries.length; i++) {
+    if (countries[i].type == "checkbox") {
+      if (countries[i].checked) {
+        country += countries[i].id + ",";
+      } 
+    }
+  }
+  chooseCountry();
+  document.getElementById("UnitsTable").remove();
+  generateTable();
+}
+function filterType() {
+  let types = document.getElementById("typeList").getElementsByTagName("input");
+  type = "";
+  for (var i = 0; i < types.length; i++) {
+    if (types[i].type == "checkbox") {
+      if (types[i].checked) {
+        type += types[i].id + ",";
+      }
+    }
+  }
+  chooseType();
+  document.getElementById("UnitsTable").remove();
+  generateTable();
+}
+function filterRank() {
+  let ranks = document.getElementById("rankList").getElementsByTagName("input");
+  rank = "";
+  for (var i = 0; i < ranks.length; i++) {
+    if (ranks[i].type == "checkbox") {
+      if (ranks[i].checked) {
+        rank += ranks[i].id + ",";
+      }
+    }
+  }
+  chooseRank();
+  document.getElementById("UnitsTable").remove();
+  generateTable();
+}
+function resetCountry() {
+  let countries = document.getElementById("countryList").getElementsByTagName("input");
+  for (var i = 0; i < countries.length; i++) {
+    if (countries[i].type == "checkbox") {
+      if (countries[i].checked) {
+        countries[i].checked = false;
+      }
+      country += countries[i].id + ",";
+    }
+  }
+  chooseCountry();
+  document.getElementById("UnitsTable").remove();
+  generateTable();
+}
+function resetType() {
+  let types = document.getElementById("typeList").getElementsByTagName("input");
+  for (var i = 0; i < types.length; i++) {
+    if (types[i].type == "checkbox") {
+      if (types[i].checked) {
+        types[i].checked = false;
+      }
+      type += types[i].id + ",";
+    }
+  }
+  chooseType();
+  document.getElementById("UnitsTable").remove();
+  generateTable();
+}
+function resetRank() {
+  let ranks = document.getElementById("rankList").getElementsByTagName("input");
+  for (var i = 0; i < ranks.length; i++) {
+    if (ranks[i].type == "checkbox") {
+      if (ranks[i].checked) {
+        ranks[i].checked = false;
+      }
+      rank += ranks[i].id + ",";
+    }
+  }
+  chooseRank();
+  document.getElementById("UnitsTable").remove();
+  generateTable();
+}
+function initFilters() {
+  let countries = document.getElementById("countryList").getElementsByTagName("input");
+  for (var i = 0; i < countries.length; i++) {
+    if (countries[i].type == "checkbox") {
+      country += countries[i].id + ",";
+    }
+  }
+  let ranks = document.getElementById("rankList").getElementsByTagName("input");
+  for (var i = 0; i < ranks.length; i++) {
+    if (ranks[i].type == "checkbox") {
+      rank += ranks[i].id + ",";
+    }
+  }
+  let types = document.getElementById("typeList").getElementsByTagName("input");
+  for (var i = 0; i < types.length; i++) {
+    if (types[i].type == "checkbox") {
+      type += types[i].id + ",";
+    }
+  }
 }
