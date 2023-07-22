@@ -96,12 +96,15 @@ function generateTable() {
           const cellInfo2 = document.createElement("img");
           cellInfo2.src = "clicker/28px-Ge_icon.png";
           cell.appendChild(cellInfo2);
-        } else {
+        } else if (units[i][j].substring(units[i][j].length - 2) === "SL") {
           const cellInfo = document.createTextNode(units[i][j].substring(0,units[i][j].length - 2));
           cell.appendChild(cellInfo);
           const cellInfo2 = document.createElement("img");
           cellInfo2.src = "clicker/28px-Sl_icon.png";
           cell.appendChild(cellInfo2);
+        } else {
+          const cellInfo = document.createTextNode("Event: " + units[i][j].substring(0,units[i][j].length - 2));
+          cell.appendChild(cellInfo);
         }
       } else if (j==4) {
         let hr = parseFloat(units[i][j])/3;
@@ -237,6 +240,8 @@ function clean(val, n) {
   if (n == 2) {
     if (val.substring(val.length-2)==="GE") {
       return parseInt(val.substring(0,val.length-2)) * 10000;
+    } else if (val.substring(val.length-2)==="LT") {
+      return 10000*10000;
     } else {
       return parseInt(val.substring(0,val.length-2));
     }
