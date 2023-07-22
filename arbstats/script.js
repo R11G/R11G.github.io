@@ -87,7 +87,9 @@ function generateTable() {
       const cell = document.createElement("td");
       if (j == 0) {
         const cellInfo = document.createElement("img");
-        cellInfo.src = "StatcardImages/" + units[i][j] + ".png";
+        //Tech tree icons:
+        //cellInfo.src = "https://raw.githubusercontent.com/gszabi99/War-Thunder-Datamine/master/atlases.vromfs.bin_u/units/" + units[i][j] + ".png";
+        cellInfo.src = "https://raw.githubusercontent.com/gszabi99/War-Thunder-Datamine/master/tex.vromfs.bin_u/aircrafts/" + units[i][j] + ".png";
         cell.appendChild(cellInfo);
       } else if (j == 2) {
         if (units[i][j].substring(units[i][j].length - 2) === "LT") {
@@ -193,7 +195,7 @@ async function readFile(callback) {
     units = deleteRow(units, units.length);
   }
   for (let i = 0; i < units.length; i++) {
-    if (units[i][2].substring(units[i][2].length - 2) === "GE") {
+    if (units[i][2].substring(units[i][2].length - 2) !== "SL") {
       units[i][3] = 0;
     }
     for (let j = 3; j < 6; j++) {
