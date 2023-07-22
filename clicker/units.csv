@@ -40,7 +40,7 @@ a6m6c;A6M6c;1750GE;40000;37.11;2217;3.55;1.54;3;12;country_japan;exp_fighter
 a_7d;A-7D;1060000SL;390000;397.7520183086312;12657;3.17;2.38;7;28;country_usa;exp_assault
 a_7e;A-7E;1080000SL;400000;422.5760079443893;12501;3.2;2.44;7;29;country_usa;exp_assault
 a7he1;A7He1;550GE;5900;0.42;335;0.89;1.06;1;3;country_japan;exp_fighter
-a_7k;A-7K;1080000SL;400000;418.5067991220978;11826;3.26;2.44;7;30;country_usa;exp_assault
+a_7k;A-7K;craft_2023_springLT;400000;418.5067991220978;11826;3.26;2.44;7;30;country_usa;exp_assault
 a7m1;A7M1 (NK9H);2190GE;33000;67.77;5036;4.33;1.48;3;12;country_japan;exp_fighter
 a7m2;A7M2;150000SL;40000;92.18354002254792;4520;1.76;1.54;3;13;country_japan;exp_fighter
 douglas_ad_2;AD-2;210000SL;71000;203.975486935867;5818;1.9;1.78;4;14;country_usa;exp_assault
@@ -133,7 +133,7 @@ bf-109k-4;Bf 109 K-4;240000SL;82000;378.42776747224036;10046;2.43;1.84;4;14;coun
 bf-110c-6;Bf 110 C-6;1000GE;11000;2.34;565;1.71;1.24;2;6;country_germany;exp_assault
 bf-110c-4;Bf 110 C-7;22000SL;9200;2.262132701421801;809;0.68;1.18;2;5;country_germany;exp_assault
 bf2c_1;BF2C-1;0SL;null;null;null;0.13;1.0;1;0;country_usa;exp_fighter
-bi;BI;270000SL;95000;681.6699627097576;11774;2.83;1.9;5;17;country_ussr;exp_fighter
+bi;BI;craft_2020_autumnLT;95000;681.6699627097576;11774;2.83;1.9;5;17;country_ussr;exp_fighter
 blenheim_mkiv;Blenheim Mk IV;2100SL;4000;0.5343037974683544;402;0.45;1.0;1;1;country_britain;exp_bomber
 p-38j_marge;Bong's P-38J-15;4880GE;63000;108.27;3964;4.66;1.72;4;10;country_usa;exp_fighter
 boomerang_mki;Boomerang Mk I (Great Britain);1150GE;14000;44.37;4754;4.02;1.3;2;6;country_britain;exp_fighter
@@ -143,7 +143,7 @@ br_693_ab2;Br.693AB2;6300SL;5900;0.7152159468438538;414;0.46;1.06;1;2;country_fr
 breda_88;Breda 88 (P.XI);6300SL;5900;0.6944516129032258;414;0.46;1.06;1;2;country_italy;exp_assault
 brigand_b1;Brigand B 1;200000SL;63000;242.77258404415454;8048;2.74;1.72;4;9;country_britain;exp_bomber
 btd-1;BTD-1;1750GE;40000;33.41;2137;4.24;1.54;3;9;country_usa;exp_bomber
-buccaneer_s1;Buccaneer S.1;500000SL;180000;619.4383359921462;11675;3.31;2.14;6;23;country_britain;exp_assault
+buccaneer_s1;Buccaneer S.1;summer_2021LT;180000;619.4383359921462;11675;3.31;2.14;6;23;country_britain;exp_assault
 buccaneer_s2;Buccaneer S.2;500000SL;180000;309.9994685816876;11971;3.14;2.14;6;25;country_britain;exp_assault
 bv-138c-1;BV 138 C-1;2100SL;4000;0.5346587537091988;429;0.43;1.0;1;2;country_germany;exp_bomber
 bv-155b-1;BV 155 B-1;1450GE;26000;12.06;1313;2.97;1.42;3;8;country_germany;exp_fighter
@@ -223,7 +223,7 @@ f-104s;F-104S;930000SL;340000;365.36512844685365;11468;3.04;2.32;7;30;country_it
 f-104s_cb;F-104S TAF (Italy);9270GE;340000;270.27;5812;6.08;2.32;7;30;country_italy;exp_fighter
 f-104s_asa;F-104S.ASA;1060000SL;390000;684.4163900414939;11720;3.08;2.38;7;31;country_italy;exp_fighter
 f-105d;F-105D;500000SL;180000;314.9484593023256;12018;2.87;2.14;6;27;country_usa;exp_assault
-f11f_1_late;F11F-1;930000SL;340000;924.769028400598;12656;3.8;2.32;6;24;country_usa;exp_fighter
+f11f_1_late;F11F-1;summer_2020LT;340000;924.769028400598;12656;3.8;2.32;6;24;country_usa;exp_fighter
 f_14a_early;F-14A Early;1100000SL;410000;472.12272695160726;12362;3.16;2.5;8;32;country_usa;exp_fighter
 f_14b;F-14B;1120000SL;420000;880.6816144161936;12779;3.19;2.56;8;33;country_usa;exp_fighter
 f_16a_block_10;F-16A;1120000SL;420000;515.617965822039;12779;3.19;2.56;8;33;country_usa;exp_fighter
@@ -240,13 +240,13 @@ f3d_1;F3D-1;310000SL;110000;386.0408302739339;9481;2.68;1.96;5;18;country_usa;ex
 f3f-2;F3F-2;700SL;2900;0.4889189189189189;201;0.22;1.0;1;1;country_usa;exp_fighter
 f3h-2;F3H-2;590000SL;220000;878.1368709231075;13673;3.8;2.2;6;25;country_usa;exp_fighter
 f-4c;F-4C Phantom II;740000SL;270000;904.5976227484684;14780;3.67;2.26;6;27;country_usa;exp_fighter
-f4d_1;F4D-1;590000SL;220000;876.1232884902839;12656;3.8;2.2;6;24;country_usa;exp_fighter
+f4d_1;F4D-1;summer_2022LT;220000;876.1232884902839;12656;3.8;2.2;6;24;country_usa;exp_fighter
 f-4e;F-4E Phantom II;930000SL;340000;365.36512844685365;11468;3.04;2.32;7;30;country_usa;exp_fighter
 f-4ej_adtw;F-4EJ ADTW;9270GE;340000;270.27;5812;6.08;2.32;7;30;country_japan;exp_fighter
 f-4ej_kai;F-4EJ Kai Phantom II;1100000SL;410000;438.31857455181466;12362;3.16;2.5;8;32;country_japan;exp_fighter
 f-4ej;F-4EJ Phantom II;930000SL;340000;365.36512844685365;11468;3.04;2.32;7;30;country_japan;exp_fighter
 f-4f_late;F-4F (Germany);1060000SL;390000;389.6977632439503;12398;3.22;2.38;7;29;country_germany;exp_fighter
-f-4f;F-4F Early (Germany);930000SL;340000;926.5663133778263;13566;3.42;2.32;7;28;country_germany;exp_fighter
+f-4f;F-4F Early (Germany);craft_2021_springLT;340000;926.5663133778263;13566;3.42;2.32;7;28;country_germany;exp_fighter
 f4f-3;F4F-3;10000SL;7900;1.3859004392386531;919;0.59;1.12;2;4;country_usa;exp_fighter
 f4f-4;F4F-4;22000SL;9200;2.854180327868853;1314;0.75;1.18;2;6;country_usa;exp_fighter
 f-4j;F-4J Phantom II;1060000SL;390000;389.6666897267382;11720;3.08;2.38;7;31;country_usa;exp_fighter
@@ -261,7 +261,7 @@ f4u-4;F4U-4;150000SL;40000;92.89401769911504;4352;1.78;1.54;3;11;country_usa;exp
 f4u-4b;F4U-4B;170000SL;46000;142.96431245965138;6131;1.92;1.6;4;14;country_usa;exp_fighter
 f4u-4b_vmf_214;F4U-4B VMF-214;4880GE;63000;108.27;4533;4.61;1.72;4;14;country_usa;exp_fighter
 f4u-7;F4U-7;210000SL;71000;309.1654242928453;9514;2.38;1.78;4;15;country_france;exp_fighter
-f-5a;F-5A;930000SL;340000;926.5663133778263;13566;3.42;2.32;6;28;country_usa;exp_fighter
+f-5a;F-5A;craft_2021_autumnLT;340000;926.5663133778263;13566;3.42;2.32;6;28;country_usa;exp_fighter
 f-5a_china;F-5A (China);1060000SL;390000;389.6977632439503;12398;3.22;2.38;7;29;country_china;exp_fighter
 f-5c;F-5C;9270GE;340000;283.77;6698;6.84;2.32;6;28;country_usa;exp_fighter
 f-5e;F-5E;930000SL;340000;372.8913079977312;12158;3.14;2.32;7;29;country_usa;exp_fighter
@@ -317,7 +317,7 @@ b_48_firecrest;Firecrest;55000SL;150000;7.125030549898167;1234;1.16;1.3;2;4;coun
 firefly_mk1;Firefly F Mk I;77000SL;18000;12.30893470790378;1462;1.13;1.36;3;7;country_britain;exp_assault
 firefly_mk5;Firefly FR Mk V;140000SL;33000;29.104587378640776;2071;1.35;1.48;3;8;country_britain;exp_assault
 fj_4b;FJ-4B;590000SL;220000;316.73287512759447;11916;3.4;2.2;6;23;country_usa;exp_assault
-fj_4b_agm_12b;FJ-4B VMF-232;930000SL;340000;365.361663048198;12449;3.6;2.32;6;23;country_usa;exp_assault
+fj_4b_agm_12b;FJ-4B VMF-232;summer_2018_good_oldLT;340000;365.361663048198;12449;3.6;2.32;6;23;country_usa;exp_assault
 bf-109a_1;Flegel's Bf 109 A;250GE;2900;0.27;204;0.5;0.75;1;1;country_germany;exp_fighter
 fokker_d21_mod20;Fokker D.XXI (Sweden);700GE;7900;0.6799999999999999;441;1.21;1.12;2;3;country_sweden;exp_fighter
 fokker_d21_serie3_finland;Fokker D.XXI-3 (Sweden);2100SL;4000;0.5256213017751479;423;0.32;1.0;1;2;country_sweden;exp_fighter
@@ -503,7 +503,7 @@ j_8f;J-8F;1100000SL;410000;488.5158771929825;12362;3.16;2.5;8;32;country_china;e
 saab_ja37;JA37C;1060000SL;390000;388.0838090856814;11702;3.12;2.38;7;30;country_sweden;exp_fighter
 saab_ja37d;JA37D;1100000SL;410000;470.07483235638927;12362;3.16;2.5;8;32;country_sweden;exp_fighter
 jaguar_a;Jaguar A;740000SL;270000;369.4945112237509;12132;3.0;2.26;6;28;country_france;exp_assault
-jaguar_e;Jaguar E;740000SL;270000;369.4945112237509;12132;3.0;2.26;6;28;country_france;exp_assault
+jaguar_e;Jaguar E;craft_2022_autumnLT;270000;369.4945112237509;12132;3.0;2.26;6;28;country_france;exp_assault
 jaguar_gr1;Jaguar GR.1;590000SL;220000;343.1504164716893;12516;3.05;2.2;6;26;country_britain;exp_assault
 jaguar_gr1a;Jaguar GR.1A;930000SL;340000;395.8432751297782;12410;3.09;2.32;7;28;country_britain;exp_assault
 javelin_fmk9;Javelin F.(A.W.) Mk.9;500000SL;180000;316.7791583078936;13429;3.8;2.14;6;22;country_britain;exp_fighter
@@ -523,7 +523,7 @@ ju-87r-2_snake;Ju 87 R-2 Libya;400GE;4000;0.3;193;0.9;1.0;1;1;country_germany;ex
 ju-88a-4;Ju 88 A-4;22000SL;9200;3.6073236889692586;1395;0.9;1.18;2;6;country_germany;exp_bomber
 ju-88a-4_finland;Ju 88 A-4 (Sweden);22000SL;9200;3.6073236889692586;1395;0.9;1.18;2;6;country_sweden;exp_bomber
 ju-88c-6;Ju 88 C-6;10000SL;7900;1.3173082287308229;917;0.58;1.12;2;5;country_germany;exp_fighter
-kfir_c2;Kfir C.2;1060000SL;390000;388.0838090856814;11702;3.12;2.38;7;30;country_israel;exp_fighter
+kfir_c2;Kfir C.2;craft_2022_springLT;390000;388.0838090856814;11702;3.12;2.38;7;30;country_israel;exp_fighter
 kfir_c7;Kfir C.7;1060000SL;390000;388.1005052824989;11720;3.08;2.38;7;31;country_israel;exp_fighter
 kfir_canard;Kfir Canard;9450GE;390000;297.27;6318;6.44;2.38;7;29;country_israel;exp_fighter
 ki_100_early;Ki-100;55000SL;14000;12.692645011600929;2197;1.12;1.3;2;9;country_japan;exp_fighter
@@ -577,7 +577,7 @@ ki_84_ko;Ki-84 ko;170000SL;46000;160.74528419737663;6110;1.94;1.6;4;13;country_j
 ki_84_ko_china;Ki-84 ko (China);3850GE;54000;94.77;4756;4.56;1.66;4;13;country_china;exp_fighter
 ki_84_otsu;Ki-84 otsu;200000SL;63000;271.4431227410727;8678;2.27;1.72;4;14;country_japan;exp_fighter
 ki_87;Ki-87;6090GE;71000;121.77;4623;4.69;1.78;4;14;country_japan;exp_fighter
-ki_94_2;Ki-94-II;200000SL;63000;277.0061257076499;8820;2.3;1.72;4;15;country_japan;exp_fighter
+ki_94_2;Ki-94-II;summer_2017LT;63000;277.0061257076499;8820;2.3;1.72;4;15;country_japan;exp_fighter
 ki-96;Ki-96;1600GE;33000;54.27;4569;4.5;1.48;3;8;country_japan;exp_fighter
 kitsuka;Kikka;270000SL;95000;514.0336852664577;11974;3.16;1.9;5;18;country_japan;exp_fighter
 p-63c-5_kingcobra_animal_version;Kingcobra (USA);1750GE;40000;54.27;3763;4.31;1.54;3;9;country_usa;exp_fighter
@@ -648,7 +648,7 @@ me-163b;Me 163 B;370000SL;130000;731.9496064005886;13326;3.76;2.02;5;21;country_
 me-163b-0;Me 163 B-0;420000SL;150000;748.2595380461954;12196;3.8;2.08;5;23;country_germany;exp_fighter
 me-262a-1a_u4;Me 262 A-1/U4;270000SL;95000;349.29140666470073;8762;2.37;1.9;5;17;country_germany;exp_assault
 me-262a-1a;Me 262 A-1a;270000SL;95000;707.8575592718036;11974;3.16;1.9;5;18;country_germany;exp_fighter
-me-262a-2a;Me 262 A-2a;310000SL;110000;365.46770012706486;8977;2.45;1.96;5;17;country_germany;exp_assault
+me-262a-2a;Me 262 A-2a;winter_2017LT;110000;365.46770012706486;8977;2.45;1.96;5;17;country_germany;exp_assault
 me-262c-1a;Me 262 C-1a;310000SL;110000;732.5007212857703;12932;3.55;1.96;5;19;country_germany;exp_fighter
 me-262c-2b;Me 262 C-2b;370000SL;130000;756.1370629636676;13326;3.76;2.02;5;21;country_germany;exp_fighter
 meteor_fmk3;Meteor F Mk 3;270000SL;95000;205.62878593168753;12636;3.44;1.9;5;19;country_britain;exp_fighter
@@ -673,12 +673,12 @@ mig_21_bis_finland;MiG-21bis (Sweden);1060000SL;390000;726.7603398596232;11702;3
 mig-21_bis_sau;MiG-21bis-SAU (Germany);1060000SL;390000;726.7603398596232;11702;3.12;2.38;7;30;country_germany;exp_fighter
 mig-21_f13;MiG-21F-13;740000SL;270000;965.9799130803477;13673;3.8;2.26;6;25;country_ussr;exp_fighter
 mig-21_mf;MiG-21MF (Germany);930000SL;340000;393.53044635193135;13566;3.42;2.32;7;28;country_germany;exp_fighter
-mig-21_pfm;MiG-21PFM;930000SL;340000;996.2817694027467;13673;3.8;2.32;6;25;country_ussr;exp_fighter
+mig-21_pfm;MiG-21PFM;winter_2021LT;340000;996.2817694027467;13673;3.8;2.32;6;25;country_ussr;exp_fighter
 mig-21_s;MiG-21S (R-13-300);8910GE;220000;283.77;7225;7.5;2.2;6;26;country_ussr;exp_fighter
 mig-21_smt;MiG-21SMT;930000SL;340000;393.53044635193135;13566;3.42;2.32;7;28;country_ussr;exp_fighter
 mig_23bn;MiG-23BN (Germany);740000SL;270000;367.35949367088614;12765;3.13;2.26;6;26;country_germany;exp_assault
 mig_23m;MiG-23M;1060000SL;390000;707.9717278268441;11702;3.12;2.38;7;30;country_ussr;exp_fighter
-mig_23mf_germany;MiG-23MF (Germany);1060000SL;390000;707.9717278268441;11702;3.12;2.38;7;30;country_germany;exp_fighter
+mig_23mf_germany;MiG-23MF (Germany);winter_2022LT;390000;707.9717278268441;11702;3.12;2.38;7;30;country_germany;exp_fighter
 mig_23ml;MiG-23ML;9620GE;400000;297.27;6083;6.31;2.44;7;31;country_ussr;exp_fighter
 mig_23mla;MiG-23MLA (Germany);1100000SL;410000;472.11703238279364;12046;3.19;2.5;8;31;country_germany;exp_fighter
 mig_23mld;MiG-23MLD;1100000SL;410000;472.11703238279364;12046;3.19;2.5;8;31;country_ussr;exp_fighter
@@ -978,11 +978,11 @@ tornado_adv;Tornado ADV;1100000SL;410000;769.0655070883316;12046;3.19;2.5;8;31;c
 tornado_f3;Tornado F.3;1100000SL;410000;769.0655070883316;12046;3.19;2.5;8;31;country_britain;exp_fighter
 tornado_gr1;Tornado GR.1;1100000SL;410000;707.4657565476998;11131;3.43;2.5;8;31;country_britain;exp_assault
 tornado_ids_it_mod95;Tornado IDS (1995) (Italy);1100000SL;410000;707.4657565476998;11131;3.43;2.5;8;31;country_italy;exp_assault
-tornado_ids_de_mfg;Tornado IDS (Germany);1100000SL;410000;761.9449993658847;11912;3.29;2.5;8;30;country_germany;exp_assault
+tornado_ids_de_mfg;Tornado IDS (Germany);winter_2023LT;410000;761.9449993658847;11912;3.29;2.5;8;30;country_germany;exp_assault
 tornado_ids_de_assta1;Tornado IDS ASSTA1 (Germany);1100000SL;410000;707.4657565476998;11131;3.43;2.5;8;31;country_germany;exp_assault
 tu-1;Tu-1;4880GE;63000;81.27;2655;3.71;1.72;4;13;country_ussr;exp_assault
 tu_14t;Tu-14T;310000SL;110000;794.1331038353601;14664;2.97;1.96;5;21;country_ussr;exp_bomber
-tu-2_early;Tu-2;110000SL;26000;40.106944837340876;3603;1.82;1.42;3;11;country_ussr;exp_bomber
+tu-2_early;Tu-2;global_betaLT;26000;40.106944837340876;3603;1.82;1.42;3;11;country_ussr;exp_bomber
 tu-2;Tu-2S;200000SL;63000;367.34805156172536;10278;2.35;1.72;4;13;country_ussr;exp_bomber
 tu-2_postwar;Tu-2S-44;210000SL;71000;138.03959586987898;11474;2.21;1.78;4;14;country_ussr;exp_bomber
 tu-2_postwar_china;Tu-2S-44 (China);210000SL;71000;138.03959586987898;11474;2.21;1.78;4;14;country_china;exp_bomber
