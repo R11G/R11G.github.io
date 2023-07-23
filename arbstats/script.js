@@ -170,9 +170,6 @@ function generateTable() {
         const cellInfo = document.createElement("img");
         cellInfo.src = "CountryIcons/" + units[i][j] + ".svg";
         cell.appendChild(cellInfo);
-      } else if (j==11) {
-        const cellInfo = document.createTextNode(units[i][j].substring(4));
-        cell.appendChild(cellInfo);
       } else {
         const cellInfo = document.createTextNode(units[i][j]);
         cell.appendChild(cellInfo);
