@@ -109,7 +109,7 @@ function generateTable() {
             cellInfo.src = "https://raw.githubusercontent.com/gszabi99/War-Thunder-Datamine/master/tex.vromfs.bin_u/ships/" + units[i][j] + ".png";
           }
         } else {
-          cellInfo.src = "https://raw.githubusercontent.com/gszabi99/War-Thunder-Datamine/master/atlases.vromfs.bin_u/units/" + units[i][j] + ".png";
+          cellInfo.src = "https://raw.githubusercontent.com/gszabi99/War-Thunder-Datamine/master/atlases.vromfs.bin_u/units/" + units[i][j].toLowerCase() + ".png";
         }
         cell.appendChild(cellInfo);
       } else if (j == 2) {
