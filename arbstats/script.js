@@ -1,7 +1,8 @@
 let units = [];
-let country = "";
-let rank = "";
-let type = "";
+let country = ",";
+let rank = ",";
+let classID = ",";
+let type = ",";
 let isImg = true;
 function generateTable() {
   const tbl = document.createElement("table");
@@ -70,7 +71,7 @@ function generateTable() {
   const c12 = document.createElement("th");
   const ci12 = document.createTextNode("Type");
   c12.appendChild(ci12);
-  //c12.setAttribute('onclick', "sortTable(12)");
+  c12.setAttribute('onclick', "sortTable(12)");
   head.appendChild(c12);
   /*headerCell(head, "Image", "n", 0);
   headerCell(head, "Name", "y", 1);
@@ -86,15 +87,18 @@ function generateTable() {
   headerCell(head, "Class", "y", 11);*/
   tblBody.appendChild(head);
   for (let i = 0; i < units.length; i++) {
-    if (!rank.includes(units[i][8])) {
+    if (!rank.includes(",rank_" + units[i][8] + ",")) {
       continue;
     }
-    if (!country.includes(units[i][10])) {
+    if (!country.includes("," + units[i][10] + ",")) {
       continue;
     }
-    /*if (!type.includes(units[i][11])) {
+    if (!classID.includes("," + units[i][11] + ",")) {
       continue;
-    }*/
+    }
+    if (!type.includes("," + units[i][12] + ",")) {
+      continue;
+    }
     const row = document.createElement("tr");
     for (let j = 0; j < units[0].length; j++) {
       const cell = document.createElement("td");
@@ -287,7 +291,7 @@ function clean(val, n) {
   } else if (n == 4 || n == 6 || n == 7) {
     return parseFloat(val);
   } else {
-    return val;
+    return val.toLowerCase();
   }
 }
 function deleteRow(arr, row) {
@@ -297,43 +301,63 @@ function deleteRow(arr, row) {
 }
 function chooseCountry() {
   var c = document.getElementById("countryList");
-  var t = document.getElementById("typeList");
+  var cl = document.getElementById("classList");
   var r = document.getElementById("rankList");
-  if (c.style.display === "none") {
+  var t = document.getElementById("typeList");
+   if (c.style.display === "none") {
     c.style.display = "grid";
+    cl.style.display = "none";
+    r.style.display = "none";
     t.style.display = "none";
-    r.style.display = "none";
- } else {
-       c.style.display = "none";
-   }
-}
-function chooseType() {
-  var c = document.getElementById("countryList");
-  var t = document.getElementById("typeList");
-  var r = document.getElementById("rankList");
-  if (t.style.display === "none") {
+  } else {
     c.style.display = "none";
-    t.style.display = "grid";
+  }
+}
+function chooseClass() {
+  var c = document.getElementById("countryList");
+  var cl = document.getElementById("classList");
+  var r = document.getElementById("rankList");
+  var t = document.getElementById("typeList");
+  if (cl.style.display === "none") {
+    c.style.display = "none";
+    cl.style.display = "grid";
     r.style.display = "none";
- } else {
-       t.style.display = "none";
-   }
+    t.style.display = "none";
+  } else {
+    cl.style.display = "none";
+  }
 }
 function chooseRank() {
   var c = document.getElementById("countryList");
-  var t = document.getElementById("typeList");
+  var cl = document.getElementById("classList");
   var r = document.getElementById("rankList");
+  var t = document.getElementById("typeList");
   if (r.style.display === "none") {
     c.style.display = "none";
-    t.style.display = "none";
+    cl.style.display = "none";
     r.style.display = "grid";
- } else {
-       r.style.display = "none";
-   }
+    t.style.display = "none";
+  } else {
+    r.style.display = "none";
+  }
+}
+function chooseType() {
+  var c = document.getElementById("countryList");
+  var cl = document.getElementById("classList");
+  var r = document.getElementById("rankList");
+  var t = document.getElementById("typeList");
+  if (t.style.display === "none") {
+    c.style.display = "none";
+    cl.style.display = "none";
+    r.style.display = "none";
+    t.style.display = "grid";
+  } else {
+    t.style.display = "none";
+  }
 }
 function filterCountry() {
   let countries = document.getElementById("countryList").getElementsByTagName("input");
-  country = "";
+  country = ",";
   for (var i = 0; i < countries.length; i++) {
     if (countries[i].type == "checkbox") {
       if (countries[i].checked) {
@@ -345,23 +369,23 @@ function filterCountry() {
   document.getElementById("UnitsTable").remove();
   generateTable();
 }
-function filterType() {
-  let types = document.getElementById("typeList").getElementsByTagName("input");
-  type = "";
-  for (var i = 0; i < types.length; i++) {
-    if (types[i].type == "checkbox") {
-      if (types[i].checked) {
-        type += types[i].id + ",";
+function filterClass() {
+  let classes = document.getElementById("classList").getElementsByTagName("input");
+  classID = ",";
+  for (var i = 0; i < classes.length; i++) {
+    if (classes[i].type == "checkbox") {
+      if (classes[i].checked) {
+        classID += classes[i].id + ",";
       }
     }
   }
-  chooseType();
+  chooseClass();
   document.getElementById("UnitsTable").remove();
   generateTable();
 }
 function filterRank() {
   let ranks = document.getElementById("rankList").getElementsByTagName("input");
-  rank = "";
+  rank = ",";
   for (var i = 0; i < ranks.length; i++) {
     if (ranks[i].type == "checkbox") {
       if (ranks[i].checked) {
@@ -373,8 +397,23 @@ function filterRank() {
   document.getElementById("UnitsTable").remove();
   generateTable();
 }
+function filterType() {
+  let types = document.getElementById("typeList").getElementsByTagName("input");
+  type = ",";
+  for (var i = 0; i < types.length; i++) {
+    if (types[i].type == "checkbox") {
+      if (types[i].checked) {
+        type += types[i].id + ",";
+      }
+    }
+  }
+  chooseType();
+  document.getElementById("UnitsTable").remove();
+  generateTable();
+}
 function resetCountry() {
   let countries = document.getElementById("countryList").getElementsByTagName("input");
+  country = ",";
   for (var i = 0; i < countries.length; i++) {
     if (countries[i].type == "checkbox") {
       if (countries[i].checked) {
@@ -387,22 +426,24 @@ function resetCountry() {
   document.getElementById("UnitsTable").remove();
   generateTable();
 }
-function resetType() {
-  let types = document.getElementById("typeList").getElementsByTagName("input");
+function resetClass() {
+  let classes = document.getElementById("classList").getElementsByTagName("input");
+  classID = ",";
   for (var i = 0; i < types.length; i++) {
-    if (types[i].type == "checkbox") {
-      if (types[i].checked) {
-        types[i].checked = false;
+    if (classes[i].type == "checkbox") {
+      if (classes[i].checked) {
+        classes[i].checked = false;
       }
-      type += types[i].id + ",";
+      classID += classes[i].id + ",";
     }
   }
-  chooseType();
+  chooseClass();
   document.getElementById("UnitsTable").remove();
   generateTable();
 }
 function resetRank() {
   let ranks = document.getElementById("rankList").getElementsByTagName("input");
+  rank = ",";
   for (var i = 0; i < ranks.length; i++) {
     if (ranks[i].type == "checkbox") {
       if (ranks[i].checked) {
@@ -412,6 +453,21 @@ function resetRank() {
     }
   }
   chooseRank();
+  document.getElementById("UnitsTable").remove();
+  generateTable();
+}
+function resetType() {
+  let types = document.getElementById("typeList").getElementsByTagName("input");
+  type = ",";
+  for (var i = 0; i < types.length; i++) {
+    if (types[i].type == "checkbox") {
+      if (types[i].checked) {
+        types[i].checked = false;
+      }
+      type += types[i].id + ",";
+    }
+  }
+  chooseType();
   document.getElementById("UnitsTable").remove();
   generateTable();
 }
@@ -426,6 +482,12 @@ function initFilters() {
   for (var i = 0; i < ranks.length; i++) {
     if (ranks[i].type == "checkbox") {
       rank += ranks[i].id + ",";
+    }
+  }
+  let classes = document.getElementById("classList").getElementsByTagName("input");
+  for (var i = 0; i < classes.length; i++) {
+    if (classes[i].type == "checkbox") {
+      classID += classes[i].id + ",";
     }
   }
   let types = document.getElementById("typeList").getElementsByTagName("input");

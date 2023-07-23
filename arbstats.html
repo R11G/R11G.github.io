@@ -9,29 +9,42 @@
       <button id="Image" onclick="swapImg()" style="float:right">Vehicle Icons</button>
     </span>
   </p>
-  <button id="Country" onclick="chooseCountry()">Country</button>
-  <span><button id="Type" onclick="chooseType()">Class</button></span>
-  <span><button id="Rank" onclick="chooseRank()">Rank</button></span>
+  <button id="Rank" onclick="chooseRank()">Rank</button>
+  <span><button id="Country" onclick="chooseCountry()">Country</button></span>
+  <span><button id="Class" onclick="chooseClass()">Class</button></span>
+  <span><button id="Type" onclick="chooseType()">Type</button></span>
   <div id="countryList" style="display:none;">
-    <label><input type="checkbox" id="country_britain" />Britain</label>
-    <label><input type="checkbox" id="country_china" />China</label>
-    <label><input type="checkbox" id="country_france" />France</label>
-    <label><input type="checkbox" id="country_germany" />Germany</label>
-    <label><input type="checkbox" id="country_israel" />Israel</label>
-    <label><input type="checkbox" id="country_italy" />Italy</label>
-    <label><input type="checkbox" id="country_japan" />Japan</label>
-    <label><input type="checkbox" id="country_sweden" />Sweden</label>
-    <label><input type="checkbox" id="country_usa" />USA</label>
-    <label><input type="checkbox" id="country_ussr" />USSR</label>
+    <label><input type="checkbox" id="britain" />Britain</label>
+    <label><input type="checkbox" id="china" />China</label>
+    <label><input type="checkbox" id="france" />France</label>
+    <label><input type="checkbox" id="germany" />Germany</label>
+    <label><input type="checkbox" id="israel" />Israel</label>
+    <label><input type="checkbox" id="italy" />Italy</label>
+    <label><input type="checkbox" id="japan" />Japan</label>
+    <label><input type="checkbox" id="sweden" />Sweden</label>
+    <label><input type="checkbox" id="usa" />USA</label>
+    <label><input type="checkbox" id="ussr" />USSR</label>
     <button id="subC" style="width:50px;" onclick="filterCountry()">Ok</button>
     <button id="resC" style="width:50px;" onclick="resetCountry()">Reset</button>
   </div>
-  <div id="typeList" style="display:none;">
-    <label><input type="checkbox" id="exp_assault" />Assault</label>
-    <label><input type="checkbox" id="exp_bomber" />Bomber</label>
-    <label><input type="checkbox" id="exp_fighter" />Fighter</label>
-    <button id="subT" style="width:50px;" onclick="filterType()">Ok</button>
-    <button id="resT" style="width:50px;" onclick="resetType()">Reset</button>
+  <div id="classList" style="display:none;">
+    <label><input type="checkbox" id="assault" />Assault</label>
+    <label><input type="checkbox" id="bomber" />Bomber</label>
+    <label><input type="checkbox" id="fighter" />Fighter</label>
+    <label><input type="checkbox" id="cruiser" />Cruiser</label>
+    <label><input type="checkbox" id="destroyer" />Destroyer</label>
+    <label><input type="checkbox" id="gun_boat" />Gunboat</label>
+    <label><input type="checkbox" id="heavy_tank" />Heavy Tank</label>
+    <label><input type="checkbox" id="helicopter" />Helicopter</label>
+    <label><input type="checkbox" id="naval_ferry_barge" />Ferry Barge</label>
+    <label><input type="checkbox" id="SPAA" />SPAA</label>
+    <label><input type="checkbox" id="submarine_chaser" />Sub Chaser</label>
+    <label><input type="checkbox" id="tank" />Tank</label>
+    <label><input type="checkbox" id="tank_destroyer" />Tank Destroyer</label>
+    <label><input type="checkbox" id="torpedo_boat" />Torpedo Boat</label>
+    <label><input type="checkbox" id="torpedo_gun_boat" />Torpedo Gunboat</label>
+    <button id="subCl" style="width:50px;" onclick="filterClass()">Ok</button>
+    <button id="resCl" style="width:50px;" onclick="resetClass()">Reset</button>
   </div>
   <div id="rankList" style="display:none;">
     <label><input type="checkbox" id="rank_1" />I</label>
@@ -44,6 +57,17 @@
     <label><input type="checkbox" id="rank_8" />VIII</label>
     <button id="subR" style="width:50px;" onclick="filterRank()">Ok</button>
     <button id="resR" style="width:50px;" onclick="resetRank()">Reset</button>
+  </div>
+  <div id="typeList" style="display:none;">
+    <label><input type="checkbox" id="air" />Air</label>
+    <label><input type="checkbox" id="fast_ship" />Fast Ship</label>
+    <label><input type="checkbox" id="heavy_tank" />Heavy Tank</label>
+    <label><input type="checkbox" id="helicopter" />Helicopter</label>
+    <label><input type="checkbox" id="ship" />Ship</label>
+    <label><input type="checkbox" id="tank" />Tank</label>
+    <label><input type="checkbox" id="wheeled_vehicle" />Wheeled Vehicle</label>
+    <button id="subT" style="width:50px;" onclick="filterType()">Ok</button>
+    <button id="resT" style="width:50px;" onclick="resetType()">Reset</button>
   </div>
   <script src="arbstats/script.js"></script>
 </body>
