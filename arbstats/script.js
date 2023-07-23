@@ -67,6 +67,11 @@ function generateTable() {
   c11.appendChild(ci11);
   c11.setAttribute('onclick', "sortTable(11)");
   head.appendChild(c11);
+  const c12 = document.createElement("th");
+  const ci12 = document.createTextNode("Type");
+  c12.appendChild(ci12);
+  //c12.setAttribute('onclick', "sortTable(12)");
+  head.appendChild(c12);
   /*headerCell(head, "Image", "n", 0);
   headerCell(head, "Name", "y", 1);
   headerCell(head, "Cost", "y", 2);
@@ -87,9 +92,9 @@ function generateTable() {
     if (!country.includes(units[i][10])) {
       continue;
     }
-    if (!type.includes(units[i][11])) {
+    /*if (!type.includes(units[i][11])) {
       continue;
-    }
+    }*/
     const row = document.createElement("tr");
     for (let j = 0; j < units[0].length; j++) {
       const cell = document.createElement("td");
@@ -168,7 +173,7 @@ function generateTable() {
         cell.appendChild(cellInfo);
       } else if (j==10) {
         const cellInfo = document.createElement("img");
-        cellInfo.src = "CountryIcons/" + units[i][j] + ".svg";
+        cellInfo.src = "CountryIcons/country_" + units[i][j] + ".svg";
         cell.appendChild(cellInfo);
       } else {
         const cellInfo = document.createTextNode(units[i][j]);
