@@ -4,7 +4,11 @@
 <link rel="stylesheet" href="arbstats/style.css">
 </head>
 <body onload="initFilters();readFile(generateTable)">
-  <p>Filters</p>
+  <p>Filters
+    <span>
+      <button id="Image" onclick="swapImg()" style="float:right">Vehicle Icons</button>
+    </span>
+  </p>
   <button id="Country" onclick="chooseCountry()">Country</button>
   <span><button id="Type" onclick="chooseType()">Class</button></span>
   <span><button id="Rank" onclick="chooseRank()">Rank</button></span>

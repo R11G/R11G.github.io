@@ -2,6 +2,7 @@ let units = [];
 let country = "";
 let rank = "";
 let type = "";
+let isImg = true;
 function generateTable() {
   const tbl = document.createElement("table");
   tbl.setAttribute("id", "UnitsTable")
@@ -94,9 +95,11 @@ function generateTable() {
       const cell = document.createElement("td");
       if (j == 0) {
         const cellInfo = document.createElement("img");
-        //Tech tree icons:
-        //cellInfo.src = "https://raw.githubusercontent.com/gszabi99/War-Thunder-Datamine/master/atlases.vromfs.bin_u/units/" + units[i][j] + ".png";
-        cellInfo.src = "https://raw.githubusercontent.com/gszabi99/War-Thunder-Datamine/master/tex.vromfs.bin_u/aircrafts/" + units[i][j] + ".png";
+        if (isImg) {
+          cellInfo.src = "https://raw.githubusercontent.com/gszabi99/War-Thunder-Datamine/master/tex.vromfs.bin_u/aircrafts/" + units[i][j] + ".png";
+        } else {
+          cellInfo.src = "https://raw.githubusercontent.com/gszabi99/War-Thunder-Datamine/master/atlases.vromfs.bin_u/units/" + units[i][j] + ".png";
+        }
         cell.appendChild(cellInfo);
       } else if (j == 2) {
         if (units[i][j].substring(units[i][j].length - 2) === "LT") {
@@ -423,4 +426,14 @@ function initFilters() {
       type += types[i].id + ",";
     }
   }
+}
+function swapImg() {
+  if (isImg) {
+    document.getElementById("Image").innerText = "Card Image";
+  } else {
+    document.getElementById("Image").innerText = "Vehicle Icon";
+  }
+  isImg = !isImg;
+  document.getElementById("UnitsTable").remove();
+  generateTable();
 }
