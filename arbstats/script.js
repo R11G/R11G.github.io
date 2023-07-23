@@ -429,7 +429,7 @@ function resetCountry() {
 function resetClass() {
   let classes = document.getElementById("classList").getElementsByTagName("input");
   classID = ",";
-  for (var i = 0; i < types.length; i++) {
+  for (var i = 0; i < classes.length; i++) {
     if (classes[i].type == "checkbox") {
       if (classes[i].checked) {
         classes[i].checked = false;
