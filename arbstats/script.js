@@ -101,7 +101,13 @@ function generateTable() {
       if (j == 0) {
         const cellInfo = document.createElement("img");
         if (isImg) {
-          cellInfo.src = "https://raw.githubusercontent.com/gszabi99/War-Thunder-Datamine/master/tex.vromfs.bin_u/aircrafts/" + units[i][j] + ".png";
+          if (units[i][12] === "air" || units[i][12] === "helicopter") {
+            cellInfo.src = "https://raw.githubusercontent.com/gszabi99/War-Thunder-Datamine/master/tex.vromfs.bin_u/aircrafts/" + units[i][j] + ".png";
+          } else if (units[i][12] === "tank" || units[i][12] === "wheeled_vehicle" || units[i][12] === "heavy_tank") {
+            cellInfo.src = "https://raw.githubusercontent.com/gszabi99/War-Thunder-Datamine/master/tex.vromfs.bin_u/tanks/" + units[i][j].toLowerCase() + ".png";
+          } else {
+            cellInfo.src = "https://raw.githubusercontent.com/gszabi99/War-Thunder-Datamine/master/tex.vromfs.bin_u/ships/" + units[i][j] + ".png";
+          }
         } else {
           cellInfo.src = "https://raw.githubusercontent.com/gszabi99/War-Thunder-Datamine/master/atlases.vromfs.bin_u/units/" + units[i][j] + ".png";
         }
