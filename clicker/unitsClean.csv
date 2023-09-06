@@ -1116,7 +1116,9 @@ mi_28a_sweden;Mi-28A;9270GE;400000;229.77;3241;5.2;2.32;6;28;sweden;helicopter;h
 mi_28n;Mi-28N;1030000SL;400000;544.2831188493566;6650;2.4;2.32;7;30;ussr;helicopter;helicopter
 mi_28nm;Mi-28NM;1040000SL;400000;574.4072750753337;7795;2.02;2.38;7;32;ussr;helicopter;helicopter
 mi_24v;Mi-24V;990000SL;360000;380.46613177159594;5544;2.81;2.08;6;26;ussr;helicopter;helicopter
+mi_24v_hungary;Mi-24V;1000000SL;370000;409.65089449541284;5662;2.89;2.14;6;26;italy;helicopter;helicopter
 mi_24d;Mi-24D (USSR);8560GL;360000;150.71;1359;6.0;2.2;5;23;ussr;helicopter;helicopter
+mi_24d_hungary;Mi-24D;990000SL;360000;336.2035991471215;3728;3.0;2.08;5;23;italy;helicopter;helicopter
 mi_4av;Mi-4AV;390000SL;null;253.74930954228088;3627;3.0;1.96;5;21;ussr;helicopter;helicopter
 h_34;H-34;craft_2019_autumnLT;150000;136.21;1203;6.0;2.02;5;20;usa;helicopter;helicopter
 h_34_france;H-34 (France);390000SL;null;243.7180471092077;3243;3.0;1.96;5;20;france;helicopter;helicopter
@@ -1127,6 +1129,7 @@ ah_1s_late;AH-1S;1010000SL;380000;416.1280978532202;5781;2.97;2.2;6;26;japan;hel
 mi_8tv;Mi-8TV;500000SL;150000;283.3714285714286;3710;3.0;2.02;5;22;ussr;helicopter;helicopter
 mi_24a;Mi-24A;500000SL;150000;293.913386327504;3728;3.0;2.02;5;23;ussr;helicopter;helicopter
 mi_24p;Mi-24P;1000000SL;370000;412.37007792207794;5662;2.89;2.14;6;26;ussr;helicopter;helicopter
+mi_24p_hungary;Mi-24P;8730GL;370000;175.77;2772;5.78;2.14;6;26;italy;helicopter;helicopter
 mi_35m;Mi-35M;1020000SL;390000;492.08007464676086;6401;2.43;2.26;6;29;ussr;helicopter;helicopter
 ah_1g;AH-1G;370000SL;null;238.68782281654825;3627;3.0;1.9;5;21;usa;helicopter;helicopter
 ah_1g_iaf;Tzefa A;390000SL;null;265.96989552862516;3627;3.0;1.96;5;21;israel;helicopter;helicopter
@@ -1364,7 +1367,7 @@ germ_wiesel_2_adwc;Ozelot;930000SL;340000;503.69033356990775;6564;2.1;2.32;7;26;
 germ_flarakpz_1;FlaRakPz 1;1060000SL;390000;491.1807638742351;6799;1.98;2.38;7;28;germany;SPAA;tank
 germ_flarakrad;FlaRakRad;1080000SL;400000;622.2622890173411;9506;2.1;2.44;7;32;germany;SPAA;wheeled_vehicle
 ussr_pzkpfw_III_ausf_J_L42;T-III (USSR);700GE;7900;0.68;428;0.83;1.12;1;4;ussr;tank;tank
-us_mim_72_chaparral;Imp.Chaparral;740000SL;270000;432.48;6468;2.06;2.26;6;25;usa;SPAA;tank
+us_mim_72_chaparral;Imp.Chaparral;740000SL;270000;439.56;6468;2.06;2.26;6;25;usa;SPAA;tank
 us_xm_975_roland;XM975;1060000SL;390000;480.503557560306;6799;1.98;2.38;7;28;usa;SPAA;tank
 us_adats_bradley;XM1069;1080000SL;400000;563.0357142857143;7125;1.51;2.44;7;32;usa;tank_destroyer;tank
 ussr_9p149;Shturm-S;500000SL;180000;385.0332909884875;6727;2.1;2.14;6;23;ussr;tank_destroyer;tank
@@ -1781,7 +1784,7 @@ uk_a27m_cromwell_1;Cromwell I;22000SL;5600;4.675197956577267;1058;0.66;1.24;2;8;
 uk_sherman_vc_firefly;Sherman Firefly;76000SL;26000;24.376736183524507;1671;1.06;1.42;3;11;britain;tank;tank
 uk_a_34_comet;Comet I;135000SL;20000;55.63209302325581;2441;1.34;1.54;3;13;britain;tank;tank
 uk_vickers_mk7;Vickers Mk.7;930000SL;340000;482.68124740124745;6442;1.93;2.32;7;28;britain;tank;tank
-uk_t_90s_bheeshma;Bhishma;990000SL;520000;524.0918820861679;6413;1.91;2.32;7;29;britain;tank;tank
+uk_t_90s_bheeshma;Bhishma;990000SL;520000;524.0850564334086;6442;1.93;2.32;7;28;britain;tank;tank
 uk_centurion_mk_2;Centurion Mk.2;battlepass_season11LT;63000;77.61;2474;3.54;1.72;4;16;britain;tank;tank
 uk_centurion_action_x;Centurion Action X;6090GE;95000;135.27;3158;3.91;1.9;4;20;britain;tank;tank
 uk_centurion_mk_5_raac;Centurion Mk.5/1;battlepass_season2LT;95000;135.27;3158;3.91;1.9;5;20;britain;tank;tank
@@ -1979,7 +1982,7 @@ jp_type_60_atm;Type 60 ATM;210000SL;35000;199.71778493238892;5731;2.02;1.78;4;17
 jp_type_74;Type 74 (E);590000SL;220000;449.9362355212355;6466;2.01;2.2;6;24;japan;tank;tank
 jp_type_74_c;Type 74 (C);370000SL;65000;348.75;6375;1.97;2.02;5;22;japan;tank;tank
 jp_type_87_rcv_prot;Type 87 RCV (P);310000SL;110000;311.84118163205613;5375;1.63;1.96;5;20;japan;tank;wheeled_vehicle
-jp_type_87_rcv;Type 87 RCV;500000SL;180000;396.78756923076924;5621;1.63;2.14;6;23;japan;tank;wheeled_vehicle
+jp_type_87_rcv;Type 87 RCV;500000SL;180000;416.4755020551967;5621;1.63;2.14;6;23;japan;tank;wheeled_vehicle
 jp_type_74_f;Type 74 (F);740000SL;135000;455.8730894308943;6589;2.06;2.26;6;24;japan;tank;tank
 jp_type_16_mcv_prot;Type 16 (P);590000SL;220000;457.39433051869725;5610;1.65;2.2;6;24;japan;tank;wheeled_vehicle
 jp_type_16_mod;Type 16 (FPS);9090GL;270000;202.77;2845;3.39;2.26;6;24;japan;tank;wheeled_vehicle
@@ -2047,7 +2050,7 @@ il_m163_vulcan;Hovet;240000SL;82000;223.9944460856721;4670;1.71;1.84;5;20;israel
 il_zsu_57_2;ZSU-57-2 (Israel);200000SL;63000;162.45121856866538;3988;1.66;1.72;4;18;israel;SPAA;tank
 il_zsu_23_4;ZSU-23-4 (Israel);420000SL;150000;348.08700146270115;5658;1.88;2.08;6;21;israel;SPAA;tank
 il_machbet;Machbet;740000SL;270000;431.5192682926829;6468;2.06;2.26;6;25;israel;SPAA;tank
-il_mim_72_chaparral;Imp.Chaparral (Israel);930000SL;340000;456.43435200000005;6666;1.93;2.32;7;28;israel;SPAA;tank
+il_mim_72_chaparral;Imp.Chaparral (Israel);930000SL;340000;465.3860869565218;6666;1.93;2.32;7;28;israel;SPAA;tank
 il_magach_2;Magach 2;210000SL;35000;228.67545645330537;5369;1.83;1.78;4;20;israel;tank;tank
 il_m_51;M-51;155000SL;null;97.80434579439252;3471;1.51;1.6;4;15;israel;tank;tank
 il_m_51_w;M-51 (W);4880GL;63000;77.61;2478;3.56;1.72;4;15;israel;tank;tank
@@ -2121,7 +2124,7 @@ cn_wz_305;WZ305;310000SL;110000;278.13078;5142;1.76;1.96;5;21;china;SPAA;tank
 cn_pgz_09;PGZ09;500000SL;180000;402.34622496147927;5795;1.91;2.14;6;22;china;SPAA;tank
 cn_tor_m1;Tor-M1;1060000SL;390000;575.5269082407949;9506;2.1;2.38;7;32;china;SPAA;tank
 cn_pgz_04a;PGZ04A;930000SL;340000;482.67944683745185;6564;2.1;2.32;7;25;china;SPAA;tank
-cn_ptl_02;PTL02;590000SL;220000;435.33857634902415;5610;1.65;2.2;6;24;china;tank;wheeled_vehicle
+cn_ptl_02;PTL02;590000SL;220000;457.39433051869725;5610;1.65;2.2;6;24;china;tank;wheeled_vehicle
 cn_ztl_11;ZLT11;930000SL;340000;518.3335401459855;5563;1.73;2.32;7;26;china;tank;wheeled_vehicle
 cn_qn506;QN506;craft_2023_springLT;340000;512.3495761947701;5564;1.73;2.32;7;27;china;tank;tank
 cn_wma_301;WMA301;8730GE;180000;175.77;2706;3.2;2.14;6;24;china;tank;wheeled_vehicle
@@ -2154,7 +2157,7 @@ uk_dark_class;Dark Adventurer;32000SL;14000;9.774297646165527;1661;1.01;1.3;2;3;
 uk_dark_class_mtb;Dark Aggressor;47000SL;18000;12.213259668508288;1579;1.26;1.36;3;4;britain;torpedo_boat;fast_ship
 uk_destroyer_tribal;HMS Eskimo;16000SL;9200;8.346711229946525;2435;2.42;1.18;2;10;britain;destroyer;ship
 ussr_pr_191m;Pr.191M;180000SL;50000;61.186409903713894;2697;1.51;1.54;3;6;ussr;gun_boat;fast_ship
-ussr_destroyer_7y;Soobrazitelny;16000SL;9200;8.333342231713829;2435;2.42;1.18;2;10;ussr;destroyer;ship
+ussr_destroyer_7y;Soobrazitelny;22000SL;11000;20.894455913978494;3023;3.18;1.24;2;10;ussr;destroyer;ship
 ussr_pr_123bis;Pr.123-bis;32000SL;14000;7.901492007104796;1388;1.09;1.3;2;4;ussr;torpedo_boat;fast_ship
 us_nasty_ptf;PTF-7;2100SL;4000;0.5147474747474747;392;0.26;1.0;1;2;usa;gun_boat;fast_ship
 us_destroyer_fletcher;USS Fletcher;16000SL;9200;8.334369658119659;2434;2.54;1.18;2;11;usa;destroyer;ship
@@ -2187,11 +2190,11 @@ us_destroyer_fletcher_cowell;USS Cowell;4880GE;50000;37.11;2371;12.0;1.54;3;11;u
 us_pt6;PT-6;0SL;null;null;null;0.1;1.0;1;0;usa;torpedo_boat;fast_ship
 us_pc_451;PC-451;10000SL;7900;1.2739473684210527;846;0.43;1.12;2;3;usa;submarine_chaser;fast_ship
 us_pt3;PT-3;250GE;2900;0.27;158;0.4;0.75;1;0;usa;torpedo_boat;fast_ship
-uk_cruiser_hawkins;HMS Hawkins;180000SL;50000;187.7179365318093;8646;6.0;1.54;3;13;britain;cruiser;fast_ship
+uk_cruiser_hawkins;HMS Hawkins;115000SL;36000;140.91482800345722;7523;6.0;1.48;3;13;britain;cruiser;fast_ship
 uk_cruiser_enterprise_d52;HMS Enterprise;76000SL;26000;140.03357379219062;8179;6.0;1.42;3;12;britain;cruiser;fast_ship
 germ_destroyer_class1924_leopard1932;Leopard;0SL;null;null;null;0.32;1.0;1;8;germany;destroyer;ship
 germ_destroyer_class1939_t22;T22;700SL;2900;0.5067664670658684;434;0.55;1.0;1;8;germany;destroyer;ship
-germ_cruiser_emden_1944;Emden;115000SL;36000;140.92215379655005;8067;6.0;1.48;3;12;germany;cruiser;fast_ship
+germ_cruiser_emden_1944;Emden;180000SL;50000;211.13397225725097;9281;6.0;1.54;3;12;germany;cruiser;fast_ship
 us_cruiser_omaha_class_trenton;USS Trenton;76000SL;26000;140.03357379219062;8179;6.0;1.42;3;12;usa;cruiser;fast_ship
 ussr_cruiser_krasnyi_kavkaz;Krasny Kavkaz;115000SL;36000;141.10413559322035;8067;6.0;1.48;3;12;ussr;cruiser;fast_ship
 germ_pr_206;Pr. 206;790000SL;320000;352.0828889879626;8216;2.39;2.02;5;10;germany;gun_boat;fast_ship
@@ -2199,7 +2202,7 @@ us_destroyer_clemson_litchfield;USS Litchfield;0SL;null;null;null;0.33;1.0;1;7;u
 germ_kanonenboot_k2;K2;6300SL;5900;2.2973088381330684;1307;1.27;1.06;1;9;germany;destroyer;ship
 us_tucumcari_pgh2;USS Tucumcari;300000SL;89000;183.20841484394202;5164;1.95;1.72;4;6;usa;gun_boat;fast_ship
 ussr_pr_206;Pr. 206;610000SL;220000;308.16016840792145;7831;2.24;1.9;5;10;ussr;gun_boat;fast_ship
-us_destroyer_clemson_barker;USS Barker;2100SL;4000;0.7157205240174673;894;0.91;1.0;1;7;usa;destroyer;ship
+us_destroyer_clemson_barker;USS Barker;700SL;2900;0.5074561403508773;445;0.58;1.0;1;7;usa;destroyer;ship
 ussr_g5_mtb;G-5;0SL;null;null;null;0.1;1.0;1;0;ussr;torpedo_boat;fast_ship
 ussr_g5_mtb_shvak;G-5 (ShVAK);250GE;2900;0.27;111;0.37;0.75;1;0;ussr;torpedo_boat;fast_ship
 ussr_mbk_161_1944;MBK-161 late;310000SL;105000;203.9779343756882;5705;2.01;1.78;4;8;ussr;gun_boat;fast_ship
@@ -2214,7 +2217,7 @@ ussr_mpk_163;MPK-163;10000SL;7900;1.2947696879643387;846;0.43;1.12;2;3;ussr;subm
 ussr_pr_1204_late;Pr.1204 late;115000SL;36000;29.090053097345134;2129;1.4;1.48;3;5;ussr;gun_boat;fast_ship
 ussr_destroyer_frunze;Frunze;0SL;null;null;null;0.33;1.0;1;7;ussr;destroyer;ship
 ussr_destroyer_kerch;Kerch;250GE;2900;0.3;358;1.26;0.75;1;7;ussr;destroyer;ship
-us_destroyer_farragut_1942;USS Aylwin;2100SL;4000;0.7033959537572255;885;0.88;1.0;1;9;usa;destroyer;ship
+us_destroyer_farragut_1942;USS Aylwin;6300SL;5900;2.263590998043053;1307;1.27;1.06;1;9;usa;destroyer;ship
 uk_fairmile_d_697_800;Fairmile D (697);250000SL;75000;139.62021818181816;4252;2.17;1.66;4;5;britain;torpedo_boat;fast_ship
 uk_mtb_1series;MTB-1(1);0SL;null;null;null;0.1;1.0;1;0;britain;torpedo_boat;fast_ship
 uk_mtb_vosper_1series;MTB Vosper;700SL;2900;0.4447058823529411;147;0.17;1.0;1;0;britain;torpedo_boat;fast_ship
@@ -2229,33 +2232,33 @@ uk_fairmile_a_ml100;Fairmile A (ML100);700SL;2900;0.45411764705882357;193;0.18;1
 uk_70ft_mgb;MGB-61;6300SL;5900;0.6936936936936937;560;0.37;1.06;1;2;britain;gun_boat;fast_ship
 uk_destroyer_g_grafton;HMS Grafton;700SL;2900;0.5007692307692309;434;0.55;1.0;1;8;britain;destroyer;ship
 uk_destroyer_battle_2series;HMS Armada;47000SL;18000;57.040406890406885;4311;4.62;1.36;3;11;britain;destroyer;ship
-uk_destroyer_n_class;HMAS Nepal;22000SL;11000;20.921451335055988;3023;3.18;1.24;2;10;britain;destroyer;ship
+uk_destroyer_n_class;HMAS Nepal;32000SL;14000;30.160745341614906;3774;3.8;1.3;2;10;britain;destroyer;ship
 uk_flower_class;HMCS Brantford;22000SL;11000;5.329803586678053;1486;0.71;1.24;2;4;britain;submarine_chaser;fast_ship
 uk_destroyer_clemson_churchill;HMS Churchill;700SL;2900;0.5089442815249268;445;0.58;1.0;1;7;britain;destroyer;ship
 us_elco_80ft_pt_boat_thunderbolt;Thunderbolt (PT-556);1600GE;36000;15.71;1622;3.5;1.48;3;6;usa;torpedo_boat;fast_ship
-germ_destroyer_class1934a_1940;Z12 Erich Giese;16000SL;9200;8.333342231713829;2435;2.42;1.18;2;10;germany;destroyer;ship
+germ_destroyer_class1934a_1940;Z12 Erich Giese;10000SL;7900;4.4992767527675275;1762;1.86;1.12;2;10;germany;destroyer;ship
 ussr_pr_191;Pr.191;76000SL;26000;19.867399339933993;1873;1.25;1.42;3;5;ussr;gun_boat;fast_ship
 ussr_mkl_186_mk85;MBK pr.186 (MK 85);3850GE;75000;64.11;2241;3.55;1.66;4;7;ussr;gun_boat;fast_ship
 ussr_pr_123k_hydrofoils;Pr.123K (A-11);1000GE;7900;0.78;623;1.24;1.12;2;4;ussr;torpedo_boat;fast_ship
 uk_fairmile_d_5001_5029;Fairmile D (5001);1300GL;18000;12.56;1945;3.29;1.36;3;5;britain;torpedo_boat;fast_ship
 germ_escort_typem1943;M-802;3850GE;75000;81.27;3708;3.74;1.66;4;8;germany;submarine_chaser;fast_ship
-us_destroyer_sumner;USS Sumner;16000SL;9200;8.334369658119659;2434;2.54;1.18;2;11;usa;destroyer;ship
+us_destroyer_sumner;USS Sumner;10000SL;7900;4.5008130081300814;1760;1.95;1.12;2;11;usa;destroyer;ship
 ussr_ya_5m;Ya-5M;400GL;4000;0.3;282;0.56;1.0;1;1;ussr;gun_boat;fast_ship
 ussr_cruiser_krasnyi_krim;Krasny Krym;180000SL;50000;187.7179365318093;8646;6.0;1.54;3;13;ussr;cruiser;fast_ship
-ussr_destroyer_pr20_tashkent;Tashkent;32000SL;14000;30.12083102493075;3756;3.99;1.3;2;11;ussr;destroyer;ship
-us_cruiser_omaha_class_raleigh;USS Raleigh;115000SL;36000;146.64320080523402;8067;6.0;1.48;3;12;usa;cruiser;fast_ship
+ussr_destroyer_pr20_tashkent;Tashkent;22000SL;11000;20.895608357230643;3174;3.34;1.24;2;11;ussr;destroyer;ship
+us_cruiser_omaha_class_raleigh;USS Raleigh;180000SL;50000;219.72341207349083;9281;6.0;1.54;3;12;usa;cruiser;fast_ship
 ussr_destroyer_moskva;Moskva;10000SL;7900;4.4992767527675275;1762;1.86;1.12;2;10;ussr;destroyer;ship
 uk_mtb_2series;MTB-1(2);250GE;2900;0.27;95;0.36;0.75;1;0;britain;torpedo_boat;fast_ship
-germ_cruiser_koln;Köln;300000SL;89000;659.8694791190716;14231;6.0;1.72;4;14;germany;cruiser;fast_ship
-uk_cruiser_dido;HMS Dido;250000SL;75000;635.1469812630118;13135;6.0;1.66;4;13;britain;cruiser;fast_ship
+germ_cruiser_koln;Köln;250000SL;75000;633.6253752927997;12769;6.0;1.66;4;14;germany;cruiser;fast_ship
+uk_cruiser_dido;HMS Dido;230000SL;61000;70.78224727016556;11090;6.0;1.6;4;13;britain;cruiser;fast_ship
 ussr_skr_pr35;SKR-7;550000SL;180000;697.6248052583735;17569;4.18;1.9;5;10;ussr;torpedo_gun_boat;fast_ship
-germ_destroyer_class1936a_mob_z32;Z32;22000SL;11000;20.895608357230643;3174;3.34;1.24;2;11;germany;destroyer;ship
-us_destroyer_somers;USS Somers;76000SL;26000;86.29587023686922;4967;5.39;1.42;3;12;usa;destroyer;ship
-ussr_destroyer_pr30_ognevoy;Ognevoy;2100SL;4000;0.7158088235294119;885;0.88;1.0;1;9;ussr;destroyer;ship
+germ_destroyer_class1936a_mob_z32;Z32;32000SL;14000;30.12083102493075;3756;3.99;1.3;2;11;germany;destroyer;ship
+us_destroyer_somers;USS Somers;115000SL;36000;92.53619547841973;5600;6.0;1.48;3;12;usa;destroyer;ship
+ussr_destroyer_pr30_ognevoy;Ognevoy;6300SL;5900;2.301880597014925;1307;1.27;1.06;1;9;ussr;destroyer;ship
 ussr_skr_groza_1943;Groza;250000SL;75000;635.2324170616114;13188;4.53;1.66;4;6;ussr;torpedo_gun_boat;fast_ship
-us_cruiser_brooklyn_class_brooklyn;USS Brooklyn;610000SL;220000;762.1791655503899;17127;6.0;1.9;5;15;usa;cruiser;fast_ship
+us_cruiser_brooklyn_class_brooklyn;USS Brooklyn;610000SL;110000;762.1791655503899;17127;6.0;1.9;5;15;usa;cruiser;fast_ship
 ussr_destroyer_leningrad;Leningrad;winter_2019_shipLT;61000;54.27;2577;12.0;1.6;3;10;ussr;destroyer;ship
-uk_cruiser_leander;HMNZS Leander;250000SL;75000;659.0911858644138;13135;6.0;1.66;4;13;britain;cruiser;fast_ship
+uk_cruiser_leander;HMNZS Leander;230000SL;61000;73.55446559297218;11090;6.0;1.6;4;13;britain;cruiser;fast_ship
 uk_cruiser_southampton;HMS Southampton;310000SL;105000;712.804733853797;15274;6.0;1.78;4;14;britain;cruiser;fast_ship
 ussr_cruiser_kirov;Kirov;250000SL;75000;658.3558912674862;12769;6.0;1.66;4;14;ussr;cruiser;fast_ship
 germ_cruiser_nurnberg;Nürnberg;300000SL;89000;659.8694791190716;14231;6.0;1.72;4;14;germany;cruiser;fast_ship
@@ -2278,13 +2281,13 @@ jp_t14_class_mod01;Type T-14 (mod. 1);250GE;2900;0.27;79;0.35;0.75;1;0;japan;tor
 jp_type_11_pt_15;PT-15;250000SL;75000;134.62727774710106;4500;2.07;1.66;4;7;japan;torpedo_boat;fast_ship
 jp_escort_chikugo_class;Chikugo;310000SL;105000;674.6148095909731;16278;5.07;1.78;4;7;japan;torpedo_gun_boat;fast_ship
 jp_destroyer_isuzu;Isuzu;690000SL;270000;735.6987512878633;18267;4.73;1.96;5;8;japan;torpedo_gun_boat;fast_ship
-jp_destroyer_yugumo;IJN Yugumo;22000SL;11000;20.497725738396625;3023;3.18;1.24;2;10;japan;destroyer;ship
+jp_destroyer_yugumo;IJN Yugumo;16000SL;9200;8.176191723415402;2435;2.42;1.18;2;10;japan;destroyer;ship
 jp_destroyer_fubuki;IJN Ayanami;6300SL;5900;2.2680294117647057;1307;1.27;1.06;1;9;japan;destroyer;ship
 jp_destroyer_akizuki;IJN Akizuki;47000SL;18000;56.821020710059166;4311;4.62;1.36;3;11;japan;destroyer;ship
-jp_destroyer_mutsuki;IJN Mutsuki;0SL;null;null;null;0.33;1.0;1;7;japan;destroyer;ship
+jp_destroyer_mutsuki;IJN Mutsuki;700SL;2900;0.5001440922190202;445;0.58;1.0;1;7;japan;destroyer;ship
 jp_destroyer_kiyoshimo;IJN Kiyoshimo;4880GE;50000;37.11;2371;12.0;1.54;3;11;japan;destroyer;ship
 jp_cruiser_kuma;IJN Kuma;115000SL;36000;146.8402687720477;8067;6.0;1.48;3;12;japan;cruiser;fast_ship
-jp_cruiser_kako;IJN Kako;115000SL;36000;122.43762149348083;6859;6.0;1.48;3;11;japan;cruiser;fast_ship
+jp_cruiser_kako;IJN Kako;180000SL;50000;171.230780023384;8113;6.0;1.54;3;11;japan;cruiser;fast_ship
 jp_cruiser_furutaka;IJN Furutaka;250000SL;75000;656.6143140984992;12769;6.0;1.66;4;14;japan;cruiser;fast_ship
 jp_cruiser_agano;IJN Agano;230000SL;61000;73.35755658311025;11090;6.0;1.6;4;13;japan;cruiser;fast_ship
 uk_frigate_river;HMS Spey;summer_2019LT;75000;135.27;6701;9.06;1.66;4;7;britain;torpedo_gun_boat;fast_ship
@@ -2293,8 +2296,8 @@ germ_cruiser_admiral_hipper;Admiral Hipper;310000SL;105000;711.8980402232658;152
 us_cruiser_atlanta_class_atlanta;USS Atlanta;300000SL;89000;650.5472314830727;14882;6.0;1.72;4;13;usa;cruiser;fast_ship
 uk_cruiser_arethusa;HMS Arethusa;180000SL;50000;187.7179365318093;8646;6.0;1.54;3;13;britain;cruiser;fast_ship
 us_pc_466_carmi;Carmi (PC-466);1150GE;14000;10.02;1971;2.1;1.3;2;4;usa;submarine_chaser;fast_ship
-ussr_cruiser_chapayev;Chapayev;300000SL;89000;657.972;14112;6.0;1.72;4;15;ussr;cruiser;fast_ship
-jp_cruiser_mogami;IJN Mogami;610000SL;220000;762.1791655503899;17127;6.0;1.9;5;15;japan;cruiser;fast_ship
+ussr_cruiser_chapayev;Chapayev;310000SL;105000;683.2417065637065;15117;6.0;1.78;4;15;ussr;cruiser;fast_ship
+jp_cruiser_mogami;IJN Mogami;690000SL;270000;786.4708683318887;17127;6.0;1.96;5;15;japan;cruiser;fast_ship
 jp_escort_hiburi_class_syonan;Syonan;610000SL;220000;717.321569527926;18672;5.42;1.9;5;7;japan;torpedo_gun_boat;fast_ship
 ussr_pr_1204;Pr.1204;1150GE;14000;10.02;2125;2.62;1.3;2;4;ussr;gun_boat;fast_ship
 uk_71ft_mgb;MGB-75;1000GE;11000;2.34;683;1.69;1.24;2;3;britain;gun_boat;fast_ship
@@ -2309,23 +2312,23 @@ germ_destroyer_class1934a_1944;Z15 Erich Steinbrinck;2100SL;4000;0.7158088235294
 germ_destroyer_class1936b;Z43;22000SL;11000;20.895608357230643;3174;3.34;1.24;2;11;germany;destroyer;ship
 us_destroyer_porter_1941;USS Porter;47000SL;18000;57.92575437537718;4309;4.76;1.36;3;12;usa;destroyer;ship
 us_destroyer_porter_1944;USS Phelps;worldwar_attack_from_the_seaLT;61000;50.61;2295;12.0;1.6;3;12;usa;destroyer;ship
-uk_destroyer_k_class;HMS Kelvin;32000SL;14000;30.160745341614906;3774;3.8;1.3;2;10;britain;destroyer;ship
-uk_destroyer_battle_tobruk;HMAS Tobruk;76000SL;26000;86.40710492394948;4967;5.23;1.42;3;11;britain;destroyer;ship
-uk_destroyer_hunt_2series;HMS Calpe;2100SL;4000;0.7137096774193549;885;0.88;1.0;1;10;britain;destroyer;ship
+uk_destroyer_k_class;HMS Kelvin;22000SL;11000;20.921451335055988;3023;3.18;1.24;2;10;britain;destroyer;ship
+uk_destroyer_battle_tobruk;HMAS Tobruk;76000SL;13000;86.40710492394948;4967;5.23;1.42;3;11;britain;destroyer;ship
+uk_destroyer_hunt_2series;HMS Calpe;6300SL;5900;2.2973088381330684;1307;1.27;1.06;1;10;britain;destroyer;ship
 uk_destroyer_hunt_4series;HMS Brissenden;10000SL;7900;4.508168801808591;1729;1.73;1.12;2;10;britain;destroyer;ship
 germ_cruiser_prinz_eugen;Prinz Eugen;8020GL;220000;189.27;6496;12.0;1.9;4;14;germany;cruiser;fast_ship
 germ_cruiser_admiral_graf_spee;Admiral Graf Spee;310000SL;105000;711.8980402232658;15274;6.0;1.78;4;14;germany;cruiser;fast_ship
 jp_cruiser_mogami_suzuya;IJN Suzuya;360000SL;125000;735.9626870919136;16122;6.0;1.84;5;15;japan;cruiser;fast_ship
 germ_destroyer_class1924_jaguar1941;Jaguar;winter_2020LT;26000;23.61;2483;9.12;1.42;2;8;germany;destroyer;ship
 ussr_cruiser_sverdlov;Sverdlov;360000SL;125000;710.2626552669785;16122;6.0;1.84;5;15;ussr;cruiser;fast_ship
-germ_cruiser_leipzig;Leipzig;250000SL;75000;632.7420163918238;13135;6.0;1.66;4;13;germany;cruiser;fast_ship
+germ_cruiser_leipzig;Leipzig;230000SL;61000;70.50080692316688;11090;6.0;1.6;4;13;germany;cruiser;fast_ship
 us_cruiser_portland_class;USS Portland;250000SL;75000;657.3302989828419;13135;6.0;1.66;4;13;usa;cruiser;fast_ship
 jp_cruiser_mogami_mikuma;IJN Mikuma;8020GE;220000;175.77;6257;12.0;1.9;4;15;japan;cruiser;fast_ship
 jp_escort_ikazuchi_class;Ikazuchi;310000SL;105000;674.6148095909731;16278;5.07;1.78;4;7;japan;torpedo_gun_boat;fast_ship
-uk_cruiser_kent;HMS Kent;300000SL;89000;685.3278711162255;14112;6.0;1.72;4;14;britain;cruiser;fast_ship
+uk_cruiser_kent;HMS Kent;250000SL;75000;658.2213106020245;12700;6.0;1.66;4;14;britain;cruiser;fast_ship
 ussr_destroyer_pr41_neustrashimy;Neustrashimy;6090GE;75000;67.77;2808;12.0;1.66;3;12;ussr;destroyer;ship
 germ_frigate_koln;Köln;790000SL;320000;770.5605047843572;18396;4.45;2.02;5;10;germany;torpedo_gun_boat;fast_ship
-uk_cruiser_london;HMS London;310000SL;105000;686.1190179028132;15274;6.0;1.78;4;14;britain;cruiser;fast_ship
+uk_cruiser_london;HMS London;300000SL;89000;660.6757050050325;14231;6.0;1.72;4;14;britain;cruiser;fast_ship
 uk_sgb_309;SGB Grey Goose;craft_2020_springLT;36000;14.71;1062;2.73;1.48;3;6;britain;gun_boat;fast_ship
 it_mas_classe500_3;MAS 555;700SL;2900;0.4447058823529411;147;0.17;1.0;1;0;italy;torpedo_boat;fast_ship
 it_ms15_1a;MS-15;16000SL;9200;2.17905523255814;847;0.68;1.18;2;1;italy;torpedo_boat;fast_ship
@@ -2338,11 +2341,11 @@ it_ms473_2a;MS-472;180000SL;50000;54.863282732447814;2596;1.77;1.54;3;4;italy;to
 it_ms473_2a_art;MS-473;300000SL;89000;177.36736616702356;5164;1.95;1.72;4;6;italy;gun_boat;fast_ship
 it_mc490_folgore;MC-490;310000SL;105000;199.97565598946906;5614;2.31;1.78;4;7;italy;torpedo_boat;fast_ship
 it_p420_sparviero;Sparviero;3850GE;75000;64.11;2370;3.6;1.66;4;8;italy;gun_boat;fast_ship
-it_destroyer_dardo;RN Dardo;2100SL;4000;0.7171407185628743;871;0.86;1.0;1;8;italy;destroyer;ship
+it_destroyer_dardo;RN Dardo;6300SL;5900;1.340982776089159;1285;1.24;1.06;1;8;italy;destroyer;ship
 it_destroyer_turbine;RN Turbine;0SL;null;null;null;0.33;1.0;1;7;italy;destroyer;ship
-it_destroyer_soldati_serie1_camicianera;RN Corazziere;22000SL;11000;20.57586192291402;3023;3.18;1.24;2;10;italy;destroyer;ship
+it_destroyer_soldati_serie1_camicianera;RN Corazziere;32000SL;14000;29.65926026467594;3774;3.8;1.3;2;10;italy;destroyer;ship
 it_destroyer_soldati_serie1_geniere;RN Geniere;3850GL;75000;67.77;2780;12.0;1.66;3;10;italy;destroyer;ship
-it_cruiser_bartolomeocolleoni_1940;RN Bartolomeo Colleoni;115000SL;36000;146.64320080523402;8067;6.0;1.48;3;12;italy;cruiser;fast_ship
+it_cruiser_bartolomeocolleoni_1940;RN Bartolomeo Colleoni;180000SL;50000;219.72341207349083;9281;6.0;1.54;3;12;italy;cruiser;fast_ship
 it_cruiser_trento;RN Trento;250000SL;75000;659.9344888063551;13135;6.0;1.66;4;13;italy;cruiser;fast_ship
 jp_cruiser_tone;IJN Tone;610000SL;220000;733.7826770162817;17127;6.0;1.9;5;15;japan;cruiser;fast_ship
 us_cruiser_cleveland_class_cleveland;USS Cleveland;360000SL;125000;735.9626870919136;16122;6.0;1.84;5;15;usa;cruiser;fast_ship
@@ -2352,16 +2355,16 @@ it_mas_classe500_4;MAS 569;250GE;2900;0.27;253;0.46;0.75;1;0;italy;torpedo_boat;
 ussr_g5_rct;TKA-106;400GL;4000;0.3;211;0.52;1.0;1;2;ussr;gun_boat;fast_ship
 ussr_destroyer_pr56_spokoinyy;Spokoinyy;76000SL;26000;86.40710492394948;4967;5.39;1.42;3;12;ussr;destroyer;ship
 it_p494_saetta;Saetta P-494;690000SL;270000;332.1188273018782;8045;2.27;1.96;5;11;italy;gun_boat;fast_ship
-it_cruiser_montecuccoli;RN Raimondo Montecuccoli;250000SL;75000;657.4771478463329;12769;6.0;1.66;4;14;italy;cruiser;fast_ship
+it_cruiser_montecuccoli;RN Raimondo Montecuccoli;300000SL;89000;684.604207577628;14231;6.0;1.72;4;14;italy;cruiser;fast_ship
 it_p493_freccia;Freccia P-493;summer_2020LT;89000;94.77000000000001;3235;3.59;1.72;4;11;italy;torpedo_boat;fast_ship
 ussr_cruiser_maxim_gorky;Maxim Gorky;summer_2020LT;270000;788.9924257541508;17361;6.0;1.96;5;14;ussr;cruiser;fast_ship
 ussr_skr_pr50_jenot;Yenot;610000SL;220000;709.8696056782334;17457;4.25;1.9;5;9;ussr;torpedo_gun_boat;fast_ship
-us_cruiser_northampton_class;USS Northampton;250000SL;75000;657.3302989828419;13135;6.0;1.66;4;13;usa;cruiser;fast_ship
+us_cruiser_northampton_class;USS Northampton;230000SL;61000;73.35755658311025;11090;6.0;1.6;4;13;usa;cruiser;fast_ship
 uk_corvette_peacock;HMS Peacock;690000SL;270000;199.4698104693141;10890;2.31;1.96;5;8;britain;submarine_chaser;fast_ship
 it_mas_classe500_3_1944;MAS 561;0SL;null;null;null;0.1;1.0;1;0;italy;torpedo_boat;fast_ship
 jp_escort_akebono_class;Akebono;2980GE;61000;94.77;5306;8.32;1.6;4;7;japan;torpedo_gun_boat;fast_ship
 jp_destroyer_chidori;Chidori;790000SL;320000;774.005574779457;18724;4.89;2.02;5;8;japan;torpedo_gun_boat;fast_ship
-it_destroyer_comandanti_medaglie_doro;RN Comandante Margottini;22000SL;11000;20.530947281713345;3102;2.97;1.24;2;9;italy;destroyer;ship
+it_destroyer_comandanti_medaglie_doro;RN Comandante Margottini;10000SL;7900;4.421537324464154;1729;1.73;1.12;2;9;italy;destroyer;ship
 it_cruiser_zara_class;RN Zara;610000SL;220000;762.6477845149253;17361;6.0;1.9;5;14;italy;cruiser;fast_ship
 it_cruiser_zara_class_pola;RN Pola;8020GE;220000;189.27;6496;12.0;1.9;4;14;italy;cruiser;fast_ship
 jp_destroyer_shimakaze;IJN Shimakaze;330000SL;260000;253.01700920917995;8726;6.0;1.66;3;12;japan;destroyer;ship
@@ -2370,23 +2373,23 @@ ussr_battleship_poltava;Poltava;690000SL;270000;776.8952511682243;38763;6.0;1.96
 uk_battleship_dreadnought;HMS Dreadnought;610000SL;220000;747.3231869432071;36055;6.0;1.9;5;16;britain;cruiser;fast_ship
 uk_battleship_colossus;HMS Colossus;690000SL;270000;775.1219819382404;38763;6.0;1.96;5;16;britain;cruiser;fast_ship
 germ_battleship_westfalen;SMS Westfalen;360000SL;125000;721.7472957439069;34492;6.0;1.84;5;16;germany;cruiser;fast_ship
-germ_battleship_helgoland;SMS Helgoland;610000SL;220000;736.4330970724191;36055;6.0;1.9;5;16;germany;cruiser;fast_ship
+germ_battleship_helgoland;SMS Helgoland;690000SL;270000;758.6549768875192;36055;6.0;1.96;5;16;germany;cruiser;fast_ship
 us_cruiser_new_orleans_class;USS New Orleans;310000SL;105000;710.0291235200566;15274;6.0;1.78;4;14;usa;cruiser;fast_ship
 us_battleship_north_dakota;USS North Dakota;690000SL;270000;769.9077498608018;36055;6.0;1.96;5;16;usa;cruiser;fast_ship
-jp_battleship_settsu;IJN Settsu;690000SL;270000;769.9077498608018;36055;6.0;1.96;5;16;japan;cruiser;fast_ship
-jp_armoredcruiser_ikoma;IJN Ikoma;300000SL;89000;654.3295205779334;22926;6.0;1.72;4;14;japan;cruiser;fast_ship
+jp_battleship_settsu;IJN Settsu;790000SL;320000;792.4923127783965;36055;6.0;2.02;5;16;japan;cruiser;fast_ship
+jp_armoredcruiser_ikoma;IJN Ikoma;310000SL;105000;679.554575605724;24288;6.0;1.78;4;14;japan;cruiser;fast_ship
 ussr_cruiser_zheleznyakov;Zheleznyakov;8020GE;220000;175.77;6257;12.0;1.9;4;15;ussr;cruiser;fast_ship
 jp_destroyer_satsuki;IJN Satsuki;250GE;2900;0.27;236;1.17;0.75;1;7;japan;destroyer;ship
 it_destroyer_aquilone;RN Aquilone;250GE;2900;0.27;236;1.17;0.75;1;7;italy;destroyer;ship
 germ_destroyer_class1924_iltis;Luchs;250GE;2900;0.27;210;1.1;0.75;1;8;germany;destroyer;ship
-ussr_battleship_imperatritsa_mariya;Imperatritsa Mariya;690000SL;270000;776.8952511682243;38763;6.0;1.96;5;17;ussr;cruiser;fast_ship
+ussr_battleship_imperatritsa_mariya;Imperatritsa Mariya;790000SL;320000;799.5371904205607;38763;6.0;2.02;5;17;ussr;cruiser;fast_ship
 uk_destroyer_clemson_montgomery_g95;HMS Montgomery;250GE;4000;2.24;1353;2.48;1.0;1;7;britain;destroyer;ship
 us_destroyer_clemson_welborn_c_wood;USS Welborn C. Wood;250GE;2900;0.3;439;1.32;0.75;1;7;usa;destroyer;ship
 uk_destroyer_j_class;HMS Jervis;1000GE;11000;4.16;1570;6.37;1.24;2;10;britain;destroyer;ship
 us_destroyer_porter_1942;USS Moffett;1750GE;50000;30.87;1871;12.0;1.54;3;12;usa;destroyer;ship
 uk_destroyer_g_garland;ORP Garland;battlepass_season1LT;9200;11.05;2264;5.14;1.18;2;8;britain;destroyer;ship
 uk_dark_class_mtb_td;Dark Aggressor TD;msi_notebookLT;18000;12.213259668508288;1579;1.26;1.36;3;4;britain;torpedo_boat;fast_ship
-germ_battlecruiser_von_der_tann;SMS Von der Tann;360000SL;125000;721.7472957439069;34492;6.0;1.84;5;16;germany;cruiser;fast_ship
+germ_battlecruiser_von_der_tann;SMS Von der Tann;610000SL;220000;747.3231869432071;36055;6.0;1.9;5;16;germany;cruiser;fast_ship
 jp_kusen_tei_13_1942;Type K-8 No.13;winter_2021LT;7900;0.78;581;0.93;1.12;2;2;japan;submarine_chaser;fast_ship
 us_cruiser_baltimore_class;USS Baltimore;winter_2021LT;320000;810.7625711133874;17127;6.0;2.02;5;15;usa;cruiser;fast_ship
 uk_battlecruiser_invincible;HMS Invincible;610000SL;220000;747.3231869432071;36055;6.0;1.9;5;15;britain;cruiser;fast_ship
@@ -2394,7 +2397,7 @@ ussr_mpk_pr12412;MPK Pr.12412;790000SL;320000;356.47995185073734;8216;2.39;2.02;
 jp_battleship_hyuga;IJN Hyuga;990000SL;380000;826.1664078718427;41824;6.0;2.08;6;18;japan;cruiser;fast_ship
 germ_destroyer_class1936a_z25;Z25;battlepass_season2LT;18000;12.56;2075;8.81;1.36;3;10;germany;destroyer;ship
 jp_cruiser_isuzu;IJN Isuzu;76000SL;26000;154.9570991890206;8179;6.0;1.42;3;12;japan;cruiser;fast_ship
-germ_battleship_kaiser;SMS Kaiser;690000SL;270000;758.6549768875192;36055;6.0;1.96;5;16;germany;cruiser;fast_ship
+germ_battleship_kaiser;SMS Kaiser;790000SL;320000;780.8768567026193;36055;6.0;2.02;5;16;germany;cruiser;fast_ship
 ussr_skr_pr50plo_rosomacha;Rosomacha;6090GE;105000;202.77;7685;7.96;1.78;4;9;ussr;torpedo_gun_boat;fast_ship
 uk_frigate_whitby_blackpool;HMS Blackpool;790000SL;320000;764.6876542876435;18724;4.89;2.02;5;8;britain;torpedo_gun_boat;fast_ship
 it_cruiser_etna_class;RN Etna;76000SL;26000;110.8650659728675;6979;6.0;1.42;3;11;italy;cruiser;fast_ship
@@ -2402,7 +2405,7 @@ jp_destroyer_yugure;JDS Yūgure (DD-184);craft_2021_springLT;9200;2.15;1264;4.84
 ussr_cruiser_voroshilov;Voroshilov;battlepass_season3LT;105000;711.8980402232658;15274;6.0;1.78;4;14;ussr;cruiser;fast_ship
 us_admirable_class;USS Candid;250000SL;75000;136.14303581580444;4420;1.78;1.66;4;7;usa;gun_boat;fast_ship
 uk_frigate_leopard;HMS Leopard;790000SL;320000;763.8370104303378;18302;4.53;2.02;5;9;britain;torpedo_gun_boat;fast_ship
-ussr_destroyer_pr30bis_bezuprechnyi;Bezuprechny;10000SL;7900;4.4992767527675275;1762;1.86;1.12;2;10;ussr;destroyer;ship
+ussr_destroyer_pr30bis_bezuprechnyi;Bezuprechny;16000SL;9200;8.333342231713829;2435;2.42;1.18;2;10;ussr;destroyer;ship
 uk_cruiser_liverpool;HMS Liverpool;310000SL;390000;686.1190179028132;15274;6.0;1.78;4;14;britain;cruiser;fast_ship
 it_battleship_dante_alighieri;RN Dante Alighieri;690000SL;270000;769.9077498608018;36055;6.0;1.96;5;16;italy;cruiser;fast_ship
 us_battleship_wyoming_class;USS Wyoming;790000SL;320000;797.7067556807147;38763;6.0;2.02;5;17;usa;cruiser;fast_ship
@@ -2411,12 +2414,12 @@ us_cruiser_omaha_class_detroit;USS Detroit;battlepass_season4LT;50000;54.27;3160
 it_destroyer_soldati_serie1;RN Aviere;summer_2021LT;61000;67.77;3559;12.0;1.6;3;9;italy;destroyer;ship
 germ_cruiser_karlsruhe;Karlsruhe;4880GE;89000;121.77;5260;12.0;1.72;4;14;germany;cruiser;fast_ship
 jp_cruiser_aoba;IJN Aoba;300000SL;89000;658.1902351440029;14231;6.0;1.72;4;14;japan;cruiser;fast_ship
-it_destroyer_leone_class;RN Leone;16000SL;9200;8.333342231713829;2435;2.42;1.18;2;10;italy;destroyer;ship
+it_destroyer_leone_class;RN Leone;22000SL;11000;20.894455913978494;3023;3.18;1.24;2;10;italy;destroyer;ship
 uk_fairmile_lcs_l_h_mk2;Fairmile H LCS(L)(2);115000SL;36000;29.681684939411426;2221;1.42;1.48;3;4;britain;gun_boat;fast_ship
 uk_corvette_orla;LÉ Orla;6090GE;105000;121.77;4732;4.19;1.78;4;8;britain;submarine_chaser;fast_ship
 us_cruiser_baltimore_class_pittsburgh;USS Pittsburgh;610000SL;220000;733.7826770162817;17127;6.0;1.9;5;15;usa;cruiser;fast_ship
 ussr_battleship_parizhskaya_kommuna;Parizhskaya kommuna;990000SL;380000;826.1664078718427;41824;6.0;2.08;6;18;ussr;cruiser;fast_ship
-uk_cruiser_norfolk;HMS Norfolk;310000SL;105000;686.1190179028132;15274;6.0;1.78;4;14;britain;cruiser;fast_ship
+uk_cruiser_norfolk;HMS Norfolk;300000SL;45000;660.6757050050325;14231;6.0;1.72;4;14;britain;cruiser;fast_ship
 jp_cruiser_yubari;IJN Yubari;1750GE;50000;54.27;3187;12.0;1.54;3;10;japan;cruiser;fast_ship
 ussr_destroyer_pr30bis_smelyi;Smelyi;1000GE;11000;12.06;2340;6.96;1.24;2;10;ussr;destroyer;ship
 uk_destroyer_v_class_vega;HMS Vega;0SL;null;null;null;0.32;1.0;1;8;britain;destroyer;ship
@@ -2429,16 +2432,16 @@ us_higgins_78ft_pt658;PT-658;battlepass_season5LT;26000;13.71;1894;3.5;1.42;3;5;
 it_destroyer_leone_class_tigre;RN Tigre;1750GE;50000;54.27;3052;12.0;1.54;3;10;italy;destroyer;ship
 us_elco_80ft_pt174;PT-174;1150GE;14000;5.82;1371;2.62;1.3;2;4;usa;torpedo_boat;fast_ship
 ussr_mpk_201m;MPK Pr.201M;300000SL;89000;263.2374890179963;8586;2.02;1.72;4;8;ussr;submarine_chaser;fast_ship
-us_destroyer_mitscher;USS Mitscher;22000SL;11000;20.844372701266856;3174;3.34;1.24;2;11;usa;destroyer;ship
-uk_battleship_marlborough;HMS Marlborough;1050000SL;400000;848.7509161816764;41824;6.0;2.14;6;18;britain;cruiser;fast_ship
+us_destroyer_mitscher;USS Mitscher;32000SL;14000;30.037624309392267;3756;3.99;1.3;2;11;usa;destroyer;ship
+uk_battleship_marlborough;HMS Marlborough;990000SL;380000;826.1664078718427;41824;6.0;2.08;6;18;britain;cruiser;fast_ship
 jp_destroyer_hayanami;IJN Hayanami;winter_2022LT;11000;4.16;1570;6.37;1.24;2;10;japan;destroyer;ship
 germ_battleship_scharnhorst;Scharnhorst;1050000SL;400000;880.8843405425678;41824;6.0;2.14;6;18;germany;cruiser;fast_ship
 germ_rdm242;Krischan der Große;310000SL;105000;206.0438064810589;5561;2.07;1.78;4;5;germany;gun_boat;fast_ship
-jp_destroyer_harukaze;JDS Harukaze (DD-101);16000SL;9200;8.177338282078473;2406;2.25;1.18;2;9;japan;destroyer;ship
+jp_destroyer_harukaze;JDS Harukaze (DD-101);10000SL;7900;4.415011070110701;1729;1.73;1.12;2;9;japan;destroyer;ship
 us_destroyer_mitscher_wilkinson;USS Wilkinson;1150GE;14000;10.02;1980;7.98;1.3;2;11;usa;destroyer;ship
 ussr_cruiser_kerch;Kerch;6090GE;105000;148.77;5948;12.0;1.78;4;13;ussr;cruiser;fast_ship
 ussr_mpk_201k;MPK Pr.201K;winter_2022LT;105000;289.690403840723;8754;1.97;1.78;4;7;ussr;submarine_chaser;fast_ship
-it_cruiser_eugenio_di_savoia;RN Eugenio di Savoia;300000SL;89000;684.604207577628;14231;6.0;1.72;4;14;italy;cruiser;fast_ship
+it_cruiser_eugenio_di_savoia;RN Eugenio di Savoia;310000SL;105000;710.9308502167567;15274;6.0;1.78;4;14;italy;cruiser;fast_ship
 uk_higgins_78ft_mtb422;MTB-422;battlepass_season6LT;18000;7.35;1041;2.67;1.36;3;4;britain;torpedo_boat;fast_ship
 uk_destroyer_v_class_valhalla;HMS Valhalla;550GE;5900;0.78;798;2.66;1.06;1;7;britain;destroyer;ship
 it_albatros_class_f543;Albatros;610000SL;220000;723.5828883495145;17867;4.59;1.9;5;8;italy;torpedo_gun_boat;fast_ship
@@ -2449,7 +2452,7 @@ germ_skr_pr50_karl_marx;Karl Marx;360000SL;460000;685.2337413925019;16358;4.12;1
 ussr_mpk_pr12412p;MPK Pr.12412P;6090GE;105000;108.27;3364;4.19;1.78;4;10;ussr;gun_boat;fast_ship
 us_destroyer_somers_davis;USS Davis;craft_2022_springLT;36000;27.270000000000003;2780;12.0;1.48;3;12;usa;destroyer;ship
 uk_destroyer_battle_cadiz;HMS Cadiz;battlepass_season7LT;26000;23.61;2526;10.47;1.42;3;11;britain;destroyer;ship
-uk_battlecruiser_hood;HMS Hood;740000SL;270000;897.0094338713564;41824;6.0;2.26;6;18;britain;cruiser;fast_ship
+uk_battlecruiser_hood;HMS Hood;1050000SL;400000;851.6690339677186;41824;6.0;2.14;6;18;britain;cruiser;fast_ship
 germ_battleship_bayern;SMS Bayern;990000SL;380000;828.9988340158998;41824;6.0;2.08;6;18;germany;cruiser;fast_ship
 uk_hdml_ml1383;ML 1383;6300SL;5900;0.6859688195991092;560;0.37;1.06;1;2;britain;gun_boat;fast_ship
 ussr_battlecruiser_kronshtadt;Kronshtadt;1050000SL;400000;878.8137784843667;41824;6.0;2.14;6;18;ussr;cruiser;fast_ship
@@ -2463,10 +2466,10 @@ us_battlecruiser_alaska_class;USS Alaska;590000SL;220000;902.281841703295;41824;
 germ_km5;KM-5;400GE;4000;0.3;158;0.52;1.0;1;2;germany;torpedo_boat;fast_ship
 ussr_cruiser_mikhail_kutuzov;Mikhail Kutuzov;610000SL;220000;733.7826770162817;17127;6.0;1.9;5;15;ussr;cruiser;fast_ship
 germ_cruiser_elbing;SMS Elbing;76000SL;26000;109.02136695906434;6979;6.0;1.42;3;11;germany;cruiser;fast_ship
-jp_destroyer_hatsuharu;IJN Hatsuharu;32000SL;14000;29.65926026467594;3774;3.8;1.3;2;10;japan;destroyer;ship
+jp_destroyer_hatsuharu;IJN Hatsuharu;22000SL;11000;20.57586192291402;3023;3.18;1.24;2;10;japan;destroyer;ship
 ussr_destroyer_pr56_blagorodny;Blagorodnyy;2980GE;61000;50.61;2295;12.0;1.6;3;12;ussr;destroyer;ship
 it_destroyer_navigatori_class_verazzano;RN Da Verazzano;47000SL;18000;57.85089928057553;4332;4.4;1.36;3;10;italy;destroyer;ship
-it_battleship_andrea_doria;RN Andrea Doria;690000SL;270000;772.5477696660611;36055;6.0;1.96;5;16;italy;cruiser;fast_ship
+it_battleship_andrea_doria;RN Andrea Doria;790000SL;320000;795.2175335336034;36055;6.0;2.02;5;16;italy;cruiser;fast_ship
 uk_attack_class_arrow;HMAS Arrow;300000SL;89000;180.25793904209002;5162;2.0;1.72;4;5;britain;gun_boat;fast_ship
 us_cyclone_class_cyclone;USS Cyclone;610000SL;220000;272.8252927580894;6547;2.15;1.9;5;8;usa;gun_boat;fast_ship
 germ_battleship_ostfriesland;SMS Ostfriesland;craft_2022_autumnLT;320000;792.4923127783965;36055;6.0;2.02;5;16;germany;cruiser;fast_ship
@@ -2475,9 +2478,9 @@ jp_battleship_fuso;IJN Fuso;1050000SL;400000;848.7509161816764;41824;6.0;2.14;6;
 uk_battlecruiser_glorious;HMS Glorious;360000SL;125000;707.2272511662164;25649;6.0;1.84;5;15;britain;cruiser;fast_ship
 us_cruiser_fargo_class;USS Fargo;360000SL;125000;735.9626870919136;16122;6.0;1.84;5;15;usa;cruiser;fast_ship
 us_destroyer_gearing_frank_knox;USS Frank Knox;1600GE;36000;27.27;2883;11.69;1.48;3;11;usa;destroyer;ship
-ussr_destroyer_7_besposhchadny;Besposhchadny;2100SL;4000;0.716068759342302;871;0.86;1.0;1;8;ussr;destroyer;ship
+ussr_destroyer_7_besposhchadny;Besposhchadny;700SL;2900;0.5067664670658684;434;0.55;1.0;1;8;ussr;destroyer;ship
 it_gabbiano_class_c16;Folaga;3850GE;75000;81.27;3625;3.53;1.66;4;7;italy;submarine_chaser;fast_ship
-uk_destroyer_daring_class_diana;HMS Diana;76000SL;26000;86.40710492394948;4967;5.23;1.42;3;11;britain;destroyer;ship
+uk_destroyer_daring_class_diana;HMS Diana;47000SL;18000;57.040406890406885;4311;4.62;1.36;3;11;britain;destroyer;ship
 it_destroyer_vifor_class_aquila;RN Aquila;700SL;2900;0.5001440922190202;445;0.58;1.0;1;7;italy;destroyer;ship
 us_lcm_zippo;LCM(6) Zippo;battlepass_season9LT;26000;37.11;3018;3.5;1.42;3;4;usa;gun_boat;fast_ship
 ussr_mpk_pr1331m;MPK Pr.1331M;690000SL;270000;731.5056211158438;17880;4.39;1.96;5;9;ussr;torpedo_gun_boat;fast_ship
@@ -2487,8 +2490,8 @@ germ_destroyer_class1936c_z47;Z47;1750GE;50000;37.11;2371;12.0;1.54;3;11;germany
 us_pt812;PT-812;310000SL;105000;206.05807657247038;5569;2.02;1.78;4;6;usa;gun_boat;fast_ship
 ussr_destroyer_7_ryany;Ryany;550GE;5900;0.78;806;2.55;1.06;1;8;ussr;destroyer;ship
 germ_pr_131;V-990;115000SL;36000;28.455274012964054;2085;1.6;1.48;3;6;germany;torpedo_boat;fast_ship
-ussr_destroyer_regele_ferdinand_class_letuchiy;Letuchiy;700SL;2900;0.5072321428571429;437;0.56;1.0;1;9;ussr;destroyer;ship
-uk_minelayer_abdiel_class_abdiel;HMS Abdiel;10000SL;7900;11.74851869839728;2670;1.91;1.12;2;10;britain;cruiser;fast_ship
+ussr_destroyer_regele_ferdinand_class_letuchiy;Letuchiy;2100SL;4000;0.7158088235294119;885;0.88;1.0;1;9;ussr;destroyer;ship
+uk_minelayer_abdiel_class_abdiel;HMS Abdiel;22000SL;11000;50.519737576772755;4646;3.28;1.24;2;10;britain;cruiser;fast_ship
 jp_cruiser_myoko;IJN Myoko;7480GE;105000;148.77;5670;12.0;1.84;4;14;japan;cruiser;fast_ship
 ussr_pr_183_egypt_bm_21;Pr.183 BM-21;battlepass_season10LT;50000;29.21;1399;3.02;1.54;3;6;ussr;gun_boat;fast_ship
 fr_destroyer_aigle_class_aigle;Aigle;850GL;9200;3.15;1617;5.11;1.18;2;10;france;destroyer;ship
@@ -2504,23 +2507,23 @@ it_battleship_caio_duilio;RN Duilio;1050000SL;400000;846.4338452031516;40609;6.0
 ussr_cruiser_shcherbakov;Shcherbakov;craft_2023_springLT;270000;757.1288337750852;17127;6.0;1.96;5;15;ussr;cruiser;fast_ship
 germ_s_700_s_701;S-701;battlepass_season11LT;26000;13.71;1762;3.42;1.42;3;5;germany;torpedo_boat;fast_ship
 fr_cruiser_dugauy_class_primaguet;Primauguet;180000SL;50000;220.3016315789474;9281;6.0;1.54;3;12;france;cruiser;fast_ship
-fr_destroyer_jaguar_class_chacal;Chacal;2100SL;4000;0.7054347826086957;885;0.88;1.0;1;9;france;destroyer;ship
+fr_destroyer_jaguar_class_chacal;Chacal;6300SL;5900;2.2702551521099115;1307;1.27;1.06;1;9;france;destroyer;ship
 germ_destroyer_class1936c_z46;Z46;47000SL;18000;57.93515837104072;4311;4.62;1.36;3;11;germany;destroyer;ship
 ussr_destroyer_pr56_bravy;Bravy;300000SL;89000;327.3327159209157;9972;6.0;1.72;4;13;ussr;destroyer;ship
 jp_battleship_ise;IJN Ise;1050000SL;400000;878.8137784843667;41824;6.0;2.14;6;18;japan;cruiser;fast_ship
-uk_destroyer_daring_class_daring;HMS Daring;115000SL;36000;92.65369090909091;5634;5.85;1.48;3;11;britain;destroyer;ship
+uk_destroyer_daring_class_daring;HMS Daring;76000SL;13000;86.40710492394948;4967;5.23;1.42;3;11;britain;destroyer;ship
 fr_cruiser_jeanne_darc;Jeanne d'Arc;115000SL;36000;117.20484871406958;6859;6.0;1.48;3;11;france;cruiser;fast_ship
-fr_cruiser_suffren_class_colbert;Colbert;250000SL;75000;660.7936260330579;13135;6.0;1.66;4;13;france;cruiser;fast_ship
+fr_cruiser_suffren_class_colbert;Colbert;310000SL;105000;715.064033970276;15977;6.0;1.78;4;13;france;cruiser;fast_ship
 fr_destroyer_le_fantasque_class_le_malin;Le Malin;47000SL;18000;58.07530994859389;4311;4.62;1.36;3;11;france;destroyer;ship
 fr_destroyer_jaguar_class_panthere;Panthere;250GE;2900;0.27;210;1.1;0.75;1;8;france;destroyer;ship
-fr_destroyer_aigle_class_vautour;Vautour;10000SL;7900;4.512598075499629;1762;1.86;1.12;2;10;france;destroyer;ship
+fr_destroyer_aigle_class_vautour;Vautour;16000SL;9200;8.355647751605996;2435;2.42;1.18;2;10;france;destroyer;ship
 fr_destroyer_bourrasque_class_bourrasque;Bourrasque;0SL;null;null;null;0.32;1.0;1;8;france;destroyer;ship
 fr_destroyer_aigle_class_milan;Milan;10000SL;7900;4.512598075499629;1762;1.86;1.12;2;10;france;destroyer;ship
 fr_battleship_courbet_class_paris;Paris;690000SL;270000;769.9077498608018;36055;6.0;1.96;5;16;france;cruiser;fast_ship
 fr_battleship_bretagne_class_lorraine;Lorraine;990000SL;380000;823.8488923219528;40609;6.0;2.08;6;17;france;cruiser;fast_ship
 fr_destroyer_jaguar_class_leopard;Leopard;700SL;2900;0.5082882882882883;434;0.55;1.0;1;8;france;destroyer;ship
-fr_cruiser_emile_bertin;Emile Bertin;230000SL;61000;73.76145846078552;11090;6.0;1.6;4;13;france;cruiser;fast_ship
-fr_destroyer_marceau_class_marceau;Marceau;32000SL;14000;30.11917298414886;3774;3.8;1.3;2;10;france;destroyer;ship
+fr_cruiser_emile_bertin;Emile Bertin;250000SL;75000;660.7936260330579;13135;6.0;1.66;4;13;france;cruiser;fast_ship
+fr_destroyer_marceau_class_marceau;Marceau;22000SL;11000;20.894455913978494;3023;3.18;1.24;2;10;france;destroyer;ship
 it_mc_485;MC 485;battlepass_season12LT;26000;10.5;951;2.93;1.42;3;5;italy;torpedo_boat;fast_ship
 fr_cruiser_suffren_class_dupleix;Dupleix;6090GL;105000;148.77;5670;12.0;1.84;4;14;france;cruiser;fast_ship
 uk_battlecruiser_renown;HMS Renown;summer_2023LT;270000;779.9966043092843;39923;6.0;1.96;5;18;britain;cruiser;fast_ship
