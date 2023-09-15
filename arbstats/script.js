@@ -54,25 +54,30 @@ function generateTable() {
   c8.setAttribute('onclick', "sortTable(8)");
   head.appendChild(c8);
   const c9 = document.createElement("th");
-  const ci9 = document.createTextNode("BR");
+  const ci9 = document.createTextNode("ABR");
   c9.appendChild(ci9);
   c9.setAttribute('onclick', "sortTable(9)");
   head.appendChild(c9);
   const c10 = document.createElement("th");
-  const ci10 = document.createTextNode("Country");
-  c10.appendChild(ci10);
-  c10.setAttribute('onclick', "sortTable(10)");
+  const ci10 = document.createTextNode("RBR");
+  c13.appendChild(ci10);
+  c13.setAttribute('onclick', "sortTable(10)");
   head.appendChild(c10);
   const c11 = document.createElement("th");
-  const ci11 = document.createTextNode("Class");
+  const ci11 = document.createTextNode("Country");
   c11.appendChild(ci11);
   c11.setAttribute('onclick', "sortTable(11)");
   head.appendChild(c11);
   const c12 = document.createElement("th");
-  const ci12 = document.createTextNode("Type");
+  const ci12 = document.createTextNode("Class");
   c12.appendChild(ci12);
   c12.setAttribute('onclick', "sortTable(12)");
   head.appendChild(c12);
+  const c13 = document.createElement("th");
+  const ci13 = document.createTextNode("Type");
+  c13.appendChild(ci13);
+  c13.setAttribute('onclick', "sortTable(13)");
+  head.appendChild(c13);
   /*headerCell(head, "Image", "n", 0);
   headerCell(head, "Name", "y", 1);
   headerCell(head, "Cost", "y", 2);
@@ -90,13 +95,13 @@ function generateTable() {
     if (!rank.includes(",rank_" + units[i][8] + ",")) {
       continue;
     }
-    if (!country.includes("," + units[i][10] + ",")) {
+    if (!country.includes("," + units[i][11] + ",")) {
       continue;
     }
-    if (!classID.includes("," + units[i][11] + ",")) {
+    if (!classID.includes("," + units[i][12] + ",")) {
       continue;
     }
-    if (!type.includes("," + units[i][12] + ",")) {
+    if (!type.includes("," + units[i][13] + ",")) {
       continue;
     }
     const row = document.createElement("tr");
@@ -105,9 +110,9 @@ function generateTable() {
       if (j == 0) {
         const cellInfo = document.createElement("img");
         if (isImg) {
-          if (units[i][12] === "air" || units[i][12] === "helicopter") {
+          if (units[i][13] === "air" || units[i][13] === "helicopter") {
             cellInfo.src = "https://raw.githubusercontent.com/gszabi99/War-Thunder-Datamine/master/tex.vromfs.bin_u/aircrafts/" + units[i][j] + ".png";
-          } else if (units[i][12] === "tank" || units[i][12] === "wheeled_vehicle" || units[i][12] === "heavy_tank") {
+          } else if (units[i][13] === "tank" || units[i][13] === "wheeled_vehicle" || units[i][13] === "heavy_tank") {
             cellInfo.src = "https://raw.githubusercontent.com/gszabi99/War-Thunder-Datamine/master/tex.vromfs.bin_u/tanks/" + units[i][j].toLowerCase() + ".png";
           } else {
             cellInfo.src = "https://raw.githubusercontent.com/gszabi99/War-Thunder-Datamine/master/tex.vromfs.bin_u/ships/" + units[i][j] + ".png";
@@ -170,7 +175,7 @@ function generateTable() {
           cellInfo2.src = "clicker/28px-Sl_icon.png";
           cell.appendChild(cellInfo2);
         }
-      } else if (j==9) {
+      } else if (j==9 || j==10) {
         let br = parseInt(units[i][j]);
         let mod = br%3;
         br = Math.floor(br/3) * 1 + 1;
@@ -181,7 +186,7 @@ function generateTable() {
         }
         const cellInfo = document.createTextNode(br);
         cell.appendChild(cellInfo);
-      } else if (j==10) {
+      } else if (j==11) {
         const cellInfo = document.createElement("img");
         cellInfo.src = "CountryIcons/country_" + units[i][j] + ".svg";
         cell.appendChild(cellInfo);
@@ -286,7 +291,7 @@ function clean(val, n) {
     } else {
       return parseInt(val.substring(0,val.length-2)) * 10000;
     }
-  } else if (n == 3 || n == 5 || n == 8 || n == 9) {
+  } else if (n == 3 || n == 5 || n == 8 || n == 9 || n==10) {
     return parseInt(val);
   } else if (n == 4 || n == 6 || n == 7) {
     return parseFloat(val);
