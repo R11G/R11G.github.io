@@ -60,8 +60,8 @@ function generateTable() {
   head.appendChild(c9);
   const c10 = document.createElement("th");
   const ci10 = document.createTextNode("RBR");
-  c13.appendChild(ci10);
-  c13.setAttribute('onclick', "sortTable(10)");
+  c10.appendChild(ci10);
+  c10.setAttribute('onclick', "sortTable(10)");
   head.appendChild(c10);
   const c11 = document.createElement("th");
   const ci11 = document.createTextNode("Country");
