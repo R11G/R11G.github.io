@@ -2475,7 +2475,7 @@ fr_battleship_bretagne_class_lorraine;Lorraine;990000SL;380000;823.8488923219528
 fr_destroyer_jaguar_class_leopard;Leopard;700SL;2900;0.5082882882882883;434;0.55;1.0;1;8;8;france;destroyer;ship
 fr_cruiser_emile_bertin;Emile Bertin;250000SL;75000;660.7936260330579;13135;6.0;1.66;4;13;13;france;cruiser;ship
 fr_destroyer_marceau_class_marceau;Marceau;22000SL;11000;20.894455913978494;3023;3.18;1.24;2;10;10;france;destroyer;ship
-fr_cruiser_suffren_class_dupleix;Dupleix;6090GL;105000;148.77;5670;12.0;1.84;4;14;14;france;cruiser;ship
+fr_cruiser_suffren_class_dupleix;Dupleix;6090GE;105000;148.77;5670;12.0;1.84;4;14;14;france;cruiser;ship
 uk_battlecruiser_renown;HMS Renown;summer_2023LT;230000;779.9966043092843;39923;6.0;1.96;5;18;18;britain;cruiser;ship
 jp_destroyer_hatsuzuki;IJN Hatsuzuki;msi_notebookLT;18000;56.821020710059166;4311;4.62;1.36;3;11;11;japan;destroyer;ship
 us_battleship_texas;USS Texas;990000SL;380000;823.8488923219528;40609;6.0;2.08;6;17;17;usa;cruiser;ship
