@@ -61,10 +61,13 @@ with open("units.csv", "r", encoding='utf-8') as name, open("wpcost.blkx", "r", 
                 cost = line[line.find(':')+2:line.rfind(',')]
             elif line.startswith("    \"event"):
                 ctype = "LT"
-                cost = line[line.find(':')+2:line.rfind(',')]
+                cost = line[line.find(':')+3:line.rfind(',')-1]
             elif line.startswith("    \"costGold"):
                 if ctype == "LT":
-                    ctype = "GL"
+                    if cost.isdigit():
+                        ctype = "GL"
+                    else:
+                        continue
                 else:
                     ctype = "GE"
                 cost = line[line.find(':')+2:line.rfind(',')]
