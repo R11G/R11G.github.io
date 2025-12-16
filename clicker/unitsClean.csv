@@ -520,7 +520,7 @@ saab_jas39c_south_africa;JAS39C (Britain);1080000SL;400000;108.12;12684;3.16;2.5
 saab_jas39c_hungary;JAS39EBS HU C (Italy);1100000SL;410000;114.12;12779;3.19;2.56;8;38;38;italy;fighter;air
 saab_jas39c_thailand;JAS39C (Japan);1120000SL;420000;120.12;12842;3.21;2.62;8;38;38;japan;fighter;air
 saab_jas39c;JAS39C;1120000SL;420000;120.12;12842;3.21;2.62;8;38;38;sweden;fighter;air
-saab_jas39e;JAS39E;1120000SL;420000;120.12;12842;3.21;2.62;8;38;38;sweden;fighter;air
+saab_jas39e;JAS39E;1120000SL;420000;120.12;12842;3.21;2.62;8;39;39;sweden;fighter;air
 mig-9;MiG-9;270000SL;95000;186.36666666666667;12636;3.44;1.9;5;19;19;ussr;fighter;air
 mig-9_ussr;MiG-9 (l);300000SL;53000;192.51333333333332;12932;3.55;1.96;5;20;19;ussr;fighter;air
 er-2_ach30b_late;Yer-2 (ACh-30B) (l);185000SL;27000;54.120000000000005;8376;2.7;1.66;4;11;10;ussr;bomber;air
