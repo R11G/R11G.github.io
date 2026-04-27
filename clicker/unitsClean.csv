@@ -27,7 +27,7 @@ jaguar_is;Jaguar IS;2024_02_airLT;230000;96.12;11599;3.18;2.38;7;30;31;britain;a
 marut_mk1;HF-24 (Britain);2025_05_airLT;120000;108.12;10640;3.06;2.02;5;23;24;britain;assault;air
 jaguar_gr1a;Jaguar GR.1A;580000SL;210000;90.12;12410;3.09;2.32;7;28;29;britain;assault;air
 f2g-1;F2G-1;battlepass_season1LT;71000;45.09;5370;4.92;1.84;4;13;15;usa;fighter;air
-bi;BI;craft_2020_autumnLT;95000;186.30999999999997;11774;2.83;1.9;5;17;17;ussr;fighter;air
+bi;BI;craft_2020_autumnLT;95000;186.30999999999997;11774;2.83;1.9;5;17;18;ussr;fighter;air
 p-59a;P-59A;summer_2019LT;54000;27.09;3702;4.22;1.66;4;13;14;usa;fighter;air
 mig-15bis_ish;MiG-15bis ISh;8560GE;120000;72.09;6331;7.6;2.08;5;23;21;ussr;fighter;air
 f-100d;F-100D;480000SL;170000;216.60666666666668;13673;3.8;2.2;6;25;25;usa;fighter;air
@@ -49,7 +49,7 @@ f-5e_switzerland;F-5E (Germany);630000SL;230000;96.12;11702;3.12;2.38;7;31;30;ge
 nf_5a_netherlands;NF-5A (France);9270GL;210000;90.08999999999999;6206;6.28;2.32;7;28;29;france;fighter;air
 f_20a;F-20A;9800GL;290000;108.08999999999999;6411;6.32;2.5;8;34;34;usa;fighter;air
 f-104a;F-104A;420000SL;150000;210.73666666666668;13673;3.8;2.14;6;26;25;usa;fighter;air
-f-104c;F-104C;480000SL;86000;216.73666666666668;13673;3.8;2.2;6;26;25;usa;fighter;air
+f-104c;F-104C;480000SL;86000;216.73666666666668;13673;3.8;2.2;6;26;26;usa;fighter;air
 f-104g;F-104G (Germany);580000SL;210000;90.12;12158;3.14;2.32;7;29;30;germany;fighter;air
 f-104a_china;F-104A (China);480000SL;170000;216.73666666666668;13673;3.8;2.2;6;26;25;china;fighter;air
 f-104g_china;F-104G (China);580000SL;210000;90.12;12158;3.14;2.32;7;29;29;china;fighter;air
@@ -75,7 +75,7 @@ f-4f;F-4F Early (Germany);craft_2021_springLT;210000;228.55666666666664;13566;3.
 f-4f_late;F-4F (Germany);630000SL;230000;96.12;12398;3.22;2.38;7;31;30;germany;fighter;air
 f-4f_kws_lv;F-4F KWS LV (Germany);860000SL;320000;252.1833333333333;12779;3.19;2.56;8;36;36;germany;fighter;air
 f_14a_early;F-14A Early;860000SL;320000;114.12;12454;3.19;2.56;8;34;35;usa;fighter;air
-f_14a_iriaf;F-14A IRIAF (USA);2024_08_airLT;290000;108.12;12684;3.16;2.5;8;35;36;usa;fighter;air
+f_14a_iriaf;F-14A IRIAF (USA);2024_08_airLT;290000;108.12;12684;3.16;2.5;8;35;37;usa;fighter;air
 f_14b;F-14B;940000SL;175000;120.12;12842;3.21;2.62;8;35;36;usa;fighter;air
 f_15a;F-15A;780000SL;290000;108.12;12684;3.16;2.5;8;35;35;usa;fighter;air
 f_15a_iaf;Baz;860000SL;160000;114.12;12779;3.19;2.56;8;35;35;israel;fighter;air
@@ -112,7 +112,7 @@ f_16a_block_15_ocu_belgium;F-16A OCU (France);910000SL;580000;114.12;12779;3.19;
 f_16am_block_15_mlu_belgium;F-16AM (France);940000SL;350000;120.12;12842;3.21;2.62;8;38;38;france;fighter;air
 f_16am_block_20_mlu_norway;F-16AM (Sweden);860000SL;320000;114.12;12779;3.19;2.56;8;38;38;sweden;fighter;air
 f_16d_block_40_barak_2;F-16D Barak II;860000SL;320000;114.12;12779;3.19;2.56;8;38;37;israel;fighter;air
-f_16i_sufa;F-16I Sufa;940000SL;175000;120.12;12842;3.21;2.62;8;39;39;israel;fighter;air
+f_16i_sufa;F-16I Sufa;940000SL;175000;120.12;12842;3.21;2.62;8;39;38;israel;fighter;air
 f_16c_block_40_barak_2;F-16C Barak II;940000SL;350000;120.12;12842;3.21;2.62;8;38;38;israel;fighter;air
 f_16a_block_20_mlu;F-16A MLU (China);860000SL;320000;114.12;12779;3.19;2.56;8;37;37;china;fighter;air
 j_10a;J-10A;940000SL;350000;120.12;12842;3.21;2.62;8;38;38;china;fighter;air
@@ -133,9 +133,9 @@ av_8c;AV-8C;530000SL;190000;84.12;12765;3.13;2.26;6;26;26;usa;assault;air
 av_8b_na;AV-8B (NA);9620GL;260000;94.58999999999999;5627;6.81;2.44;7;31;31;usa;assault;air
 av_8b_plus;AV-8B Plus;860000SL;320000;252.14;12688;2.89;2.56;8;37;36;usa;assault;air
 av_8b_plus_italy;AV-8B Plus (Italy);860000SL;320000;114.12;11661;3.16;2.56;8;37;36;italy;assault;air
-av_8s_thailand;AV-8S (Japan);9270GL;210000;94.58999999999999;6567;6.44;2.32;6;26;26;japan;assault;air
+av_8s_thailand;AV-8S (Japan);9270GE;210000;94.58999999999999;6567;6.44;2.32;6;26;26;japan;assault;air
 av_8s_late_thailand;AV-8S Late (Japan);630000SL;230000;162.12;11599;3.18;2.38;7;31;30;japan;assault;air
-a_6e_tram;A-6E TRAM;9270GL;210000;94.58999999999999;6439;6.23;2.32;7;28;29;usa;assault;air
+a_6e_tram;A-6E TRAM;9270GE;210000;94.58999999999999;6439;6.23;2.32;7;28;29;usa;assault;air
 a_7d;A-7D;630000SL;230000;96.12;12657;3.17;2.38;7;30;28;usa;assault;air
 a_7e;A-7E;720000SL;130000;102.12;12501;3.2;2.44;7;30;28;usa;assault;air
 a_7e_thailand;A-7E (Japan);580000SL;210000;90.12;12042;3.05;2.32;7;30;28;japan;assault;air
@@ -179,8 +179,8 @@ re_2001_serie1;Re.2001 serie 1;22000SL;11000;1.4000000000000001;1674;0.99;1.24;2
 re_2001_serie1_ep;Re.2001 gruppo 22;850GE;9200;4.903333333333333;2671;2.37;1.18;2;6;6;italy;fighter;air
 re_2001_cb;Re.2001 CB;32000SL;6900;2.5833333333333335;2042;1.18;1.3;2;6;6;italy;fighter;air
 re_2001_cn;Re.2001 CN;47000SL;18000;4.45;2353;1.33;1.36;3;10;7;italy;fighter;air
-re_2005_serie0;Re.2005 serie 0;185000SL;27000;54.120000000000005;7491;2.09;1.66;4;14;15;italy;fighter;air
-re_2005_vdm;Re.2005 (VDM);battlepass_season21LT;54000;31.59;3943;4.25;1.66;4;14;15;italy;fighter;air
+re_2005_serie0;Re.2005 serie 0;185000SL;27000;54.120000000000005;7491;2.09;1.66;4;14;16;italy;fighter;air
+re_2005_vdm;Re.2005 (VDM);battlepass_season21LT;54000;31.59;3943;4.25;1.66;4;14;16;italy;fighter;air
 re_2002_early;Re.2002 Early;16000SL;9200;0.7066666666666667;1257;0.76;1.18;2;4;4;italy;fighter;air
 f-86k_late;F-86K (France);420000SL;150000;210.17333333333332;12656;3.8;2.14;6;24;24;france;fighter;air
 f-86k_late_italy;F-86K (Italy);420000SL;150000;210.17333333333332;12656;3.8;2.14;6;24;24;italy;fighter;air
@@ -316,7 +316,7 @@ p-51d-5;P-51D-5;76000SL;13000;8.866666666666667;2899;1.45;1.42;3;9;9;usa;fighter
 po-2;Po-2;700SL;2900;0.12;188;0.3;1.0;1;0;0;ussr;bomber;air
 po-2m;Po-2M;craft_2022_autumnLT;4000;0.7466666666666667;1411;2.01;1.0;1;0;0;ussr;bomber;air
 po-2_nw;Po-2 Night Witch;700SL;2900;0.12;188;0.3;1.0;1;0;0;ussr;fighter;air
-spitfire_ix;Spitfire LF Mk IX;200000SL;31000;72.12;8678;2.27;1.72;4;13;14;britain;fighter;air
+spitfire_ix;Spitfire LF Mk IX;200000SL;31000;72.12;8678;2.27;1.72;4;14;15;britain;fighter;air
 spitfire_mk9c_4cannons;Spitfire F Mk IXc;1750GL;40000;27.09;4822;4.5;1.54;3;12;11;britain;fighter;air
 spitfire_ix_early;Spitfire F Mk IX;47000SL;18000;5.579999999999999;2519;1.28;1.36;3;10;10;britain;fighter;air
 spitfire_xvi;Spitfire F Mk XVI;76000SL;13000;8.866666666666667;3149;1.43;1.42;3;11;12;britain;fighter;air
@@ -326,7 +326,7 @@ spitfiremkiia_ep;Spitfire Mk.IIa Venture I;1150GE;14000;10.290000000000001;2987;
 ta-152h-1;Ta 152 H-1;210000SL;71000;90.12;9514;2.38;1.78;4;16;15;germany;fighter;air
 yak-1b;Yak-1B;16000SL;4600;0.9533333333333333;1314;0.75;1.18;2;7;6;ussr;fighter;air
 yak_1_litvyak;Yak-1 Litvyak;700GL;7900;0.22666666666666668;451;1.17;1.12;2;5;4;ussr;fighter;air
-yak-3;Yak-3;76000SL;26000;8.866666666666667;2899;1.45;1.42;3;10;10;ussr;fighter;air
+yak-3;Yak-3;76000SL;26000;8.866666666666667;2899;1.45;1.42;3;11;11;ussr;fighter;air
 yak-3_eremin;Eremin's Yak-3(e);2024_05_airLT;26000;4.0200000000000005;1455;2.95;1.42;3;9;9;ussr;fighter;air
 yak-7b;Yak-7B;16000SL;9200;0.9533333333333333;1261;0.75;1.18;2;7;5;ussr;fighter;air
 yak-9t;Yak-9T;47000SL;18000;5.579999999999999;2487;1.3;1.36;3;8;9;ussr;fighter;air
@@ -357,7 +357,7 @@ a6m3_mod22_zero;A6M3 mod. 22;76000SL;13000;7.223333333333334;2899;1.45;1.42;3;1
 a6m5_zero;A6M5;76000SL;26000;10.493333333333334;3149;1.43;1.42;3;11;12;japan;fighter;air
 b-17e;B-17E;76000SL;26000;10.493333333333334;3603;1.82;1.42;3;11;11;usa;bomber;air
 b-17e_late;B-17E/L;105000SL;17000;18.12;4227;1.97;1.48;3;11;12;usa;bomber;air
-b_24d;B-24D-25-CO;185000SL;27000;66.12;9231;1.97;1.66;4;12;14;usa;bomber;air
+b_24d;B-24D-25-CO;185000SL;27000;66.12;9231;1.97;1.66;4;11;14;usa;bomber;air
 pb4y-2;PB4Y-2;135000SL;40000;30.12;5356;1.82;1.54;3;10;11;usa;bomber;air
 pb4y-2_china;PB4Y-2 (China);155000SL;46000;48.120000000000005;7347;1.99;1.6;4;10;11;china;bomber;air
 b5n2;B5N2;700SL;2900;0.12;199;0.29;1.0;1;0;1;japan;bomber;air
@@ -545,7 +545,7 @@ saab_jas39e;JAS39E;1080000SL;400000;126.12;12937;3.24;2.68;9;40;40;sweden;fighte
 mig-9;MiG-9;270000SL;95000;186.36666666666667;12636;3.44;1.9;5;19;19;ussr;fighter;air
 mig-9_ussr;MiG-9 (l);300000SL;53000;192.51333333333332;12932;3.55;1.96;5;20;19;ussr;fighter;air
 er-2_ach30b_late;Yer-2 (ACh-30B) (l);185000SL;27000;54.120000000000005;8376;2.7;1.66;4;11;10;ussr;bomber;air
-spitfire_ix_usa;Spitfire LF Mk IXc (USA);4880GE;63000;36.089999999999996;4721;4.67;1.72;4;13;14;usa;fighter;air
+spitfire_ix_usa;Spitfire LF Mk IXc (USA);4880GE;63000;36.089999999999996;4721;4.67;1.72;4;14;15;usa;fighter;air
 bf-109e-3_japan;Bf 109 E-7 (Japan);1000GE;11000;27.736666666666665;6433;4.48;1.24;2;6;6;japan;fighter;air
 hellcat_fmk1;Hellcat Mk II (Britain);1300GE;18000;2.4499999999999997;1161;2.67;1.36;3;6;7;britain;fighter;air
 db_7;DB-7 (Britain);700GL;7900;13.716666666666667;4224;3.5;1.12;2;4;4;britain;bomber;air
@@ -569,7 +569,7 @@ me-410b-1;Me 410 B-1;105000SL;17000;7.72;2319;1.29;1.48;3;9;8;germany;assault;ai
 me-410b-1_u2;Me 410 B-1/U2;105000SL;17000;12.12;3331;1.62;1.48;3;10;10;germany;fighter;air
 me-410b-2_u4;Me 410 B-2/U4;32000SL;6900;1.89;1298;0.98;1.3;2;6;6;germany;assault;air
 me-410b-6_r3;Me 410 B-6/R3;155000SL;46000;30.12;3994;1.53;1.6;4;11;12;germany;assault;air
-a6m5ko;A6M5 Ko;3850GE;54000;31.59;4645;4.5;1.66;4;12;13;japan;fighter;air
+a6m5ko;A6M5 Ko;3850GE;54000;31.59;4645;4.5;1.66;4;13;14;japan;fighter;air
 p-38g_metal;XP-38G;charServer/entitlement/usa_pacific_41_43LT;14000;10.290000000000001;3046;3.17;1.3;2;6;7;usa;fighter;air
 yp-38;YP-38;1150GE;14000;23.790000000000003;6181;4.65;1.3;2;4;6;usa;fighter;air
 bf-109f-4_usa;Bf 109 F-4 (USA);1450GE;26000;12.37;3456;3.73;1.42;3;10;9;usa;fighter;air
@@ -674,7 +674,7 @@ tu-1;Tu-1;4880GE;63000;27.09;2655;3.71;1.72;4;14;13;ussr;assault;air
 tu-2_postwar;Tu-2S-44;200000SL;31000;30.12;10613;2.13;1.72;4;15;13;ussr;bomber;air
 tu-2_postwar_late;Tu-2S-59;210000SL;35000;36.12;11474;2.21;1.78;4;15;14;ussr;bomber;air
 tu-2_postwar_late_hungary;Tu-2S-59 (Italy);210000SL;71000;36.12;11474;2.21;1.78;4;15;14;italy;bomber;air
-yak-15;Yak-15;270000SL;48000;48.120000000000005;11774;2.83;1.9;5;17;17;ussr;fighter;air
+yak-15;Yak-15;270000SL;48000;48.120000000000005;11774;2.83;1.9;5;18;17;ussr;fighter;air
 yak-15_early;Yak-15P;240000SL;82000;42.12;10727;2.56;1.84;5;15;16;ussr;fighter;air
 b_25j_1;B-25J-1;16000SL;9200;0.9533333333333333;1480;0.83;1.18;2;8;8;usa;bomber;air
 b_26b_c;B-26B;47000SL;18000;7.223333333333334;3133;1.61;1.36;3;10;10;usa;bomber;air
@@ -730,7 +730,7 @@ la-5_type37_early;La-5;22000SL;11000;1.4000000000000001;1674;0.99;1.24;2;7;6;uss
 la-5_type39;La-5F;32000SL;6900;2.5833333333333335;2083;1.15;1.3;2;7;7;ussr;fighter;air
 f9f-5;F9F-5;300000SL;53000;192.12666666666667;12542;3.69;1.96;5;22;21;usa;fighter;air
 f9f-8;F9F-8;340000SL;61000;198.23333333333335;12818;3.8;2.02;5;22;22;usa;fighter;air
-f-80;F-80C-10;300000SL;105000;192.37666666666667;13066;3.61;1.96;5;20;20;usa;fighter;air
+f-80;F-80C-10;300000SL;105000;192.37666666666667;13066;3.61;1.96;5;20;21;usa;fighter;air
 tb_3_m17_32;TB-3M-17-32;new_year_2014LT;5900;0.13;299;1.31;1.06;1;1;1;ussr;bomber;air
 vampire_fb5;Vampire F.B.5;270000SL;95000;48.120000000000005;12688;3.52;1.9;5;20;21;britain;fighter;air
 vampire_fb52a_italy;Vampire FB 52A;270000SL;95000;48.120000000000005;12688;3.52;1.9;5;20;21;italy;fighter;air
@@ -746,14 +746,14 @@ xf5f;XF5F;new_year_2014LT;40000;18.09;3114;4.5;1.54;3;6;4;usa;fighter;air
 xf5u_1;XF5U-1;xf5u_dreamLT;63000;36.089999999999996;4247;4.56;1.72;4;13;13;usa;fighter;air
 btd-1;BTD-1;1750GE;40000;11.136666666666665;2137;4.24;1.54;3;8;9;usa;bomber;air
 f8f1;F8F-1;76000SL;26000;8.866666666666667;3149;1.43;1.42;3;10;11;usa;fighter;air
-fr_1_fireball;FR-1 Fireball;1600GE;33000;5.236666666666667;1607;3.25;1.48;3;10;10;usa;fighter;air
+fr_1_fireball;FR-1 Fireball;1600GE;33000;5.236666666666667;1607;3.25;1.48;3;9;10;usa;fighter;air
 f4u-4;F4U-4;47000SL;18000;5.579999999999999;2631;1.27;1.36;3;10;10;usa;fighter;air
 corsair_fmk2;Corsair F Mk II (Britain);1150GE;14000;1.6033333333333333;1034;2.37;1.3;2;5;5;britain;fighter;air
 f4u-4b_vmf_214;F4U-4B VMF-214;4880GL;63000;36.089999999999996;4533;4.61;1.72;4;14;14;usa;fighter;air
 f4u-4b;F4U-4B;185000SL;27000;54.120000000000005;7491;2.09;1.66;4;14;14;usa;fighter;air
 f8f1b;F8F-1B;185000SL;54000;54.120000000000005;8057;2.21;1.66;4;16;16;usa;fighter;air
 p-51d-30_usaaf_korea;P-51D-30;155000SL;46000;36.12;6076;1.95;1.6;4;11;12;usa;fighter;air
-yak-3_france;Yak-3 (France);1600GE;33000;18.09;4616;4.39;1.48;3;10;10;france;fighter;air
+yak-3_france;Yak-3 (France);1600GE;33000;18.09;4616;4.39;1.48;3;11;11;france;fighter;air
 yak-3p;Yak-3P;185000SL;54000;54.120000000000005;7414;2.12;1.66;4;13;12;ussr;fighter;air
 ki-96;Ki-96;1600GE;33000;18.09;4569;4.5;1.48;3;9;8;japan;fighter;air
 ki_108;Ki-108 Kai;47000SL;18000;4.45;2408;1.31;1.36;3;8;8;japan;fighter;air
@@ -770,16 +770,16 @@ il_28_german;IL-28 (Germany);300000SL;105000;192.97333333333333;14664;2.97;1.96;
 il_28_hungary;IL-28 (Italy);300000SL;105000;192.97333333333333;14664;2.97;1.96;5;21;21;italy;bomber;air
 il_28sh;IL-28Sh;340000SL;61000;199.14333333333332;15030;3.07;2.02;5;21;21;ussr;bomber;air
 tu_14t;Tu-14T;340000SL;120000;199.14333333333332;15030;3.07;2.02;5;21;21;ussr;bomber;air
-fw-190a-8;Fw 190 A-8;185000SL;27000;54.120000000000005;7414;2.12;1.66;4;13;12;germany;fighter;air
-fw-190a-8_france;NC.900;winter_2018LT;54000;31.59;4645;4.5;1.66;4;13;12;france;fighter;air
+fw-190a-8;Fw 190 A-8;185000SL;27000;54.120000000000005;7414;2.12;1.66;4;13;13;germany;fighter;air
+fw-190a-8_france;NC.900;winter_2018LT;54000;31.59;4645;4.5;1.66;4;13;13;france;fighter;air
 fw-190d-9;Fw 190 D-9;105000SL;33000;12.12;3543;1.6;1.48;3;12;12;germany;fighter;air
 tempest_mk2;Tempest Mk II;185000SL;54000;54.120000000000005;7650;2.13;1.66;4;16;15;britain;fighter;air
 mig_3_series_1_15_bk_pod;MiG-3-15 (BK);10000SL;7900;0.45999999999999996;919;0.59;1.12;2;5;4;ussr;fighter;air
 itp_m1;ITP (M-1);battlepass_season2LT;18000;3.34;1812;2.81;1.36;3;11;9;ussr;fighter;air
 a-26c-45-dt;A-26C-45DT;3850GL;54000;36.089999999999996;5085;4.5;1.66;4;13;13;usa;bomber;air
-a6m5otsu;A6M5 Otsu;155000SL;46000;36.12;6110;1.94;1.6;4;12;13;japan;fighter;air
-a6m5hei;A6M5 Hei;185000SL;27000;54.120000000000005;7414;2.12;1.66;4;12;12;japan;fighter;air
-a6m6c;A6M6c;battlepass_season4LT;46000;18.09;2972;3.89;1.6;4;12;12;japan;fighter;air
+a6m5otsu;A6M5 Otsu;155000SL;46000;36.12;6110;1.94;1.6;4;13;14;japan;fighter;air
+a6m5hei;A6M5 Hei;185000SL;27000;54.120000000000005;7414;2.12;1.66;4;12;13;japan;fighter;air
+a6m6c;A6M6c;battlepass_season4LT;46000;18.09;2972;3.89;1.6;4;13;13;japan;fighter;air
 ki_84_ko;Ki-84 Ko;185000SL;54000;54.120000000000005;7457;2.11;1.66;4;15;13;japan;fighter;air
 ki_84_ko_china;Ki-84 Ko (China);3850GE;54000;31.59;4756;4.56;1.66;4;14;13;china;fighter;air
 ki_84_otsu;Ki-84 Otsu;200000SL;31000;72.12;8678;2.27;1.72;4;17;14;japan;fighter;air
@@ -814,9 +814,9 @@ f-84f_israel_iaf;F-84F (Israel);8730GE;150000;76.59;5954;6.34;2.14;6;23;22;israe
 f-86_canadair_german;CL-13A Mk 5 (Germany);380000SL;135000;204.17333333333332;12656;3.8;2.08;6;22;23;germany;fighter;air
 sagittario_2;Sagittario 2;420000SL;150000;210.21333333333334;12656;3.8;2.14;6;24;25;italy;fighter;air
 ariete;Ariete;8730GE;150000;81.09;6271;7.6;2.14;6;25;25;italy;fighter;air
-mb_326k;MB-326K;240000SL;82000;78.12;8689;2.52;1.84;5;18;19;italy;assault;air
+mb_326k;MB-326K;240000SL;82000;78.12;8689;2.52;1.84;5;19;20;italy;assault;air
 mb_326b;MB-326B;8020GE;95000;49.59;4468;4.75;1.9;5;17;17;italy;assault;air
-f-86_cl_13_mk4_italy;CL-13 Mk.4;340000SL;120000;60.120000000000005;12196;3.8;2.02;5;21;22;italy;fighter;air
+f-86_cl_13_mk4_italy;CL-13 Mk.4;340000SL;120000;60.120000000000005;12196;3.8;2.02;5;20;21;italy;fighter;air
 f-86_cl_13b_mk6;CL-13B Mk.6 (Germany);480000SL;86000;216.66;13673;3.8;2.2;6;25;24;germany;fighter;air
 f-86f-30_japan;F-86F-30 ▅;300000SL;105000;54.120000000000005;11983;3.71;1.96;5;21;22;japan;fighter;air
 f-86f-40_japan;F-86F-40 ▅;340000SL;61000;60.120000000000005;12081;3.8;2.02;5;22;24;japan;fighter;air
@@ -829,7 +829,7 @@ i-16_type27;I-16 type 27;16000SL;9200;0.9533333333333333;1326;0.73;1.18;2;7;7;
 la-15;La-15;340000SL;61000;198.37333333333333;13326;3.76;2.02;5;21;21;ussr;fighter;air
 la_174;La-174;msi_notebookLT;120000;198.37333333333333;13326;3.76;2.02;5;21;21;ussr;fighter;air
 su-9;Su-9;270000SL;95000;48.120000000000005;11974;3.16;1.9;5;19;18;ussr;fighter;air
-su-11;Su-11;7480GE;95000;63.09;6293;6.88;1.9;5;20;19;ussr;fighter;air
+su-11;Su-11;7480GE;95000;63.09;6293;6.88;1.9;5;21;19;ussr;fighter;air
 maryland_mk1_france;Martin 167-A3;6300SL;5900;0.18333333333333335;690;0.58;1.06;1;3;3;france;bomber;air
 mb_5;MB.5;3850GE;54000;31.59;4645;4.5;1.66;4;12;12;britain;fighter;air
 la_200_toriy;La-200;300000SL;105000;192.60333333333332;13066;3.61;1.96;5;19;20;ussr;fighter;air
@@ -844,7 +844,7 @@ hornet_mk1;Hornet Mk.I;4880GE;63000;40.589999999999996;4871;4.71;1.72;4;13;15;br
 hornet_mk3;Hornet Mk.III;155000SL;46000;36.12;6241;1.95;1.6;4;13;15;britain;fighter;air
 avenger_mk1;Avenger Mk II (Britain);1000GE;11000;5.236666666666667;2654;4.27;1.24;2;2;2;britain;bomber;air
 f4u-1a_usmc;F4U-1A (USMC);32000SL;6900;2.5833333333333335;2042;1.18;1.3;2;6;6;usa;fighter;air
-spitfire_ix_ussr;Spitfire Mk IXc (USSR);6090GE;54000;36.089999999999996;5170;4.65;1.66;4;13;14;ussr;fighter;air
+spitfire_ix_ussr;Spitfire Mk IXc (USSR);6090GE;54000;36.089999999999996;5170;4.65;1.66;4;14;15;ussr;fighter;air
 mig_3_series_34;MiG-3-34;16000SL;4600;0.9533333333333333;1257;0.76;1.18;2;5;5;ussr;fighter;air
 il-10_1946;IL-10 (1946);200000SL;31000;48.120000000000005;5690;1.8;1.72;4;12;12;ussr;assault;air
 il-10_1946_hungary;IL-10 (Italy);200000SL;63000;48.120000000000005;5690;1.8;1.72;4;12;12;italy;assault;air
@@ -864,13 +864,13 @@ hs-129b-2_romania;Hs 129 B-2 (Romania);1450GL;26000;4.0200000000000005;1521;3.22
 hs-129b-2_romania_italy;Hs 129 B-2 (Romania);1360GE;18000;2.4499999999999997;1161;2.8;1.36;3;7;4;italy;assault;air
 bf-109g-2_romania;Bf 109 G-2;1450GL;26000;4.0200000000000005;1441;2.91;1.42;3;13;10;germany;fighter;air
 bf-109g-2_hungary;Bf 109 G-2 (Italy);4640GE;54000;27.09;3441;4.31;1.66;4;13;10;italy;fighter;air
-g_55_serie1;G.55 serie 1;155000SL;46000;42.12;6076;1.95;1.6;4;13;12;italy;fighter;air
+g_55_serie1;G.55 serie 1;155000SL;46000;42.12;6076;1.95;1.6;4;13;13;italy;fighter;air
 g_55_serie1_ss0;G.55 sottoserie 0;76000SL;26000;8.866666666666667;2899;1.45;1.42;3;11;10;italy;fighter;air
 mc-205_serie1;C. 205 serie 1;22000SL;5600;1.8466666666666667;1753;0.95;1.24;2;7;8;italy;fighter;air
 mc-205_serie3;C. 205 serie 3;155000SL;46000;36.12;5866;1.96;1.6;4;13;11;italy;fighter;air
 mc-205_n2;C. 205N2;76000SL;26000;8.866666666666667;3027;1.44;1.42;3;12;11;italy;fighter;air
 g_56;G.56;185000SL;54000;60.120000000000005;8057;2.21;1.66;4;17;16;italy;fighter;air
-g_55s;G.55S;4300GE;54000;31.59;4645;4.5;1.66;4;13;12;italy;fighter;air
+g_55s;G.55S;4300GE;54000;31.59;4645;4.5;1.66;4;13;13;italy;fighter;air
 ki-27_otsu;Ki-27 Otsu;700SL;2900;0.12;230;0.2;1.0;1;1;3;japan;fighter;air
 ki-27_otsu_ep;Ki-27 Otsu Tachiarai;250GE;4000;0.09999999999999999;222;0.61;1.0;1;1;3;japan;fighter;air
 fw-190a-4;Fw 190 A-4;47000SL;18000;5.579999999999999;2487;1.3;1.36;3;10;9;germany;fighter;air
@@ -884,12 +884,12 @@ yak-9;Yak-9;22000SL;11000;1.8466666666666667;1674;0.99;1.24;2;7;6;ussr;fighter;a
 ki_43_1;Ki-43-I;2100SL;4000;0.13;461;0.29;1.0;1;3;5;japan;fighter;air
 f7f1;F7F-1;200000SL;31000;60.120000000000005;9277;2.39;1.72;4;17;16;usa;fighter;air
 f7f3;F7F-3;summer_2016LT;71000;45.09;5437;5.11;1.84;4;17;16;usa;fighter;air
-b-17e_japan;B-17E (Japan);4900GE;54000;31.59;4277;5.39;1.66;4;11;11;japan;bomber;air
+b-17e_japan;B-17E (Japan);4900GE;54000;31.59;4277;5.39;1.66;4;12;12;japan;bomber;air
 canberra_bmk2;Canberra B Mk 2;300000SL;105000;193.30666666666664;14927;2.97;1.96;5;23;22;britain;bomber;air
 j7w1;J7W1;155000SL;46000;42.12;6241;1.95;1.6;4;14;15;japan;fighter;air
 b-57;B-57A;300000SL;105000;192.94333333333336;14927;2.97;1.96;5;21;22;usa;bomber;air
 f-105d;F-105D;580000SL;210000;90.12;12776;3.11;2.32;7;30;27;usa;assault;air
-f_106a_1972;F-106A;2025_08_airLT;150000;210.66666666666666;13673;3.8;2.14;6;25;25;usa;fighter;air
+f_106a_1972;F-106A;2025_08_airLT;150000;210.66666666666666;13673;3.8;2.14;6;24;25;usa;fighter;air
 f_111a;F-111A;630000SL;230000;96.12;12657;3.17;2.38;7;31;29;usa;assault;air
 f_111f;F-111F;720000SL;260000;156.12;11487;3.1;2.44;7;32;32;usa;assault;air
 f_111c_raaf;F-111C;630000SL;230000;144.12;11257;3.02;2.38;7;31;32;britain;assault;air
@@ -898,10 +898,10 @@ i-16_type5;I-16 type 5;700SL;2900;0.12;201;0.22;1.0;1;2;1;ussr;fighter;air
 yak-1b_luftwaffe;Yak-1B (Germany);1150GE;14000;1.6033333333333333;1243;2.47;1.3;2;7;6;germany;fighter;air
 tempest_mkv_luftwaffe;Tempest Mk V (Germany);7100GE;63000;36.089999999999996;4282;4.53;1.72;4;15;14;germany;fighter;air
 pby-5a_raf;Catalina Mk IIIa (Britain);880GE;5900;0.7799999999999999;1570;2.16;1.06;1;2;2;britain;bomber;air
-fw-190a-8_usa;Fw 190 A-8 (USA);3850GE;54000;31.59;4645;4.5;1.66;4;13;12;usa;fighter;air
+fw-190a-8_usa;Fw 190 A-8 (USA);3850GE;54000;31.59;4645;4.5;1.66;4;13;13;usa;fighter;air
 p-47d_ussr;P-47D-27 (USSR);1900GE;33000;5.236666666666667;1607;3.25;1.48;3;8;10;ussr;fighter;air
 venom_fb4;Venom FB.4;340000SL;120000;60.120000000000005;12196;3.8;2.02;5;23;23;britain;fighter;air
-lancaster_mk1;Lancaster B Mk I;155000SL;46000;42.12;7347;1.99;1.6;4;12;12;britain;bomber;air
+lancaster_mk1;Lancaster B Mk I;155000SL;46000;42.12;7347;1.99;1.6;4;11;11;britain;bomber;air
 ki_43_2_late;Ki-43-II (USA);700GE;7900;18.216666666666665;5328;3.37;1.12;2;4;5;usa;fighter;air
 ki_43_3_otsu;Ki-43-III Otsu;47000SL;18000;5.579999999999999;2487;1.3;1.36;3;10;9;japan;fighter;air
 j2m3;J2M3;185000SL;54000;48.120000000000005;7491;2.09;1.66;4;17;14;japan;fighter;air
@@ -912,10 +912,10 @@ f2h-2;F2H-2;240000SL;82000;42.12;11831;3.33;1.84;5;19;19;usa;fighter;air
 f3d_1;F3D-1;240000SL;82000;78.12;8689;2.52;1.84;5;20;18;usa;assault;air
 lagg-i-301;I-301;winter_2015LT;7900;0.22666666666666668;470;1.15;1.12;2;9;6;ussr;fighter;air
 canberra_bimk6;Canberra B (I) Mk 6;340000SL;61000;199.37666666666667;15296;3.07;2.02;5;24;22;britain;bomber;air
-b-29;B-29A-BN;200000SL;63000;30.12;12103;2.82;1.72;4;18;18;usa;bomber;air
+b-29;B-29A-BN;200000SL;63000;30.12;12103;2.82;1.72;4;17;18;usa;bomber;air
 b-57b;B-57B;340000SL;61000;198.6;15296;3.07;2.02;5;22;22;usa;bomber;air
 b_66b;B-66B;480000SL;170000;217.6833333333333;14880;2.67;2.2;6;24;24;usa;bomber;air
-j2m4_kai;J2M4 Kai;3850GE;54000;40.589999999999996;5873;4.9;1.66;4;13;12;japan;fighter;air
+j2m4_kai;J2M4 Kai;3850GE;54000;40.589999999999996;5873;4.9;1.66;4;14;12;japan;fighter;air
 bf-109g-14;Bf 109 G-14;185000SL;54000;48.120000000000005;7457;2.11;1.66;4;14;13;germany;fighter;air
 bf-109g-14as;Bf 109 G-14/AS (Italy);185000SL;54000;48.120000000000005;7457;2.11;1.66;4;14;13;italy;fighter;air
 fw_200c_1;Fw 200 C-1;10000SL;7900;0.45999999999999996;1021;0.76;1.12;2;4;3;germany;bomber;air
@@ -935,7 +935,7 @@ douglas_ad_2;AD-2;185000SL;54000;36.12;4705;1.7;1.66;4;12;14;usa;assault;air
 am_1_mauler;AM-1;210000SL;35000;54.120000000000005;5818;1.9;1.78;4;14;14;usa;assault;air
 a2d;A2D-1;6900GE;95000;49.59;4631;5.2;1.9;5;24;18;usa;assault;air
 firefly_mk1;Firefly F Mk I;47000SL;18000;3.266666666666667;1462;1.13;1.36;3;8;7;britain;assault;air
-j2m2;J2M2;76000SL;26000;7.223333333333334;2899;1.45;1.42;3;13;12;japan;fighter;air
+j2m2;J2M2;76000SL;26000;7.223333333333334;2899;1.45;1.42;3;14;12;japan;fighter;air
 seafire_mk3_france;Seafire LF Mk.III (France);155000SL;46000;42.12;6076;1.95;1.6;4;12;12;france;fighter;air
 seafire_mk3;Seafire LF Mk.III;76000SL;26000;10.493333333333334;3149;1.43;1.42;3;12;12;britain;fighter;air
 seafire_fr47;Seafire FR 47;185000SL;27000;54.120000000000005;7491;2.09;1.66;4;14;14;britain;fighter;air
@@ -964,7 +964,7 @@ il_2_1942_luftwaffe;IL-2 (1942) (Germany);850GE;9200;0.41;415;1.28;1.18;2;6;6;ge
 spitfire_fr_mk14e;Prendergast's Spitfire FR Mk XIVe;6090GE;63000;36.089999999999996;4376;4.56;1.72;4;13;14;britain;fighter;air
 spitfire_fr_mk14e_belgium;Spitfire FR Mk XIVe (France);200000SL;63000;72.12;8678;2.27;1.72;4;13;14;france;fighter;air
 la-7_dolgushin;Dolgushin's La-7;3850GE;46000;27.09;4282;4.36;1.6;4;10;11;ussr;fighter;air
-spitfire_ix_plagis;Plagis' Spitfire LF Mk IXc;6090GE;54000;31.59;4699;4.5;1.66;4;13;14;britain;fighter;air
+spitfire_ix_plagis;Plagis' Spitfire LF Mk IXc;6090GE;54000;31.59;4699;4.5;1.66;4;14;15;britain;fighter;air
 firebrand_tf4;Firebrand TF Mk IV;22000SL;11000;1.4000000000000001;1305;0.74;1.24;2;8;8;britain;assault;air
 j2m5;J2M5;200000SL;31000;72.12;8678;2.27;1.72;4;17;14;japan;fighter;air
 hurricane_mk4;Hurricane Mk IV;10000SL;7900;0.3;563;0.56;1.12;2;3;3;britain;assault;air
@@ -1011,7 +1011,7 @@ ki_109;Ki-109;6300SL;5900;0.17333333333333334;417;0.44;1.06;1;2;3;japan;assault;
 d4y1;D4Y1;16000SL;9200;0.7066666666666667;1287;1.03;1.18;2;3;3;japan;bomber;air
 d4y2;D4Y2;22000SL;5600;1.8466666666666667;1817;1.3;1.24;2;3;4;japan;bomber;air
 d4y3;D4Y3 Ko;22000SL;11000;1.8466666666666667;1797;1.19;1.24;2;6;6;japan;bomber;air
-a7m2;A7M2;185000SL;54000;48.120000000000005;7457;2.11;1.66;4;12;13;japan;fighter;air
+a7m2;A7M2;185000SL;54000;48.120000000000005;7457;2.11;1.66;4;13;14;japan;fighter;air
 bf2c_1;BF2C-1;0SL;54000;null;7457;0.13;1.0;1;0;0;usa;fighter;air
 f3f-2;F3F-2;700SL;2900;0.12;201;0.22;1.0;1;2;1;usa;fighter;air
 f3f-2_galer;Galer's F3F-2;250GE;2900;0.09000000000000001;220;0.51;0.75;1;1;1;usa;fighter;air
@@ -1031,16 +1031,16 @@ harrier_frs1;Sea Harrier FRS.1;580000SL;520000;90.12;12042;3.05;2.32;7;31;30;bri
 harrier_gr7;Harrier GR.7;780000SL;290000;174.12;11574;3.13;2.5;8;36;34;britain;assault;air
 harrier_t10;Harrier T.10;9620GE;260000;94.58999999999999;5627;6.81;2.44;7;31;31;britain;assault;air
 sea_harrier_fa2;Sea Harrier FA 2;860000SL;320000;114.12;12779;3.19;2.56;8;36;36;britain;fighter;air
-tornado_gr1;Tornado GR.1;720000SL;130000;150.12;11055;3.4;2.44;7;32;32;britain;assault;air
+tornado_gr1;Tornado GR.1;720000SL;130000;150.12;11055;3.4;2.44;7;32;31;britain;assault;air
 tornado_gr4;Tornado GR.4;780000SL;290000;108.12;12586;2.86;2.5;8;35;34;britain;assault;air
 tornado_f3;Tornado F.3;720000SL;260000;168.12;11957;3.16;2.44;7;33;33;britain;fighter;air
 tornado_f3_late;Tornado F.3 Late;860000SL;320000;114.12;12779;3.19;2.56;8;37;36;britain;fighter;air
 tornado_ids_de_mfg;Tornado IDS MFG (Germany);winter_2023LT;290000;168.12;11912;3.29;2.5;8;30;31;germany;assault;air
-tornado_ids_de_assta1;Tornado IDS ASSTA1 (Germany);720000SL;260000;150.12;11055;3.4;2.44;7;32;32;germany;assault;air
+tornado_ids_de_assta1;Tornado IDS ASSTA1 (Germany);720000SL;260000;150.12;11055;3.4;2.44;7;32;31;germany;assault;air
 tornado_ids_de_assta3_sle;Tornado IDS SLE (Germany);780000SL;290000;108.12;12586;2.86;2.5;8;33;34;germany;assault;air
 tornado_ids_de_wtd61;Tornado IDS WTD61 (Germany);9450GL;230000;94.58999999999999;5738;6.36;2.38;7;30;31;germany;assault;air
 tornado_ids_it;Tornado IDS (Italy);630000SL;230000;138.12;10850;3.32;2.38;7;30;31;italy;assault;air
-tornado_ids_it_mod95;Tornado IDS (1995) (Italy);720000SL;260000;150.12;11055;3.4;2.44;7;32;32;italy;assault;air
+tornado_ids_it_mod95;Tornado IDS (1995) (Italy);720000SL;260000;150.12;11055;3.4;2.44;7;32;31;italy;assault;air
 tornado_ids_it_ret8;Tornado IDS MLU (RET.8) (Italy);780000SL;145000;162.12;11574;3.13;2.5;7;32;32;italy;assault;air
 tornado_adv;Tornado ADV;720000SL;260000;168.12;11957;3.16;2.44;7;33;33;italy;fighter;air
 ef_2000_fgr4;Typhoon FGR.4;1080000SL;400000;174.12;12937;3.24;2.68;9;40;40;britain;fighter;air
@@ -1050,19 +1050,19 @@ ef_2000_typhoon_aesa;Typhoon (AESA);1100000SL;410000;186.12;13031;3.27;2.74;9;41
 ef_2000a_aesa;F-2000A (AESA);1100000SL;410000;186.12;13031;3.27;2.74;9;41;41;italy;fighter;air
 ef_2000_aesa;EF-2000 (AESA) (Germany);1100000SL;410000;186.12;13031;3.27;2.74;9;41;41;germany;fighter;air
 amx;AMX;630000SL;230000;96.12;12657;3.17;2.38;7;30;29;italy;assault;air
-amx_a_1a_brazil;AMX A-1A;9450GL;230000;94.58999999999999;6249;6.25;2.38;7;31;30;italy;assault;air
-alpha_jet_a;Alpha Jet A;420000SL;150000;72.12;11675;3.31;2.14;6;24;23;germany;assault;air
-alpha_jet_a_jabog41;Alpha Jet A (JaboG 41);8910GL;170000;81.09;5949;6.81;2.2;6;24;23;germany;assault;air
-alpha_jet_a_thailand;Alpha Jet A (Japan);380000SL;135000;66.12;11435;3.22;2.08;6;24;23;japan;assault;air
+amx_a_1a_brazil;AMX A-1A;9450GE;230000;94.58999999999999;6249;6.25;2.38;7;31;30;italy;assault;air
+alpha_jet_a;Alpha Jet A;420000SL;150000;72.12;11675;3.31;2.14;6;24;24;germany;assault;air
+alpha_jet_a_jabog41;Alpha Jet A (JaboG 41);8910GL;170000;81.09;5949;6.81;2.2;6;24;24;germany;assault;air
+alpha_jet_a_thailand;Alpha Jet A (Japan);380000SL;135000;66.12;11435;3.22;2.08;6;24;24;japan;assault;air
 alpha_jet_th_phase_1;Alpha Jet TH (Japan);530000SL;190000;84.12;11767;2.96;2.26;6;29;29;japan;assault;air
-alpha_jet_e;Alpha Jet E;480000SL;170000;78.12;11916;3.4;2.2;6;24;23;france;assault;air
+alpha_jet_e;Alpha Jet E;480000SL;170000;78.12;11916;3.4;2.2;6;24;24;france;assault;air
 l_39za;L-39ZA Albatros (USSR);8020GL;95000;49.59;4468;4.75;1.9;5;17;17;ussr;assault;air
 hawk_200;Hawk 200;630000SL;230000;168.12;12287;3.13;2.38;7;30;29;britain;assault;air
 hawk_200_rda;Hawk 200 RDA;720000SL;130000;150.12;11055;3.4;2.44;7;30;31;britain;assault;air
 hawk_209_indonesia;Hawk 209 (Japan);9620GL;260000;103.58999999999999;6471;6.5;2.44;7;29;28;japan;assault;air
-su-7b;Su-7B;480000SL;170000;78.12;12229;3.23;2.2;6;25;24;ussr;assault;air
-su-7bkl;Su-7BKL;530000SL;96000;84.12;12486;3.32;2.26;6;26;24;ussr;assault;air
-su-7bmk;Su-7BMK;9090GE;190000;85.58999999999999;6151;6.64;2.26;6;26;24;ussr;assault;air
+su-7b;Su-7B;480000SL;170000;78.12;12229;3.23;2.2;6;25;25;ussr;assault;air
+su-7bkl;Su-7BKL;530000SL;96000;84.12;12486;3.32;2.26;6;26;25;ussr;assault;air
+su-7bmk;Su-7BMK;9090GE;190000;85.58999999999999;6151;6.64;2.26;6;26;25;ussr;assault;air
 su_22m3;Su-22M3;580000SL;520000;90.12;12042;3.05;2.32;7;31;30;ussr;assault;air
 su_22m3_hungary;Su-22M3 (Italy);580000SL;210000;90.12;12042;3.05;2.32;7;31;30;italy;assault;air
 su_22um3k;Su-22UM3K (Germany);580000SL;210000;90.12;12042;3.05;2.32;7;31;30;germany;assault;air
@@ -1121,9 +1121,9 @@ j_7d;J-7D;9270GL;210000;90.08999999999999;5812;6.08;2.32;7;29;29;china;fighter;a
 j_7e;J-7E;630000SL;230000;168.12;11702;3.12;2.38;7;29;31;china;fighter;air
 j_8b;J-8B;720000SL;260000;168.12;11936;3.2;2.44;7;31;31;china;fighter;air
 j_8f;J-8F;860000SL;320000;114.12;12454;3.19;2.56;8;36;36;china;fighter;air
-jh_7a;JH-7A;780000SL;290000;156.12;11131;3.43;2.5;8;34;34;china;assault;air
-jh_7a_prototype;JH-7A Prototype;9800GL;290000;103.58999999999999;6255;5.73;2.5;8;34;34;china;assault;air
-jh_7;JH-7;720000SL;260000;150.12;11055;3.4;2.44;7;31;31;china;assault;air
+jh_7a;JH-7A;780000SL;290000;156.12;11131;3.43;2.5;8;35;34;china;assault;air
+jh_7a_prototype;JH-7A Prototype;9800GL;290000;103.58999999999999;6255;5.73;2.5;8;35;34;china;assault;air
+jh_7;JH-7;720000SL;260000;150.12;11055;3.4;2.44;7;32;32;china;assault;air
 jf_17;JF-17;910000SL;580000;114.12;12688;2.89;2.56;8;37;37;china;assault;air
 j_11;J-11;860000SL;320000;114.12;12779;3.19;2.56;8;37;36;china;fighter;air
 j_11a;J-11A;940000SL;175000;168.12;12842;3.21;2.62;8;37;37;china;fighter;air
@@ -1165,13 +1165,13 @@ hs-123a-1;Hs 123 A-1;700SL;2900;0.12;188;0.3;1.0;1;0;0;germany;bomber;air
 hs-123a-1_china;Hs 123 A-1 (China);700SL;2900;0.12;188;0.3;1.0;1;0;0;china;bomber;air
 v_11g;V-11;2100SL;4000;0.13;283;0.32;1.0;1;1;1;china;assault;air
 v_12d;V-12D;6300SL;5900;0.18333333333333335;415;0.41;1.06;1;3;4;china;assault;air
-n1k1_ja;N1K1-Ja;200000SL;63000;72.12;8602;2.28;1.72;4;13;13;japan;fighter;air
+n1k1_ja;N1K1-Ja;200000SL;63000;72.12;8602;2.28;1.72;4;13;14;japan;fighter;air
 b_18a;B-18A;2100SL;2000;0.13999999999999999;402;0.45;1.0;1;1;1;usa;bomber;air
 b_10b;B-10B;400GE;4000;0.09999999999999999;314;1.0;1.0;1;1;1;usa;bomber;air
 martin_139wc;Martin 139WC;700SL;2900;0.12;199;0.29;1.0;1;1;1;china;bomber;air
 b_34;B-34;10000SL;7900;0.3433333333333333;982;0.65;1.12;2;5;7;usa;bomber;air
 pv_2d;PV-2D;chronicles_2017LT;18000;2.4499999999999997;1186;3.02;1.36;3;10;8;usa;bomber;air
-wyvern_s4;Wyvern S.4;2980GL;46000;15.636666666666665;2002;3.14;1.6;4;10;11;britain;assault;air
+wyvern_s4;Wyvern S.4;2980GL;46000;15.636666666666665;2002;3.14;1.6;4;10;12;britain;assault;air
 ki_61_2_early;Ki-61-II Otsu Kai;105000SL;17000;12.12;3441;1.61;1.48;3;11;11;japan;fighter;air
 he_219a_7;He 219 A-7;2980GE;46000;15.636666666666665;1990;3.08;1.6;4;11;10;germany;assault;air
 ta_154a_1;Ta 154 A-1;1450GE;26000;16.87;3869;3.83;1.42;3;10;10;germany;fighter;air
@@ -1214,7 +1214,7 @@ rafale_c_f3;Rafale C F3;1080000SL;400000;174.12;12937;3.24;2.68;9;41;41;france;f
 rafale_m_f3r;Rafale M F3-R;1080000SL;400000;174.12;12937;3.24;2.68;9;41;41;france;fighter;air
 mirage_2000_5ei;Mirage 2000-5Ei (China);940000SL;350000;180.12;12842;3.21;2.62;8;39;39;china;fighter;air
 mirage_2000c_s4;Mirage 2000C-S4;winter_2024LT;290000;108.12;12362;3.16;2.5;8;34;34;france;fighter;air
-mirage_2000c_s5;Mirage 2000C-S5;780000SL;290000;156.12;12362;3.16;2.5;8;34;35;france;fighter;air
+mirage_2000c_s5;Mirage 2000C-S5;780000SL;290000;156.12;12362;3.16;2.5;8;34;34;france;fighter;air
 mirage_4000;Mirage 4000;860000SL;320000;114.12;12779;3.19;2.56;8;35;36;france;fighter;air
 mirage_2000d_r1;Mirage 2000D-R1;780000SL;290000;150.12;11131;3.43;2.5;8;34;34;france;assault;air
 mirage_2000d_rmv;Mirage 2000D-RMV;860000SL;320000;180.12;12688;2.89;2.56;8;35;35;france;assault;air
@@ -1223,7 +1223,7 @@ nesher;Nesher;580000SL;210000;229.30666666666664;15088;3.77;2.32;7;28;27;israel;
 kfir_canard;Kfir Canard;9450GE;230000;99.08999999999999;6318;6.44;2.38;7;30;30;israel;fighter;air
 kfir_c2;Kfir C.2;craft_2022_springLT;230000;96.12;11702;3.12;2.38;7;31;32;israel;fighter;air
 kfir_c7;Kfir C.7;720000SL;260000;102.12;11957;3.16;2.44;7;33;33;israel;fighter;air
-kfir_c10_colombia;Kfir C.10 (Israel);winter_2025LT;320000;252.20666666666668;12779;3.19;2.56;8;36;36;israel;fighter;air
+kfir_c10_colombia;Kfir C.10 (Israel);winter_2025LT;320000;252.20666666666668;12779;3.19;2.56;8;36;37;israel;fighter;air
 md_460;Super Mystere B2;480000SL;86000;78.12;12656;3.8;2.2;6;24;24;france;fighter;air
 md_460_yt_cup_2019;Super Mystere B2 (France);420000SL;150000;78.12;12656;3.8;2.14;6;24;24;france;fighter;air
 md_460_usa;Super Mystere B2;380000SL;135000;78.12;12656;3.8;2.08;6;24;24;usa;fighter;air
@@ -1271,6 +1271,7 @@ p-51d-20_china;P-51D-20 (China);76000SL;26000;8.866666666666667;2899;1.45;1.42;3
 b_25j_30_china;B-25J-30 (China);47000SL;18000;5.579999999999999;2784;1.55;1.36;3;9;8;china;bomber;air
 mig-17_china;J-4;340000SL;61000;132.12;12081;3.8;2.02;5;24;23;china;fighter;air
 mig-19j_6a;J-6A;420000SL;150000;210.16666666666666;13673;3.8;2.14;6;27;25;china;fighter;air
+f_6c_pakistan;F-6C (China);2026_04_airLT;190000;222.60666666666668;14665;3.8;2.26;6;27;26;china;fighter;air
 q_5_early;Q-5 early;380000SL;135000;132.12;11420;3.16;2.08;6;26;25;china;assault;air
 a_5c;A-5C;9270GE;210000;94.58999999999999;6439;6.23;2.32;7;30;29;china;assault;air
 saab_sk60b;SK60B;270000SL;95000;84.12;9272;2.6;1.9;5;19;18;sweden;assault;air
@@ -1303,7 +1304,8 @@ p-43a-1_china;P-43A-1 (China);22000SL;5600;1.4000000000000001;1630;0.99;1.24;2;6
 ki-27_otsu_china;Ki-27 Otsu (China);700SL;2900;0.12;230;0.2;1.0;1;1;3;china;fighter;air
 ki_43_3_ko;Ki-43-III Ko (China);2100SL;2000;0.13999999999999999;481;0.29;1.0;1;3;6;china;fighter;air
 sb_2m_103u_china;SB 2M-103U (China);16000SL;4600;0.9533333333333333;1426;0.99;1.18;2;5;4;china;bomber;air
-spitfire_lf_mk9e_weisman;Weizman's Spitfire LF Mk.IXe;4880GE;63000;36.089999999999996;4282;4.53;1.72;4;13;14;israel;fighter;air
+spitfire_lf_mk9e_weisman;Weizman's Spitfire LF Mk.IXe;4880GE;63000;36.089999999999996;4282;4.53;1.72;4;14;15;israel;fighter;air
+spitfire_lf_mk9c_cw_greece;Spitfire LF Mk IXc (CW) (Israel);battlepass_season23LT;63000;36.089999999999996;4282;4.53;1.72;4;13;14;israel;fighter;air
 a_4e_late_iaf;A-4E (Israel);8910GE;170000;81.09;5949;6.81;2.2;6;24;23;israel;assault;air
 a_4h;A-4H (Israel);380000SL;135000;66.12;11488;3.08;2.08;6;23;22;israel;assault;air
 a_4n;Ayit;530000SL;190000;84.12;12486;3.32;2.26;6;26;26;israel;assault;air
@@ -1326,8 +1328,8 @@ tiger_had_france;EC-665 Tiger HAD;1020000SL;400000;108.12;6650;2.4;2.32;7;29;30;
 tiger_had_block2_france;Tiger HAD Block 2;1030000SL;400000;120.12;7795;2.02;2.38;7;30;35;france;helicopter;helicopter
 tiger_had_spain;Tigre HAD-E (Germany);9270GL;400000;76.59;3303;4.8;2.32;7;29;30;germany;helicopter;helicopter
 tiger_hac_france;EC-665 Tiger HAC;1030000SL;200000;120.12;7795;2.02;2.38;7;30;35;france;helicopter;helicopter
-sa_342l_china;SA.342L Gazelle;490000SL;150000;66.12;3728;3.0;2.02;5;23;23;china;helicopter;helicopter
-z_11wa;Z-11WA;390000SL;150000;60.120000000000005;3728;3.0;1.96;5;23;23;china;helicopter;helicopter
+sa_342l_china;SA.342L Gazelle;490000SL;150000;66.12;3728;3.0;2.02;5;23;24;china;helicopter;helicopter
+z_11wa;Z-11WA;390000SL;150000;60.120000000000005;3728;3.0;1.96;5;23;24;china;helicopter;helicopter
 z_9w;Z-9W;980000SL;360000;84.12;5544;2.81;2.08;6;25;28;china;helicopter;helicopter
 z_9wa;Z-9WA;1000000SL;380000;96.12;6075;2.63;2.2;6;26;30;china;helicopter;helicopter
 z_19;Z-19;1010000SL;390000;102.12;6500;2.33;2.26;6;28;31;china;helicopter;helicopter
@@ -1403,7 +1405,7 @@ ah_64d_i_saraph;Saraph;1020000SL;400000;108.12;6756;2.25;2.32;7;29;33;israel;hel
 ah_64d_japan;AH-64DJP;1020000SL;400000;108.12;6542;2.5;2.32;7;29;32;japan;helicopter;helicopter
 ah_64d_lightweight_japan;AH-64DJP (AT);9270GL;400000;76.59;3796;3.94;2.32;7;29;32;japan;helicopter;helicopter
 ah_64d_netherlands;AH-64D (France);9270GE;400000;76.59;3796;3.94;2.32;7;29;32;france;helicopter;helicopter
-ah_60_iaf;AH-60 (Israel);1020000SL;400000;108.12;6756;2.25;2.32;7;29;36;israel;helicopter;helicopter
+ah_60_iaf;AH-60 (Israel);1020000SL;400000;108.12;6756;2.25;2.32;7;29;35;israel;helicopter;helicopter
 mh_60l_dap;MH-60L DAP;1020000SL;400000;108.12;6756;2.25;2.32;7;29;30;usa;helicopter;helicopter
 ah_2_rooivalk;Rooivalk Mk1F CSH;8560GE;360000;58.59;3301;4.42;2.14;6;29;32;britain;helicopter;helicopter
 ah_mk1;AH Mk.1 Apache;1020000SL;400000;108.12;6756;2.25;2.32;7;29;33;britain;helicopter;helicopter
@@ -1437,14 +1439,14 @@ ussr_t_34_85_stp_s53;T-34-85 (STP);200000SL;63000;42.12;4974;1.77;1.72;4;16;16;u
 ussr_t_34_85_zis_53_v80;T-34-85 ""Partisan"";2025_05_tankLT;40000;9.403333333333334;1233;2.72;1.54;3;14;14;ussr;tank;tank
 ussr_t_34_85_zis_53_kit_3rank;T-34-85 ('45);1750GL;20000;9.403333333333334;1233;2.72;1.54;3;14;14;ussr;tank;tank
 ussr_t_34_85_d_5t;T-34-85 (D-5T);105000SL;33000;6.983333333333333;1923;1.21;1.48;3;13;13;ussr;tank;tank
-ussr_t_34_1941_l_11;T-34 (1940);16000SL;9200;0.59;812;0.49;1.18;2;7;7;ussr;tank;tank
-ussr_t_34_1940_l_11;T-34 (Prototype);850GL;9200;0.41;419;0.99;1.18;2;7;7;ussr;tank;tank
+ussr_t_34_1941_l_11;T-34 (1940);16000SL;9200;0.59;812;0.49;1.18;2;8;8;ussr;tank;tank
+ussr_t_34_1940_l_11;T-34 (Prototype);850GL;9200;0.41;419;0.99;1.18;2;8;8;ussr;tank;tank
 ussr_t_34_1941_57;T-34-57;76000SL;26000;4.91;1671;1.06;1.42;3;11;11;ussr;tank;tank
 ussr_t_34_57_1943;T-34-57 (1943);1750GE;40000;9.403333333333334;1264;2.62;1.54;3;11;11;ussr;tank;tank
 ussr_t_34_1941;T-34 (1941);22000SL;5600;1.1533333333333333;1058;0.66;1.24;2;9;9;ussr;tank;tank
 ussr_t_34_1941_cast_turret;T-34 (1st Gv.T.Br.);1300GE;9200;0.41;452;1.02;1.18;2;9;9;ussr;tank;tank
 ussr_t_34_1942;T-34 (1942);22000SL;11000;1.1533333333333333;1060;0.66;1.24;2;9;9;ussr;tank;tank
-ussr_t_34E;T-34E;1150GL;14000;1.33;677;1.57;1.3;2;9;9;ussr;tank;tank
+ussr_t_34E;T-34E;1150GL;14000;1.33;677;1.57;1.3;2;10;10;ussr;tank;tank
 ussr_t_35;T-35;2100GE;5900;0.13999999999999999;361;0.62;1.06;1;1;1;ussr;heavy_tank;heavy_tank
 ussr_t_28;T-28;2100SL;4000;0.13;268;0.2;1.0;1;3;2;ussr;tank;tank
 ussr_t_28_1938;T-28 (1938);700SL;2900;0.12;142;0.14;1.0;1;2;1;ussr;tank;tank
@@ -1506,7 +1508,7 @@ ussr_object_140;Object 140;8730GE;160000;63.09;3312;4.01;2.14;6;23;23;ussr;tank;
 ussr_object_292;Object 292;2024_02_tankLT;260000;108.12;6409;1.95;2.32;7;29;29;ussr;tank;tank
 ussr_object_268;Object 268;270000SL;48000;72.12;6430;2.1;1.9;5;19;18;ussr;tank_destroyer;tank
 ussr_su_152;SU-152;47000SL;18000;3.266666666666667;1522;1.05;1.36;3;10;9;ussr;tank_destroyer;tank
-ussr_su_122;SU-122;16000SL;9200;0.59;817;0.61;1.18;2;5;5;ussr;tank_destroyer;tank
+ussr_su_122;SU-122;16000SL;9200;0.59;817;0.61;1.18;2;6;6;ussr;tank_destroyer;tank
 ussr_isu_152;ISU-152;105000SL;17000;7.72;2083;1.33;1.48;3;11;11;ussr;tank_destroyer;tank
 ussr_isu_122;ISU-122;135000SL;20000;14.85;2691;1.51;1.54;3;13;13;ussr;tank_destroyer;tank
 ussr_isu_122s;ISU-122S;135000SL;20000;14.85;2642;1.5;1.54;3;14;14;ussr;tank_destroyer;tank
@@ -1577,18 +1579,18 @@ germ_pzkpfw_V_ersatz_m10;Ersatz M10;winter_2018LT;63000;25.87;2315;3.52;1.72;4;1
 germ_pzkpfw_V_ausf_g_panther;Panther G;185000SL;27000;30.12;4127;1.63;1.66;4;15;15;germany;tank;tank
 germ_pzkpfw_V_ausf_f_panther;Panther F;200000SL;31000;42.12;4899;1.78;1.72;4;15;15;germany;tank;tank
 germ_panther_II;Panther II;270000SL;95000;66.12;6166;1.95;1.9;4;18;18;germany;tank;tank
-germ_pzkpfw_IV_ausf_G;Pz.IV G;22000SL;5600;1.1533333333333333;1057;0.65;1.24;2;8;7;germany;tank;tank
-germ_pzkpfw_IV_ausf_H;Pz.IV H;22000SL;11000;1.1533333333333333;1058;0.66;1.24;2;9;8;germany;tank;tank
+germ_pzkpfw_IV_ausf_G;Pz.IV G;22000SL;5600;1.1533333333333333;1057;0.65;1.24;2;8;8;germany;tank;tank
+germ_pzkpfw_IV_ausf_H;Pz.IV H;22000SL;11000;1.1533333333333333;1058;0.66;1.24;2;9;9;germany;tank;tank
 germ_pzkpfw_38t_ausf_A;Pz.38(t) A;700SL;2900;0.12;123;0.12;1.0;1;1;1;germany;tank;tank
 germ_pzkpfw_38t_ausf_F;Pz.38(t) F;2100SL;4000;0.13;247;0.16;1.0;1;3;4;germany;tank;tank
 germ_pzkpfw_38t_na;Pz.38(t) n.A.;6300SL;3000;0.17333333333333334;378;0.24;1.06;1;4;4;germany;tank;tank
 germ_jgdpz_38t;Jagdpanzer 38(t);105000SL;17000;6.983333333333333;2010;1.32;1.48;3;11;10;germany;tank_destroyer;tank
 germ_pzkpfw_IV_ausf_F2;Pz.IV F2;16000SL;9200;0.59;812;0.49;1.18;2;7;7;germany;tank;tank
-germ_pzkpfw_IV_ausf_F;Pz.IV F1;6300SL;3000;0.18333333333333335;433;0.29;1.06;1;4;3;germany;tank;tank
+germ_pzkpfw_IV_ausf_F;Pz.IV F1;6300SL;3000;0.18333333333333335;433;0.29;1.06;1;4;4;germany;tank;tank
 germ_pzkpfw_IV_ausf_C;Pz.IV C;700SL;2900;0.12;142;0.14;1.0;1;1;1;germany;tank;tank
 germ_pzkpfw_IV_ausf_E;Pz.IV E;6300SL;5900;0.18333333333333335;433;0.29;1.06;1;4;3;germany;tank;tank
 germ_pzkpfw_III_ausf_M;Pz.III M;32000SL;6900;1.89;1289;0.78;1.3;2;7;7;germany;tank;tank
-germ_pzkpfw_III_ausf_N;Pz.III N;1000GE;11000;0.7799999999999999;574;1.32;1.24;2;6;6;germany;tank;tank
+germ_pzkpfw_III_ausf_N;Pz.III N;1000GE;11000;0.7799999999999999;574;1.32;1.24;2;7;7;germany;tank;tank
 germ_pzkpfw_III_ausf_L;Pz.III L;22000SL;11000;1.1533333333333333;1043;0.65;1.24;2;6;6;germany;tank;tank
 germ_pzkpfw_III_ausf_E;Pz.III E;0SL;11000;null;1043;0.1;1.0;1;0;0;germany;tank;tank
 germ_pzkpfw_III_ausf_B;Pz.III B;0SL;11000;null;1043;0.1;1.0;1;0;0;germany;tank;tank
@@ -1631,18 +1633,18 @@ germ_panzerbefelhswagen_jagdpanther;Bfw. Jagdpanther G1;6090GE;71000;31.59;2638;
 germ_flakpanzer_I_ausf_A;Flakpanzer I;700SL;2900;0.12;116;0.12;1.0;1;1;1;germany;SPAA;tank
 germ_sdkfz_222;Sd.Kfz.222;2100SL;4000;0.13;260;0.19;1.0;1;2;3;germany;SPAA;wheeled_vehicle
 germ_amd_35_kwk;Pz.Sp.Wg.P204(f) KwK 38;summer_2023LT;4000;0.09999999999999999;130;0.36;1.0;1;3;3;germany;tank;wheeled_vehicle
-germ_amd_35_kwk39;Pz.Sp.Wg.P204(f) KwK 39/1;10000SL;7900;0.3;518;0.32;1.12;2;4;5;germany;tank;wheeled_vehicle
+germ_amd_35_kwk39;Pz.Sp.Wg.P204(f) KwK 39/1;10000SL;7900;0.3;518;0.32;1.12;2;5;5;germany;tank;wheeled_vehicle
 germ_sdkfz_251_9;Sd.Kfz.251/9;6300SL;3000;0.18333333333333335;397;0.36;1.06;1;1;1;germany;tank_destroyer;tank
 germ_sdkfz_251_21;Sd.Kfz.251/21;32000SL;14000;1.89;1061;0.74;1.3;2;7;7;germany;SPAA;tank
 germ_sdkfz_6_2_flak36;Sd.Kfz. 6/2;6300SL;5900;0.17333333333333334;352;0.27;1.06;1;4;4;germany;SPAA;tank
 germ_sdkfz_251_10;Sd.Kfz.251/10;craft_2020_autumnLT;4000;0.09999999999999999;140;0.52;1.0;1;0;0;germany;tank_destroyer;tank
 germ_sdkfz_251_22;Sd.Kfz.251/22;battlepass_season4LT;11000;0.7799999999999999;537;1.59;1.24;2;6;6;germany;tank_destroyer;tank
 germ_sdkfz_234_1;Sd.Kfz.234/1;craft_2020_springLT;4000;0.09999999999999999;300;0.42;1.0;1;3;3;germany;tank;wheeled_vehicle
-germ_sdkfz_234_2_td;Sd.Kfz.234/2 TD;msi_notebookLT;7900;0.3;544;0.33;1.12;2;5;8;germany;tank;wheeled_vehicle
-germ_sdkfz_234_2;Sd.Kfz.234/2;22000SL;11000;1.0366666666666666;953;0.56;1.24;2;6;8;germany;tank;wheeled_vehicle
-germ_sdkfz_234_2_mod;Sd.Kfz.234/2 ""Biene"";1000GE;11000;0.7466666666666667;484;1.14;1.24;2;6;8;germany;tank;wheeled_vehicle
+germ_sdkfz_234_2_td;Sd.Kfz.234/2 TD;msi_notebookLT;7900;0.3;544;0.33;1.12;2;7;8;germany;tank;wheeled_vehicle
+germ_sdkfz_234_2;Sd.Kfz.234/2;22000SL;11000;1.0366666666666666;953;0.56;1.24;2;7;8;germany;tank;wheeled_vehicle
+germ_sdkfz_234_2_mod;Sd.Kfz.234/2 ""Biene"";1000GE;11000;0.7466666666666667;484;1.14;1.24;2;7;8;germany;tank;wheeled_vehicle
 germ_sdkfz_9_flak37;8,8 cm Flak 37 Sfl.;47000SL;18000;3.266666666666667;1522;1.05;1.36;3;11;9;germany;tank_destroyer;tank
-germ_pzkpfw_IV_ausf_J;Pz.IV J;32000SL;6900;1.89;1300;0.79;1.3;2;9;8;germany;tank;tank
+germ_pzkpfw_IV_ausf_J;Pz.IV J;32000SL;6900;1.89;1300;0.79;1.3;2;9;9;germany;tank;tank
 germ_pzkpfw_38t_Marder_III;Marder III;6300SL;5900;0.18333333333333335;429;0.34;1.06;1;4;4;germany;tank_destroyer;tank
 germ_sdkfz_234_3;Sd.Kfz.234/3;summer_2018_good_oldLT;4000;0.09999999999999999;140;0.46;1.0;1;3;3;germany;tank_destroyer;wheeled_vehicle
 germ_sdkfz_234_4;Sd.Kfz.234/4;summer_2017LT;18000;2.2666666666666666;818;2.11;1.36;3;11;11;germany;tank_destroyer;wheeled_vehicle
@@ -1676,8 +1678,8 @@ us_nasams_fcs;NASAMS 3 (TADS);1120000SL;420000;168.12;9542;2.1;2.62;8;35;35;usa;
 us_nasams_launcher;NASAMS 3 (TEL);msi_notebookLT;420000;168.12;9542;2.1;2.62;8;35;35;usa;SPAA;wheeled_vehicle
 ussr_9p149;Shturm-S;450000SL;81000;96.12;6727;2.1;2.14;6;23;23;ussr;tank_destroyer;tank
 ussr_9p157;Khrizantema-S;710000SL;260000;114.12;7059;2.1;2.32;7;26;26;ussr;tank_destroyer;tank
-ussr_bmpt;BMPT;830000SL;300000;108.12;5712;1.56;2.38;7;31;31;ussr;tank_destroyer;tank
-ussr_bmpt_72;BMPT-72;9450GL;300000;94.58999999999999;5935;4.2;2.38;7;31;31;ussr;tank_destroyer;tank
+ussr_bmpt;BMPT;830000SL;300000;108.12;5712;1.56;2.38;7;32;32;ussr;tank_destroyer;tank
+ussr_bmpt_72;BMPT-72;9450GL;300000;94.58999999999999;5935;4.2;2.38;7;32;32;ussr;tank_destroyer;tank
 uk_stormer_hvm;Stormer HVM;830000SL;300000;114.12;6799;1.98;2.38;7;28;28;britain;SPAA;tank
 uk_9a33bm2;Osa-AK (Britain);830000SL;150000;120.12;6799;1.98;2.38;7;28;28;britain;SPAA;wheeled_vehicle
 uk_9a35_m;Strela-10M (Britain);950000SL;175000;126.12;6932;2.03;2.44;7;30;28;britain;SPAA;tank
@@ -1723,7 +1725,7 @@ it_zsu_57_2;ZSU-57-2 (Italy);240000SL;82000;54.120000000000005;4619;1.78;1.84;5;
 it_zsu_23_4;ZSU-23-4V (Italy);380000SL;135000;84.12;5401;1.88;2.08;5;21;21;italy;SPAA;tank
 it_39m_csaba;Csaba;700SL;2900;0.12;123;0.12;1.0;1;0;0;italy;tank;wheeled_vehicle
 it_40m_turan_1;Turan I;10000SL;7900;0.3;573;0.38;1.12;2;4;4;italy;tank;tank
-it_43m_turan_3;Turan III;47000SL;18000;3.266666666666667;1468;0.91;1.36;3;9;9;italy;tank;tank
+it_43m_turan_3;Turan III;47000SL;18000;3.266666666666667;1468;0.91;1.36;3;10;9;italy;tank;tank
 it_40_43m_zrinyi_2;Zrinyi II;16000SL;9200;0.59;856;0.62;1.18;2;5;5;italy;tank_destroyer;tank
 it_btr_80a_hungary;BTR-80A (Italy);270000SL;95000;60.120000000000005;5254;1.58;1.9;5;19;19;italy;tank;wheeled_vehicle
 it_2s1;2S1 (Italy);185000SL;54000;36.12;4262;1.78;1.66;4;15;15;italy;tank_destroyer;tank
@@ -1731,7 +1733,7 @@ it_t_72m1;T-72M1 (Italy);620000SL;220000;102.12;6193;2.02;2.26;6;25;25;italy;tan
 it_leopard_2a4;Leopard 2A4 (Italy);710000SL;260000;108.12;6442;1.93;2.32;7;29;29;italy;tank;tank
 it_leopard_2a7_hungary;Leopard 2A7HU;1120000SL;420000;138.12;6823;1.97;2.62;8;35;35;italy;tank;tank
 it_kf_41;KF41;830000SL;300000;108.12;6168;1.66;2.38;7;30;30;italy;tank;tank
-it_otobreda_sidam_25;SIDAM 25;450000SL;160000;90.12;5795;1.91;2.14;6;22;22;italy;SPAA;tank
+it_otobreda_sidam_25;SIDAM 25;450000SL;160000;90.12;5795;1.91;2.14;6;21;21;italy;SPAA;tank
 it_otobreda_sidam_25_mistral;SIDAM 25 (Mistral);620000SL;220000;108.12;6510;1.94;2.26;6;27;26;italy;SPAA;tank
 it_otomatic;OTOMATIC;950000SL;350000;132.12;8555;2.1;2.44;7;31;31;italy;SPAA;tank
 it_9a33bm3;Osa-AKM (Italy);830000SL;300000;120.12;6799;1.98;2.38;7;28;28;italy;SPAA;wheeled_vehicle
@@ -1772,16 +1774,16 @@ jp_type_89;Type 89;520000SL;94000;90.12;5751;1.68;2.2;6;24;24;japan;tank;tank
 it_vrcc_centauro;VRCC;8910GE;190000;63.09;2783;3.26;2.2;6;26;26;italy;tank;wheeled_vehicle
 it_centauro_mgs_120;Centauro I 120;950000SL;350000;114.12;5937;1.63;2.44;7;32;32;italy;tank;wheeled_vehicle
 it_centauro_rgo_120;Centauro RGO;9620GE;350000;81.09;2970;3.25;2.44;7;32;32;italy;tank;wheeled_vehicle
-it_centauro_2;Centauro II (P);1080000SL;400000;120.12;5882;1.62;2.5;8;33;33;italy;tank;wheeled_vehicle
+it_centauro_2;Centauro II (P);1080000SL;400000;120.12;5882;1.62;2.5;8;34;34;italy;tank;wheeled_vehicle
 it_b1_centauro;Centauro I 105;520000SL;190000;90.12;5610;1.65;2.2;6;25;25;italy;tank;wheeled_vehicle
 it_m113a1_tow;M113A1 (TOW);380000SL;135000;90.12;6726;2.1;2.08;6;22;22;italy;tank_destroyer;tank
 it_c13_tua;C13/TUA;470000SL;400000;96.12;6727;2.1;2.14;6;22;22;italy;tank_destroyer;tank
 it_b1_centauro_romor;Centauro I 105 R;620000SL;110000;96.12;5525;1.67;2.26;6;26;26;italy;tank;wheeled_vehicle
 it_fiat_6616_cockerill;AUBL/74;210000SL;71000;48.120000000000005;4715;1.54;1.78;4;17;17;italy;tank;wheeled_vehicle
-it_c13_t90;C13 T90;240000SL;82000;54.120000000000005;5024;1.57;1.84;5;18;18;italy;tank;tank
+it_c13_t90;C13 T90;240000SL;82000;54.120000000000005;5024;1.57;1.84;5;18;19;italy;tank;tank
 it_aubl_74_60_70m;AUBL/74 HVG;summer_2019LT;120000;49.59;2887;3.43;2.08;5;21;21;italy;tank;wheeled_vehicle
 it_vbc_pt2;VBC (PT2);520000SL;190000;90.12;5610;1.65;2.2;6;25;26;italy;tank;wheeled_vehicle
-it_freccia;Freccia;830000SL;300000;108.12;5711;1.77;2.38;7;29;29;italy;tank;wheeled_vehicle
+it_freccia;Freccia;830000SL;300000;108.12;5711;1.77;2.38;7;29;30;italy;tank;wheeled_vehicle
 it_freccia_hitfist_ows;Freccia OWS 30;870000SL;540000;108.12;6168;1.66;2.38;7;29;29;italy;tank;wheeled_vehicle
 it_dardo_vcc;Dardo;710000SL;260000;102.12;5564;1.73;2.32;7;27;27;italy;tank;tank
 it_vcc_80_hitfist_60;VCC-80/60;450000SL;160000;84.12;5297;1.58;2.14;6;25;25;italy;tank;tank
@@ -1793,8 +1795,8 @@ it_m13_40_serie_3;M13/40 (III);2100SL;2000;0.13;289;0.2;1.0;1;3;3;italy;tank;tan
 it_m14_41;M14/41;6300SL;5900;0.18333333333333335;433;0.29;1.06;1;4;3;italy;tank;tank
 it_m14_41_47_40;M14/41 (47/40);700GE;7900;0.22;301;0.77;1.12;2;4;4;italy;tank;tank
 it_m15_42;M15/42;10000SL;7900;0.3;585;0.38;1.12;2;5;5;italy;tank;tank
-it_m24_chaffee;M24 (Italy);47000SL;18000;3.02;1375;0.79;1.36;3;7;8;italy;tank;tank
-it_m3a3_stuart;M3A3 (Italy);16000SL;9200;0.5466666666666666;717;0.42;1.18;2;4;5;italy;tank;tank
+it_m24_chaffee;M24 (Italy);47000SL;18000;3.02;1375;0.79;1.36;3;8;9;italy;tank;tank
+it_m3a3_stuart;M3A3 (Italy);16000SL;9200;0.5466666666666666;717;0.42;1.18;2;5;5;italy;tank;tank
 it_m4a4_sherman;Sherman V (Italy);47000SL;18000;3.266666666666667;1464;0.91;1.36;3;8;8;italy;tank;tank
 it_sherman_vc_firefly;Sherman Vc (Italy);155000SL;46000;22.493333333333336;3241;1.45;1.6;4;12;12;italy;tank;tank
 it_sherman_75_37;Sherman I Composito (Italy);1300GE;18000;2.18;709;1.82;1.36;3;8;8;italy;tank;tank
@@ -1816,7 +1818,7 @@ ussr_buk_m3_fcs;9K317M ""BUK-M3"" (TADS);1100000SL;410000;150.12;9542;2.1;2.56;8
 ussr_buk_m3_launcher;9K317M ""BUK-M3"" (TELAR);msi_notebookLT;410000;150.12;9542;2.1;2.56;8;35;35;ussr;SPAA;tank
 ussr_zis_43;ZiS-43;22000SL;5600;1.0366666666666666;896;0.64;1.24;2;8;6;ussr;SPAA;tank
 germ_stug_III_ausf_G;StuG III G;32000SL;14000;1.89;1330;0.9;1.3;2;10;9;germany;tank_destroyer;tank
-germ_panzerbefelhswagen_IV_ausf_J;Pz.Bef.Wg.IV J;1750GE;40000;10.290000000000001;1709;2.76;1.54;3;9;8;germany;tank;tank
+germ_panzerbefelhswagen_IV_ausf_J;Pz.Bef.Wg.IV J;1750GE;40000;10.290000000000001;1709;2.76;1.54;3;9;9;germany;tank;tank
 germ_t_34_747;T 34 747 (r) (Germany);2460GE;26000;3.5;878;2.09;1.42;3;10;10;germany;tank;tank
 ussr_t_54_1947;T-54 (1947);300000SL;105000;72.12;6288;1.98;1.96;5;20;20;ussr;tank;tank
 ussr_zut_37;ZUT-37;1000GE;11000;0.8666666666666667;837;1.49;1.24;2;4;4;ussr;SPAA;tank
@@ -1826,12 +1828,12 @@ ussr_zsu_37;ZSU-37;47000SL;9200;3.02;1263;0.89;1.36;2;8;7;ussr;SPAA;tank
 ussr_bt_5;BT-5;0SL;9200;null;1263;0.1;1.0;1;0;0;ussr;tank;tank
 ussr_smk;SMK;1300GE;18000;2.2666666666666666;796;2.15;1.36;2;8;8;ussr;heavy_tank;heavy_tank
 ussr_t_126sp;T-126;850GE;9200;0.41;503;0.9;1.18;2;6;6;ussr;tank;tank
-ussr_m3c;M3 Medium (USSR);850GL;9200;0.41;404;1.0;1.18;2;4;5;ussr;tank;tank
+ussr_m3c;M3 Medium (USSR);850GL;9200;0.41;404;1.0;1.18;2;5;5;ussr;tank;tank
 us_m2_medium;M2;700SL;2900;0.12;142;0.14;1.0;1;1;1;usa;tank;tank
 us_m22_locust;M22;2100SL;4000;0.13;254;0.17;1.0;1;2;3;usa;tank;tank
 us_lvt_a1_m24;LVT(A)(1) (M24);700GE;7900;0.22;252;0.64;1.12;2;5;5;usa;tank;tank
-us_m24_chaffee;M24;22000SL;11000;1.0366666666666666;994;0.57;1.24;2;7;8;usa;tank;tank
-us_m24_chaffee_tl;M24 (TL);32000SL;14000;1.89;1204;0.68;1.3;2;7;8;usa;tank;tank
+us_m24_chaffee;M24;22000SL;11000;1.0366666666666666;994;0.57;1.24;2;8;9;usa;tank;tank
+us_m24_chaffee_tl;M24 (TL);32000SL;14000;1.89;1204;0.68;1.3;2;8;9;usa;tank;tank
 us_ags_teledyne;AGS;winter_2022LT;260000;102.12;5711;1.72;2.32;7;33;33;usa;tank;tank
 us_xm_8;XM8;craft_2021_springLT;220000;96.12;5439;1.68;2.26;6;25;26;usa;tank;tank
 us_losat_ccv;LOSAT;craft_2023_autumnLT;300000;120.12;6605;2.1;2.38;7;27;27;usa;tank_destroyer;tank
@@ -1844,14 +1846,14 @@ us_xm_800t;XM800T;380000SL;135000;84.12;5746;1.72;2.08;6;22;23;usa;tank;tank
 us_m50_ontos;M50;200000SL;31000;48.120000000000005;5315;1.95;1.72;4;17;17;usa;tank_destroyer;tank
 us_t114;T114;8020GE;95000;40.589999999999996;2661;3.16;1.9;5;19;20;usa;tank;tank
 us_m551;M551;340000SL;120000;72.12;5255;1.61;2.02;5;21;21;usa;tank;tank
-us_m551_76;M551(76);battlepass_season14LT;63000;24.636666666666667;2121;2.93;1.72;4;16;18;usa;tank;tank
+us_m551_76;M551(76);battlepass_season14LT;63000;24.636666666666667;2121;2.93;1.72;4;17;18;usa;tank;tank
 us_m6a1;M6A1;76000SL;26000;5.3566666666666665;1865;1.12;1.42;3;11;12;usa;heavy_tank;heavy_tank
 us_t1e1;T1E1;105000SL;17000;7.72;2098;1.25;1.48;3;12;13;usa;heavy_tank;heavy_tank
 us_t1e1_90;T1E1 (90);135000SL;40000;16.493333333333332;2719;1.43;1.54;3;14;14;usa;heavy_tank;heavy_tank
 us_m6a2e1;M6A2E1;battlepass_season3LT;95000;49.59;3858;4.2;1.96;4;17;17;usa;heavy_tank;heavy_tank
 us_m103;M103;300000SL;105000;84.12;7479;2.02;1.96;5;20;20;usa;heavy_tank;heavy_tank
-us_m3_lee;M3 Lee;10000SL;7900;0.3;585;0.38;1.12;2;4;5;usa;tank;tank
-us_m4a1_1942_sherman;M4A1;16000SL;9200;0.59;812;0.49;1.18;2;7;7;usa;tank;tank
+us_m3_lee;M3 Lee;10000SL;7900;0.3;585;0.38;1.12;2;5;5;usa;tank;tank
+us_m4a1_1942_sherman;M4A1;16000SL;9200;0.59;812;0.49;1.18;2;8;8;usa;tank;tank
 uk_sherman_II;Sherman II;32000SL;6900;2.1366666666666667;1300;0.79;1.3;2;8;8;britain;tank;tank
 us_m4a1_76w_sherman;M4A1 (76) W;47000SL;18000;3.266666666666667;1451;0.93;1.36;3;12;12;usa;tank;tank
 us_t55e1;T55E1;battlepass_season2LT;40000;9.403333333333334;1249;2.94;1.54;3;10;10;usa;tank_destroyer;wheeled_vehicle
@@ -1865,7 +1867,7 @@ us_m4a3e8_76w_sherman;M4A3 (76) W;135000SL;20000;13.719999999999999;2511;1.36;1.
 us_m4a3e8_76w_sherman_kit_3rank;Sherman (Hell);1750GL;40000;9.403333333333334;1233;2.72;1.54;3;13;14;usa;tank;tank
 us_m4a3e2_76w_sherman_jumbo;M4A3E2 (76) W;155000SL;46000;30.12;4032;1.57;1.6;4;16;16;usa;heavy_tank;heavy_tank
 us_t14;T14;1750GE;40000;9.736666666666666;1326;2.68;1.54;3;11;11;usa;heavy_tank;heavy_tank
-us_m4a3e2_sherman_jumbo;M4A3E2;105000SL;33000;7.72;2123;1.27;1.48;3;13;14;usa;heavy_tank;heavy_tank
+us_m4a3e2_sherman_jumbo;M4A3E2;105000SL;33000;7.72;2123;1.27;1.48;3;14;14;usa;heavy_tank;heavy_tank
 us_t77e1;T77E1;22000SL;11000;1.0366666666666666;899;0.64;1.24;2;9;9;usa;SPAA;tank
 us_skink_aa;Skink (USA);155000SL;46000;22.493333333333336;2996;1.41;1.6;4;14;13;usa;SPAA;tank
 us_skink_aa_kit_3rank;Skink (Hell) (USA);2980GL;23000;14.236666666666666;1360;2.81;1.6;3;14;13;usa;SPAA;tank
@@ -1877,7 +1879,7 @@ us_t32;T32;240000SL;82000;66.12;6817;1.95;1.84;5;19;19;usa;heavy_tank;heavy_tank
 us_t32e1;T32E1;270000SL;48000;78.12;7315;1.96;1.9;5;20;20;usa;heavy_tank;heavy_tank
 us_t30;T30;winter_2019LT;95000;49.59;3858;4.2;1.96;4;17;17;usa;heavy_tank;heavy_tank
 us_t34;T34;210000SL;71000;60.120000000000005;6279;1.91;1.78;4;18;17;usa;heavy_tank;heavy_tank
-us_m4a3_105_sherman;M4A3 (105);16000SL;9200;0.59;813;0.49;1.18;2;6;6;usa;tank;tank
+us_m4a3_105_sherman;M4A3 (105);16000SL;9200;0.59;813;0.49;1.18;2;7;6;usa;tank;tank
 us_m26_pershing;M26;200000SL;63000;48.120000000000005;4974;1.77;1.72;4;17;17;usa;tank;tank
 us_t26e5;T26E5;185000SL;54000;42.12;5018;1.7;1.66;4;18;17;usa;heavy_tank;heavy_tank
 us_t26e4_superpershing;T26E1-1;200000SL;31000;48.120000000000005;5813;1.84;1.72;4;17;17;usa;heavy_tank;heavy_tank
@@ -1887,8 +1889,8 @@ us_m47_patton_II;M47;240000SL;82000;60.120000000000005;5782;1.9;1.84;5;19;19;usa
 us_m48a1_patton_III;M48A1;270000SL;48000;66.12;6171;1.96;1.9;5;20;20;usa;tank;tank
 us_m2a4;M2A4;0SL;48000;null;6171;0.1;1.0;1;0;0;usa;tank;tank
 us_m8_greyhound;M8 LAC;400GL;4000;0.09999999999999999;214;0.42;1.0;1;0;0;usa;tank;wheeled_vehicle
-us_m5a1_stuart;M5A1;10000SL;7900;0.3;518;0.32;1.12;2;4;5;usa;tank;tank
-us_m5a1_stuart_td;M5A1 TD;msi_notebookLT;7900;0.3;518;0.32;1.12;2;4;5;usa;tank;tank
+us_m5a1_stuart;M5A1;10000SL;7900;0.3;518;0.32;1.12;2;5;5;usa;tank;tank
+us_m5a1_stuart_td;M5A1 TD;msi_notebookLT;7900;0.3;518;0.32;1.12;2;5;5;usa;tank;tank
 uk_m3_stuart;Stuart I;700SL;2900;0.12;112;0.11;1.0;1;2;3;britain;tank;tank
 us_m3_stuart;M3 Stuart;700SL;2900;0.12;112;0.11;1.0;1;2;3;usa;tank;tank
 us_m19;M19A1;47000SL;18000;3.266666666666667;1293;0.89;1.36;3;10;9;usa;SPAA;tank
@@ -1901,19 +1903,19 @@ us_m2a4_1st_armor_div;M2A4 (1st Arm.Div.);250GE;2900;0.09000000000000001;172;0.3
 us_m3a1_stuart_usmc;M3A1 (USMC);400GL;4000;0.10666666666666667;329;0.42;1.0;1;3;4;usa;tank;tank
 uk_m3a1_stuart;Stuart III;6300SL;5900;0.17333333333333334;378;0.24;1.06;1;3;4;britain;tank;tank
 us_m3a1_stuart;M3A1 Stuart;6300SL;5900;0.17333333333333334;378;0.24;1.06;1;3;4;usa;tank;tank
-us_mk1_grant;Grant I (USA);1000GE;7900;0.22666666666666668;381;0.81;1.12;2;4;5;usa;tank;tank
+us_mk1_grant;Grant I (USA);1000GE;7900;0.22666666666666668;381;0.81;1.12;2;5;5;usa;tank;tank
 us_m4a5_ram_2;M4A5;1150GE;14000;1.33;676;1.57;1.3;2;8;8;usa;tank;tank
-us_m4a3e2_sherman_jumbo_cobra_king;Cobra King;2980GE;46000;14.79;1768;3.1;1.6;3;13;14;usa;heavy_tank;heavy_tank
+us_m4a3e2_sherman_jumbo_cobra_king;Cobra King;2980GE;46000;14.79;1768;3.1;1.6;3;14;14;usa;heavy_tank;heavy_tank
 us_m46_patton_73_armor_bat;M46 ""Tiger"";7480GE;95000;45.09;3173;3.93;1.9;4;18;18;usa;tank;tank
 us_m8a1;M8A1 GMC;winter_2015LT;7900;0.22;252;0.64;1.12;2;5;5;usa;tank;tank
-ussr_t_28E;T-28E;10000SL;7900;0.3;573;0.38;1.12;2;4;4;ussr;tank;tank
+ussr_t_28E;T-28E;10000SL;7900;0.3;573;0.38;1.12;2;5;4;ussr;tank;tank
 us_m4_sherman_calliope;Calliope;9740GE;40000;9.403333333333334;1261;2.55;1.54;3;10;9;usa;tank;tank
 germ_pzkpfw_VI_tiger_P;VK 45.01 (P);winter_2016LT;46000;14.79;1768;3.1;1.6;3;13;13;germany;heavy_tank;heavy_tank
 germ_panzerbefelhswagen_VI_P;Pz.Bef.Wg.VI P;6090GE;71000;31.59;2786;3.84;1.78;4;14;14;germany;heavy_tank;heavy_tank
 germ_pzkpfw_Maus;Maus;340000SL;120000;90.12;7670;2.09;2.02;5;21;20;germany;heavy_tank;heavy_tank
 germ_pzkpfw_38t_Marder_III_ausf_H;Marder III H;10000SL;7900;0.3;608;0.46;1.12;2;6;6;germany;tank_destroyer;tank
 germ_flakpanzer_38t_Gepard;Flakpanzer 38;2100SL;2000;0.13;240;0.19;1.0;1;3;2;germany;SPAA;tank
-germ_stuh_III_ausf_G;StuH 42 G;16000SL;4600;0.59;873;0.61;1.18;2;6;6;germany;tank_destroyer;tank
+germ_stuh_III_ausf_G;StuH 42 G;16000SL;4600;0.59;873;0.61;1.18;2;7;6;germany;tank_destroyer;tank
 us_halftrack_m3_75mm_gmc;M3 GMC;6300SL;5900;0.18333333333333335;411;0.34;1.06;1;2;2;usa;tank_destroyer;tank
 us_t86;T86;2025_06_tankLT;40000;9.403333333333334;1235;2.34;1.54;3;13;15;usa;tank;tank
 us_m18_hellcat;M18 GMC;135000SL;40000;13.719999999999999;2230;1.21;1.54;3;13;15;usa;tank;tank
@@ -1936,11 +1938,11 @@ ussr_gaz_4m;GAZ-AAA (4M);700SL;2900;0.12;112;0.12;1.0;1;0;0;ussr;SPAA;wheeled_ve
 ussr_gaz_dshk;GAZ-AAA (DShK);2100SL;4000;0.13;232;0.19;1.0;1;0;0;ussr;SPAA;wheeled_vehicle
 ussr_su_122_54;SU-122-54;240000SL;82000;60.120000000000005;6124;2.08;1.84;5;18;17;ussr;tank_destroyer;tank
 ussr_t_34_85E;T-34-85E;4880GL;63000;25.87;2315;3.52;1.72;4;14;14;ussr;tank;tank
-ussr_t_34E_STZ;T-34E STZ;32000SL;6900;2.1366666666666667;1303;0.79;1.3;2;10;9;ussr;tank;tank
+ussr_t_34E_STZ;T-34E STZ;32000SL;6900;2.1366666666666667;1303;0.79;1.3;2;10;10;ussr;tank;tank
 ussr_zis_12_94KM_1945;ZiS-12 (94-KM);22000SL;11000;1.0366666666666666;891;0.62;1.24;2;8;7;ussr;SPAA;wheeled_vehicle
 us_m8_scott;M8 HMC;2100SL;4000;0.13;271;0.25;1.0;1;1;1;usa;tank_destroyer;tank
 us_m8_scott_snowball;Snowballer;2100SL;4000;0.13;271;0.25;1.0;1;1;1;usa;tank_destroyer;tank
-us_m5a1_stuart_canadian_5st_arm;Stuart VI (5th CAD) (USA);700GE;7900;0.22666666666666668;519;0.76;1.12;2;4;5;usa;tank;tank
+us_m5a1_stuart_canadian_5st_arm;Stuart VI (5th CAD) (USA);700GE;7900;0.22666666666666668;519;0.76;1.12;2;5;5;usa;tank;tank
 ussr_object_248;Object 248;battlepass_season8LT;71000;36.089999999999996;3401;3.94;1.84;4;17;17;ussr;heavy_tank;heavy_tank
 ussr_is_2_1944_321;IS-2 No.321;may_2022LT;35000;54.120000000000005;6029;1.92;1.78;4;17;17;ussr;heavy_tank;heavy_tank
 ussr_is_2_1944_revenge;IS-2 ""Revenge"";7480GE;71000;36.089999999999996;3397;3.97;1.84;4;17;17;ussr;heavy_tank;heavy_tank
@@ -1963,7 +1965,7 @@ us_merkava_mk_3d;Merkava Mk.3D (USA);craft_2020_autumnLT;300000;108.12;6542;1.96
 us_m728;M728 CEV;8200GE;105000;49.59;3232;4.05;1.96;5;21;18;usa;tank;tank
 us_xm1_gm;XM1 (GM);8730GE;160000;58.59;2919;3.82;2.14;6;25;25;usa;tank;tank
 us_xm1_chrysler;XM1 (Chrysler);8730GL;160000;63.09;3103;3.83;2.14;6;24;24;usa;tank;tank
-us_xm_803;XM803;520000SL;190000;96.12;6234;1.97;2.2;6;23;24;usa;tank;tank
+us_xm_803;XM803;520000SL;190000;96.12;6234;1.97;2.2;6;24;24;usa;tank;tank
 us_m1296_dragoon;M1296;620000SL;220000;96.12;5440;1.68;2.26;6;26;26;usa;tank;wheeled_vehicle
 us_m3_bradley;M3 Bradley;450000SL;160000;84.12;5734;1.7;2.14;6;22;22;usa;tank;tank
 us_stingray;Stingray;520000SL;190000;90.12;5340;1.64;2.2;6;25;25;usa;tank;tank
@@ -1988,8 +1990,8 @@ us_m60a1_rise_passive_era;M60A1 RISE (P);450000SL;81000;90.12;6318;1.95;2.14;6;2
 us_m60a3_tts;M60A3 TTS;520000SL;190000;96.12;6234;1.97;2.2;6;24;24;usa;tank;tank
 us_m60_120s;120S;710000SL;260000;108.12;6409;1.95;2.32;7;28;28;usa;tank;tank
 us_m60a3_slep;M60 AMBT;worldwar_road_to_the_westLT;260000;108.12;6375;2.03;2.32;7;27;27;usa;tank;tank
-us_efv_p1;EFV;2025_10_tankLT;190000;90.12;5340;1.64;2.2;6;25;25;usa;tank;tank
-us_mbt_70;MBT-70;620000SL;110000;102.12;6193;2.02;2.26;6;24;25;usa;tank;tank
+us_efv_p1;EFV;2025_10_tankLT;190000;90.12;5340;1.64;2.2;6;24;24;usa;tank;tank
+us_mbt_70;MBT-70;620000SL;110000;102.12;6193;2.02;2.26;6;25;25;usa;tank;tank
 us_m60a2;M60A2;380000SL;135000;90.12;6831;2.03;2.08;6;21;22;usa;tank;tank
 us_m1128_wolfpack;M1128 Wolfpack;9270GE;260000;72.09;2762;3.45;2.32;7;26;28;usa;tank;wheeled_vehicle
 us_m1128_mgs;M1128;710000SL;260000;96.12;5611;1.73;2.32;7;26;28;usa;tank;wheeled_vehicle
@@ -2008,7 +2010,7 @@ germ_leopard_2a4m_can_sm;Leopard 2A4M (Germany);9620GL;350000;85.58999999999999;
 germ_leopard_a1a1_120;Leopard A1A1 (L/44);9090GL;220000;72.09;3217;4.04;2.26;6;25;25;germany;tank;tank
 germ_leopard_2_pt14;PT-16/T14 mod.;craft_2021_autumnLT;260000;114.12;6375;2.03;2.32;7;29;30;germany;tank;tank
 germ_leopard_2av;Leopard 2AV;summer_2022LT;260000;108.12;6375;2.03;2.32;7;28;28;germany;tank;tank
-germ_erprobungstrager_3_achs_turm;Turm III;8730GL;160000;63.09;3311;4.18;2.14;5;22;22;germany;tank;tank
+germ_erprobungstrager_3_achs_turm;Turm III;8730GL;160000;63.09;3311;4.18;2.14;5;22;23;germany;tank;tank
 germ_leopard_2k;Leopard 2K;710000SL;260000;108.12;6375;2.03;2.32;7;27;27;germany;tank;tank
 germ_leopard_2a4_pzbtl_123;Leopard 2 (PzBtl 123);9270GL;260000;76.59;3259;3.86;2.32;7;29;29;germany;tank;tank
 germ_leopard_2a4;Leopard 2A4;830000SL;300000;114.12;6571;1.98;2.38;7;29;29;germany;tank;tank
@@ -2017,7 +2019,7 @@ germ_leopard_2a5;Leopard 2A5;1080000SL;400000;126.12;6742;1.94;2.5;8;34;34;germa
 germ_leopard_2a5_pso;Leopard 2 PSO;1100000SL;410000;132.12;6796;1.96;2.56;8;35;35;germany;tank;tank
 germ_leopard_2a7v;Leopard 2A7V;1120000SL;420000;138.12;6823;1.97;2.62;8;35;35;germany;tank;tank
 germ_leopard_2a6;Leopard 2A6;1100000SL;200000;132.12;6796;1.96;2.56;8;35;35;germany;tank;tank
-germ_kpz_70;KPz-70;520000SL;190000;96.12;6052;1.96;2.2;6;24;25;germany;tank;tank
+germ_kpz_70;KPz-70;520000SL;190000;96.12;6052;1.96;2.2;6;25;25;germany;tank;tank
 germ_kpz_t72m1;T-72M1 (Germany);620000SL;220000;102.12;6193;2.02;2.26;6;25;25;germany;tank;tank
 us_m18_super_hellcat;Super Hellcat;6090GE;71000;30.37;2417;3.08;1.78;4;16;16;usa;tank;tank
 ussr_t_34_100;T-34-100;6090GE;71000;31.59;2658;3.66;1.78;4;16;16;ussr;tank;tank
@@ -2041,7 +2043,7 @@ germ_ru251;Ru 251;7480GE;71000;31.59;2554;3.09;1.84;4;18;19;germany;tank;tank
 germ_kanonenjagdpanzer;JPz 4-5;185000SL;27000;36.12;4457;1.78;1.66;4;16;16;germany;tank_destroyer;tank
 germ_raketenjagdpanzer_2;RakJPz 2;340000SL;61000;84.12;6462;2.1;2.02;5;21;21;germany;tank_destroyer;tank
 germ_raketenjagdpanzer_2_hot;RakJPz 2 (HOT);380000SL;135000;90.12;6726;2.1;2.08;6;22;22;germany;tank_destroyer;tank
-germ_jaguar_2;Jaguar 2;450000SL;160000;96.12;6919;2.05;2.14;6;24;24;germany;tank_destroyer;tank
+germ_jaguar_2;Jaguar 2;450000SL;160000;96.12;6919;2.05;2.14;6;23;23;germany;tank_destroyer;tank
 germ_th_400;R400;2025_11_tankLT;220000;96.12;5440;1.68;2.26;6;25;26;germany;tank;wheeled_vehicle
 germ_th_800_bismark;Class 3 (P);winter_2021LT;220000;96.12;5714;1.69;2.26;6;24;24;germany;tank;wheeled_vehicle
 germ_radpanzer_90;Radkampfwagen 90;710000SL;260000;102.12;5563;1.73;2.32;7;27;27;germany;tank;wheeled_vehicle
@@ -2070,7 +2072,7 @@ ussr_pt_76_57;PT-76-57;battlepass_season5LT;95000;40.589999999999996;2516;3.01;1
 ussr_object_906;Object 906;340000SL;61000;72.12;5365;1.67;2.02;5;21;21;ussr;tank;tank
 ussr_object_685;Object 685;450000SL;81000;84.12;5481;1.6;2.14;6;23;23;ussr;tank;tank
 uk_a1e1_independent;Independent;2100GE;7900;0.26;567;0.89;1.12;1;1;1;britain;heavy_tank;heavy_tank
-uk_mk1_grant;Grant I;summer_2016LT;9200;0.41;404;1.0;1.18;2;4;5;britain;tank;tank
+uk_mk1_grant;Grant I;summer_2016LT;9200;0.41;404;1.0;1.18;2;5;5;britain;tank;tank
 uk_ac1_sentinel;A.C.I;winter_2022LT;9200;0.41;420;0.99;1.18;2;7;6;britain;tank;tank
 uk_a_13_mk1_3rd_rtr;A13 Mk I (3rd R.T.R.);250GE;2900;0.09000000000000001;172;0.3;0.75;1;0;0;britain;tank;tank
 ussr_rbt_5;RBT-5;rbt_5LT;7900;0.22666666666666668;358;0.8;1.12;1;1;1;ussr;tank;tank
@@ -2112,9 +2114,9 @@ sw_ikv_73;Ikv 73;summer_2020LT;14000;1.33;564;1.57;1.3;2;5;5;sweden;tank;tank
 sw_ikv_103;Ikv 103;105000SL;17000;6.983333333333333;1963;1.32;1.48;3;9;9;sweden;tank_destroyer;tank
 sw_stormpjas_fm43_44;Spj fm/43-44;10000SL;7900;0.3;540;0.46;1.12;2;4;2;sweden;tank_destroyer;tank
 sw_pvkv_III;Pvkv III;32000SL;14000;2.1366666666666667;1335;0.93;1.3;2;7;7;sweden;tank_destroyer;tank
-sw_m24_chaffee_dk;M24DK;47000SL;18000;3.266666666666667;1375;0.79;1.36;3;7;8;sweden;tank;tank
+sw_m24_chaffee_dk;M24DK;47000SL;18000;3.266666666666667;1375;0.79;1.36;3;8;9;sweden;tank;tank
 sw_pvkv_iv;Pvkv IV;47000SL;18000;3.266666666666667;1457;0.9;1.36;3;6;6;sweden;tank;tank
-sw_pvkv_II;Pvkv II;76000SL;26000;5.3566666666666665;1752;1.19;1.42;3;8;9;sweden;tank_destroyer;tank
+sw_pvkv_II;Pvkv II;76000SL;26000;5.3566666666666665;1752;1.19;1.42;3;9;10;sweden;tank_destroyer;tank
 sw_pvkv_m43_1946;Pvkv m/43 (1946);76000SL;26000;5.3566666666666665;1752;1.19;1.42;3;9;9;sweden;tank_destroyer;tank
 sw_pvkv_m43_1963;Pvkv m/43 (1963);105000SL;33000;7.72;2134;1.36;1.48;3;11;12;sweden;tank_destroyer;tank
 sw_bkan_1c;Bkan 1C;210000SL;71000;54.120000000000005;5731;2.02;1.78;4;18;17;sweden;tank_destroyer;tank
@@ -2138,7 +2140,7 @@ sw_sherman_3_4;Sherman III/IV;1300GE;18000;2.18;709;1.82;1.36;3;8;8;sweden;tank;
 sw_kv_1_1942_fin;KV-1 m1942 (Sweden);2980GE;46000;14.79;1777;3.05;1.6;3;11;11;sweden;heavy_tank;heavy_tank
 sw_t_34_1941;T-34 (Sweden);47000SL;18000;3.266666666666667;1464;0.91;1.36;3;9;9;sweden;tank;tank
 sw_t_34_85_zis_53;T-34-85 (Sweden);200000SL;63000;42.12;4798;1.76;1.72;4;14;14;sweden;tank;tank
-sw_pzkpfw_IV_ausf_J;Pz.IV (Sweden);76000SL;13000;4.91;1671;1.03;1.42;3;9;8;sweden;tank;tank
+sw_pzkpfw_IV_ausf_J;Pz.IV (Sweden);76000SL;13000;4.91;1671;1.03;1.42;3;9;9;sweden;tank;tank
 sw_a_34_comet;Comet I (Sweden);135000SL;20000;13.719999999999999;2441;1.34;1.54;3;12;13;sweden;tank;tank
 sw_charioteer_mk_7;Charioteer Mk VII (Sweden);210000SL;71000;54.120000000000005;5360;1.83;1.78;4;15;16;sweden;tank;tank
 sw_t_54_1951;T-54 (Sweden);340000SL;120000;78.12;6429;2.04;2.02;5;21;21;sweden;tank;tank
@@ -2146,7 +2148,7 @@ sw_t_72m1;T-72M1 (Sweden);620000SL;220000;102.12;6193;2.02;2.26;6;25;25;sweden;t
 sw_t_55m;T-55M (Sweden);450000SL;160000;90.12;6729;2.0;2.14;6;23;24;sweden;tank;tank
 sw_leopard_2a4_fin;Leopard 2A4 (Sweden);830000SL;300000;114.12;6571;1.98;2.38;7;29;29;sweden;tank;tank
 sw_strv_74;Strv 74;200000SL;63000;36.12;4243;1.57;1.72;4;14;14;sweden;tank;tank
-sw_lago_1;Lago I;16000SL;9200;0.59;820;0.5;1.18;2;5;5;sweden;tank;tank
+sw_lago_1;Lago I;16000SL;9200;0.59;820;0.5;1.18;2;4;4;sweden;tank;tank
 sw_strv_m42_eh;Strv m/42 EH;22000SL;11000;1.1533333333333333;1045;0.66;1.24;2;5;5;sweden;tank;tank
 sw_strv_m42_delat_torn;Strv m/42 DT;105000SL;33000;6.983333333333333;1893;1.19;1.48;3;12;12;sweden;tank;tank
 sw_strv_m31;Strv m/31;0SL;33000;null;1893;0.1;1.0;1;0;0;sweden;tank;tank
@@ -2165,7 +2167,7 @@ sw_strv_122b_plss;Strv 122B PLSS;1100000SL;200000;132.12;6796;1.96;2.56;8;35;35;
 sw_strv_122b_plus;Strv 122B+;1100000SL;410000;132.12;6796;1.96;2.56;8;35;35;sweden;tank;tank
 sw_strv_121;Strv 121;830000SL;300000;114.12;6571;1.98;2.38;7;29;29;sweden;tank;tank
 sw_strv121b_christian2;Christian II;9450GL;300000;81.09;3323;3.96;2.38;7;29;29;sweden;tank;tank
-sw_sav_fm48;SAV 20.12.48;1300GE;18000;2.18;698;2.1;1.36;3;8;8;sweden;tank_destroyer;tank
+sw_sav_fm48;SAV 20.12.48;1300GE;18000;2.18;698;2.1;1.36;3;9;9;sweden;tank_destroyer;tank
 sw_strv_81;Strv 81;270000SL;95000;66.12;6171;1.96;1.9;5;20;20;sweden;tank;tank
 sw_strv_81_rb52;Strv 81 (RB 52);8020GE;95000;45.09;3158;3.91;1.9;5;20;20;sweden;tank;tank
 sw_strv_101;Strv 101;300000SL;105000;72.12;6288;1.98;1.96;5;21;21;sweden;tank;tank
@@ -2181,7 +2183,7 @@ uk_a_13_mk2_1939;A13 Mk II 1939;400GL;4000;0.09999999999999999;218;0.42;1.0;1;1;
 uk_a_43_black_prince;Black Prince;uk_tanks_cbtLT;71000;31.59;2925;3.83;1.78;4;15;15;britain;heavy_tank;heavy_tank
 uk_a_13_mk1;A13 Mk I;0SL;71000;null;2925;0.1;1.0;1;0;0;britain;tank;tank
 uk_a_13_mk2;A13 Mk II;700SL;2900;0.12;123;0.12;1.0;1;1;1;britain;tank;tank
-uk_a27m_cromwell_1;Cromwell I;32000SL;6900;1.89;1300;0.79;1.3;2;7;8;britain;tank;tank
+uk_a27m_cromwell_1;Cromwell I;32000SL;6900;1.89;1300;0.79;1.3;2;8;8;britain;tank;tank
 uk_sherman_vc_firefly;Sherman Firefly;76000SL;26000;4.663333333333333;1671;1.06;1.42;3;11;11;britain;tank;tank
 uk_sherman_vc_firefly_kit_3rank;Firefly (Overlord);1450GL;26000;3.5;874;2.11;1.42;3;11;11;britain;tank;tank
 uk_a_34_comet;Comet I;135000SL;20000;13.719999999999999;2441;1.34;1.54;3;12;13;britain;tank;tank
@@ -2240,8 +2242,8 @@ uk_falcon;Falcon;300000SL;105000;72.12;5142;1.76;1.96;5;22;22;britain;SPAA;tank
 uk_chieftain_marksman;Chieftain Marksman;380000SL;135000;84.12;5658;1.88;2.08;6;22;22;britain;SPAA;tank
 uk_a17_mk_1_tetrarch;Tetrarch I;0SL;135000;null;5658;0.1;1.0;1;0;0;britain;tank;tank
 uk_a25_mk_8;Harry Hopkins I;16000SL;9200;0.5466666666666666;684;0.42;1.18;2;4;4;britain;tank;tank
-uk_a27m_cromwell_5;Cromwell V;22000SL;11000;1.1533333333333333;1057;0.65;1.24;2;6;7;britain;tank;tank
-uk_a27m_cromwell_5_rp3;Cromwell V (RP-3);3450GE;14000;1.33;680;1.55;1.3;2;6;7;britain;tank;tank
+uk_a27m_cromwell_5;Cromwell V;22000SL;11000;1.1533333333333333;1057;0.65;1.24;2;7;8;britain;tank;tank
+uk_a27m_cromwell_5_rp3;Cromwell V (RP-3);3450GE;14000;1.33;680;1.55;1.3;2;7;8;britain;tank;tank
 uk_a30_challenger;Challenger;105000SL;33000;6.983333333333333;1923;1.21;1.48;3;12;13;britain;tank;tank
 uk_centurion_mk_10;Centurion Mk 10;300000SL;105000;72.12;6288;1.98;1.96;5;21;21;britain;tank;tank
 uk_centurion_mk_5_avre_era;Centurion Mk.5 AVRE;8200GE;105000;49.59;3232;4.05;1.96;5;21;18;britain;tank;tank
@@ -2249,10 +2251,10 @@ uk_centurion_shot_kal_d;Sho't Kal Dalet (Britain);8730GL;160000;63.09;3113;3.9;2
 uk_vickers_mbt_mk_3;Vickers Mk.3;380000SL;135000;90.12;6831;2.03;2.08;6;22;22;britain;tank;tank
 uk_vijayanta;Vijayanta;8730GE;160000;63.09;3469;4.18;2.14;6;22;22;britain;tank;tank
 uk_vickers_mbt_mk_1;Vickers Mk.1;300000SL;105000;72.12;6288;1.98;1.96;5;21;21;britain;tank;tank
-uk_crusader_mk_2_the_saint;Crusader ""The Saint"";700GE;7900;0.22666666666666668;497;0.75;1.12;2;4;5;britain;tank;tank
+uk_crusader_mk_2_the_saint;Crusader ""The Saint"";700GE;7900;0.22666666666666668;497;0.75;1.12;2;5;5;britain;tank;tank
 uk_cruiser_ram_1;Ram I;16000SL;9200;0.59;813;0.49;1.18;2;6;6;britain;tank;tank
 uk_m4a5_ram_2;Ram II;1150GE;14000;1.33;676;1.57;1.3;2;8;8;britain;tank;tank
-uk_crusader_mk_2;Crusader II;10000SL;7900;0.3;518;0.32;1.12;2;4;5;britain;tank;tank
+uk_crusader_mk_2;Crusader II;10000SL;7900;0.3;518;0.32;1.12;2;5;5;britain;tank;tank
 uk_crusader_mk_3;Crusader III;16000SL;4600;0.5466666666666666;729;0.42;1.18;2;6;6;britain;tank;tank
 uk_a_12_mk_2_matilda_2;Matilda III;16000SL;9200;0.7066666666666667;1149;0.55;1.18;2;5;5;britain;heavy_tank;heavy_tank
 uk_matilda_hedgehog;Matilda Hedgehog;battlepass_season1LT;9200;0.44333333333333336;645;1.11;1.18;2;5;5;britain;heavy_tank;heavy_tank
@@ -2300,15 +2302,15 @@ uk_skink_aa;Skink;155000SL;46000;22.493333333333336;2974;1.4;1.6;4;14;13;britain
 germ_infanterie_kampfpanzer_churchill;Pz.Kpfw. Churchill (Germany);1750GE;40000;9.736666666666666;1330;2.81;1.54;3;9;9;germany;heavy_tank;heavy_tank
 uk_a_34_comet_iron_duke;Comet I ""Iron Duke IV"";chronicles_2016LT;54000;20.136666666666667;1982;3.22;1.66;3;12;13;britain;tank;tank
 ussr_t_44_100;T-44-100;270000SL;95000;66.12;6143;1.96;1.9;5;18;18;ussr;tank;tank
-it_pzkpfw_III_ausf_N;Pz.III N (Italy);16000SL;4600;0.59;813;0.49;1.18;2;6;6;italy;tank;tank
-it_pzkpfw_IV_ausf_G;Pz.IV G (Italy);1750GE;40000;9.403333333333334;1280;2.56;1.54;3;9;8;italy;tank;tank
+it_pzkpfw_III_ausf_N;Pz.III N (Italy);16000SL;4600;0.59;813;0.49;1.18;2;7;7;italy;tank;tank
+it_pzkpfw_IV_ausf_G;Pz.IV G (Italy);1750GE;40000;9.403333333333334;1280;2.56;1.54;3;9;9;italy;tank;tank
 it_p_40;P40;32000SL;14000;1.89;1289;0.78;1.3;2;7;7;italy;tank;tank
 it_p_26_40;P40 ""G.C. Leoncello"";1150GE;14000;1.6033333333333333;1159;1.77;1.3;2;7;7;italy;tank;tank
 it_41m_turan_2;Turan II;battlepass_season6LT;7900;0.22;301;0.77;1.12;2;4;4;italy;tank;tank
 it_pzkpfw_VI_ausf_e_tiger;Tigris;4880GE;63000;27.09;2717;3.7;1.72;4;15;15;italy;heavy_tank;heavy_tank
 it_m26_ariete;M26 ""D.C.Ariete"";6090GE;71000;31.59;2957;3.79;1.84;4;17;17;italy;tank;tank
 fr_m10;M10 GMC (France);32000SL;14000;1.89;1335;0.93;1.3;2;8;7;france;tank_destroyer;tank
-fr_m4a3e2_sherman_jumbo;M4A3E2 (France);135000SL;20000;14.85;2693;1.41;1.54;3;13;14;france;heavy_tank;heavy_tank
+fr_m4a3e2_sherman_jumbo;M4A3E2 (France);135000SL;20000;14.85;2693;1.41;1.54;3;14;14;france;heavy_tank;heavy_tank
 fr_m26_pershing;M26 (France);200000SL;63000;48.120000000000005;4976;1.76;1.72;4;17;17;france;tank;tank
 fr_m46_patton;M46 (France);battlepass_season18LT;71000;31.59;2777;3.68;1.78;4;18;18;france;tank;tank
 fr_amd_35;AMD.35;0SL;71000;null;2777;0.1;1.0;1;0;0;france;tank;wheeled_vehicle
@@ -2322,7 +2324,7 @@ fr_hotchkiss_h39_cambronne;H.39 ""Cambronne"";250GE;2900;0.09000000000000001;172
 fr_renault_r39;R.35 (SA38);700SL;2900;0.12;122;0.12;1.0;1;0;0;france;tank;tank
 fr_renault_d2;D2;2100SL;4000;0.13;262;0.21;1.0;1;1;1;france;tank;tank
 fr_somua_s35;S.35;700SL;2900;0.12;142;0.14;1.0;1;1;1;france;tank;tank
-fr_m3a3_stuart;M3A3 Stuart (France);16000SL;9200;0.5466666666666666;717;0.42;1.18;2;4;5;france;tank;tank
+fr_m3a3_stuart;M3A3 Stuart (France);16000SL;9200;0.5466666666666666;717;0.42;1.18;2;5;5;france;tank;tank
 fr_citroen_kegresse_p4t;P.7.T AA;700SL;2900;0.12;116;0.12;1.0;1;1;1;france;SPAA;tank
 fr_cckw_353_bofors;CCKW 353 AA;10000SL;7900;0.3;503;0.37;1.12;2;5;4;france;SPAA;wheeled_vehicle
 fr_amx_vtt_dca;VTT DCA;16000SL;9200;0.59;695;0.47;1.18;2;6;6;france;SPAA;tank
@@ -2334,8 +2336,8 @@ fr_m4a4_sherman;M4A4 (France);47000SL;18000;3.266666666666667;1464;0.91;1.36;3;8
 fr_m4a4_cn_75_50;M4A4 (SA50);105000SL;33000;6.983333333333333;1893;1.19;1.48;3;12;12;france;tank;tank
 fr_somua_sau40;SAu 40;6300SL;5900;0.18333333333333335;411;0.34;1.06;1;2;2;france;tank_destroyer;tank
 fr_lorraine_155;Lorraine 155 Mle.50;chronicles_2018LT;33000;4.903333333333333;1033;2.65;1.48;3;10;10;france;tank_destroyer;tank
-fr_amx_elc_bis;ELC bis;200000SL;63000;42.12;4341;1.51;1.72;4;15;15;france;tank;tank
-fr_amx_elc_901;ELC 901;battlepass_season22LT;63000;25.87;2244;3.02;1.72;4;15;15;france;tank;tank
+fr_amx_elc_bis;ELC bis;200000SL;63000;42.12;4341;1.51;1.72;4;15;16;france;tank;tank
+fr_amx_elc_901;ELC 901;battlepass_season22LT;63000;25.87;2244;3.02;1.72;4;15;16;france;tank;tank
 fr_m44;M44 (France);47000SL;18000;3.266666666666667;1522;1.05;1.36;3;9;9;france;tank_destroyer;tank
 fr_m36b2_cefeo;M36B2 (France);135000SL;40000;14.85;2642;1.5;1.54;3;14;14;france;tank_destroyer;tank
 fr_lorraine_100;CA Lorraine;185000SL;54000;36.12;4262;1.78;1.66;4;14;15;france;tank_destroyer;tank
@@ -2350,25 +2352,25 @@ fr_lorraine_37l;Lorraine 37L;2100SL;4000;0.13;271;0.25;1.0;1;1;1;france;tank_des
 fr_char_2c;2C;16000SL;4600;0.7066666666666667;1167;0.55;1.18;2;4;4;france;heavy_tank;heavy_tank
 fr_char_2c_bis;2C bis;2100GE;5900;0.13999999999999999;328;0.64;1.06;1;2;2;france;heavy_tank;heavy_tank
 fr_b1_bis;B1 bis;10000SL;7900;0.3433333333333333;866;0.43;1.12;2;4;4;france;heavy_tank;heavy_tank
-fr_m4a3_105_sherman;M4A3 (105) (France);22000SL;11000;1.1533333333333333;1043;0.65;1.24;2;6;6;france;tank;tank
+fr_m4a3_105_sherman;M4A3 (105) (France);22000SL;11000;1.1533333333333333;1043;0.65;1.24;2;7;6;france;tank;tank
 fr_lvt_bofors;LVT-4/40;battlepass_season5LT;7900;0.22666666666666668;409;0.72;1.12;2;8;8;france;tank;tank
 fr_b1_ter;B1 ter;1300GE;7900;0.22666666666666668;418;0.85;1.12;2;5;5;france;heavy_tank;heavy_tank
 fr_arl_44;ARL-44;105000SL;33000;7.72;2123;1.27;1.48;3;13;13;france;heavy_tank;heavy_tank
 fr_arl_44_acl1;ARL-44 (ACL-1);47000SL;18000;3.7133333333333334;1669;1.07;1.36;3;8;8;france;heavy_tank;heavy_tank
 fr_amc_35;AMC.35 (ACG.1);700SL;2900;0.12;123;0.12;1.0;1;1;1;france;tank;tank
-fr_amd_35_kwk39;AMD.35 (PaK);10000SL;7900;0.3;518;0.32;1.12;2;4;5;france;tank;wheeled_vehicle
-fr_crusader_mk_2;Crusader Mk.II (France);16000SL;9200;0.5466666666666666;717;0.42;1.18;2;4;5;france;tank;tank
-fr_panhard_ebr_1951;E.B.R. (1951);135000SL;40000;12.983333333333334;2168;1.22;1.54;3;10;13;france;tank;wheeled_vehicle
+fr_amd_35_kwk39;AMD.35 (PaK);10000SL;7900;0.3;518;0.32;1.12;2;5;5;france;tank;wheeled_vehicle
+fr_crusader_mk_2;Crusader Mk.II (France);16000SL;9200;0.5466666666666666;717;0.42;1.18;2;5;5;france;tank;tank
+fr_panhard_ebr_1951;E.B.R. (1951);135000SL;40000;12.983333333333334;2168;1.22;1.54;3;11;13;france;tank;wheeled_vehicle
 fr_panhard_ebr_1954;E.B.R. (1954);winter_2021LT;46000;14.236666666666666;1599;2.49;1.6;4;18;18;france;tank;wheeled_vehicle
 fr_panhard_ebr_1963;E.B.R. (1963);battlepass_season4LT;95000;40.589999999999996;2661;3.16;1.9;5;20;20;france;tank;wheeled_vehicle
 fr_jaguar_ebrc;EBRC Jaguar;710000SL;260000;102.12;5889;1.54;2.32;7;30;30;france;tank;wheeled_vehicle
 fr_vbci2_mct30;VBCI-2 (MCT30);8910GE;190000;63.09;2783;3.26;2.2;6;26;26;france;tank;wheeled_vehicle
 fr_vbci;VBCI;520000SL;190000;90.12;5340;1.64;2.2;6;25;25;france;tank;wheeled_vehicle
 fr_cv_9035_nl;CV 9035NL;870000SL;540000;108.12;5663;1.77;2.38;7;26;26;france;tank;tank
-fr_amx_13_chaffee;AMX-13-M24;1150GE;14000;1.42;866;1.5;1.3;2;8;8;france;tank;tank
+fr_amx_13_chaffee;AMX-13-M24;1150GE;14000;1.42;866;1.5;1.3;2;9;9;france;tank;tank
 fr_marder_df_105;DF105;340000SL;120000;72.12;5255;1.61;2.02;5;21;21;france;tank;tank
 fr_marder_clovis;CLOVIS;8380GE;120000;49.59;2640;3.21;2.02;5;21;21;france;tank;tank
-fr_amx_13_fl_11;AMX-13 (FL11);76000SL;26000;4.91;1539;0.88;1.42;3;9;10;france;tank;tank
+fr_amx_13_fl_11;AMX-13 (FL11);76000SL;26000;4.91;1539;0.88;1.42;3;10;10;france;tank;tank
 fr_amx_13_75;AMX-13;210000SL;71000;48.120000000000005;4685;1.52;1.78;4;17;18;france;tank;tank
 fr_pzkpfw_V_panther_dauphine;Panther ""Dauphiné"";6090GE;71000;31.59;2515;3.65;1.78;4;15;15;france;tank;tank
 fr_bat_chat_25t;Char 25t;300000SL;53000;66.12;5375;1.63;1.96;5;21;21;france;tank;tank
@@ -2376,7 +2378,7 @@ fr_aml_90;AML-90;270000SL;95000;60.120000000000005;5319;1.6;1.9;5;19;20;france;t
 fr_amx_13_90;AMX-13-90;300000SL;53000;66.12;5375;1.63;1.96;5;20;20;france;tank;tank
 fr_mars_15;MARS 15;380000SL;135000;78.12;5607;1.65;2.08;6;22;22;france;tank;tank
 fr_amx_13_hot;AMX-13 (HOT);450000SL;81000;90.12;5734;1.7;2.14;6;22;22;france;tank;tank
-fr_m4a1_sherman;M4A1 (France);32000SL;14000;2.1366666666666667;1289;0.78;1.3;2;7;7;france;tank;tank
+fr_m4a1_sherman;M4A1 (France);32000SL;14000;2.1366666666666667;1289;0.78;1.3;2;8;8;france;tank;tank
 fr_m4a1_sherman_fl_10;M4A1 (FL10);2980GE;46000;14.236666666666666;1536;2.89;1.6;3;11;12;france;tank;tank
 fr_amx_10m_acra;AMX-10M;340000SL;61000;84.12;6740;2.1;2.02;5;19;19;france;tank_destroyer;tank
 fr_amx_30_ACRA;AMX-30 ACRA;380000SL;135000;90.12;6831;2.03;2.08;6;22;22;france;tank;tank
@@ -2405,7 +2407,7 @@ jp_type_98_ke_ni;Ke-Ni;0SL;2900;null;172;0.1;1.0;1;0;0;japan;tank;tank
 jp_type_2_ka_mi;Ka-Mi;700SL;2900;0.12;122;0.12;1.0;1;0;0;japan;tank;tank
 jp_type_3_ka_chi;Ka-Chi;summer_2021LT;4000;0.09999999999999999;200;0.42;1.0;1;3;3;japan;tank;tank
 jp_type_97_chi_ha;Chi-Ha;700SL;2900;0.12;142;0.14;1.0;1;1;1;japan;tank;tank
-jp_m24_chaffee;M24 (Japan);47000SL;18000;3.02;1375;0.79;1.36;3;7;8;japan;tank;tank
+jp_m24_chaffee;M24 (Japan);47000SL;18000;3.02;1375;0.79;1.36;3;8;9;japan;tank;tank
 jp_m41_walker_bulldog;M41A1 (Japan);185000SL;54000;30.12;3805;1.4;1.66;4;15;16;japan;tank;tank
 jp_m4a3e8_76w_sherman;M4A3 (76) W (Japan);155000SL;46000;24.12;3389;1.5;1.6;4;13;14;japan;tank;tank
 jp_type_1_chi_he_5th_regiment;Chi-He (5th Regiment);850GE;9200;0.41;510;1.05;1.18;2;5;5;japan;tank;tank
@@ -2475,7 +2477,7 @@ jp_type_4_ho_ro;Ho-Ro;700SL;2900;0.12;133;0.16;1.0;1;1;1;japan;tank_destroyer;ta
 jp_hiro_sha;Ro-Go Exp.;6300SL;5900;0.18333333333333335;411;0.34;1.06;1;2;2;japan;tank_destroyer;tank
 jp_navy_120mm_spg;Chi-Ha LG;16000SL;9200;0.59;856;0.62;1.18;2;6;6;japan;tank_destroyer;tank
 jp_type_3_ho_ni_I;Ho-Ni I;10000SL;7900;0.3;576;0.46;1.12;2;3;3;japan;tank_destroyer;tank
-jp_type_2_ho_ni_2;Ho-Ni II;2100SL;4000;0.13;283;0.24;1.0;1;2;2;japan;tank_destroyer;tank
+jp_type_2_ho_ni_2;Ho-Ni II;2100SL;4000;0.13;283;0.24;1.0;1;3;3;japan;tank_destroyer;tank
 jp_type_3_ho_ni_III;Ho-Ni III;16000SL;4600;0.59;817;0.61;1.18;2;4;4;japan;tank_destroyer;tank
 jp_type_60_sprg;Type 60 SPRG (C);200000SL;63000;48.120000000000005;5315;1.95;1.72;4;17;17;japan;tank_destroyer;tank
 il_amx_13_75;AMX-13 (Israel);185000SL;54000;30.12;3766;1.35;1.66;4;17;18;israel;tank;tank
@@ -2528,17 +2530,17 @@ il_magach_2;Magach 2;210000SL;35000;54.120000000000005;5369;1.83;1.78;4;20;20;is
 il_m_51;M-51;155000SL;35000;24.12;3471;1.51;1.6;4;16;16;israel;tank;tank
 il_m_51_w;M-51 (W);4880GE;63000;25.87;2478;3.56;1.72;4;16;16;israel;tank;tank
 il_merkava_mk_2d;Merkava Mk.2D;8910GE;190000;67.59;2987;3.93;2.2;6;27;27;israel;tank;tank
-us_t18_e2;T18E2;chronicles_2018LT;11000;0.7466666666666667;458;1.1;1.24;2;6;6;usa;tank;wheeled_vehicle
+us_t18_e2;T18E2;chronicles_2018LT;11000;0.7466666666666667;458;1.1;1.24;2;7;7;usa;tank;wheeled_vehicle
 cn_bt_5;BT-5;700SL;2900;0.12;122;0.12;1.0;1;0;0;china;tank;tank
 cn_t_26_1940;T-26 (China);0SL;2900;null;122;0.1;1.0;1;0;0;china;tank;tank
 cn_t_26_no531;T-26 No.531;250GE;2900;0.09000000000000001;226;0.33;0.75;1;0;0;china;tank;tank
 cn_type_95_ha_go;Ha-Go;700SL;2900;0.12;122;0.12;1.0;1;0;0;china;tank;tank
 cn_type_97_chi_ha;Chi-Ha (China);700SL;2900;0.12;142;0.14;1.0;1;1;1;china;tank;tank
-cn_m3a3_stuart_1st_ptg;M3A3 (1st PTG) (China);700GE;7900;0.22666666666666668;430;0.72;1.12;2;4;5;china;tank;tank
-cn_m3a3_stuart;M3A3 Stuart (China);16000SL;9200;0.5466666666666666;717;0.42;1.18;2;4;5;china;tank;tank
+cn_m3a3_stuart_1st_ptg;M3A3 (1st PTG) (China);700GE;7900;0.22666666666666668;430;0.72;1.12;2;5;5;china;tank;tank
+cn_m3a3_stuart;M3A3 Stuart (China);16000SL;9200;0.5466666666666666;717;0.42;1.18;2;5;5;china;tank;tank
 cn_m41_a3_walker_bulldog;M41A3 (China);2980GE;46000;14.236666666666666;1361;2.59;1.6;3;14;14;china;tank;tank
 cn_type_97_kai;Chi-Ha Kai (China);10000SL;7900;0.3;573;0.38;1.12;2;4;4;china;tank;tank
-cn_m5a1_stuart;M5A1 (China);22000SL;5600;1.0366666666666666;914;0.55;1.24;2;4;5;china;tank;tank
+cn_m5a1_stuart;M5A1 (China);22000SL;5600;1.0366666666666666;914;0.55;1.24;2;5;5;china;tank;tank
 cn_lvt_4_zis_2;LVT(A)(4) (ZiS-2);10000SL;7900;0.3;594;0.47;1.12;2;4;4;china;tank_destroyer;tank
 cn_t_34_1942;T-34 (1943) (China);47000SL;18000;3.266666666666667;1468;0.91;1.36;3;9;9;china;tank;tank
 cn_type_64;M64;battlepass_season6LT;46000;14.236666666666666;1453;2.66;1.6;4;13;15;china;tank;tank
@@ -2588,7 +2590,7 @@ cn_m48a1_patton_III;M48A1 (China);270000SL;95000;66.12;6171;1.96;1.9;5;20;20;chi
 cn_m60a3_tts;M60A3 TTS (China);520000SL;190000;96.12;6466;2.01;2.2;6;24;24;china;tank;tank
 cn_m36;M36 GMC (China);105000SL;33000;7.72;2107;1.36;1.48;3;13;13;china;tank_destroyer;tank
 cn_m8_scott;M8 HMC (China);700SL;2900;0.12;133;0.16;1.0;1;1;1;china;tank_destroyer;tank
-cn_m24_chaffee;M24 (China);32000SL;14000;1.89;1204;0.68;1.3;2;7;8;china;tank;tank
+cn_m24_chaffee;M24 (China);32000SL;14000;1.89;1204;0.68;1.3;2;8;9;china;tank;tank
 cn_m18_hellcat;M18 GMC (China);185000SL;54000;30.12;3682;1.45;1.66;4;13;15;china;tank;tank
 cn_object_122tm;Object 122MT ""MC"";450000SL;400000;96.12;6729;2.0;2.14;6;23;23;china;tank;tank
 cn_t_62;T-62 N545;8730GE;160000;63.09;3312;4.01;2.14;6;23;23;china;tank;tank
@@ -2919,7 +2921,7 @@ germ_destroyer_class1942_z51;Z51;38000SL;15000;14.85;4311;4.62;1.36;3;11;11;germ
 germ_battleship_konig;SMS König;540000SL;180000;211.92333333333332;38763;6.0;2.02;5;17;17;germany;cruiser;ship
 jp_battleship_nagato;IJN Nagato;9090GL;350000;170.98666666666668;18505;12.0;2.26;6;22;22;japan;cruiser;ship
 jp_battlecruiser_hiei;IJN Hiei;540000SL;180000;211.92333333333332;38763;6.0;2.02;5;17;17;japan;cruiser;ship
-it_cruiser_cadorna_class_cadorna;RN Luigi Cadorna;battlepass_season21LT;21000;9.09;2490;12.0;1.48;3;12;12;italy;cruiser;ship
+it_cruiser_cadorna_class_cadorna;RN Luigi Cadorna;battlepass_season21LT;21000;9.09;2490;12.0;1.48;3;13;13;italy;cruiser;ship
 us_cruiser_oregon_class;USS Oregon City;440000SL;145000;193.88;16337;6.0;1.96;5;16;16;usa;cruiser;ship
 ussr_destroyer_pr48k_erevan;Erevan;55000SL;18000;22.493333333333336;4967;5.39;1.42;3;12;12;ussr;destroyer;ship
 jp_battleship_musashi;IJN Musashi;1150000SL;400000;245.0666666666667;46672;6.0;2.32;7;23;23;japan;cruiser;ship
@@ -2931,7 +2933,7 @@ us_battleship_south_dakota;USS South Dakota;1150000SL;400000;245.0666666666667;4
 uk_battleship_prince_of_wales;HMS Prince of Wales;1050000SL;350000;239.0666666666667;46672;6.0;2.26;6;21;21;britain;cruiser;ship
 fr_cruiser_suffren_class_suffren;Suffren;185000SL;59000;169.47666666666666;14882;6.0;1.72;4;13;13;france;cruiser;ship
 germ_destroyer_lutjens_class_lutjens;Lütjens;115000SL;33000;48.120000000000005;7800;6.0;1.6;4;13;13;germany;destroyer;ship
-it_cruiser_cadorna_class_diaz;RN Armando Diaz;87000SL;25000;54.120000000000005;9281;6.0;1.54;3;12;12;italy;cruiser;ship
+it_cruiser_cadorna_class_diaz;RN Armando Diaz;87000SL;25000;54.120000000000005;9281;6.0;1.54;3;13;13;italy;cruiser;ship
 uk_cruiser_fiji_class_fiji;HMS Fiji;185000SL;59000;168.85333333333332;14231;6.0;1.72;4;14;14;britain;cruiser;ship
 jp_battleship_tosa;IJN Tosa;winter_2026LT;260000;227.96333333333334;46672;6.0;2.14;6;21;21;japan;cruiser;ship
 us_destroyer_forrestsherman_class;USS Forrest Sherman;150000SL;46000;66.12;8958;6.0;1.66;4;13;13;usa;destroyer;ship
@@ -2944,6 +2946,7 @@ jp_destroyer_kagero;IJN Kagero;70000SL;21000;24.12;5634;5.85;1.48;3;11;11;japan;
 it_destroyer_oriani_class_gioberti;RN Vincenzo Gioberti;5000SL;5300;0.59;1285;1.24;1.06;1;8;8;italy;destroyer;ship
 it_destroyer_saetta;RN Saetta;400GE;4000;0.10666666666666667;449;1.72;1.0;1;8;8;italy;destroyer;ship
 us_battleship_oklahoma;USS Oklahoma;2026_03_shipLT;220000;218.6833333333333;41824;6.0;2.08;6;18;18;usa;cruiser;ship
+jp_destroyer_suzutsuki;IJN Suzutsuki;battlepass_season23LT;21000;9.09;2780;12.0;1.48;3;12;12;japan;destroyer;ship
 ussr_1124_art;Pr.1124 early;22000SL;11000;1.4000000000000001;1346;0.84;1.24;2;4;4;ussr;gun_boat;fast_ship
 ussr_1124_rct;Pr.1124 MLRS;1150GL;14000;14.79;3878;3.4;1.3;2;3;3;ussr;gun_boat;fast_ship
 ussr_1124_ack;Pr.1124 late;47000SL;18000;3.7133333333333334;1712;1.12;1.36;3;4;4;ussr;gun_boat;fast_ship
@@ -3083,7 +3086,7 @@ jp_escort_akebono_class;Akebono;2980GE;61000;31.59;5306;8.32;1.6;4;7;7;japan;tor
 jp_destroyer_chidori;Chidori;780000SL;280000;195.26666666666665;18267;4.73;1.96;5;8;8;japan;torpedo_gun_boat;fast_ship
 germ_frigate_koln_lubeck;Lübeck;craft_2020_autumnLT;250000;139.67333333333332;9535;8.62;1.96;4;11;11;germany;torpedo_gun_boat;fast_ship
 uk_dark_class_mtb_td;Dark Aggressor TD;msi_notebookLT;18000;3.266666666666667;1579;1.26;1.36;3;4;4;britain;torpedo_boat;fast_ship
-jp_kusen_tei_13_1942;Type K-8 No.13;winter_2021LT;7900;0.26;581;0.93;1.12;2;3;3;japan;submarine_chaser;fast_ship
+jp_kusen_tei_13_1942;Type K-8 No.13;winter_2021LT;7900;0.26;581;0.93;1.12;2;4;4;japan;submarine_chaser;fast_ship
 ussr_mpk_pr12412;MPK Pr.12412;700000SL;250000;84.12;7831;2.24;1.9;5;10;10;ussr;gun_boat;fast_ship
 ussr_skr_pr50plo_rosomacha;Rosomacha;6090GE;120000;67.59;7685;7.96;1.78;4;9;9;ussr;torpedo_gun_boat;fast_ship
 uk_frigate_whitby_blackpool;HMS Blackpool;700000SL;250000;189.17999999999998;17867;4.59;1.9;5;8;8;britain;torpedo_gun_boat;fast_ship
@@ -3149,7 +3152,7 @@ fr_vtb14;VTB-14;0SL;7900;0.12;147;0.17;1.0;1;0;0;france;torpedo_boat;fast_ship
 fr_vtb13;VTB-13;2100SL;4000;0.13;392;0.26;1.0;1;1;1;france;gun_boat;fast_ship
 jp_type1_pt2;PT-802;32000SL;14000;2.1366666666666667;1395;1.05;1.3;2;3;3;japan;torpedo_boat;fast_ship
 fr_p730_combattante;La Combattante;700000SL;250000;78.12;7620;2.19;1.9;5;8;8;france;gun_boat;fast_ship
-fr_arras_class_arras;Arras;115000SL;36000;10.493333333333334;3046;1.27;1.48;3;6;6;france;submarine_chaser;fast_ship
+fr_arras_class_arras;Arras;115000SL;36000;10.493333333333334;3046;1.27;1.48;3;7;7;france;submarine_chaser;fast_ship
 fr_frigate_croix_de_lorraine_class_la_surprise;La Surprise;250000SL;75000;162.74666666666667;13188;4.53;1.66;4;7;7;france;torpedo_gun_boat;fast_ship
 uk_fremantle_class;HMAS Fremantle;300000SL;89000;48.120000000000005;5164;1.95;1.72;4;6;6;britain;gun_boat;fast_ship
 it_mas441;MAS 441;32000SL;14000;2.5833333333333335;1645;1.04;1.3;2;3;3;italy;gun_boat;fast_ship
@@ -3164,7 +3167,7 @@ fr_vtb18;VTB-18;700SL;2900;0.12;147;0.17;1.0;1;0;0;france;torpedo_boat;fast_ship
 jp_t14_class_mod02;Type T-14 (mod. 2);0SL;2900;null;147;0.1;1.0;1;0;0;japan;torpedo_boat;fast_ship
 ussr_pr_103_sm4;SM-4;700SL;2900;0.12;159;0.17;1.0;1;1;1;ussr;torpedo_boat;fast_ship
 germ_schutze_class;Schütze;360000SL;120000;72.12;7841;1.88;1.78;4;6;6;germany;submarine_chaser;fast_ship
-fr_arras_class_amiens;Amiens;battlepass_season19LT;36000;5.236666666666667;1444;2.54;1.48;3;6;6;france;submarine_chaser;fast_ship
+fr_arras_class_amiens;Amiens;battlepass_season19LT;36000;5.236666666666667;1444;2.54;1.48;3;7;7;france;submarine_chaser;fast_ship
 jp_escort_hiburi_class_shisaka;Shisaka;2025_07_shipLT;220000;182.99666666666667;17462;5.24;1.84;5;7;7;japan;torpedo_gun_boat;fast_ship
 fr_marne_class_aisne;Aisne;1750GE;48000;22.59;3929;7.57;1.54;3;7;7;france;torpedo_gun_boat;fast_ship
 fr_adroit_class;L'Intrépide;76000SL;26000;5.3566666666666665;1826;1.46;1.42;3;5;5;france;torpedo_boat;fast_ship
