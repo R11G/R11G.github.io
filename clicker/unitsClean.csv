@@ -327,7 +327,7 @@ ta-152h-1;Ta 152 H-1;210000SL;71000;90.12;9514;2.38;1.78;4;16;15;germany;fight
 yak-1b;Yak-1B;16000SL;4600;0.9533333333333333;1314;0.75;1.18;2;7;6;ussr;fighter;air
 yak_1_litvyak;Yak-1 Litvyak;700GL;7900;0.22666666666666668;451;1.17;1.12;2;5;4;ussr;fighter;air
 yak-3;Yak-3;76000SL;26000;8.866666666666667;2899;1.45;1.42;3;11;11;ussr;fighter;air
-yak-3_eremin;Eremin's Yak-3(e);2024_05_airLT;26000;4.0200000000000005;1455;2.95;1.42;3;9;9;ussr;fighter;air
+yak-3_eremin;Eremin's Yak-3(e);2024_05_airLT;26000;4.0200000000000005;1455;2.95;1.42;3;10;10;ussr;fighter;air
 yak-7b;Yak-7B;16000SL;9200;0.9533333333333333;1261;0.75;1.18;2;7;5;ussr;fighter;air
 yak-9t;Yak-9T;47000SL;18000;5.579999999999999;2487;1.3;1.36;3;8;9;ussr;fighter;air
 whirlwind_mk1;Whirlwind Mk I;135000SL;20000;18.12;3940;1.84;1.54;3;10;8;britain;fighter;air
@@ -778,7 +778,7 @@ mig_3_series_1_15_bk_pod;MiG-3-15 (BK);10000SL;7900;0.45999999999999996;919;0.59
 itp_m1;ITP (M-1);battlepass_season2LT;18000;3.34;1812;2.81;1.36;3;11;9;ussr;fighter;air
 a-26c-45-dt;A-26C-45DT;3850GL;54000;36.089999999999996;5085;4.5;1.66;4;13;13;usa;bomber;air
 a6m5otsu;A6M5 Otsu;155000SL;46000;36.12;6110;1.94;1.6;4;13;14;japan;fighter;air
-a6m5hei;A6M5 Hei;185000SL;27000;54.120000000000005;7414;2.12;1.66;4;12;13;japan;fighter;air
+a6m5hei;A6M5 Hei;185000SL;27000;54.120000000000005;7414;2.12;1.66;4;13;13;japan;fighter;air
 a6m6c;A6M6c;battlepass_season4LT;46000;18.09;2972;3.89;1.6;4;13;13;japan;fighter;air
 ki_84_ko;Ki-84 Ko;185000SL;54000;54.120000000000005;7457;2.11;1.66;4;15;13;japan;fighter;air
 ki_84_ko_china;Ki-84 Ko (China);3850GE;54000;31.59;4756;4.56;1.66;4;14;13;china;fighter;air
@@ -884,7 +884,7 @@ yak-9;Yak-9;22000SL;11000;1.8466666666666667;1674;0.99;1.24;2;7;6;ussr;fighter;a
 ki_43_1;Ki-43-I;2100SL;4000;0.13;461;0.29;1.0;1;3;5;japan;fighter;air
 f7f1;F7F-1;200000SL;31000;60.120000000000005;9277;2.39;1.72;4;17;16;usa;fighter;air
 f7f3;F7F-3;summer_2016LT;71000;45.09;5437;5.11;1.84;4;17;16;usa;fighter;air
-b-17e_japan;B-17E (Japan);4900GE;54000;31.59;4277;5.39;1.66;4;12;12;japan;bomber;air
+b-17e_japan;B-17E (Japan);4900GE;54000;31.59;4277;5.39;1.66;4;11;11;japan;bomber;air
 canberra_bmk2;Canberra B Mk 2;300000SL;105000;193.30666666666664;14927;2.97;1.96;5;23;22;britain;bomber;air
 j7w1;J7W1;155000SL;46000;42.12;6241;1.95;1.6;4;14;15;japan;fighter;air
 b-57;B-57A;300000SL;105000;192.94333333333336;14927;2.97;1.96;5;21;22;usa;bomber;air
@@ -1006,7 +1006,7 @@ p-38j;P-38J-15;155000SL;46000;36.12;5417;1.98;1.6;3;9;10;usa;fighter;air
 p-38j_marge;Bong's P-38J-15;chronicles_2016LT;63000;36.089999999999996;3964;4.66;1.72;4;9;10;usa;fighter;air
 tbd-1_1938;TBD-1;700SL;2900;0.12;188;0.3;1.0;1;0;0;usa;bomber;air
 p-51a_tl;P-51A;1000GE;11000;0.8666666666666667;884;2.03;1.24;2;6;6;usa;fighter;air
-a7m1;A7M1 (NK9H);4080GE;46000;27.09;4323;4.33;1.6;4;12;12;japan;fighter;air
+a7m1;A7M1 (NK9H);4080GE;46000;27.09;4323;4.33;1.6;4;13;13;japan;fighter;air
 ki_109;Ki-109;6300SL;5900;0.17333333333333334;417;0.44;1.06;1;2;3;japan;assault;air
 d4y1;D4Y1;16000SL;9200;0.7066666666666667;1287;1.03;1.18;2;3;3;japan;bomber;air
 d4y2;D4Y2;22000SL;5600;1.8466666666666667;1817;1.3;1.24;2;3;4;japan;bomber;air
