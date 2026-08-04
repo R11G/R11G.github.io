@@ -36,7 +36,7 @@ with open("units.csv", "r", encoding='utf-8') as name, open("wpcost.blkx", "r", 
                 repair = str(float(line[line.find(':')+2:line.rfind(',')])/3)
                 if repair == "0.0":
                     repair = "null"
-            elif line.startswith("    \"repairCostHistorical"):
+            elif line.startswith("    \"repairCostFullUpgradedHistorical"):
                 rcost = line[line.find(':')+2:line.rfind(',')]
                 if rcost == "0":
                     rcost = "null"
@@ -72,9 +72,37 @@ with open("units.csv", "r", encoding='utf-8') as name, open("wpcost.blkx", "r", 
                     ctype = "GE"
                 cost = line[line.find(':')+2:line.rfind(',')]
             elif line.startswith("    \"weapons"):
-                name = ids[id]
-                output[id] = (name, cost+ctype, rp, repair, rcost, slm, rpm, rank, abr, rbr, country, cltype, type)
+                name = str(ids.get(id))
+                if name == "None":
+                    if (type == "" and cltype == "human"):
+                        type = "human"
+                    output[id] = (id, cost+ctype, rp, repair, rcost, slm, rpm, rank, abr, rbr, country, cltype, type)
+                elif name != "":
+                    if not (id.endswith("_killstreak") or id.endswith("_missile_test") or id.endswith("_event") or id.startswith("nt_") or id.startswith("ucav_") or id.startswith("uav_")):
+                        if not name[0].isalnum():
+                            if country == "ussr" or country == "usa":
+                                name = name[1:]+" ("+country.upper()+")"
+                            else:
+                                name = name[1:]+" ("+country.capitalize()+")"
+                        name = name.replace('""', '"')
+                        if (type == "" and cltype == "human"):
+                            type = "human"
+                        output[id] = (name, cost+ctype, rp, repair, rcost, slm, rpm, rank, abr, rbr, country, cltype, type)
                 in_data = False
+                id = ""
+                cost = ""
+                ctype = ""
+                rp = "null"
+                repair = "null"
+                rcost = "null"
+                slm = ""
+                rpm = ""
+                rank = ""
+                abr = ""
+                rbr = ""
+                country = ""
+                type = ""
+                cltype = ""
     for key, values in output.items():
         line = key + ";" + ";".join(map(str, values)) + "\n"
         out.write(line)
