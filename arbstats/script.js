@@ -212,7 +212,7 @@ function generateTable() {
   tbl.setAttribute("border", "2");
 }
 async function readFile(callback) {
-  const response = await fetch('https://raw.githubusercontent.com/R11G/R11G.github.io/main/clicker/unitsClean.csv');
+  const response = await fetch('https://raw.githubusercontent.com/R11G/R11G.github.io/main/arbstats/unitsClean.csv');
   const text = await response.text();
   const lines = text.split(/\r?\n/);
   for (let i = 0; i < lines.length; i++) {
