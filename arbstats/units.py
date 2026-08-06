@@ -1,4 +1,4 @@
-with open("units.csv", "r", encoding='utf-8') as infile, open("units2.csv", "w", encoding='utf-8') as outfile:
+with open("units.csv", "r", encoding='utf-8') as infile, open("lang/units.csv", "w", encoding='utf-8') as outfile:
     cunit = ""
     cname = ""
     for line in infile:
