@@ -1,0 +1,53 @@
+name: Update units data
+on:
+  schedule:
+    - cron: '0 0 * * *' # daily at 00:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Update units.csv lang mod
+        run: |
+          python3 arbstats/units.py
+
+      - name: Update unitsClean.csv
+        run: |
+          python3 arbstats/unitsClean.py
+
+      - name: Get latest commit message from upstream
+        run: |
+          # Clone only the latest commit from the upstream repo and capture its commit message
+          git clone --depth=1 https://github.com/gszabi99/War-Thunder-Datamine tmp_upstream || true
+          if [ -d tmp_upstream ]; then
+            git -C tmp_upstream log -1 --pretty=%B > /tmp/remote_commit_msg.txt || echo "Auto-update unitsClean.csv" > /tmp/remote_commit_msg.txt
+            rm -rf tmp_upstream
+          else
+            echo "Auto-update unitsClean.csv" > /tmp/remote_commit_msg.txt
+          fi
+
+      - name: Commit & push if changed (use upstream message)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add arbstats/unitsClean.csv || true
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            # Use the fetched upstream commit message (preserves newlines)
+            git commit -F /tmp/remote_commit_msg.txt
+            git push
+          fi

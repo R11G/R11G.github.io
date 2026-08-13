@@ -1,7 +1,30 @@
-with open("units.csv", "r", encoding='utf-8') as infile, open("lang/units.csv", "w", encoding='utf-8') as outfile:
+import urllib.request
+import sys
+import os
+
+UNITS_URL = "https://raw.githubusercontent.com/gszabi99/War-Thunder-Datamine/master/lang.vromfs.bin_u/lang/units.csv"
+
+def fetch_lines(url):
+    try:
+        with urllib.request.urlopen(url, timeout=30) as r:
+            data = r.read().decode('utf-8', errors='replace')
+            return data.splitlines()
+    except Exception:
+        return None
+
+lines = fetch_lines(UNITS_URL)
+if lines is None:
+    print(f"Failed to fetch {UNITS_URL}", file=sys.stderr)
+    sys.exit(1)
+
+out_dir = os.path.join("arbstats", "lang")
+os.makedirs(out_dir, exist_ok=True)
+out_path = os.path.join(out_dir, "units.csv")
+
+with open(out_path, "w", encoding='utf-8') as outfile:
     cunit = ""
     cname = ""
-    for line in infile:
+    for line in lines:
         if line not in ("", "\n"):
             parts = line.split(';')
             if parts[0] != '"':

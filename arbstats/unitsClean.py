@@ -1,6 +1,31 @@
-with open("units.csv", "r", encoding='utf-8') as name, open("wpcost.blkx", "r", encoding='utf-8') as data, open("unitsClean.csv", "w", encoding='utf-8') as out:
+import urllib.request
+import sys
+
+UNITS_URL = "https://raw.githubusercontent.com/gszabi99/War-Thunder-Datamine/master/lang.vromfs.bin_u/lang/units.csv"
+WPCOST_URL = "https://raw.githubusercontent.com/gszabi99/War-Thunder-Datamine/master/char.vromfs.bin_u/config/wpcost.blkx"
+
+def fetch_lines(url):
+    try:
+        with urllib.request.urlopen(url, timeout=30) as r:
+            data = r.read().decode('utf-8', errors='replace')
+            return data.splitlines()
+    except Exception:
+        return None
+
+name_lines = fetch_lines(UNITS_URL)
+data_lines = fetch_lines(WPCOST_URL)
+
+if name_lines is None:
+    print(f"Failed to fetch {UNITS_URL}", file=sys.stderr)
+    sys.exit(1)
+
+if data_lines is None:
+    print(f"Failed to fetch {WPCOST_URL}", file=sys.stderr)
+    sys.exit(1)
+
+with open("arbstats/unitsClean.csv", "w", encoding='utf-8') as out:
     ids = {}
-    for line in name:
+    for line in name_lines:
         split = line.split(';')
         if split[0].endswith("_shop\""):
             id = split[0][1:-6]
@@ -22,7 +47,7 @@ with open("units.csv", "r", encoding='utf-8') as name, open("wpcost.blkx", "r", 
     type = ""
     cltype = ""
     output = {}
-    for line in data:
+    for line in data_lines:
         if line.startswith("  \""):
             id = line[line.find('"')+1:line.rfind('"')]
             in_data = True
