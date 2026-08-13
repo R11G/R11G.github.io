@@ -27,10 +27,10 @@ with open(out_path, "w", encoding='utf-8') as outfile:
     for line in lines:
         if line not in ("", "\n"):
             parts = line.split(';')
-            if parts[0] != '"':
-                if parts[0].startswith('"') and parts[0].endswith('"'):
-                    tmp = parts[0][1:-1]
-                p2 = tmp.rsplit('_',1)
+            parts = [s[1:-1] if s.startswith('"') and s.endswith('"') else s for s in parts]
+            parts = [s.replace('""', '"') for s in parts]
+            if parts[0] != '':
+                p2 = parts[0].rsplit('_',1)
                 if len(p2) == 2:
                     if p2[1] == "shop":
                         cunit = p2[0]

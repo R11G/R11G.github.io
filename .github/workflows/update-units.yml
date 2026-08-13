@@ -24,6 +24,10 @@ jobs:
         run: |
           python3 arbstats/units.py
 
+      - name: Update custom lang mod
+        run: |
+          python3 arbstats/unitsUpdate.py
+
       - name: Update unitsClean.csv
         run: |
           python3 arbstats/unitsClean.py
@@ -45,6 +49,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add arbstats/lang/units.csv || true
           git add arbstats/unitsClean.csv || true
+          git add arbstats/custom/units.csv || true
           if git diff --staged --quiet; then
             echo "No changes to commit."
           else
