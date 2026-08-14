@@ -4,9 +4,42 @@ let rank = ",";
 let classID = ",";
 let type = ",";
 let isImg = true;
+let premMult = 15000;
+const lazyImageObserver = new IntersectionObserver((entries, observer) => {
+  entries.forEach((entry) => {
+    if (!entry.isIntersecting) {
+      return;
+    }
+
+    const img = entry.target;
+    const src = img.dataset.src;
+    if (src) {
+      img.src = src;
+      delete img.dataset.src;
+    }
+    observer.unobserve(img);
+  });
+}, {
+  root: null,
+  rootMargin: '200px 0px',
+  threshold: 0.01
+});
+
+function createLazyImage(src, alt = '') {
+  const img = document.createElement('img');
+  img.alt = alt;
+  img.loading = 'lazy';
+  img.decoding = 'async';
+  img.src = 'data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=';
+  img.dataset.src = src;
+  lazyImageObserver.observe(img);
+  return img;
+}
+
 function generateTable() {
   const tbl = document.createElement("table");
   tbl.setAttribute("id", "UnitsTable")
+  const thead = document.createElement("thead");
   const tblBody = document.createElement("tbody");
   const head = document.createElement("tr");
   const c = document.createElement("th");
@@ -90,7 +123,8 @@ function generateTable() {
   headerCell(head, "BR", "y", 9);
   headerCell(head, "Country", "y", 10);
   headerCell(head, "Class", "y", 11);*/
-  tblBody.appendChild(head);
+  thead.appendChild(head);
+  tbl.appendChild(thead);
   for (let i = 0; i < units.length; i++) {
     if (!rank.includes(",rank_" + units[i][8] + ",")) {
       continue;
@@ -108,18 +142,19 @@ function generateTable() {
     for (let j = 0; j < units[0].length; j++) {
       const cell = document.createElement("td");
       if (j == 0) {
-        const cellInfo = document.createElement("img");
+        let imageSrc = '';
         if (isImg) {
           if (units[i][13] === "air" || units[i][13] === "helicopter") {
-            cellInfo.src = "https://raw.githubusercontent.com/gszabi99/War-Thunder-Datamine/master/tex.vromfs.bin_u/aircrafts/" + units[i][j] + ".png";
+            imageSrc = "https://raw.githubusercontent.com/gszabi99/War-Thunder-Datamine/master/tex.vromfs.bin_u/aircrafts/" + units[i][j] + ".png";
           } else if (units[i][13] === "tank" || units[i][13] === "wheeled_vehicle" || units[i][13] === "heavy_tank") {
-            cellInfo.src = "https://raw.githubusercontent.com/gszabi99/War-Thunder-Datamine/master/tex.vromfs.bin_u/tanks/" + units[i][j].toLowerCase() + ".png";
+            imageSrc = "https://raw.githubusercontent.com/gszabi99/War-Thunder-Datamine/master/tex.vromfs.bin_u/tanks/" + units[i][j].toLowerCase() + ".png";
           } else {
-            cellInfo.src = "https://raw.githubusercontent.com/gszabi99/War-Thunder-Datamine/master/tex.vromfs.bin_u/ships/" + units[i][j] + ".png";
+            imageSrc = "https://raw.githubusercontent.com/gszabi99/War-Thunder-Datamine/master/tex.vromfs.bin_u/ships/" + units[i][j] + ".png";
           }
         } else {
-          cellInfo.src = "https://raw.githubusercontent.com/gszabi99/War-Thunder-Datamine/master/atlases.vromfs.bin_u/units/" + units[i][j].toLowerCase() + ".png";
+          imageSrc = "https://raw.githubusercontent.com/gszabi99/War-Thunder-Datamine/master/atlases.vromfs.bin_u/units/" + units[i][j].toLowerCase() + ".png";
         }
+        const cellInfo = createLazyImage(imageSrc, units[i][1]);
         cell.appendChild(cellInfo);
       } else if (j == 2) {
         if (units[i][j].substring(units[i][j].length - 2) === "LT") {
@@ -187,8 +222,7 @@ function generateTable() {
         const cellInfo = document.createTextNode(br);
         cell.appendChild(cellInfo);
       } else if (j==11) {
-        const cellInfo = document.createElement("img");
-        cellInfo.src = "CountryIcons/country_" + units[i][j] + ".svg";
+        const cellInfo = createLazyImage("CountryIcons/country_" + units[i][j] + ".svg", units[i][j]);
         cell.appendChild(cellInfo);
       } else {
         const cellInfo = document.createTextNode(units[i][j]);
@@ -208,7 +242,10 @@ function generateTable() {
     tblBody.appendChild(row);
   }
   tbl.appendChild(tblBody);
-  document.body.appendChild(tbl);
+  const wrap = document.createElement("div");
+  wrap.setAttribute("id", "UnitsTableWrap");
+  wrap.appendChild(tbl);
+  document.body.appendChild(wrap);
   tbl.setAttribute("border", "2");
 }
 async function readFile(callback) {
@@ -243,43 +280,78 @@ function headerCell(row, name, click, num) {
   row.appendChild(c);
 }
 function sortTable(n) {
-  document.getElementById("UnitsTable").remove();
+  const table = document.getElementById("UnitsTable");
+  if (table) {
+    table.remove();
+  }
+
+  const specialValue = premMult * premMult;
+  const compareEntries = (leftEntry, rightEntry, direction) => {
+    const leftValue = clean(leftEntry.row[n], n);
+    const rightValue = clean(rightEntry.row[n], n);
+    const leftIsSpecial = leftValue === specialValue;
+    const rightIsSpecial = rightValue === specialValue;
+
+    if (leftIsSpecial && rightIsSpecial) {
+      return leftEntry.row[n].localeCompare(rightEntry.row[n]);
+    }
+
+    if (leftValue === rightValue) {
+      return 0;
+    }
+
+    return direction === "des" ? rightValue - leftValue : leftValue - rightValue;
+  };
+
+  const values = units.map((row) => ({ row }));
+
   let dir = "des";
-  for (let i = 0; i < units.length - 1; i++) {
-    if (clean(units[i][n], n) > clean(units[i + 1][n], n)) {
+  for (let i = 1; i < values.length; i++) {
+    const previousValue = clean(values[i - 1].row[n], n);
+    const currentValue = clean(values[i].row[n], n);
+
+    if (previousValue > currentValue) {
       dir = "asc";
       break;
     }
   }
-  for (let i = units.length - 1; i > 0; i--) {
-    for (let j = 0; j < i; j++) {
-      if (dir === "des") {
-        if (clean(units[j][n], n) == 100000000 && clean(units[j+1][n], n) == 100000000) {
-          if (units[j][n].localeCompare(units[j+1][n]) > 0) {
-            const temp = units[j];
-            units[j] = units[j+1];
-            units[j+1] = temp;
-          }
-        } else if (clean(units[j][n], n) < clean(units[j+1][n], n)) {
-          const temp = units[j];
-          units[j] = units[j+1];
-          units[j+1] = temp;
-        }
+
+  const mergeSort = (arr) => {
+    if (arr.length <= 1) {
+      return arr;
+    }
+
+    const mid = Math.floor(arr.length / 2);
+    const left = mergeSort(arr.slice(0, mid));
+    const right = mergeSort(arr.slice(mid));
+    const merged = [];
+    let leftIndex = 0;
+    let rightIndex = 0;
+
+    while (leftIndex < left.length && rightIndex < right.length) {
+      const comparison = compareEntries(left[leftIndex], right[rightIndex], dir);
+      if (comparison <= 0) {
+        merged.push(left[leftIndex]);
+        leftIndex++;
       } else {
-        if (clean(units[j][n], n) == 100000000 && clean(units[j+1][n], n) == 100000000) {
-          if (units[j][n].localeCompare(units[j+1][n]) < 0) {
-            const temp = units[j];
-            units[j] = units[j+1];
-            units[j+1] = temp;
-          }
-        } else if (clean(units[j][n], n) > clean(units[j+1][n], n)) {
-          const temp = units[j];
-          units[j] = units[j+1];
-          units[j+1] = temp;
-        }
+        merged.push(right[rightIndex]);
+        rightIndex++;
       }
-    } 
-  }
+    }
+
+    while (leftIndex < left.length) {
+      merged.push(left[leftIndex]);
+      leftIndex++;
+    }
+    while (rightIndex < right.length) {
+      merged.push(right[rightIndex]);
+      rightIndex++;
+    }
+
+    return merged;
+  };
+
+  units = mergeSort(values).map(({ row }) => row);
   generateTable();
 }
 function clean(val, n) {
@@ -287,9 +359,9 @@ function clean(val, n) {
     if (val.substring(val.length-2)==="SL") {
       return parseInt(val.substring(0,val.length-2));
     } else if (val.substring(val.length-2)==="LT") {
-      return 10000*10000;
+      return premMult * premMult;
     } else {
-      return parseInt(val.substring(0,val.length-2)) * 10000;
+      return parseInt(val.substring(0,val.length-2)) * premMult;
     }
   } else if (n == 3 || n == 5 || n == 8 || n == 9 || n==10) {
     return parseInt(val);
@@ -511,4 +583,14 @@ function swapImg() {
   isImg = !isImg;
   document.getElementById("UnitsTable").remove();
   generateTable();
+}
+
+function toggleTheme() {
+  document.body.classList.toggle("dark-mode");
+  const themeButton = document.getElementById("Theme");
+  if (document.body.classList.contains("dark-mode")) {
+    themeButton.innerText = "Light Mode";
+  } else {
+    themeButton.innerText = "Dark Mode";
+  }
 }

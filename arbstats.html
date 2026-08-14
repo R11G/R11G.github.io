@@ -4,15 +4,18 @@
 <link rel="stylesheet" href="arbstats/style.css">
 </head>
 <body onload="initFilters();readFile(generateTable)">
-  <p>Filters
-    <span>
-      <button id="Image" onclick="swapImg()" style="float:right">Vehicle Icons</button>
-    </span>
-  </p>
-  <button id="Rank" onclick="chooseRank()">Rank</button>
-  <span><button id="Country" onclick="chooseCountry()">Country</button></span>
-  <span><button id="Class" onclick="chooseClass()">Class</button></span>
-  <span><button id="Type" onclick="chooseType()">Type</button></span>
+  <div class="sticky-controls">
+    <p>Filters
+      <span style="float:right">
+        <button id="Image" onclick="swapImg()">Vehicle Icons</button>
+        <button id="Theme" onclick="toggleTheme()">Dark Mode</button>
+      </span>
+    </p>
+    <button id="Rank" onclick="chooseRank()">Rank</button>
+    <span><button id="Country" onclick="chooseCountry()">Country</button></span>
+    <span><button id="Class" onclick="chooseClass()">Class</button></span>
+    <span><button id="Type" onclick="chooseType()">Type</button></span>
+  </div>
   <div id="countryList" style="display:none;">
     <label><input type="checkbox" id="britain" />Britain</label>
     <label><input type="checkbox" id="china" />China</label>
