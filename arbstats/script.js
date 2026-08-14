@@ -300,6 +300,11 @@ function sortTable(n) {
       return 0;
     }
 
+    if (typeof leftValue === "string" || typeof rightValue === "string") {
+      const stringCompare = String(leftValue).localeCompare(String(rightValue));
+      return direction === "des" ? -stringCompare : stringCompare;
+    }
+
     return direction === "des" ? rightValue - leftValue : leftValue - rightValue;
   };
 
