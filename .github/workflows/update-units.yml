@@ -34,14 +34,32 @@ jobs:
 
       - name: Get latest commit message from upstream
         run: |
-          set -e
+          set -euo pipefail
           API_URL="https://api.github.com/repos/gszabi99/War-Thunder-Datamine/commits?per_page=1"
-          MSG=$(curl -fsSL "$API_URL" | python3 -c "import sys,json; j=json.load(sys.stdin); print(j[0]['commit']['message'] if j else '')") || true
-          if [ -z "${MSG}" ]; then
+
+          if ! curl -fsSL \
+            -H "Authorization: Bearer ${{ github.token }}" \
+            -H "Accept: application/vnd.github+json" \
+            -H "User-Agent: github-actions" \
+            "$API_URL" -o /tmp/upstream_commits.json; then
             echo "Auto-update unitsClean.csv" > /tmp/remote_commit_msg.txt
-          else
-            printf '%s' "$MSG" > /tmp/remote_commit_msg.txt
+            exit 0
           fi
+
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+
+          fallback = "Auto-update unitsClean.csv"
+          path = Path("/tmp/upstream_commits.json")
+          try:
+              data = json.loads(path.read_text(encoding="utf-8"))
+              message = data[0]["commit"]["message"] if isinstance(data, list) and data and "commit" in data[0] else ""
+          except Exception:
+              message = ""
+
+          Path("/tmp/remote_commit_msg.txt").write_text((message or fallback).strip(), encoding="utf-8")
+          PY
 
       - name: Commit & push if changed (use upstream message)
         run: |
