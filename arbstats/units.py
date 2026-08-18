@@ -17,7 +17,7 @@ if lines is None:
     print(f"Failed to fetch {UNITS_URL}", file=sys.stderr)
     sys.exit(1)
 
-out_dir = os.path.join("arbstats", "lang")
+out_dir = os.path.join("WT Localization Files", "Default Names")
 os.makedirs(out_dir, exist_ok=True)
 out_path = os.path.join(out_dir, "units.csv")
 
