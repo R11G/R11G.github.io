@@ -3626,6 +3626,24 @@ wheeled_vehicles/ger_panzerwerfer_42_a_2;MLRS
 wheeled_vehicles/ussr_zis5_fuel_0;Vehicle
 wheeled_vehicles/ussr_zis5_fuel_1;Vehicle
 wheeled_vehicles/ussr_zis5_fuel_2;Vehicle
+wheeled_vehicles/ussr_zil_131_awning_0;ZiL-131
+wheeled_vehicles/ussr_zil_131_awning_1;ZiL-131
+wheeled_vehicles/ussr_zil_131_awning_2;ZiL-131
+wheeled_vehicles/ussr_zil_131_fuel_carrier_0;ZiL-131
+wheeled_vehicles/ussr_zil_131_fuel_carrier_1;ZiL-131
+wheeled_vehicles/ussr_zil_131_fuel_carrier_2;ZiL-131
+wheeled_vehicles/ussr_zil_131_awning_ammo_carrier_0;ZiL-131
+wheeled_vehicles/ussr_zil_131_awning_ammo_carrier_1;ZiL-131
+wheeled_vehicles/ussr_zil_131_awning_ammo_carrier_2;ZiL-131
+wheeled_vehicles/us_m35a2_awning_ammo_carrier_0;M35A2
+wheeled_vehicles/us_m35a2_awning_ammo_carrier_1;M35A2
+wheeled_vehicles/us_m35a2_awning_ammo_carrier_2;M35A2
+wheeled_vehicles/us_m35a2_awning_0;M35A2
+wheeled_vehicles/us_m35a2_awning_1;M35A2
+wheeled_vehicles/us_m35a2_awning_2;M35A2
+wheeled_vehicles/us_m35a2_fuel_carrier_0;M35A2
+wheeled_vehicles/us_m35a2_fuel_carrier_1;M35A2
+wheeled_vehicles/us_m35a2_fuel_carrier_2;M35A2
 wheeled_vehicles/ussr_kamaz_4310_awning_0;KAMAZ-4310
 wheeled_vehicles/ussr_kamaz_4310_awning_1;KAMAZ-4310
 wheeled_vehicles/ussr_kamaz_4310_awning_2;KAMAZ-4310
@@ -6104,6 +6122,10 @@ j_10c_shop;J-10C
 j_10c_0;J-10C
 j_10c_1;J-10C
 j_10c_2;J-10C
+j_10a_killstreak_shop;☢J-10A
+j_10a_killstreak_0;☢J-10A
+j_10a_killstreak_1;☢J-10A
+j_10a_killstreak_2;☢J-10A
 q_5a_shop;Q-5A
 q_5a_0;Q-5A
 q_5a_1;Q-5A
@@ -6949,6 +6971,14 @@ f-105d_shop;F-105D
 f-105d_0;F-105D Thunderchief
 f-105d_1;F-105D
 f-105d_2;F-105D
+f_105d_killstreak_shop;☢F-105D
+f_105d_killstreak_0;☢F-105D Thunderchief
+f_105d_killstreak_1;☢F-105D
+f_105d_killstreak_2;☢F-105D
+f_105d_japan_killstreak_shop;☢F-105D
+f_105d_japan_killstreak_0;☢F-105D Thunderchief
+f-105d_japan_killstreak_1;☢F-105D
+f-105d_japan_killstreak_2;☢F-105D
 f_106a_1972_shop;F-106A
 f_106a_1972_0;F-106A "Six Shooter"
 f_106a_1972_1;F-106A
@@ -7086,6 +7116,14 @@ b-57b_shop;B-57B
 b-57b_0;B-57B Canberra
 b-57b_1;B-57B
 b-57b_2;B-57B
+b_57b_killstreak_shop;☢B-57B
+b_57b_killstreak_0;☢B-57B Canberra
+b_57b_killstreak_1;☢B-57B
+b_57b_killstreak_2;☢B-57B
+b_57b_japan_killstreak_shop;☢B-57B
+b_57b_japan_killstreak_0;☢B-57B Canberra
+b_57b_japan_killstreak_1;☢B-57B
+b_57b_japan_killstreak_2;☢B-57B
 b_66b_shop;B-66B
 b_66b_0;B-66B Destroyer
 b_66b_1;B-66B
@@ -11219,6 +11257,10 @@ tornado_ids_it_mod95_shop;▄Tornado IDS (1995)
 tornado_ids_it_mod95_0;▄Tornado IDS (1995)
 tornado_ids_it_mod95_1;▄Tornado IDS (1995)
 tornado_ids_it_mod95_2;▄Tornado IDS (1995)
+tornado_ids_it_mod95_killstreak_shop;☢Tornado IDS (1995)
+tornado_ids_it_mod95_killstreak_0;☢Tornado IDS (1995)
+tornado_ids_it_mod95_killstreak_1;☢Tornado IDS (1995)
+tornado_ids_it_mod95_killstreak_2;☢Tornado IDS (1995)
 tornado_ids_it_ret8_shop;▄Tornado IDS MLU (RET.8)
 tornado_ids_it_ret8_0;▄Tornado IDS MLU (RET.8)
 tornado_ids_it_ret8_1;▄Tornado IDS MLU (RET.8)
