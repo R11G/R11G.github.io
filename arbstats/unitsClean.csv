@@ -2452,7 +2452,7 @@ jp_leopard_2ri;Leopard 2RI;1080000SL;400000;126.12;6847;1.88;2.5;8;35;35;japan;t
 jp_type_60_atm;Type 60 ATM;210000SL;35000;54.120000000000005;5731;2.02;1.78;4;17;17;japan;tank_destroyer;tank
 jp_type_74;Type 74 (E);520000SL;190000;96.12;6466;2.01;2.2;6;24;24;japan;tank;tank
 jp_type_74_c;Type 74 (C);340000SL;61000;78.12;6375;1.97;2.02;5;22;22;japan;tank;tank
-jp_type_74_red_star;Type 74 Red Star;8380GL;120000;54.09;3013;3.78;2.02;5;22;22;japan;tank;tank
+jp_type_74_red_star;Type 74 Red Star;8380GE;120000;54.09;3013;3.78;2.02;5;22;22;japan;tank;tank
 jp_type_87_rcv_prot;Type 87 RCV (P);300000SL;105000;66.12;5375;1.63;1.96;5;20;20;japan;tank;wheeled_vehicle
 jp_type_87_rcv;Type 87 RCV;450000SL;160000;84.12;5621;1.63;2.14;6;24;24;japan;tank;wheeled_vehicle
 jp_icv_ifv_prototype;Type 24 ICV (P);710000SL;260000;102.12;5564;1.73;2.32;7;26;26;japan;tank;wheeled_vehicle
