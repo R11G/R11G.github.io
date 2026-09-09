@@ -15829,12 +15829,18 @@ us_ai_aew_radar_tps_59_2;AN/TPS-59 acquisition radar
 us_ai_sam_radar_cwar_0;"CWAR" acquisition radar
 us_ai_sam_radar_cwar_1;"CWAR" acquisition radar
 us_ai_sam_radar_cwar_2;"CWAR" acquisition radar
+us_ai_sam_radar_an_mpq_34_cwar_0;AN/MPQ-34 SAM "HAWK" acquisition radar
+us_ai_sam_radar_an_mpq_34_cwar_1;AN/MPQ-34 SAM "HAWK" acquisition radar
+us_ai_sam_radar_an_mpq_34_cwar_2;AN/MPQ-34 SAM "HAWK" acquisition radar
 us_ai_sam_radar_an_mpq_53_0;AN/MPQ-53 SAM "Patriot" target tracking radar
 us_ai_sam_radar_an_mpq_53_1;AN/MPQ-53 SAM "Patriot" target tracking radar
 us_ai_sam_radar_an_mpq_53_2;AN/MPQ-53 SAM "Patriot" target tracking radar
-us_ai_sam_radar_an_mpq_46_0;AN/MPQ-46 SAM "HAWK" target tracking radar
-us_ai_sam_radar_an_mpq_46_1;AN/MPQ-46 SAM "HAWK" target tracking radar
-us_ai_sam_radar_an_mpq_46_2;AN/MPQ-46 SAM "HAWK" target tracking radar
+us_ai_sam_radar_an_mpq_46_0;AN/MPQ-46 SAM "I-HAWK" target tracking radar
+us_ai_sam_radar_an_mpq_46_1;AN/MPQ-46 SAM "I-HAWK" target tracking radar
+us_ai_sam_radar_an_mpq_46_2;AN/MPQ-46 SAM "I-HAWK" target tracking radar
+us_ai_sam_radar_an_mpq_33_0;AN/MPQ-33 SAM "HAWK" target tracking radar
+us_ai_sam_radar_an_mpq_33_1;AN/MPQ-33 SAM "HAWK" target tracking radar
+us_ai_sam_radar_an_mpq_33_2;AN/MPQ-33 SAM "HAWK" target tracking radar
 ussr_ai_aew_radar_55j6_0;55Zh6 "Nebo" acquisition radar
 ussr_ai_aew_radar_55j6_1;55Zh6 "Nebo" acquisition radar
 ussr_ai_aew_radar_55j6_2;55Zh6 "Nebo" acquisition radar
@@ -15847,6 +15853,9 @@ ussr_ai_sam_radar_5n63s_2;5N63S "S-300" SAM target tracking radar
 ussr_ai_sam_radar_9s18_0;9K37 "BUK", Target acquisition and designation system 9S18
 ussr_ai_sam_radar_9s18_1;9K37 "BUK", Target acquisition and designation system 9S18
 ussr_ai_sam_radar_9s18_2;9K37 "BUK", Target acquisition and designation system 9S18
+ussr_ai_sam_radar_9s18m1_0;9K37M1 "BUK-M1", Target acquisition and designation system 9S18M1
+ussr_ai_sam_radar_9s18m1_1;9K37M1 "BUK-M1", Target acquisition and designation system 9S18M1
+ussr_ai_sam_radar_9s18m1_2;9K37M1 "BUK-M1", Target acquisition and designation system 9S18M1
 us_ai_mlrs_m270_0;M270 MLRS
 us_ai_mlrs_m270_1;M270 MLRS
 us_ai_mlrs_m270_2;M270 MLRS
@@ -15862,15 +15871,21 @@ us_ai_tbm_m752_lance;TBM
 us_ai_sam_launcher_m901_0;"Patriot" SAM M901 launcher
 us_ai_sam_launcher_m901_1;"Patriot" SAM M901 launcher
 us_ai_sam_launcher_m901_2;"Patriot" SAM M901 launcher
-us_ai_sam_launcher_m192_0;"HAWK" SAM M192 launcher
-us_ai_sam_launcher_m192_1;"HAWK" SAM M192 launcher
-us_ai_sam_launcher_m192_2;"HAWK" SAM M192 launcher
+us_ai_sam_launcher_m192_0;"I-HAWK" SAM M192 launcher
+us_ai_sam_launcher_m192_1;"I-HAWK" SAM M192 launcher
+us_ai_sam_launcher_m192_2;"I-HAWK" SAM M192 launcher
+us_ai_sam_launcher_m192_early_0;"HAWK" SAM M192 launcher
+us_ai_sam_launcher_m192_early_1;"HAWK" SAM M192 launcher
+us_ai_sam_launcher_m192_early_2;"HAWK" SAM M192 launcher
 ussr_ai_sam_launcher_5p85se_0;"S-300" SAM 5P85SE launcher
 ussr_ai_sam_launcher_5p85se_1;"S-300" SAM 5P85SE launcher
 ussr_ai_sam_launcher_5p85se_2;"S-300" SAM 5P85SE launcher
 ussr_ai_sam_launcher_9a310_0;9K37 "BUK", Transporter erector launcher and radar 9A310
 ussr_ai_sam_launcher_9a310_1;9K37 "BUK", Transporter erector launcher and radar 9A310
 ussr_ai_sam_launcher_9a310_2;9K37 "BUK", Transporter erector launcher and radar 9A310
+ussr_ai_sam_launcher_9a310m1_0;9K37M1 "BUK-M1", Transporter erector launcher and radar 9A310M1
+ussr_ai_sam_launcher_9a310m1_1;9K37M1 "BUK-M1", Transporter erector launcher and radar 9A310M1
+ussr_ai_sam_launcher_9a310m1_2;9K37M1 "BUK-M1", Transporter erector launcher and radar 9A310M1
 ussr_destroyer_rckt_pr956_0;Project 956
 ussr_destroyer_rckt_pr956_1;Project 956
 ussr_destroyer_rckt_pr956_2;Project 956

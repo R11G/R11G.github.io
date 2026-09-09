@@ -1431,7 +1431,7 @@ ah_64e_indonesia;AH-64E (Japan);1030000SL;400000;114.12;7795;2.02;2.38;7;30;36;j
 ah_64e_china;AH-64E (China);1030000SL;400000;114.12;7795;2.02;2.38;7;30;36;china;helicopter;helicopter
 ah_64e_britain;AH Mk.2 Apache;1030000SL;400000;114.12;7795;2.02;2.38;7;30;36;britain;helicopter;helicopter
 ah_64a_iaf;Peten;1010000SL;390000;102.12;6500;2.33;2.26;6;28;31;israel;helicopter;helicopter
-ah_64d_i_saraph;Saraph;1020000SL;400000;108.12;6756;2.25;2.32;7;35;32;israel;helicopter;helicopter
+ah_64d_i_saraph;Saraph;1020000SL;400000;108.12;6756;2.25;2.32;7;35;35;israel;helicopter;helicopter
 ah_64d_japan;AH-64DJP;1020000SL;400000;108.12;6542;2.5;2.32;7;29;31;japan;helicopter;helicopter
 ah_64d_lightweight_japan;AH-64DJP (AT);9270GL;400000;76.59;3796;3.94;2.32;7;29;31;japan;helicopter;helicopter
 ah_64d_netherlands;AH-64D (France);9270GE;400000;76.59;3796;3.94;2.32;7;29;31;france;helicopter;helicopter
