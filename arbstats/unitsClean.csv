@@ -1104,7 +1104,7 @@ mig_29_9_13;MiG-29 (9-13);860000SL;320000;114.12;12779;3.19;2.56;8;35;36;ussr;fi
 mig_29m_9_15;MiG-29M (9-15);1140000SL;620000;126.12;12937;3.24;2.68;8;38;38;ussr;fighter;air
 mig_29smt_9_19;MiG-29SMT (9-19);940000SL;350000;180.12;12842;3.21;2.62;8;38;37;ussr;fighter;air
 mig_29kr_9_41r;MiG-29KR (9-41R);940000SL;350000;120.12;12842;3.21;2.62;8;38;38;ussr;fighter;air
-mig_35;MiG-35S;1080000SL;400000;192.12;12937;3.24;2.68;9;40;40;ussr;fighter;air
+mig_35;MiG-35;1080000SL;400000;192.12;12937;3.24;2.68;9;40;40;ussr;fighter;air
 su_27;Su-27;860000SL;320000;114.12;12779;3.19;2.56;8;37;36;ussr;fighter;air
 su_27sm;Su-27SM;940000SL;350000;120.12;12842;3.21;2.62;8;38;38;ussr;fighter;air
 su_30sm;Su-30SM;1080000SL;400000;126.12;12937;3.24;2.68;9;40;40;ussr;fighter;air
@@ -2284,7 +2284,7 @@ uk_vickers_mk_11;Vickers Mk.11;380000SL;135000;78.12;5378;1.56;2.08;6;23;23;brit
 uk_badger;Badger;450000SL;160000;84.12;5297;1.58;2.14;6;24;24;britain;tank;wheeled_vehicle
 uk_vfm_5;VFM5;520000SL;190000;90.12;5340;1.64;2.2;6;25;25;britain;tank;tank
 uk_fv107_scimitar;Scimitar;240000SL;82000;54.120000000000005;4776;1.51;1.84;5;19;20;britain;tank;tank
-uk_fv107_scimitar_mk2;Scimitar Mk.2;2026_07_tankLT;135000;72.12;5517;1.59;2.08;6;22;22;britain;tank;tank
+uk_fv107_scimitar_mk2;Scimitar Mk.2;2026_07_tankLT;135000;78.12;5517;1.59;2.08;6;22;22;britain;tank;tank
 uk_fv721_fox;Fox;270000SL;48000;60.120000000000005;5319;1.6;1.9;5;20;21;britain;tank;wheeled_vehicle
 uk_fv510_isv;Warrior;380000SL;135000;78.12;5607;1.65;2.08;6;22;22;britain;tank;tank
 uk_boxer_crv_block2;CRV Block 2;winter_2026LT;260000;102.12;6053;1.62;2.32;7;29;29;britain;tank;wheeled_vehicle
