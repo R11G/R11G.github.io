@@ -3077,10 +3077,10 @@ germ_leopard_2pl_shop;Leopard 2PL
 germ_leopard_2pl_0;Leopard 2PL
 germ_leopard_2pl_1;Leopard 2PL
 germ_leopard_2pl_2;Leopard 2PL
-germ_embt_shop;EMBT
-germ_embt_0;European Main Battle Tank
-germ_embt_1;EMBT
-germ_embt_2;EMBT
+germ_embt_shop;◄EMBT
+germ_embt_0;◄European Main Battle Tank
+germ_embt_1;◄EMBT
+germ_embt_2;◄EMBT
 germ_leopard_2k_shop;Leopard 2K
 germ_leopard_2k_0;Leopard 2K
 germ_leopard_2k_1;Leopard 2K
@@ -3325,10 +3325,10 @@ fr_amx_30_roland_shop;Roland 1
 fr_amx_30_roland_0;AMX-30 Roland 1
 fr_amx_30_roland_1;Roland 1
 fr_amx_30_roland_2;Roland 1
-fr_embt_shop;EMBT
-fr_embt_0;European Main Battle Tank
-fr_embt_1;EMBT
-fr_embt_2;EMBT
+fr_embt_shop;▄EMBT
+fr_embt_0;▄European Main Battle Tank
+fr_embt_1;▄EMBT
+fr_embt_2;▄EMBT
 fr_leclerc_azur_shop;Leclerc AZUR
 fr_leclerc_azur_0;Leclerc AZUR
 fr_leclerc_azur_1;Leclerc AZUR
@@ -11349,10 +11349,10 @@ lynx_ah_mk1_shop;Lynx AH.Mk.1
 lynx_ah_mk1_0;Lynx AH.Mk.1
 lynx_ah_mk1_1;Lynx AH.Mk.1
 lynx_ah_mk1_2;Lynx AH.Mk.1
-aw_159_shop;AW159 HMA.2
-aw_159_0;AW159 HMA.2 Wildcat
-aw_159_1;AW159 HMA.2
-aw_159_2;AW159 HMA.2
+aw_159_shop;Wildcat HMA2
+aw_159_0;AW159 Wildcat HMA2
+aw_159_1;Wildcat HMA2
+aw_159_2;Wildcat HMA2
 wessex_mk5_shop;Wessex HU Mk.5
 wessex_mk5_0;Wessex HU Mk.5
 wessex_mk5_1;Wessex HU Mk.5
@@ -15803,7 +15803,7 @@ uk_battleship_lion_class_0;Lion-class, HMS Lion (27), project
 uk_battleship_lion_class_1;HMS Lion
 uk_battleship_lion_class_2;HMS Lion
 fr_cruiser_algerie_class_shop;Algerie
-fr_cruiser_algerie_class_0;Algerie-class, Algerie, 1941
+fr_cruiser_algerie_class_0;Algerie-class, Algerie, 1942
 fr_cruiser_algerie_class_1;Algerie
 fr_cruiser_algerie_class_2;Algerie
 cn_cm_34_shop;CM34

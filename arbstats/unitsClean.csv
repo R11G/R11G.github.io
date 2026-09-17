@@ -1350,7 +1350,7 @@ wasp_has_mk1;Wasp HAS.Mk.1;490000SL;150000;66.12;3710;3.0;2.02;5;24;24;britain;h
 wessex_mk5;Wessex HU Mk.5;980000SL;360000;78.12;3962;3.0;2.08;5;24;24;britain;helicopter;helicopter
 g_lynx;G-LYNX;7860GE;360000;58.59;3200;5.11;2.14;6;26;29;britain;helicopter;helicopter
 lynx_ah_mk1;Lynx AH.Mk.1;1000000SL;380000;96.12;6075;2.63;2.2;6;26;29;britain;helicopter;helicopter
-aw_159;AW159 HMA.2;1020000SL;400000;114.12;7645;1.97;2.32;7;29;34;britain;helicopter;helicopter
+aw_159;Wildcat HMA2;1020000SL;400000;114.12;7645;1.97;2.32;7;29;34;britain;helicopter;helicopter
 tiger_uht;EC-665 Tiger UHT;1020000SL;400000;108.12;7645;1.97;2.32;7;27;35;germany;helicopter;helicopter
 tiger_hap_france;EC-665 Tiger HAP;7270GE;390000;72.09;3142;5.4;2.26;6;27;27;france;helicopter;helicopter
 tiger_had_france;EC-665 Tiger HAD;1020000SL;400000;108.12;6650;2.4;2.32;7;29;30;france;helicopter;helicopter
@@ -1731,7 +1731,7 @@ fr_samp_t_fcs;FSAF SAMP/T (Mamba) (TADS);1100000SL;410000;162.12;9542;2.1;2.56;8
 fr_samp_t_launcher;FSAF SAMP/T (Mamba) (TEL);msi_notebookLT;410000;162.12;9542;2.1;2.56;8;35;35;france;SPAA;wheeled_vehicle
 fr_msc;MSC;710000SL;260000;108.12;6413;1.91;2.32;7;30;30;france;tank;tank
 fr_leclerc_s1;Leclerc;1080000SL;400000;126.12;6742;1.94;2.5;8;35;35;france;tank;tank
-fr_embt;EMBT;1120000SL;420000;138.12;6932;1.91;2.62;8;35;35;france;tank;tank
+fr_embt;EMBT (France);1120000SL;420000;138.12;6932;1.91;2.62;8;35;35;france;tank;tank
 fr_leclerc_s2;Leclerc S2;1100000SL;200000;132.12;6796;1.96;2.56;8;35;35;france;tank;tank
 fr_leclerc_sxxi;Leclerc SXXI;1100000SL;410000;132.12;6796;1.96;2.56;8;35;35;france;tank;tank
 fr_leclerc_azur;Leclerc AZUR;1120000SL;420000;138.12;6823;1.97;2.62;8;35;35;france;tank;tank
@@ -2061,7 +2061,7 @@ germ_leopard_2k;Leopard 2K;710000SL;260000;108.12;6375;2.03;2.32;7;27;27;germany
 germ_leopard_2a4_pzbtl_123;Leopard 2 (PzBtl 123);9270GL;260000;76.59;3259;3.86;2.32;7;29;29;germany;tank;tank
 germ_leopard_2a4;Leopard 2A4;830000SL;300000;114.12;6571;1.98;2.38;7;29;29;germany;tank;tank
 germ_leopard_2pl;Leopard 2PL;1140000SL;570000;126.12;6723;1.92;2.5;8;34;34;germany;tank;tank
-germ_embt;EMBT;1080000SL;400000;126.12;6847;1.88;2.5;8;35;35;germany;tank;tank
+germ_embt;EMBT (Germany);1080000SL;400000;126.12;6847;1.88;2.5;8;35;35;germany;tank;tank
 germ_leopard_2a5;Leopard 2A5;1080000SL;400000;126.12;6742;1.94;2.5;8;34;34;germany;tank;tank
 germ_leopard_2a5_pso;Leopard 2 PSO;1100000SL;410000;132.12;6796;1.96;2.56;8;35;35;germany;tank;tank
 germ_leopard_2a7v;Leopard 2A7V;1120000SL;420000;138.12;6823;1.97;2.62;8;35;35;germany;tank;tank
