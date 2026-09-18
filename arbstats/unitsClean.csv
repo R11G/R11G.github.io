@@ -2915,7 +2915,7 @@ fr_cruiser_suffren_class_dupleix;Dupleix;6090GE;73000;49.59;5670;12.0;1.84;4;14;
 uk_battlecruiser_renown;HMS Renown;summer_2023LT;145000;206.44000000000003;39923;6.0;1.96;5;18;18;britain;cruiser;ship
 jp_destroyer_hatsuzuki;IJN Hatsuzuki;msi_notebookLT;15000;14.85;4311;4.62;1.36;3;11;11;japan;destroyer;ship
 us_battleship_texas;USS Texas;540000SL;180000;211.92333333333332;38763;6.0;2.02;5;17;17;usa;cruiser;ship
-us_battleship_arkansas;USS Arkansas;8020GL;110000;143.54999999999998;17594;12.0;1.9;5;17;17;usa;cruiser;ship
+us_battleship_arkansas;USS Arkansas;8020GE;110000;143.54999999999998;17594;12.0;1.9;5;17;17;usa;cruiser;ship
 germ_battleship_nassau;SMS Nassau;8380GE;180000;149.40666666666667;11055;12.0;2.02;5;15;15;germany;cruiser;ship
 ussr_battleship_marat;Marat;8380GE;180000;151.16333333333333;14714;12.0;2.02;5;17;17;ussr;cruiser;ship
 jp_destroyer_momi;IJN Momi;0SL;null;null;null;0.33;1.0;1;7;7;japan;destroyer;ship
