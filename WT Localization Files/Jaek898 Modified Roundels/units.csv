@@ -6099,10 +6099,10 @@ mig-19j_6a_shop;J-6A
 mig-19j_6a_0;J-6A "Farmer-B"
 mig-19j_6a_1;J-6A
 mig-19j_6a_2;J-6A
-f_6c_pakistan_shop;▄F-6C
-f_6c_pakistan_0;▄F-6C
-f_6c_pakistan_1;▄F-6C
-f_6c_pakistan_2;▄F-6C
+f_6c_pakistan_shop;F-6C
+f_6c_pakistan_0;F-6C "Farmer-C"
+f_6c_pakistan_1;F-6C
+f_6c_pakistan_2;F-6C
 j_7_mk2_shop;J-7II
 j_7_mk2_0;J-7II "Fishcan"
 j_7_mk2_1;J-7II
@@ -6822,10 +6822,10 @@ f_86em_greece_0;◐F-86E(M)
 f_86em_greece_1;◐F-86E(M)
 f_86em_greece_2;◐F-86E(M)
 shop/group/f-86_german_group;◄CL-13
-ca_27_mk32_raaf_shop;▄CA-27 Mk.32
-ca_27_mk32_raaf_0;▄CA-27 Sabre Mk.32
-ca_27_mk32_raaf_1;▄CA-27 Mk.32
-ca_27_mk32_raaf_2;▄CA-27 Mk.32
+ca_27_mk32_raaf_shop;CA-27 Mk.32
+ca_27_mk32_raaf_0;CA-27 Sabre Mk.32
+ca_27_mk32_raaf_1;CA-27 Mk.32
+ca_27_mk32_raaf_2;CA-27 Mk.32
 ca_27_mk32_malaysia_shop;▄CA-27 Mk.32
 ca_27_mk32_malaysia_0;▄CA-27 Sabre Mk.32
 ca_27_mk32_malaysia_1;▄CA-27 Mk.32
@@ -10469,10 +10469,10 @@ jaguar_is_shop;Jaguar IS
 jaguar_is_0;Jaguar IS
 jaguar_is_1;Jaguar IS
 jaguar_is_2;Jaguar IS
-marut_mk1_shop;▄HF-24
-marut_mk1_0;▄HF-24 Marut
-marut_mk1_1;▄HF-24
-marut_mk1_2;▄HF-24
+marut_mk1_shop;HF-24
+marut_mk1_0;HF-24 Marut
+marut_mk1_1;HF-24
+marut_mk1_2;HF-24
 jaguar_e_shop;Jaguar E
 jaguar_e_0;Jaguar E
 jaguar_e_1;Jaguar E
@@ -11937,10 +11937,10 @@ ah_64a_killstreak_shop;AH-64A
 ah_64a_killstreak_0;AH-64A Apache
 ah_64a_killstreak_1;AH-64A
 ah_64a_killstreak_2;AH-64A
-ah_64a_greece_usa_shop;▃AH-64A (GR)
-ah_64a_greece_usa_0;▃AH-64A (GR) Apache
-ah_64a_greece_usa_1;▃AH-64A (GR)
-ah_64a_greece_usa_2;▃AH-64A (GR)
+ah_64a_greece_usa_shop;▃AH-64A
+ah_64a_greece_usa_0;▃AH-64A Apache
+ah_64a_greece_usa_1;▃AH-64A
+ah_64a_greece_usa_2;▃AH-64A
 nesher_shop;Nesher
 nesher_0;Nesher
 nesher_1;Nesher
