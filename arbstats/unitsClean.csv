@@ -3293,3 +3293,15 @@ m110a1_sdmr;m110a1_sdmr;msi_notebookLT;300000;null;null;1.0;2.38;7;31;31;usa;hum
 m24;m24;msi_notebookLT;190000;null;null;1.0;2.2;6;28;28;usa;human;human
 sig_xm5;sig_xm5;msi_notebookLT;410000;null;null;1.0;2.56;8;34;34;usa;human;human
 ak_15;ak_15;msi_notebookLT;300000;null;null;1.0;2.38;7;31;31;ussr;human;human
+ussr_rd_44;ussr_rd_44;200000SL;63000;null;null;1.0;1.72;4;18;18;ussr;human;human
+ussr_sks;ussr_sks;155000SL;46000;null;null;1.0;1.6;4;16;16;ussr;human;human
+ussr_svt_40;ussr_svt_40;185000SL;54000;null;null;1.0;1.66;4;17;17;ussr;human;human
+ussr_pps_43;ussr_pps_43;155000SL;46000;null;null;1.0;1.6;4;16;16;ussr;human;human
+ussr_ppd_40;ussr_ppd_40;200000SL;63000;null;null;1.0;1.72;4;18;18;ussr;human;human
+ussr_mosin_m91;ussr_mosin_m91;185000SL;54000;null;null;1.0;1.66;4;17;17;ussr;human;human
+us_m1918a2_browning_lmg;us_m1918a2_browning_lmg;200000SL;63000;null;null;1.0;1.72;4;18;18;usa;human;human
+us_m1_carbine;us_m1_carbine;155000SL;46000;null;null;1.0;1.6;4;16;16;usa;human;human
+us_m1_garand;us_m1_garand;185000SL;54000;null;null;1.0;1.66;4;17;17;usa;human;human
+us_m3a1_smg;us_m3a1_smg;155000SL;46000;null;null;1.0;1.6;4;16;16;usa;human;human
+us_m1a1_thompson;us_m1a1_thompson;185000SL;54000;null;null;1.0;1.66;4;17;17;usa;human;human
+us_m1903a4_springfield;us_m1903a4_springfield;185000SL;54000;null;null;1.0;1.66;4;17;17;usa;human;human
