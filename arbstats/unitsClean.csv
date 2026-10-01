@@ -1143,7 +1143,7 @@ j_8b;J-8B;720000SL;260000;168.12;11936;3.2;2.44;7;31;31;china;fighter;air
 j_8f;J-8F;860000SL;320000;114.12;12454;3.19;2.56;8;36;36;china;fighter;air
 jh_7a;JH-7A;780000SL;290000;156.12;11131;3.43;2.5;8;35;34;china;assault;air
 jh_7a2;JH-7A2;860000SL;320000;114.12;12688;2.89;2.56;8;36;36;china;assault;air
-jh_7a_prototype;JH-7A Prototype;9800GL;290000;103.58999999999999;6255;5.73;2.5;8;35;34;china;assault;air
+jh_7a_prototype;JH-7A Prototype;9800GE;290000;103.58999999999999;6255;5.73;2.5;8;35;34;china;assault;air
 jh_7;JH-7;720000SL;260000;150.12;11055;3.4;2.44;7;32;32;china;assault;air
 jf_17;JF-17;910000SL;580000;114.12;12688;2.89;2.56;8;37;37;china;assault;air
 j_11;J-11;860000SL;320000;114.12;12779;3.19;2.56;8;37;36;china;fighter;air
@@ -3294,15 +3294,15 @@ m110a1_sdmr;m110a1_sdmr;msi_notebookLT;300000;null;null;1.0;2.38;7;31;31;usa;hum
 m24;m24;msi_notebookLT;190000;null;null;1.0;2.2;6;28;28;usa;human;human
 sig_xm5;sig_xm5;msi_notebookLT;410000;null;null;1.0;2.56;8;34;34;usa;human;human
 ak_15;ak_15;msi_notebookLT;300000;null;null;1.0;2.38;7;31;31;ussr;human;human
-ussr_rd_44;ussr_rd_44;200000SL;63000;null;null;1.0;1.72;4;18;18;ussr;human;human
-ussr_sks;ussr_sks;155000SL;46000;null;null;1.0;1.6;4;16;16;ussr;human;human
-ussr_svt_40;ussr_svt_40;185000SL;54000;null;null;1.0;1.66;4;17;17;ussr;human;human
-ussr_pps_43;ussr_pps_43;155000SL;46000;null;null;1.0;1.6;4;16;16;ussr;human;human
-ussr_ppd_40;ussr_ppd_40;200000SL;63000;null;null;1.0;1.72;4;18;18;ussr;human;human
-ussr_mosin_m91;ussr_mosin_m91;185000SL;54000;null;null;1.0;1.66;4;17;17;ussr;human;human
-us_m1918a2_browning_lmg;us_m1918a2_browning_lmg;200000SL;63000;null;null;1.0;1.72;4;18;18;usa;human;human
-us_m1_carbine;us_m1_carbine;155000SL;46000;null;null;1.0;1.6;4;16;16;usa;human;human
-us_m1_garand;us_m1_garand;185000SL;54000;null;null;1.0;1.66;4;17;17;usa;human;human
-us_m3a1_smg;us_m3a1_smg;155000SL;46000;null;null;1.0;1.6;4;16;16;usa;human;human
-us_m1a1_thompson;us_m1a1_thompson;185000SL;54000;null;null;1.0;1.66;4;17;17;usa;human;human
-us_m1903a4_springfield;us_m1903a4_springfield;185000SL;54000;null;null;1.0;1.66;4;17;17;usa;human;human
+ussr_rd_44;ussr_rd_44;200000SL;63000;null;null;1.0;1.72;4;16;16;ussr;human;human
+ussr_sks;ussr_sks;155000SL;46000;null;null;1.0;1.6;4;14;14;ussr;human;human
+ussr_svt_40;ussr_svt_40;185000SL;54000;null;null;1.0;1.66;4;15;15;ussr;human;human
+ussr_pps_43;ussr_pps_43;155000SL;46000;null;null;1.0;1.6;4;14;14;ussr;human;human
+ussr_ppd_40;ussr_ppd_40;200000SL;63000;null;null;1.0;1.72;4;16;16;ussr;human;human
+ussr_mosin_m91;ussr_mosin_m91;185000SL;54000;null;null;1.0;1.66;4;15;15;ussr;human;human
+us_m1918a2_browning_lmg;us_m1918a2_browning_lmg;200000SL;63000;null;null;1.0;1.72;4;16;16;usa;human;human
+us_m1_carbine;us_m1_carbine;155000SL;46000;null;null;1.0;1.6;4;14;14;usa;human;human
+us_m1_garand;us_m1_garand;185000SL;54000;null;null;1.0;1.66;4;15;15;usa;human;human
+us_m3a1_smg;us_m3a1_smg;155000SL;46000;null;null;1.0;1.6;4;14;14;usa;human;human
+us_m1a1_thompson;us_m1a1_thompson;185000SL;54000;null;null;1.0;1.66;4;15;15;usa;human;human
+us_m1903a4_springfield;us_m1903a4_springfield;185000SL;54000;null;null;1.0;1.66;4;15;15;usa;human;human
