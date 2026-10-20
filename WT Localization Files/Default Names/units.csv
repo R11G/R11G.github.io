@@ -2697,6 +2697,10 @@ germ_panzerbefelhswagen_jagdpanther_shop;Bfw. Jagdpanther G1
 germ_panzerbefelhswagen_jagdpanther_0;Panzerbefehlswagen Jagdpanther Ausf.G1
 germ_panzerbefelhswagen_jagdpanther_1;Bfw. Jagdpanther G1
 germ_panzerbefelhswagen_jagdpanther_2;Bfw. Jagdpanther G1
+germ_panzerjager_panther_g2_shop;Jagdpanther G2
+germ_panzerjager_panther_g2_0;Jagdpanther, Panzerjaeger Panther (8.8cm) Ausf.G2
+germ_panzerjager_panther_g2_1;Jagdpanther G2
+germ_panzerjager_panther_g2_2;Jagdpanther G2
 germ_panzerjager_panther_shop;Jagdpanther G1
 germ_panzerjager_panther_0;Jagdpanther, Panzerjaeger Panther (8.8cm) Ausf.G1
 germ_panzerjager_panther_1;Jagdpanther G1
@@ -3948,6 +3952,10 @@ bf-109e-3_japan_shop;▅Bf 109 E-7
 bf-109e-3_japan_0;▅Bf 109 E-7
 bf-109e-3_japan_1;▅Bf 109 E-7
 bf-109e-3_japan_2;▅Bf 109 E-7
+bf-109e-3_tl_shop;Bf 109 E-3 (TL)
+bf-109e-3_tl_0;Bf 109 E-3 (TL)
+bf-109e-3_tl_1;Bf 109 E-3 (TL)
+bf-109e-3_tl_2;Bf 109 E-3 (TL)
 bf-109f-1_shop;Bf 109 F-1
 bf-109f-1_0;Bf 109 F-1
 bf-109f-1_1;Bf 109 F-1
@@ -10777,6 +10785,10 @@ ussr_bt_7_m_shop;BT-7M
 ussr_bt_7_m_0;BT-7M
 ussr_bt_7_m_1;BT-7M
 ussr_bt_7_m_2;BT-7M
+ussr_bt_7_m_816_shop;BT-7M TD
+ussr_bt_7_m_816_0;BT-7M TD
+ussr_bt_7_m_816_1;BT-7M TD
+ussr_bt_7_m_816_2;BT-7M TD
 ussr_bt_7a_f32_shop;BT-7A (F-32)
 ussr_bt_7a_f32_0;BT-7A (F-32)
 ussr_bt_7a_f32_1;BT-7A (F-32)
@@ -15818,6 +15830,10 @@ fr_cruiser_algerie_class_shop;Algerie
 fr_cruiser_algerie_class_0;Algerie-class, Algerie, 1942
 fr_cruiser_algerie_class_1;Algerie
 fr_cruiser_algerie_class_2;Algerie
+germ_s_700_s_706_shop;S-706
+germ_s_700_s_706_0;S-700-class, S-706
+germ_s_700_s_706_1;S-706
+germ_s_700_s_706_2;S-706
 cn_cm_34_shop;CM34
 cn_cm_34_0;CM34
 cn_cm_34_1;CM34
