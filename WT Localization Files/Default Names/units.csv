@@ -979,6 +979,10 @@ us_m3a1_stuart_shop;M3A1 Stuart
 us_m3a1_stuart_0;Light Tank M3A1 Stuart
 us_m3a1_stuart_1;M3A1 Stuart
 us_m3a1_stuart_2;M3A1 Stuart
+us_m3a1_stuart_nvidia_shop;M3A1 TD
+us_m3a1_stuart_nvidia_0;Light Tank M3A1 TD Stuart
+us_m3a1_stuart_nvidia_1;M3A1 TD
+us_m3a1_stuart_nvidia_2;M3A1 TD
 us_m3a1_stuart_usmc_shop;M3A1 (USMC)
 us_m3a1_stuart_usmc_0;Light Tank M3A1 Stuart (USMC)
 us_m3a1_stuart_usmc_1;M3A1 (USMC)
@@ -1535,6 +1539,10 @@ us_stingray_shop;Stingray
 us_stingray_0;Stingray
 us_stingray_1;Stingray
 us_stingray_2;Stingray
+us_stingray_2_shop;Stingray II
+us_stingray_2_0;Stingray II
+us_stingray_2_1;Stingray II
+us_stingray_2_2;Stingray II
 jp_stingray_shop;▄Stingray
 jp_stingray_0;▄Stingray
 jp_stingray_1;▄Stingray
@@ -2809,6 +2817,10 @@ uk_olifant_mk_1a_shop;Olifant Mk.1A
 uk_olifant_mk_1a_0;Olifant Mk.1A
 uk_olifant_mk_1a_1;Olifant Mk.1A
 uk_olifant_mk_1a_2;Olifant Mk.1A
+uk_olifant_optimering_shop;Optimering
+uk_olifant_optimering_0;Olifant Mk.1B Optimering
+uk_olifant_optimering_1;Optimering
+uk_olifant_optimering_2;Optimering
 uk_ratel_90_shop;Ratel 90
 uk_ratel_90_0;Ratel 90
 uk_ratel_90_1;Ratel 90
@@ -3257,6 +3269,10 @@ fr_vab_santal_shop;SANTAL
 fr_vab_santal_0;Véhicule de l'Avant Blindé, SANTAL
 fr_vab_santal_1;SANTAL
 fr_vab_santal_2;SANTAL
+fr_prtl_shop;Cheetah PRTL
+fr_prtl_0;Cheetah PRTL
+fr_prtl_1;Cheetah PRTL
+fr_prtl_2;Cheetah PRTL
 fr_vcac_mephisto_shop;MEPHISTO
 fr_vcac_mephisto_0;Véhicule de Combat Anti-Char, MEPHISTO
 fr_vcac_mephisto_1;MEPHISTO
@@ -4875,6 +4891,10 @@ f2a-1_shop;F2A-1
 f2a-1_0;F2A-1 Buffalo
 f2a-1_1;F2A-1
 f2a-1_2;F2A-1
+f2a-1_nvidia_shop;F2A-1 TD
+f2a-1_nvidia_0;F2A-1 Buffalo TD
+f2a-1_nvidia_1;F2A-1 TD
+f2a-1_nvidia_2;F2A-1 TD
 o3u_1_shop;O3U-1
 o3u_1_0;OS3U-1 Corsair
 o3u_1_1;O3U-1
@@ -5098,10 +5118,10 @@ tu-2_shop;Tu-2S (7)
 tu-2_0;Tu-2S (7 series) factory No.23
 tu-2_1;Tu-2S (7)
 tu-2_2;Tu-2S (7)
-tu-2_early_shop;Tu-2 (5)
-tu-2_early_0;Tu-2 (5 series) factory No.166
-tu-2_early_1;Tu-2 (5)
-tu-2_early_2;Tu-2 (5)
+tu-2_early_shop;Tu-2 (6)
+tu-2_early_0;Tu-2 (6 series) factory No.166
+tu-2_early_1;Tu-2 (6)
+tu-2_early_2;Tu-2 (6)
 tu-2_postwar_shop;Tu-2S (1)
 tu-2_postwar_0;Tu-2S (1 series) factory No.166
 tu-2_postwar_1;Tu-2S (1)
@@ -5122,6 +5142,10 @@ a-26c-45-dt_shop;A-26C-45DT
 a-26c-45-dt_0;A-26C-45DT
 a-26c-45-dt_1;A-26C-45DT
 a-26c-45-dt_2;A-26C-45DT
+b_33_indonesia_shop;◥B-33
+b_33_indonesia_0;◥B-33
+b_33_indonesia_1;◥B-33
+b_33_indonesia_2;◥B-33
 b_26b_indonesia_kalong_shop;◥B-26B
 b_26b_indonesia_kalong_0;◥B-26B Invader
 b_26b_indonesia_kalong_1;◥B-26B
@@ -5237,6 +5261,10 @@ su-7bmk_shop;Su-7BMK
 su-7bmk_0;Su-7BMK
 su-7bmk_1;Su-7BMK
 su-7bmk_2;Su-7BMK
+su_15tm_shop;Su-15TM
+su_15tm_0;Su-15TM
+su_15tm_1;Su-15TM
+su_15tm_2;Su-15TM
 su_17m2_shop;Su-17M2
 su_17m2_0;Su-17M2
 su_17m2_1;Su-17M2
@@ -5366,6 +5394,10 @@ saab_ja37di_f21_shop;JA37DI F21
 saab_ja37di_f21_0;JA37DI Viggen F21
 saab_ja37di_f21_1;JA37DI F21
 saab_ja37di_f21_2;JA37DI F21
+saab_jas39_pre_serie_shop;JAS39-5
+saab_jas39_pre_serie_0;JAS39 (39-5 pre-serie)
+saab_jas39_pre_serie_1;JAS39-5
+saab_jas39_pre_serie_2;JAS39-5
 saab_jas39a_shop;JAS39A
 saab_jas39a_0;JAS39A Gripen
 saab_jas39a_1;JAS39A
@@ -6208,6 +6240,10 @@ q_5a_shop;Q-5A
 q_5a_0;Q-5A
 q_5a_1;Q-5A
 q_5a_2;Q-5A
+q_5d_shop;Q-5D
+q_5d_0;Q-5D
+q_5d_1;Q-5D
+q_5d_2;Q-5D
 q_5l_shop;Q-5L
 q_5l_0;Q-5L
 q_5l_1;Q-5L
@@ -7258,10 +7294,18 @@ firefly_mk1_shop;Firefly F Mk I
 firefly_mk1_0;Firefly F Mk I
 firefly_mk1_1;Firefly F Mk I
 firefly_mk1_2;Firefly F Mk I
+firefly_mk1_thailand_shop;▄Firefly F Mk I
+firefly_mk1_thailand_0;▄Firefly F Mk I
+firefly_mk1_thailand_1;▄Firefly F Mk I
+firefly_mk1_thailand_2;▄Firefly F Mk I
 firefly_mk4_netherlands_shop;◘Firefly F.Mk.IV
 firefly_mk4_netherlands_0;◘Firefly F.Mk.IV
 firefly_mk4_netherlands_1;◘Firefly F.Mk.IV
 firefly_mk4_netherlands_2;◘Firefly F.Mk.IV
+fulmar_mk2_shop;Fulmar Mk.II
+fulmar_mk2_0;Fulmar Mk.II
+fulmar_mk2_1;Fulmar Mk.II
+fulmar_mk2_2;Fulmar Mk.II
 seafire_fr47_shop;Seafire FR 47
 seafire_fr47_0;Seafire FR 47
 seafire_fr47_1;Seafire FR 47
@@ -8360,6 +8404,10 @@ ussr_btr_82at_shop;BTR-82AT
 ussr_btr_82at_0;BTR-82AT
 ussr_btr_82at_1;BTR-82AT
 ussr_btr_82at_2;BTR-82AT
+ussr_btr_90_2004_shop;BTR-90
+ussr_btr_90_2004_0;BTR-90
+ussr_btr_90_2004_1;BTR-90
+ussr_btr_90_2004_2;BTR-90
 ussr_btr_zd_shop;BTR-ZD
 ussr_btr_zd_0;BTR-ZD
 ussr_btr_zd_1;BTR-ZD
@@ -9313,6 +9361,14 @@ germ_leopard_2a7v_shop;Leopard 2A7V
 germ_leopard_2a7v_0;Leopard 2A7V
 germ_leopard_2a7v_1;Leopard 2A7V
 germ_leopard_2a7v_2;Leopard 2A7V
+germ_leopard_2a8_shop;Leopard 2A8
+germ_leopard_2a8_0;Leopard 2A8
+germ_leopard_2a8_1;Leopard 2A8
+germ_leopard_2a8_2;Leopard 2A8
+sw_leopard_2a8no_shop;Leopard 2A8NO
+sw_leopard_2a8no_0;Leopard 2A8NO
+sw_leopard_2a8no_1;Leopard 2A8NO
+sw_leopard_2a8no_2;Leopard 2A8NO
 germ_leopard_2a5_pso_shop;Leopard 2 PSO
 germ_leopard_2a5_pso_0;Leopard 2 PSO
 germ_leopard_2a5_pso_1;Leopard 2 PSO
@@ -10005,6 +10061,10 @@ it_toldi_II_a_shop;Toldi IIA
 it_toldi_II_a_0;Toldi IIA
 it_toldi_II_a_1;Toldi IIA
 it_toldi_II_a_2;Toldi IIA
+it_v_4_straussler_shop;V-4/40
+it_v_4_straussler_0;Straussler V-4/40
+it_v_4_straussler_1;V-4/40
+it_v_4_straussler_2;V-4/40
 it_m14_41_47_40_shop;M14/41 (47/40)
 it_m14_41_47_40_0;Fiat-Ansaldo M14/41 (47/40)
 it_m14_41_47_40_1;M14/41 (47/40)
@@ -10061,6 +10121,10 @@ it_lancia3ro_100_shop;Lancia 3Ro (100/17)
 it_lancia3ro_100_0;100/17 su Lancia 3Ro
 it_lancia3ro_100_1;Lancia 3Ro (100/17)
 it_lancia3ro_100_2;Lancia 3Ro (100/17)
+it_lancia_flak38_shop;Lancia 3Ro (Flak.)
+it_lancia_flak38_0;Lancia 3Ro (Flak.)
+it_lancia_flak38_1;Lancia 3Ro (Flak.)
+it_lancia_flak38_2;Lancia 3Ro (Flak.)
 it_ab_41_shop;AB 41
 it_ab_41_0;Fiat-Ansaldo Autoblinda 41
 it_ab_41_1;AB 41
@@ -10789,6 +10853,10 @@ jp_harimau_shop;Harimau
 jp_harimau_0;Harimau/Kaplan MT
 jp_harimau_1;Harimau
 jp_harimau_2;Harimau
+jp_bmp_3f_shop;BMP-3F
+jp_bmp_3f_0;BMP-3F
+jp_bmp_3f_1;BMP-3F
+jp_bmp_3f_2;BMP-3F
 ussr_bt_7_m_shop;BT-7M
 ussr_bt_7_m_0;BT-7M
 ussr_bt_7_m_1;BT-7M
@@ -11170,10 +11238,18 @@ f_15e_shop;F-15E
 f_15e_0;F-15E Strike Eagle
 f_15e_1;F-15E
 f_15e_2;F-15E
+f_15ex_shop;F-15EX
+f_15ex_0;F-15EX Eagle II
+f_15ex_1;F-15EX
+f_15ex_2;F-15EX
 f_15i_raam_shop;F-15I Ra’am
 f_15i_raam_0;F-15I Ra’am
 f_15i_raam_1;F-15I Ra’am
 f_15i_raam_2;F-15I Ra’am
+f_15ia_shop;F-15IA Ra’am II
+f_15ia_0;F-15IA Ra’am II
+f_15ia_1;F-15IA Ra’am II
+f_15ia_2;F-15IA Ra’am II
 fa_18a_shop;F/A-18A
 fa_18a_0;F/A-18A Hornet
 fa_18a_1;F/A-18A
@@ -11202,6 +11278,10 @@ fa_18c_late_shop;F/A-18C Late
 fa_18c_late_0;F/A-18C (Late) Hornet
 fa_18c_late_1;F/A-18C Late
 fa_18c_late_2;F/A-18C Late
+fa_18d_late_shop;F/A-18D
+fa_18d_late_0;F/A-18D Hornet
+fa_18d_late_1;F/A-18D
+fa_18d_late_2;F/A-18D
 fa_18d_late_malaysia_shop;▄F/A-18D Late
 fa_18d_late_malaysia_0;▄F/A-18D (Late) Hornet
 fa_18d_late_malaysia_1;▄F/A-18D Late
@@ -11687,6 +11767,10 @@ a_129_d_shop;AH-129D
 a_129_d_0;AH-129D Mangusta
 a_129_d_1;AH-129D
 a_129_d_2;AH-129D
+aw_249_pre_serie_shop;AW249 Fenice
+aw_249_pre_serie_0;AW249 Fenice (pre-series)
+aw_249_pre_serie_1;AW249 Fenice
+aw_249_pre_serie_2;AW249 Fenice
 t_129_atak_shop;T129
 t_129_atak_0;T129 ATAK
 t_129_atak_1;T129
@@ -12238,6 +12322,10 @@ cn_zbd_04a_shop;ZBD04A
 cn_zbd_04a_0;ZhuangJia BuBing LÜDai 04A
 cn_zbd_04a_1;ZBD04A
 cn_zbd_04a_2;ZBD04A
+cn_zbd_04_shop;ZBD04
+cn_zbd_04_0;ZhuangJia BuBing LÜDai 04
+cn_zbd_04_1;ZBD04
+cn_zbd_04_2;ZBD04
 cn_ztz_59a_shop;ZTZ59A
 cn_ztz_59a_0;ZhuangJia Tanke ZhuZhan 59A
 cn_ztz_59a_1;ZTZ59A
@@ -12703,10 +12791,10 @@ us_m8_greyhound_shop;M8 LAC
 us_m8_greyhound_0;Light Armored Car M8
 us_m8_greyhound_1;M8 LAC
 us_m8_greyhound_2;M8 LAC
-germ_m44_shop;M44
-germ_m44_0;Panzerhaubitze M44
-germ_m44_1;M44
-germ_m44_2;M44
+germ_m44_shop;◄M44
+germ_m44_0;◄Panzerhaubitze M44
+germ_m44_1;◄M44
+germ_m44_2;◄M44
 germ_m109g_shop;M109G
 germ_m109g_0;M109G
 germ_m109g_1;M109G
@@ -12799,6 +12887,10 @@ sw_pbil_m40_shop;Pbil m/40
 sw_pbil_m40_0;Pansarbil m/40
 sw_pbil_m40_1;Pbil m/40
 sw_pbil_m40_2;Pbil m/40
+sw_pv_m39_shop;Pbil m/39
+sw_pv_m39_0;Pansarbil m/39
+sw_pv_m39_1;Pbil m/39
+sw_pv_m39_2;Pbil m/39
 sw_k9_vidar_shop;VIDAR
 sw_k9_vidar_0;Versatile InDirect ARtillery
 sw_k9_vidar_1;VIDAR
@@ -14174,6 +14266,22 @@ uk_aircraftcarrier_ark_royal_ai_shop;HMS Ark Royal
 uk_aircraftcarrier_ark_royal_ai_0;HMS Ark Royal (R09)
 uk_aircraftcarrier_ark_royal_ai_1;HMS Ark Royal
 uk_aircraftcarrier_ark_royal_ai_2;HMS Ark Royal
+us_aircraftcarrier_gerald_ford_shop;USS Gerald Ford
+us_aircraftcarrier_gerald_ford_0;USS Gerald Ford, CVN-78
+us_aircraftcarrier_gerald_ford_1;USS Gerald Ford
+us_aircraftcarrier_gerald_ford_2;USS Gerald Ford
+us_aircraftcarrier_gerald_ford_ai_shop;USS Gerald Ford
+us_aircraftcarrier_gerald_ford_ai_0;USS Gerald Ford, CVN-78
+us_aircraftcarrier_gerald_ford_ai_1;USS Gerald Ford
+us_aircraftcarrier_gerald_ford_ai_2;USS Gerald Ford
+cn_aircraftcarrier_fujian_shop;Fujian
+cn_aircraftcarrier_fujian_0;Fujian
+cn_aircraftcarrier_fujian_1;Fujian
+cn_aircraftcarrier_fujian_2;Fujian
+cn_aircraftcarrier_fujian_ai_shop;Fujian
+cn_aircraftcarrier_fujian_ai_0;Fujian
+cn_aircraftcarrier_fujian_ai_1;Fujian
+cn_aircraftcarrier_fujian_ai_2;Fujian
 us_cruiser_new_orleans_class_shop;USS New Orleans
 us_cruiser_new_orleans_class_0;New Orleans-class, USS New Orleans (CA-32), 1945
 us_cruiser_new_orleans_class_1;USS New Orleans
@@ -15842,6 +15950,46 @@ germ_s_700_s_706_shop;S-706
 germ_s_700_s_706_0;S-700-class, S-706
 germ_s_700_s_706_1;S-706
 germ_s_700_s_706_2;S-706
+ussr_destroyer_vifor_class_lyogkiy_shop;Lyogkiy
+ussr_destroyer_vifor_class_lyogkiy_0;Vifor-class, Lyogkiy, 1944
+ussr_destroyer_vifor_class_lyogkiy_1;Lyogkiy
+ussr_destroyer_vifor_class_lyogkiy_2;Lyogkiy
+uk_battleship_duke_of_york_shop;HMS Duke of York
+uk_battleship_duke_of_york_0;King George V-class, HMS Duke of York (17), 1943
+uk_battleship_duke_of_york_1;HMS Duke of York
+uk_battleship_duke_of_york_2;HMS Duke of York
+germ_battleship_pr_h39_shop;H-39
+germ_battleship_pr_h39_0;H-39-class, H-39, project
+germ_battleship_pr_h39_1;H-39
+germ_battleship_pr_h39_2;H-39
+us_erie_class_shop;Erie
+us_erie_class_0;Erie-class, Erie (PG-50), 1944
+us_erie_class_1;Erie
+us_erie_class_2;Erie
+ussr_battleship_imperator_nikolai_pervyi_shop;Nikolay Perviy
+ussr_battleship_imperator_nikolai_pervyi_0;Nikolay Perviy-class, Nikolay Perviy, project
+ussr_battleship_imperator_nikolai_pervyi_1;Nikolay Perviy
+ussr_battleship_imperator_nikolai_pervyi_2;Nikolay Perviy
+it_destroyer_audace_shop;Audace
+it_destroyer_audace_0;Audace-class, Audace D551, 1973
+it_destroyer_audace_1;Audace
+it_destroyer_audace_2;Audace
+fr_vc1_shop;VC-1
+fr_vc1_0;VC-1
+fr_vc1_1;VC-1
+fr_vc1_2;VC-1
+fr_destroyer_le_hardi_class_le_hardi_shop;Le Hardi
+fr_destroyer_le_hardi_class_le_hardi_0;Le Hardi-class, Le Hardi, 1941
+fr_destroyer_le_hardi_class_le_hardi_1;Le Hardi
+fr_destroyer_le_hardi_class_le_hardi_2;Le Hardi
+fr_l990_monitor_shop;L-990
+fr_l990_monitor_0;Chaland-class, L-990
+fr_l990_monitor_1;L-990
+fr_l990_monitor_2;L-990
+jp_cruiser_takao_shop;IJN Takao
+jp_cruiser_takao_0;Takao-class, IJN Takao, 1944
+jp_cruiser_takao_1;IJN Takao
+jp_cruiser_takao_2;IJN Takao
 cn_cm_34_shop;CM34
 cn_cm_34_0;CM34
 cn_cm_34_1;CM34
@@ -15895,12 +16043,21 @@ ussr_ai_sam_radar_9s18m1_2;9K37M1 "BUK-M1", Target acquisition and designation s
 us_ai_mlrs_m270_0;M270 MLRS
 us_ai_mlrs_m270_1;M270 MLRS
 us_ai_mlrs_m270_2;M270 MLRS
+us_ai_mlrs_atacms_m270_0;TBM MGM-140 ATACMS
+us_ai_mlrs_atacms_m270_1;TBM MGM-140 ATACMS
+us_ai_mlrs_atacms_m270_2;TBM MGM-140 ATACMS
 ussr_ai_mlrs_9a52_2_smerch_0;9A52-2 "Smerch" MLRS
 ussr_ai_mlrs_9a52_2_smerch_1;9A52-2 "Smerch" MLRS
 ussr_ai_mlrs_9a52_2_smerch_2;9A52-2 "Smerch" MLRS
 ussr_ai_tbm_9k79_tochka_0;9K79 "Tochka" tactical ballistic missile
 ussr_ai_tbm_9k79_tochka_1;9K79 "Tochka" tactical ballistic missile
 ussr_ai_tbm_9k79_tochka_2;9K79 "Tochka" tactical ballistic missile
+ussr_ai_tbm_9k720_m_iskander_0;9K720 "Iskander-M" tactical ballistic missile
+ussr_ai_tbm_9k720_m_iskander_1;9K720 "Iskander-M" tactical ballistic missile
+ussr_ai_tbm_9k720_m_iskander_2;9K720 "Iskander-M" tactical ballistic missile
+ussr_ai_tbm_9k720_k_iskander_0;9K720 "Iskander-K" ground-launched cruise missile
+ussr_ai_tbm_9k720_k_iskander_1;9K720 "Iskander-K" ground-launched cruise missile
+ussr_ai_tbm_9k720_k_iskander_2;9K720 "Iskander-K" ground-launched cruise missile
 us_ai_tbm_m752_lance_0;MGM-52 "Lance" tactical ballistic missile
 us_ai_tbm_m752_lance_1;MGM-52 "Lance" tactical ballistic missile
 us_ai_tbm_m752_lance;TBM
