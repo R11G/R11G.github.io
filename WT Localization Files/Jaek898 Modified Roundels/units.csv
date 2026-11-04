@@ -14258,6 +14258,22 @@ us_aircraftcarrier_forrestal_ai_shop;USS Forrestal
 us_aircraftcarrier_forrestal_ai_0;USS Forrestal, CVA-59
 us_aircraftcarrier_forrestal_ai_1;USS Forrestal
 us_aircraftcarrier_forrestal_ai_2;USS Forrestal
+us_aircraftcarrier_nimitz_shop;USS Nimitz
+us_aircraftcarrier_nimitz_0;USS Nimitz, CVN-68
+us_aircraftcarrier_nimitz_1;USS Nimitz
+us_aircraftcarrier_nimitz_2;USS Nimitz
+us_aircraftcarrier_nimitz_ai_shop;USS Nimitz
+us_aircraftcarrier_nimitz_ai_0;USS Nimitz, CVN-68
+us_aircraftcarrier_nimitz_ai_1;USS Nimitz
+us_aircraftcarrier_nimitz_ai_2;USS Nimitz
+us_destroyer_halsey_shop;USS Halsey
+us_destroyer_halsey_0;USS Halsey, DDG-97
+us_destroyer_halsey_1;USS Halsey
+us_destroyer_halsey_2;USS Halsey
+us_frigate_oliver_hazard_perry_shop;USS Oliver Hazard Perry
+us_frigate_oliver_hazard_perry_0;USS Oliver Hazard Perry, FFG-7
+us_frigate_oliver_hazard_perry_1;USS Oliver Hazard Perry
+us_frigate_oliver_hazard_perry_2;USS Oliver Hazard Perry
 uk_aircraftcarrier_ark_royal_shop;HMS Ark Royal
 uk_aircraftcarrier_ark_royal_0;HMS Ark Royal (R09)
 uk_aircraftcarrier_ark_royal_1;HMS Ark Royal
@@ -14282,6 +14298,10 @@ cn_aircraftcarrier_fujian_ai_shop;Fujian
 cn_aircraftcarrier_fujian_ai_0;Fujian
 cn_aircraftcarrier_fujian_ai_1;Fujian
 cn_aircraftcarrier_fujian_ai_2;Fujian
+cn_destroyer_type052d_shop;Type 052D
+cn_destroyer_type052d_0;Type 052D
+cn_destroyer_type052d_1;Type 052D
+cn_destroyer_type052d_2;Type 052D
 us_cruiser_new_orleans_class_shop;USS New Orleans
 us_cruiser_new_orleans_class_0;New Orleans-class, USS New Orleans (CA-32), 1945
 us_cruiser_new_orleans_class_1;USS New Orleans
