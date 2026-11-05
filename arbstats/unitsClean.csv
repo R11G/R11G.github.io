@@ -3061,7 +3061,7 @@ germ_battleship_pr_h39;H-39;1190000SL;410000;251.00666666666666;46672;6.0;2.38;7
 ussr_battleship_imperator_nikolai_pervyi;Nikolay Perviy;440000SL;145000;206.24666666666667;38763;6.0;1.96;5;17;17;ussr;cruiser;ship
 it_destroyer_audace;Audace;230000SL;73000;102.12;10456;6.0;1.78;4;14;14;italy;destroyer;ship
 fr_destroyer_le_hardi_class_le_hardi;Le Hardi;87000SL;25000;36.12;6366;6.0;1.54;3;12;12;france;destroyer;ship
-us_erie_class;Erie;31000SL;13000;13.719999999999999;3774;3.8;1.3;2;10;10;usa;destroyer;ship
+us_erie_class;Erie;31000SL;13000;7.72;3774;3.8;1.3;2;10;10;usa;destroyer;ship
 jp_cruiser_takao;IJN Takao;280000SL;90000;181.77666666666667;16122;6.0;1.84;5;15;15;japan;cruiser;ship
 germ_sub_type_7;Type VII;1450GL;18000;7.87;2483;9.12;1.42;2;8;8;germany;destroyer;ship
 ussr_1124_art;Pr.1124 early;22000SL;11000;1.4000000000000001;1346;0.84;1.24;2;4;4;ussr;gun_boat;fast_ship
