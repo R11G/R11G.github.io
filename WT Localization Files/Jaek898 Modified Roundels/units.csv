@@ -980,7 +980,7 @@ us_m3a1_stuart_0;Light Tank M3A1 Stuart
 us_m3a1_stuart_1;M3A1 Stuart
 us_m3a1_stuart_2;M3A1 Stuart
 us_m3a1_stuart_nvidia_shop;M3A1 TD
-us_m3a1_stuart_nvidia_0;Light Tank M3A1 TD Stuart
+us_m3a1_stuart_nvidia_0;Light Tank M3A1 Stuart TD
 us_m3a1_stuart_nvidia_1;M3A1 TD
 us_m3a1_stuart_nvidia_2;M3A1 TD
 us_m3a1_stuart_usmc_shop;M3A1 (USMC)
@@ -5262,7 +5262,7 @@ su-7bmk_0;Su-7BMK "Fitter-A"
 su-7bmk_1;Su-7BMK
 su-7bmk_2;Su-7BMK
 su_15tm_shop;Su-15TM
-su_15tm_0;Su-15TM
+su_15tm_0;Su-15TM "Flagon-F"
 su_15tm_1;Su-15TM
 su_15tm_2;Su-15TM
 su_17m2_shop;Su-17M2
@@ -6241,7 +6241,7 @@ q_5a_0;Q-5A "Fantan"
 q_5a_1;Q-5A
 q_5a_2;Q-5A
 q_5d_shop;Q-5D
-q_5d_0;Q-5D
+q_5d_0;Q-5D "Fantan"
 q_5d_1;Q-5D
 q_5d_2;Q-5D
 q_5l_shop;Q-5L
@@ -7302,10 +7302,10 @@ firefly_mk4_netherlands_shop;◘Firefly F Mk IV
 firefly_mk4_netherlands_0;◘Firefly F Mk IV
 firefly_mk4_netherlands_1;◘Firefly F Mk IV
 firefly_mk4_netherlands_2;◘Firefly F Mk IV
-fulmar_mk2_shop;Fulmar Mk.II
-fulmar_mk2_0;Fulmar Mk.II
-fulmar_mk2_1;Fulmar Mk.II
-fulmar_mk2_2;Fulmar Mk.II
+fulmar_mk2_shop;Fulmar Mk II
+fulmar_mk2_0;Fulmar Mk II
+fulmar_mk2_1;Fulmar Mk II
+fulmar_mk2_2;Fulmar Mk II
 seafire_fr47_shop;Seafire FR.47
 seafire_fr47_0;Seafire FR.47
 seafire_fr47_1;Seafire FR.47
@@ -9365,10 +9365,10 @@ germ_leopard_2a8_shop;Leopard 2A8
 germ_leopard_2a8_0;Leopard 2A8
 germ_leopard_2a8_1;Leopard 2A8
 germ_leopard_2a8_2;Leopard 2A8
-sw_leopard_2a8no_shop;Leopard 2A8NO
-sw_leopard_2a8no_0;Leopard 2A8NO
-sw_leopard_2a8no_1;Leopard 2A8NO
-sw_leopard_2a8no_2;Leopard 2A8NO
+sw_leopard_2a8no_shop;◢Leopard 2A8NO
+sw_leopard_2a8no_0;◢Leopard 2A8NO
+sw_leopard_2a8no_1;◢Leopard 2A8NO
+sw_leopard_2a8no_2;◢Leopard 2A8NO
 germ_leopard_2a5_pso_shop;Leopard 2 PSO
 germ_leopard_2a5_pso_0;Leopard 2 PSO
 germ_leopard_2a5_pso_1;Leopard 2 PSO
@@ -11246,10 +11246,10 @@ f_15i_raam_shop;F-15I
 f_15i_raam_0;F-15I Ra'am
 f_15i_raam_1;F-15I
 f_15i_raam_2;F-15I
-f_15ia_shop;F-15IA Ra’am II
-f_15ia_0;F-15IA Ra’am II
-f_15ia_1;F-15IA Ra’am II
-f_15ia_2;F-15IA Ra’am II
+f_15ia_shop;F-15IA
+f_15ia_0;F-15IA Ra’am II
+f_15ia_1;F-15IA
+f_15ia_2;F-15IA
 fa_18a_shop;F/A-18A
 fa_18a_0;F/A-18A Hornet
 fa_18a_1;F/A-18A
@@ -12791,10 +12791,10 @@ us_m8_greyhound_shop;M8 LAC
 us_m8_greyhound_0;Light Armored Car M8
 us_m8_greyhound_1;M8 LAC
 us_m8_greyhound_2;M8 LAC
-germ_m44_shop;M44
-germ_m44_0;Panzerhaubitze M44
-germ_m44_1;M44
-germ_m44_2;M44
+germ_m44_shop;◄M44
+germ_m44_0;◄Panzerhaubitze M44
+germ_m44_1;◄M44
+germ_m44_2;◄M44
 germ_m109g_shop;◄M109G
 germ_m109g_0;◄M109G
 germ_m109g_1;◄M109G
@@ -16076,12 +16076,12 @@ ussr_ai_mlrs_9a52_2_smerch_2;9A52-2 MLRS
 ussr_ai_tbm_9k79_tochka_0;9K79 TBM
 ussr_ai_tbm_9k79_tochka_1;9K79 TBM
 ussr_ai_tbm_9k79_tochka_2;9K79 TBM
-ussr_ai_tbm_9k720_m_iskander_0;9K720 "Iskander-M" tactical ballistic missile
-ussr_ai_tbm_9k720_m_iskander_1;9K720 "Iskander-M" tactical ballistic missile
-ussr_ai_tbm_9k720_m_iskander_2;9K720 "Iskander-M" tactical ballistic missile
-ussr_ai_tbm_9k720_k_iskander_0;9K720 "Iskander-K" ground-launched cruise missile
-ussr_ai_tbm_9k720_k_iskander_1;9K720 "Iskander-K" ground-launched cruise missile
-ussr_ai_tbm_9k720_k_iskander_2;9K720 "Iskander-K" ground-launched cruise missile
+ussr_ai_tbm_9k720_m_iskander_0;TBM 9K720 "Iskander-M"
+ussr_ai_tbm_9k720_m_iskander_1;TBM 9K720 "Iskander-M"
+ussr_ai_tbm_9k720_m_iskander_2;TBM 9K720 "Iskander-M"
+ussr_ai_tbm_9k720_k_iskander_0;GLCM 9K720 "Iskander-K"
+ussr_ai_tbm_9k720_k_iskander_1;GLCM 9K720 "Iskander-K"
+ussr_ai_tbm_9k720_k_iskander_2;GLCM 9K720 "Iskander-K"
 us_ai_tbm_m752_lance_0;MGM-52 TBM
 us_ai_tbm_m752_lance_1;MGM-52 TBM
 us_ai_tbm_m752_lance;TBM
