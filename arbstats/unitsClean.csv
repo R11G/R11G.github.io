@@ -5,7 +5,7 @@ zeppelin;Zeppelin;700SL;2900;0.12;188;0.3;1.0;1;0;0;germany;bomber;air
 spad_13;SPAD S.XIII;700SL;2900;0.12;186;0.23;1.0;1;0;0;britain;fighter;air
 hp_12;H.P.12;700SL;2900;0.12;188;0.3;1.0;1;0;0;britain;bomber;air
 f4d_1;F4D-1;summer_2022LT;170000;216.12333333333333;12656;3.8;2.2;6;24;24;usa;fighter;air
-a_10a_early;A-10A;9090GL;190000;90.08999999999999;6280;6.05;2.26;6;27;28;usa;assault;air
+a_10a_early;A-10A;9090GL;190000;90.08999999999999;6280;6.05;2.26;6;23;24;usa;assault;air
 a_10a_late;A-10A Late;580000SL;210000;90.12;12410;3.09;2.32;7;28;29;usa;assault;air
 a_10c;A-10C;720000SL;260000;138.12;11055;3.4;2.44;7;32;32;usa;assault;air
 jaguar_is;Jaguar IS;2024_02_airLT;230000;96.12;11599;3.18;2.38;7;30;31;britain;assault;air
@@ -122,7 +122,7 @@ ju-388j;Ju 388 J;craft_2019_springLT;63000;40.589999999999996;5183;5.1;1.72;4;11
 i_180;I-180S;craft_2019_springLT;11000;1.9400000000000002;1745;2.41;1.24;2;6;6;ussr;fighter;air
 fj_4b;FJ-4B;420000SL;76000;72.12;11675;3.31;2.14;6;24;23;usa;assault;air
 f11f_1_late;F11F-1;summer_2020LT;210000;228.12333333333333;12656;3.8;2.32;6;24;24;usa;fighter;air
-f3h-2;F3H-2;420000SL;150000;210.66;13673;3.8;2.14;6;25;25;usa;fighter;air
+f3h-2;F3H-2;420000SL;150000;210.66;13673;3.8;2.14;6;24;24;usa;fighter;air
 av_8a;AV-8A;8910GE;170000;85.58999999999999;6317;6.1;2.2;6;26;26;usa;assault;air
 av_8c;AV-8C;530000SL;190000;84.12;12765;3.13;2.26;6;26;26;usa;assault;air
 av_8b_na;AV-8B (NA);9620GE;260000;94.58999999999999;5627;6.81;2.44;7;31;31;usa;assault;air
@@ -440,7 +440,7 @@ pby-5;PBY-5 Catalina;2100SL;4000;0.13999999999999999;402;0.45;1.0;1;1;1;usa;bom
 pby-5a;PBY-5A Catalina;6300SL;3000;0.18333333333333335;624;0.62;1.06;1;2;2;usa;bomber;air
 buccaneer_s1;Buccaneer S.1;summer_2021LT;150000;144.12;11675;3.31;2.14;6;25;22;britain;assault;air
 buccaneer_s2;Buccaneer S.2;480000SL;170000;78.12;12229;3.23;2.2;6;28;25;britain;assault;air
-buccaneer_s2b;Buccaneer S.2B;580000SL;210000;144.12;12410;3.09;2.32;7;29;29;britain;assault;air
+buccaneer_s2b;Buccaneer S.2B;580000SL;210000;144.12;12410;3.09;2.32;7;26;26;britain;assault;air
 pbm_1;PBM-1 "Mariner";6300SL;5900;0.22666666666666668;690;0.58;1.06;1;4;3;usa;bomber;air
 pbm_3;PBM-3 "Mariner";winter_2019_shipLT;11000;14.236666666666666;3864;3.83;1.24;2;6;6;usa;bomber;air
 pbm_5a;PBM-5A "Mariner";battlepass_season16LT;18000;2.4499999999999997;1186;3.02;1.36;3;8;7;usa;bomber;air
@@ -531,7 +531,7 @@ saab_j32b;J32B;530000SL;190000;222.23666666666668;13673;3.8;2.26;6;26;25;sweden;
 saab_j35xs;Saab J35XS;9270GE;210000;90.08999999999999;6206;6.28;2.32;7;27;28;sweden;fighter;air
 saab_j35d;J35D;580000SL;210000;228.19000000000003;13566;3.42;2.32;7;26;27;sweden;fighter;air
 saab_j35a;J35A;9090GE;190000;94.58999999999999;7063;7.6;2.26;6;24;25;sweden;fighter;air
-saab_f35_wdns;Saab F-35;610000SL;520000;90.12;12410;3.09;2.32;7;28;28;sweden;assault;air
+saab_f35_wdns;Saab F-35;610000SL;520000;90.12;12410;3.09;2.32;7;26;26;sweden;assault;air
 saab_j35j;J35J;630000SL;115000;234.31333333333336;13840;3.51;2.38;7;27;28;sweden;fighter;air
 saab_a32a;A32A;480000SL;170000;78.12;12229;3.23;2.2;6;24;24;sweden;assault;air
 saab_a32a_red_adam;A32A Röd Adam;9090GE;190000;85.58999999999999;6173;6.86;2.26;6;24;24;sweden;assault;air
@@ -1361,33 +1361,33 @@ md_460_saar;Sa'ar;530000SL;96000;84.12;12656;3.8;2.26;6;24;24;israel;fighter;air
 scout_ah_mk1;Scout AH.Mk.1;390000SL;null;60.120000000000005;3710;3.0;1.96;5;24;24;britain;helicopter;helicopter
 wasp_has_mk1;Wasp HAS.Mk.1;490000SL;150000;66.12;3710;3.0;2.02;5;25;25;britain;helicopter;helicopter
 wessex_mk5;Wessex HU Mk.5;980000SL;360000;78.12;3962;3.0;2.08;5;24;24;britain;helicopter;helicopter
-g_lynx;G-LYNX;7860GE;360000;58.59;3200;5.11;2.14;6;31;31;britain;helicopter;helicopter
-lynx_ah_mk1;Lynx AH.Mk.1;1000000SL;380000;96.12;6075;2.63;2.2;6;31;31;britain;helicopter;helicopter
-aw_159;Wildcat HMA2;1020000SL;400000;114.12;7645;1.97;2.32;7;35;35;britain;helicopter;helicopter
+g_lynx;G-LYNX;7860GE;360000;58.59;3200;5.11;2.14;6;28;28;britain;helicopter;helicopter
+lynx_ah_mk1;Lynx AH.Mk.1;1000000SL;380000;96.12;6075;2.63;2.2;6;28;28;britain;helicopter;helicopter
+aw_159;Wildcat HMA2;1020000SL;400000;114.12;7645;1.97;2.32;7;33;33;britain;helicopter;helicopter
 tiger_uht;EC-665 Tiger UHT;1020000SL;400000;108.12;7645;1.97;2.32;7;29;29;germany;helicopter;helicopter
 tiger_hap_france;EC-665 Tiger HAP;7270GE;390000;72.09;3142;5.4;2.26;6;29;29;france;helicopter;helicopter
-tiger_had_france;EC-665 Tiger HAD;1020000SL;400000;108.12;6650;2.4;2.32;7;31;31;france;helicopter;helicopter
+tiger_had_france;EC-665 Tiger HAD;1020000SL;400000;108.12;6650;2.4;2.32;7;29;29;france;helicopter;helicopter
 tiger_had_block2_france;Tiger HAD Block 2;1030000SL;400000;120.12;7795;2.02;2.38;7;36;36;france;helicopter;helicopter
 tiger_had_spain;Tigre HAD-E (Germany);9270GL;400000;76.59;3303;4.8;2.32;7;31;31;germany;helicopter;helicopter
-tiger_hac_france;EC-665 Tiger HAC;1030000SL;200000;120.12;7795;2.02;2.38;7;36;36;france;helicopter;helicopter
+tiger_hac_france;EC-665 Tiger HAC;1030000SL;200000;114.12;6540;2.67;2.38;7;29;29;france;helicopter;helicopter
 sa_342l_china;SA.342L Gazelle;490000SL;150000;66.12;3728;3.0;2.02;5;26;26;china;helicopter;helicopter
 z_11wa;Z-11WA;390000SL;null;60.120000000000005;3728;3.0;1.96;5;26;26;china;helicopter;helicopter
-z_9w;Z-9W;980000SL;360000;84.12;5544;2.81;2.08;6;25;25;china;helicopter;helicopter
-z_9wa;Z-9WA;1000000SL;380000;96.12;6075;2.63;2.2;6;31;31;china;helicopter;helicopter
-z_19;Z-19;1010000SL;390000;102.12;6500;2.33;2.26;6;34;34;china;helicopter;helicopter
-z_19e;Z-19E;8560GE;360000;58.59;3301;4.42;2.14;6;34;34;china;helicopter;helicopter
+z_9w;Z-9W;980000SL;360000;84.12;5544;2.81;2.08;6;26;26;china;helicopter;helicopter
+z_9wa;Z-9WA;1000000SL;380000;96.12;6075;2.63;2.2;6;28;28;china;helicopter;helicopter
+z_19;Z-19;1010000SL;390000;102.12;6500;2.33;2.26;6;30;30;china;helicopter;helicopter
+z_19e;Z-19E;8560GE;360000;58.59;3301;4.42;2.14;6;30;30;china;helicopter;helicopter
 z_10;Z-10;1020000SL;400000;108.12;6756;2.25;2.32;7;34;34;china;helicopter;helicopter
 z_10a;Z-10A;1070000SL;520000;108.12;7645;1.97;2.32;7;34;34;china;helicopter;helicopter
 z_10me;Z-10ME;1030000SL;400000;114.12;7795;2.02;2.38;7;37;37;china;helicopter;helicopter
 ka_50;Ka-50;9270GL;400000;76.59;3303;4.8;2.32;6;32;32;ussr;helicopter;helicopter
 ka_52;Ka-52;1030000SL;400000;114.12;7795;2.02;2.38;7;34;34;ussr;helicopter;helicopter
 ka_29;Ka-29;1000000SL;380000;90.12;5781;2.97;2.2;6;27;27;ussr;helicopter;helicopter
-a_129_a;A-129 International (p);9090GE;390000;72.09;3142;5.4;2.26;6;30;30;italy;helicopter;helicopter
-a_129_d;AH-129D;1030000SL;400000;114.12;7795;2.02;2.38;7;36;36;italy;helicopter;helicopter
+a_129_a;A-129 International (p);9090GE;390000;72.09;3142;5.4;2.26;6;28;28;italy;helicopter;helicopter
+a_129_d;AH-129D;1030000SL;400000;114.12;7795;2.02;2.38;7;31;31;italy;helicopter;helicopter
 aw_249_pre_serie;AW249 Fenice;1040000SL;410000;120.12;7944;2.07;2.44;7;37;37;italy;helicopter;helicopter
 ab_205a_1;AB 205 A-1;390000SL;null;58.49333333333333;3243;3.0;1.96;5;20;20;italy;helicopter;helicopter
 a_109_eoa2;A.109EOA-2;1000000SL;380000;90.12;4151;3.0;2.2;6;24;24;italy;helicopter;helicopter
-a_129_cbt;A129CBT;1020000SL;400000;102.12;6339;2.78;2.32;7;31;31;italy;helicopter;helicopter
+a_129_cbt;A129CBT;1020000SL;400000;102.12;6339;2.78;2.32;7;28;28;italy;helicopter;helicopter
 t_129_atak;T129;9270GE;400000;76.59;3202;5.55;2.32;6;30;30;italy;helicopter;helicopter
 mi_28a_sweden;Mi-28A;9270GE;400000;76.59;3241;5.2;2.32;6;30;30;sweden;helicopter;helicopter
 mi_28n;Mi-28N;1020000SL;400000;108.12;6650;2.4;2.32;7;31;31;ussr;helicopter;helicopter
@@ -1414,13 +1414,13 @@ mi_24p_hungary;Mi-24P (Italy);8730GE;370000;58.59;2772;5.78;2.14;6;27;27;italy;h
 mi_35p_indonesia;Mi-35 (Japan);990000SL;370000;84.12;5662;2.89;2.14;6;27;27;japan;helicopter;helicopter
 mi_35m;Mi-35M;1010000SL;390000;96.12;6401;2.43;2.26;6;30;30;ussr;helicopter;helicopter
 mi_35m_pakistan;Mi-35M (China);9090GE;390000;72.09;3194;4.85;2.26;6;30;30;china;helicopter;helicopter
-mi_35p;Mi-35P;1080000SL;540000;114.12;7795;2.02;2.38;7;30;30;ussr;helicopter;helicopter
+mi_35p;Mi-35P;1080000SL;540000;114.12;7795;2.02;2.38;7;31;31;ussr;helicopter;helicopter
 ah_1g;AH-1G;370000SL;null;54.120000000000005;3627;3.0;1.9;5;20;20;usa;helicopter;helicopter
 ah_1g_iaf;Tzefa A;390000SL;null;60.120000000000005;3627;3.0;1.96;5;20;20;israel;helicopter;helicopter
 ah_1q_iaf;Tzefa B;980000SL;360000;78.12;4151;3.0;2.08;6;26;26;israel;helicopter;helicopter
 ah_1f_iaf;Tzefa D/E;1000000SL;380000;96.12;5781;2.97;2.2;6;27;27;israel;helicopter;helicopter
-ah_1w;AH-1W;1000000SL;380000;96.12;6260;2.36;2.2;6;30;30;usa;helicopter;helicopter
-ah_1w_china;AH-1W (China);1010000SL;390000;102.12;6401;2.43;2.26;6;30;30;china;helicopter;helicopter
+ah_1w;AH-1W;1000000SL;380000;96.12;6260;2.36;2.2;6;28;28;usa;helicopter;helicopter
+ah_1w_china;AH-1W (China);1010000SL;390000;102.12;6401;2.43;2.26;6;28;28;china;helicopter;helicopter
 ah_1z;AH-1Z;1020000SL;400000;108.12;6650;2.4;2.32;7;34;34;usa;helicopter;helicopter
 md_500_tow_late;Lahatut;490000SL;150000;72.12;3728;3.0;2.02;5;25;25;israel;helicopter;helicopter
 ah_6m;AH-6M;990000SL;370000;90.12;5952;2.56;2.14;6;29;29;usa;helicopter;helicopter
@@ -1449,7 +1449,7 @@ ah_64d_i_saraph;Saraph;1020000SL;400000;108.12;6756;2.25;2.32;7;36;36;israel;hel
 ah_64d_japan;AH-64DJP;1020000SL;400000;108.12;6542;2.5;2.32;7;32;32;japan;helicopter;helicopter
 ah_64d_lightweight_japan;AH-64DJP (AT);9270GL;400000;76.59;3796;3.94;2.32;7;32;32;japan;helicopter;helicopter
 ah_64d_netherlands;AH-64D (France);9270GE;400000;76.59;3796;3.94;2.32;7;32;32;france;helicopter;helicopter
-ah_60_iaf;AH-60 (Israel);1020000SL;400000;108.12;6756;2.25;2.32;7;36;36;israel;helicopter;helicopter
+ah_60_iaf;AH-60 (Israel);1020000SL;400000;108.12;6756;2.25;2.32;7;31;31;israel;helicopter;helicopter
 mh_60l_dap;MH-60L DAP;1020000SL;400000;108.12;6756;2.25;2.32;7;31;31;usa;helicopter;helicopter
 ah_2_rooivalk;Rooivalk Mk1F CSH;8560GE;360000;58.59;3301;4.42;2.14;6;34;34;britain;helicopter;helicopter
 ah_mk1;AH Mk.1 Apache;1020000SL;400000;108.12;6756;2.25;2.32;7;34;34;britain;helicopter;helicopter

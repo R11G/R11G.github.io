@@ -1455,6 +1455,8 @@ shop/group/uk_chieftain_mk_3_5_group;Chieftain 3/5
 shop/group/uk_chieftain_mk_10_900_group;Chieftain 10/900
 shop/group/us_m48_m60_group;M48/M60
 shop/group/fr_hotchkiss_fcm_group;AMC/H.35/FCM
+shop/group/fr_dca_prtl_group;AMX-30 S DCA/Cheetah PRTL
+shop/group/cn_cm_zbd_group;CM34/ZBD04
 us_m47_patton_II_shop;M47
 us_m47_patton_II_0;90 mm Gun Tank M47 Patton II
 us_m47_patton_II_1;M47
@@ -14302,6 +14304,10 @@ cn_destroyer_type052d_shop;Type 052D
 cn_destroyer_type052d_0;Type 052D
 cn_destroyer_type052d_1;Type 052D
 cn_destroyer_type052d_2;Type 052D
+cn_frigate_type054a_shop;Type 054A
+cn_frigate_type054a_0;Type 054A
+cn_frigate_type054a_1;Type 054A
+cn_frigate_type054a_2;Type 054A
 us_cruiser_new_orleans_class_shop;USS New Orleans
 us_cruiser_new_orleans_class_0;New Orleans-class, USS New Orleans (CA-32), 1945
 us_cruiser_new_orleans_class_1;USS New Orleans
