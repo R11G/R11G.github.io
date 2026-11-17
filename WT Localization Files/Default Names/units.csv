@@ -9018,6 +9018,10 @@ spad_13_shop;SPAD S.XIII
 spad_13_0;SPAD S.XIII
 spad_13_1;SPAD S.XIII
 spad_13_2;SPAD S.XIII
+spad_13_event_shop;SPAD S.XIII
+spad_13_event_0;SPAD S.XIII
+spad_13_event_1;SPAD S.XIII
+spad_13_event_2;SPAD S.XIII
 hp_12_shop;H.P.12
 hp_12_0;H.P.12
 hp_12_1;H.P.12
@@ -16020,6 +16024,10 @@ uk_cruiser_danae_class_shop;HMS Danae
 uk_cruiser_danae_class_0;Danae-class, HMS Danae (D44), 1944
 uk_cruiser_danae_class_1;HMS Danae
 uk_cruiser_danae_class_2;HMS Danae
+us_pce_842_class_shop;PCE-842
+us_pce_842_class_0;PCE-842-class, PCE-842
+us_pce_842_class_1;PCE-842
+us_pce_842_class_2;PCE-842
 cn_cm_34_shop;CM34
 cn_cm_34_0;CM34
 cn_cm_34_1;CM34

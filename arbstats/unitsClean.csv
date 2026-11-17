@@ -3314,6 +3314,7 @@ fr_lcm_monitor;LCM(65);6300SL;5900;0.18333333333333335;560;0.37;1.06;1;2;2;franc
 germ_s_700_s_706;S-706;battlepass_season25LT;26000;3.5;951;2.93;1.42;3;5;5;germany;torpedo_boat;fast_ship
 fr_vc1;VC-1;16000SL;9200;0.7066666666666667;1054;0.66;1.18;2;2;2;france;gun_boat;fast_ship
 fr_l990_monitor;L-990;1000GE;11000;0.7799999999999999;675;1.63;1.24;2;4;4;france;gun_boat;fast_ship
+us_pce_842_class;PCE-842;2026_11_shipLT;250000;189.02666666666667;17457;4.25;1.9;4;9;9;usa;torpedo_gun_boat;fast_ship
 asm_val;asm_val;msi_notebookLT;260000;null;null;1.0;2.32;7;29;29;ussr;human;human
 aksu_74;aksu_74;msi_notebookLT;135000;null;null;1.0;2.08;6;25;25;ussr;human;human
 ak_12;ak_12;msi_notebookLT;400000;null;null;1.0;2.5;8;32;32;ussr;human;human
