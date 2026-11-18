@@ -2,7 +2,7 @@ tu_95m;Tu-95M;nuclear_thunderLT;170000;218.21666666666667;17066;3.34;2.2;6;22;22
 b_52h;B-52H;nuclear_thunderLT;170000;218.66333333333333;16804;3.35;2.2;6;23;23;usa;bomber;air
 fokker_d7;Fokker D.VII;700SL;2900;0.12;186;0.23;1.0;1;0;0;germany;fighter;air
 zeppelin;Zeppelin;700SL;2900;0.12;188;0.3;1.0;1;0;0;germany;bomber;air
-spad_13;SPAD S.XIII;700SL;2900;0.12;186;0.23;1.0;1;0;0;britain;fighter;air
+spad_13;SPAD S.XIII;700SL;2900;0.12;186;0.23;1.0;1;0;0;france;fighter;air
 hp_12;H.P.12;700SL;2900;0.12;188;0.3;1.0;1;0;0;britain;bomber;air
 f4d_1;F4D-1;summer_2022LT;170000;216.12333333333333;12656;3.8;2.2;6;24;24;usa;fighter;air
 a_10a_early;A-10A;9090GL;190000;90.08999999999999;6280;6.05;2.26;6;23;24;usa;assault;air
